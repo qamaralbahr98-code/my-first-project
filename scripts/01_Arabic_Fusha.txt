@@ -1,0 +1,50 @@
+VIDEO PROMPT — ARABIC (MODERN STANDARD ARABIC) — 60 SECONDS
+Style: Cinematic historical documentary, 13th-century Damascus and Cairo, warm palette, candlelight and golden-hour light, film grain, slow camera moves. Scholar shown only from behind or in silhouette. No text generated inside the imagery. On-screen text is an overlay only, lower third, right-to-left, font: Noto Naskh Arabic, white on a semi-transparent dark band, max 2 lines per card, synced exactly with the narration. Calm male narrator, formal news register.
+
+SCENE 1 — 0:00–0:10 (Hook)
+Visuals: Dawn drone shot over old Damascus rooftops, slowly descending toward the minarets of the Umayyad Mosque.
+Voiceover: "في دمشق، نحو عام 1181، وُلد عالمٌ سيُلقَّب لاحقًا بسلطان العلماء: العز بن عبد السلام."
+On-screen text:
+  Card 1: في دمشق، نحو عام 1181،
+  Card 2: وُلد عالمٌ سيُلقَّب لاحقًا بسلطان العلماء: العز بن عبد السلام.
+Audio: Soft ney melody, distant morning ambience.
+
+SCENE 2 — 0:10–0:20 (Background)
+Visuals: Candle-lit madrasa interior; hands turning pages of an old manuscript; slow push toward a silhouetted scholar standing at the mosque pulpit.
+Voiceover: "نشأ في عصر الحروب الصليبية، ودرس الفقه الشافعي، حتى صار خطيبًا للجامع الأموي ومفتيًا بارزًا."
+On-screen text:
+  Card 1: نشأ في عصر الحروب الصليبية، ودرس الفقه الشافعي،
+  Card 2: حتى صار خطيبًا للجامع الأموي ومفتيًا بارزًا.
+Audio: Gentle oud joins the ney.
+
+SCENE 3 — 0:20–0:30 (Key Fact 1)
+Visuals: Distant hilltop fortress at dusk; slow pan across a stone prison corridor; then a lone traveler's silhouette on a desert road heading south.
+Voiceover: "عارض تحالف الصالح إسماعيل مع الصليبيين وتسليمه حصونًا لهم، فعُزل وسُجن، ثم هاجر إلى مصر."
+On-screen text:
+  Card 1: عارض تحالف الصالح إسماعيل مع الصليبيين وتسليمه حصونًا لهم،
+  Card 2: فعُزل وسُجن، ثم هاجر إلى مصر.
+Audio: Tension builds with low strings.
+
+SCENE 4 — 0:30–0:40 (Key Fact 2)
+Visuals: Medieval Cairo along the Nile at golden hour; a courtroom hall with a silhouetted judge; armored Mamluk emirs seen from behind.
+Voiceover: "في مصر تولّى القضاء والخطابة، وتروي المصادر أنه أفتى ببيع الأمراء المماليك لأنهم لم يُعتَقوا شرعًا."
+On-screen text:
+  Card 1: في مصر تولّى القضاء والخطابة،
+  Card 2: وتروي المصادر أنه أفتى ببيع الأمراء المماليك لأنهم لم يُعتَقوا شرعًا.
+Audio: Steady frame drum pulse.
+
+SCENE 5 — 0:40–0:50 (Impact)
+Visuals: A council hall in the Cairo citadel; emirs placing chests of coins on a table; wide silhouette of an army marching out at dawn.
+Voiceover: "وقبيل معركة عين جالوت، اشترط ألا تُفرض الضرائب على الناس حتى يقدّم الأمراء أموالهم أولًا."
+On-screen text:
+  Card 1: وقبيل معركة عين جالوت،
+  Card 2: اشترط ألا تُفرض الضرائب على الناس حتى يقدّم الأمراء أموالهم أولًا.
+Audio: Orchestra rises.
+
+SCENE 6 — 0:50–1:00 (Closing)
+Visuals: Sunset over Cairo's minarets; slow drone pull-back into the sky; fade to black.
+Voiceover: "توفي في القاهرة عام 1262، وبقي رمزًا للعالم الذي يقول الحق أمام السلطان."
+On-screen text:
+  Card 1: توفي في القاهرة عام 1262،
+  Card 2: وبقي رمزًا للعالم الذي يقول الحق أمام السلطان.
+Audio: Orchestral climax, then a soft ney fade-out.

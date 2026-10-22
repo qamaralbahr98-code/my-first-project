@@ -1,0 +1,50 @@
+VIDEO PROMPT — NORTHERN KURDISH (KURMANJI, LATIN/HAWAR ALPHABET) — 60 SECONDS
+Style: Cinematic historical documentary, 13th-century Damascus and Cairo, warm palette, candlelight and golden-hour light, film grain, slow camera moves. Scholar shown only from behind or in silhouette. No text generated inside the imagery. On-screen text is an overlay only, lower third, left-to-right, font: Noto Sans (must render ê î û ç ş), white on a semi-transparent dark band, max 2 lines per card, synced exactly with the narration. Calm male narrator, formal news register.
+
+SCENE 1 — 0:00–0:10 (Hook)
+Visuals: Dawn drone shot over old Damascus rooftops, slowly descending toward the minarets of the Umayyad Mosque.
+Voiceover: "Li Dimeşqê, nêzîkî sala 1181ê, zanayek ji dayik bû ku paşê navê Siltanê Zanayan lê hat kirin: Îz kurê Ebdusselam."
+On-screen text:
+  Card 1: Li Dimeşqê, nêzîkî sala 1181ê, zanayek ji dayik bû
+  Card 2: ku paşê navê Siltanê Zanayan lê hat kirin: Îz kurê Ebdusselam.
+Audio: Soft ney melody, distant morning ambience.
+
+SCENE 2 — 0:10–0:20 (Background)
+Visuals: Candle-lit madrasa interior; hands turning pages of an old manuscript; slow push toward a silhouetted scholar standing at the mosque pulpit.
+Voiceover: "Di serdema şerên xaçperestan de mezin bû, fiqha Şafiî xwend, heta bû xetîbê Mizgefta Emewî û muftiyekî navdar."
+On-screen text:
+  Card 1: Di serdema şerên xaçperestan de mezin bû, fiqha Şafiî xwend,
+  Card 2: heta bû xetîbê Mizgefta Emewî û muftiyekî navdar.
+Audio: Gentle oud joins the ney.
+
+SCENE 3 — 0:20–0:30 (Key Fact 1)
+Visuals: Distant hilltop fortress at dusk; slow pan across a stone prison corridor; then a lone traveler's silhouette on a desert road heading south.
+Voiceover: "Li dijî hevpeymaniya Salih Îsmaîl bi xaçperestan re û radestkirina kelehan ji wan re rawestiya, ji ber vê yekê ji kar hat dûrxistin û hat girtin, paşê koçî Misrê kir."
+On-screen text:
+  Card 1: Li dijî hevpeymaniya Salih Îsmaîl bi xaçperestan re û radestkirina kelehan ji wan re rawestiya,
+  Card 2: ji ber vê yekê ji kar hat dûrxistin û hat girtin, paşê koçî Misrê kir.
+Audio: Tension builds with low strings.
+
+SCENE 4 — 0:30–0:40 (Key Fact 2)
+Visuals: Medieval Cairo along the Nile at golden hour; a courtroom hall with a silhouetted judge; armored Mamluk emirs seen from behind.
+Voiceover: "Li Misrê bû dadwer û xetîb, û çavkanî dibêjin ku wî fetwaya firotina mîrên Memlûk da, ji ber ku bi awayekî şer'î azad nebûbûn."
+On-screen text:
+  Card 1: Li Misrê bû dadwer û xetîb,
+  Card 2: û çavkanî dibêjin ku wî fetwaya firotina mîrên Memlûk da, ji ber ku bi awayekî şer'î azad nebûbûn.
+Audio: Steady frame drum pulse.
+
+SCENE 5 — 0:40–0:50 (Impact)
+Visuals: A council hall in the Cairo citadel; emirs placing chests of coins on a table; wide silhouette of an army marching out at dawn.
+Voiceover: "Berî şerê Eyn Calût, şert danî ku bac ji gel neyê standin heta ku mîr pêşî malê xwe pêşkêş nekin."
+On-screen text:
+  Card 1: Berî şerê Eyn Calût,
+  Card 2: şert danî ku bac ji gel neyê standin heta ku mîr pêşî malê xwe pêşkêş nekin.
+Audio: Orchestra rises.
+
+SCENE 6 — 0:50–1:00 (Closing)
+Visuals: Sunset over Cairo's minarets; slow drone pull-back into the sky; fade to black.
+Voiceover: "Di sala 1262an de li Qahîreyê wefat kir, û wek sembola zanayekî ku li hember desthilatê rastiyê dibêje ma."
+On-screen text:
+  Card 1: Di sala 1262an de li Qahîreyê wefat kir,
+  Card 2: û wek sembola zanayekî ku li hember desthilatê rastiyê dibêje ma.
+Audio: Orchestral climax, then a soft ney fade-out.

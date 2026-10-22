@@ -1,0 +1,3 @@
+numpy
+scipy
+Pillow  # needs libraqm for Arabic/Kurdish text shaping

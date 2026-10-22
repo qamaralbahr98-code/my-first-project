@@ -1,0 +1,50 @@
+VIDEO PROMPT — CENTRAL KURDISH (SORANI) — 60 SECONDS
+Style: Cinematic historical documentary, 13th-century Damascus and Cairo, warm palette, candlelight and golden-hour light, film grain, slow camera moves. Scholar shown only from behind or in silhouette. No text generated inside the imagery. On-screen text is an overlay only, lower third, right-to-left, font: Noto Sans Arabic (must render Kurdish letters ڕ ڵ ۆ ێ ە ڤ گ چ پ ژ), white on a semi-transparent dark band, max 2 lines per card, synced exactly with the narration. Calm male narrator, formal news register.
+
+SCENE 1 — 0:00–0:10 (Hook)
+Visuals: Dawn drone shot over old Damascus rooftops, slowly descending toward the minarets of the Umayyad Mosque.
+Voiceover: "لە دیمەشق، نزیکەی ساڵی 1181، زانایەک لەدایک بوو کە دواتر نازناوی سوڵتانی زانایانی پێدرا: عیززی کوڕی عەبدولسەلام."
+On-screen text:
+  Card 1: لە دیمەشق، نزیکەی ساڵی 1181، زانایەک لەدایک بوو
+  Card 2: کە دواتر نازناوی سوڵتانی زانایانی پێدرا: عیززی کوڕی عەبدولسەلام.
+Audio: Soft ney melody, distant morning ambience.
+
+SCENE 2 — 0:10–0:20 (Background)
+Visuals: Candle-lit madrasa interior; hands turning pages of an old manuscript; slow push toward a silhouetted scholar standing at the mosque pulpit.
+Voiceover: "لە سەردەمی جەنگە خاچییەکاندا گەورە بوو، فیقهی شافیعی خوێند، تا بوو بە وتاربێژی مزگەوتی ئەمەوی و موفتییەکی ناودار."
+On-screen text:
+  Card 1: لە سەردەمی جەنگە خاچییەکاندا گەورە بوو، فیقهی شافیعی خوێند،
+  Card 2: تا بوو بە وتاربێژی مزگەوتی ئەمەوی و موفتییەکی ناودار.
+Audio: Gentle oud joins the ney.
+
+SCENE 3 — 0:20–0:30 (Key Fact 1)
+Visuals: Distant hilltop fortress at dusk; slow pan across a stone prison corridor; then a lone traveler's silhouette on a desert road heading south.
+Voiceover: "دژی هاوپەیمانیی ساڵحی ئیسماعیل لەگەڵ خاچپەرستەکان و ڕادەستکردنی قەڵاکان بەوان وەستایەوە، بۆیە لابرا و زیندانی کرا، پاشان کۆچی کرد بۆ میسر."
+On-screen text:
+  Card 1: دژی هاوپەیمانیی ساڵحی ئیسماعیل لەگەڵ خاچپەرستەکان و ڕادەستکردنی قەڵاکان بەوان وەستایەوە،
+  Card 2: بۆیە لابرا و زیندانی کرا، پاشان کۆچی کرد بۆ میسر.
+Audio: Tension builds with low strings.
+
+SCENE 4 — 0:30–0:40 (Key Fact 2)
+Visuals: Medieval Cairo along the Nile at golden hour; a courtroom hall with a silhouetted judge; armored Mamluk emirs seen from behind.
+Voiceover: "لە میسر پۆستی دادوەری و وتاربێژیی وەرگرت، و سەرچاوەکان دەگێڕنەوە کە فەتوای فرۆشتنی میرە مەملووکەکانی دا، چونکە بە شەرعی ئازاد نەکرابوون."
+On-screen text:
+  Card 1: لە میسر پۆستی دادوەری و وتاربێژیی وەرگرت،
+  Card 2: و سەرچاوەکان دەگێڕنەوە کە فەتوای فرۆشتنی میرە مەملووکەکانی دا، چونکە بە شەرعی ئازاد نەکرابوون.
+Audio: Steady frame drum pulse.
+
+SCENE 5 — 0:40–0:50 (Impact)
+Visuals: A council hall in the Cairo citadel; emirs placing chests of coins on a table; wide silhouette of an army marching out at dawn.
+Voiceover: "پێش جەنگی عەین جالووت، مەرجی دانا کە باج لە خەڵک وەرنەگیرێت تا میرەکان سەرەتا ماڵی خۆیان پێشکەش نەکەن."
+On-screen text:
+  Card 1: پێش جەنگی عەین جالووت،
+  Card 2: مەرجی دانا کە باج لە خەڵک وەرنەگیرێت تا میرەکان سەرەتا ماڵی خۆیان پێشکەش نەکەن.
+Audio: Orchestra rises.
+
+SCENE 6 — 0:50–1:00 (Closing)
+Visuals: Sunset over Cairo's minarets; slow drone pull-back into the sky; fade to black.
+Voiceover: "لە ساڵی 1262دا لە قاهیرە کۆچی دوایی کرد، و وەک هێمای زانایەک مایەوە کە لەبەردەم دەسەڵاتدا ڕاستی دەڵێت."
+On-screen text:
+  Card 1: لە ساڵی 1262دا لە قاهیرە کۆچی دوایی کرد،
+  Card 2: و وەک هێمای زانایەک مایەوە کە لەبەردەم دەسەڵاتدا ڕاستی دەڵێت.
+Audio: Orchestral climax, then a soft ney fade-out.

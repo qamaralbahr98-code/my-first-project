@@ -1,0 +1,10 @@
+1. TITLE
+
+Arabic:   العز بن عبد السلام… سلطان العلماء
+Sorani:   عیززی کوڕی عەبدولسەلام… سوڵتانی زانایان
+Kurmanji: Îz kurê Ebdusselam… Siltanê Zanayan
+
+
+2. SHARED VISUAL STYLE NOTES
+
+Cinematic historical documentary style, 13th-century Damascus and Cairo. Warm palette (sandstone, amber, deep green, bronze), soft candlelight and golden-hour exteriors, light film grain, slow dolly and drone moves. Show the scholar only from behind, in silhouette, or as hands turning manuscript pages; never show a clear face. Use mosques, madrasas, manuscripts, citadels, and wide army silhouettes. No graphic violence. Do not generate any text inside the imagery; the only text is the on-screen overlay listed in each version, placed in the lower third on a semi-transparent dark band. Music: reflective orchestral score with oud and ney, building toward the end. One calm, authoritative narrator. 16:9, 60 seconds.
