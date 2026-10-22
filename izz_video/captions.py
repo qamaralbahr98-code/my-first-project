@@ -115,21 +115,30 @@ def render_card(text, lang_key, out_path):
 
 
 def render_title(text, lang_key, base_frame, out_path):
-    """Thumbnail: a frame from the film with the title centred over it."""
+    """Thumbnail: a frame from the film with the name and epithet centred over it."""
     _, fname, direction, lang, _ = LANGS[lang_key]
-    font = ImageFont.truetype(font_path(fname.replace("Regular", "Bold")), 92, layout_engine=ImageFont.Layout.RAQM)
-    img = base_frame.convert("RGBA")
+    bold = font_path(fname.replace("Regular", "Bold"))
+    parts = [p.strip() for p in text.split("…") if p.strip()]   # name … epithet -> two lines
+    fonts = [ImageFont.truetype(bold, 104, layout_engine=ImageFont.Layout.RAQM),
+             ImageFont.truetype(bold, 66, layout_engine=ImageFont.Layout.RAQM)]
+    colours = [(255, 240, 214, 255), (246, 190, 110, 255)]
+    gaps = [150, 105] if direction == "rtl" else [128, 90]
     shade = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    ImageDraw.Draw(shade).rectangle([0, H * 0.36, W, H * 0.64], fill=(10, 8, 8, 120))
-    img.alpha_composite(shade.filter(ImageFilter.GaussianBlur(40)))
+    ImageDraw.Draw(shade).ellipse([W * 0.12, H * 0.3, W * 0.88, H * 0.72], fill=(20, 10, 12, 110))
+    shadow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    ds = ImageDraw.Draw(shadow)
+    total = sum(gaps[: len(parts)])
+    baselines, y = [], H / 2 - total / 2 - 20
+    for i in range(min(2, len(parts))):
+        y += gaps[i]
+        baselines.append(y)
+    for i, (part, by) in enumerate(zip(parts, baselines)):
+        ds.text((W / 2 + 3, by + 5), part, font=fonts[i], fill=(0, 0, 0, 220), anchor="ms",
+                direction=direction, language=lang)
+    img = base_frame.convert("RGBA")
+    img.alpha_composite(shade.filter(ImageFilter.GaussianBlur(60)))
+    img.alpha_composite(shadow.filter(ImageFilter.GaussianBlur(5)))
     d = ImageDraw.Draw(img)
-    probe = ImageDraw.Draw(Image.new("RGBA", (10, 10)))
-    lines = wrap(probe, text, font, W * 0.85, direction, lang)
-    asc, desc = font.getmetrics()
-    total = len(lines) * (asc + desc)
-    for i, line in enumerate(lines):
-        lw = probe.textlength(line, font=font, direction=direction, language=lang)
-        y = H / 2 - total / 2 + i * (asc + desc) - 10
-        d.text((W / 2 - lw / 2 + 3, y + 4), line, font=font, fill=(0, 0, 0, 180), direction=direction, language=lang)
-        d.text((W / 2 - lw / 2, y), line, font=font, fill=(255, 236, 200, 255), direction=direction, language=lang)
+    for i, (part, by) in enumerate(zip(parts, baselines)):
+        d.text((W / 2, by), part, font=fonts[i], fill=colours[i], anchor="ms", direction=direction, language=lang)
     img.convert("RGB").save(out_path, quality=92)

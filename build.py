@@ -71,7 +71,7 @@ def main(args):
         render_picture(picture)
 
     titles = parse_titles(SCRIPTS / "00_title_and_style.txt")
-    thumb_frame = frame_at(7.5)
+    thumb_frame = frame_at(53.0)
     for key in keys:
         out = build_language(key, picture, audio)
         render_title(titles[key], key, thumb_frame, OUT / f"Izz_ibn_Abd_al-Salam_{LANGS[key][4]}_thumbnail.jpg")
