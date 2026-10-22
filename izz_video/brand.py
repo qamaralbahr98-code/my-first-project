@@ -54,18 +54,20 @@ def logo(key):
 
 # ---------------------------------------------------------------- corner logo
 def corner_badge(key, out_path, height=190, margin=34):
-    """Full-frame transparent PNG with the logo on a soft cream badge in the top-left corner."""
+    """Full-frame transparent PNG with the logo (no background) in the top-left corner."""
     lg = logo(key)
     lg = lg.resize((int(lg.width * (height - 28) / lg.height), height - 28), Image.LANCZOS)
-    pad = 14
-    bw, bh = lg.width + 2 * pad + 6, lg.height + 2 * pad
+    # no badge: the logo sits straight on the picture (transparent background),
+    # with only a soft shadow that follows its own shape so it stays readable on bright scenes
+    x, y = margin, margin
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    shadow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    ImageDraw.Draw(shadow).rounded_rectangle([margin + 3, margin + 5, margin + bw + 3, margin + bh + 5], 18,
-                                            fill=(0, 0, 0, 110))
-    img.alpha_composite(shadow.filter(ImageFilter.GaussianBlur(8)))
-    ImageDraw.Draw(img).rounded_rectangle([margin, margin, margin + bw, margin + bh], 18, fill=CREAM + (232,))
-    img.alpha_composite(lg, (margin + pad + 3, margin + pad))
+    a = lg.getchannel("A")
+    sh = Image.new("RGBA", lg.size, (0, 0, 0, 0))
+    sh.putalpha(a.point(lambda v: int(v * 0.75)))
+    sh_layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    sh_layer.alpha_composite(sh, (x + 3, y + 4))
+    img.alpha_composite(sh_layer.filter(ImageFilter.GaussianBlur(5)))
+    img.alpha_composite(lg, (x, y))
     img.save(out_path)
     return out_path
 

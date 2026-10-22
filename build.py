@@ -4,8 +4,8 @@
     python3 build.py arabic sorani   # just some
     python3 build.py --redraw        # force re-render of the shared picture track
 
-Outputs go to ./output/: one MP4 per language (1920x1080, 24 fps, 60 s film + 6 s Dwin end card,
-music + captions, Dwin logo in the top-left corner) and a branded thumbnail per language.
+Outputs go to ./output/: one MP4 per language (1920x1080, 24 fps: thumbnail opening, 60 s film, 6 s Dwin end card,
+music + captions, Dwin logo top-left, thumbnail embedded as cover) and a branded thumbnail per language.
 Brand assets live in ./brand (logos, portrait, medallion) and ./fonts (Aljazeera, Speda, Montserrat).
 
 Narration: put a recording of the whole script in ./narration/ named arabic.*, sorani.* or
@@ -30,6 +30,8 @@ BUILD = ROOT / "build"
 OUT = ROOT / "output"
 FADE = 0.35
 END = 6.0          # seconds of Dwin end card after the film
+INTRO = 2.2        # seconds the thumbnail is shown at the start (dissolving into the film)
+XF = 0.8           # length of that dissolve
 
 
 def find_narration(key):
@@ -38,7 +40,7 @@ def find_narration(key):
     return hits[0] if hits else None
 
 
-def build_language(key, picture, audio):
+def build_language(key, picture, audio, thumb):
     script_file, _, _, _, label = LANGS[key]
     cards_dir = BUILD / "cards"
     cards_dir.mkdir(parents=True, exist_ok=True)
@@ -61,8 +63,9 @@ def build_language(key, picture, audio):
     card = end_card(key, BUILD / f"endcard_{key}.jpg")
     inputs = ["-i", str(picture), "-i", str(audio), "-i", str(BUILD / "outro.wav"),
               "-loop", "1", "-framerate", "24", "-t", str(END), "-i", str(card),
-              "-loop", "1", "-framerate", "24", "-t", str(TOTAL), "-i", str(badge)]
-    base = 5                                   # card PNG inputs start after these five
+              "-loop", "1", "-framerate", "24", "-t", str(TOTAL), "-i", str(badge),
+              "-loop", "1", "-framerate", "24", "-t", str(INTRO), "-i", str(thumb)]
+    base = 6                                   # card PNG inputs start after these six
     chain, prev = [], "0:v"
     for k, (png, t0, t1) in enumerate(cards):
         d = t1 - t0
@@ -76,18 +79,27 @@ def build_language(key, picture, audio):
     chain.append(f"[4:v]format=rgba,fade=t=in:st=0.6:d=0.8:alpha=1,"
                  f"fade=t=out:st={TOTAL - 1.6:.2f}:d=1.4:alpha=1[logo]")
     chain.append(f"[{prev}][logo]overlay=0:0:eof_action=pass,trim=duration={TOTAL},setpts=PTS-STARTPTS,"
-                 f"format=yuv420p,setsar=1[film]")
+                 f"fps=24,format=yuv420p,setsar=1,settb=1/24[film]")
+    # opening: the thumbnail, dissolving into the film (the film's sound starts with the dissolve)
+    chain.append("[5:v]scale=1920:1080,fps=24,format=yuv420p,setsar=1,settb=1/24[intro]")
+    chain.append(f"[intro][film]xfade=transition=fade:duration={XF}:offset={INTRO - XF}[opened]")
     # end card: fades up from black, holds, fades out
-    chain.append(f"[3:v]fps=24,format=yuv420p,setsar=1,fade=t=in:st=0:d=0.8,fade=t=out:st={END - 0.9}:d=0.9[end]")
-    chain.append(f"[1:a]atrim=0:{TOTAL},asetpts=PTS-STARTPTS,aformat=sample_rates=48000:channel_layouts=stereo[a1]")
+    chain.append(f"[3:v]fps=24,format=yuv420p,setsar=1,settb=1/24,fade=t=in:st=0:d=0.8,fade=t=out:st={END - 0.9}:d=0.9[end]")
+    lead = int(round((INTRO - XF) * 1000))
+    chain.append(f"[1:a]atrim=0:{TOTAL},asetpts=PTS-STARTPTS,aformat=sample_rates=48000:channel_layouts=stereo,"
+                 f"adelay={lead}|{lead}[a1]")
     chain.append("[2:a]aformat=sample_rates=48000:channel_layouts=stereo[a2]")
-    chain.append("[film][a1][end][a2]concat=n=2:v=1:a=1[vout][aout]")
+    chain.append("[opened][a1][end][a2]concat=n=2:v=1:a=1[vout][aout]")
     out = OUT / f"Izz_ibn_Abd_al-Salam_{label}.mp4"
+    body = BUILD / f"body_{key}.mp4"
     cmd = ["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(chain),
            "-map", "[vout]", "-map", "[aout]", "-c:v", "libx264", "-preset", "slow", "-crf", "26",
-           "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k",
-           "-movflags", "+faststart", str(out)]
+           "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", str(body)]
     subprocess.run(cmd, check=True)
+    # second, quick pass: embed the thumbnail as the file's cover image (no re-encode)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(body), "-i", str(thumb),
+                    "-map", "0", "-map", "1", "-c", "copy", "-disposition:v:1", "attached_pic",
+                    "-movflags", "+faststart", str(out)], check=True)
     return out
 
 
@@ -112,8 +124,8 @@ def main(args):
     titles = parse_titles(SCRIPTS / "00_title_and_style.txt")
     thumb_bg = frame_at(53.0)
     for key in keys:
-        thumbnail(key, titles[key], thumb_bg, OUT / f"Izz_ibn_Abd_al-Salam_{LANGS[key][4]}_thumbnail.jpg")
-        out = build_language(key, picture, audio)
+        thumb = thumbnail(key, titles[key], thumb_bg, OUT / f"Izz_ibn_Abd_al-Salam_{LANGS[key][4]}_thumbnail.jpg")
+        out = build_language(key, picture, audio, thumb)
         print("Wrote", out)
 
 
