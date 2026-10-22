@@ -6,6 +6,11 @@
 
 Outputs go to ./output/: one MP4 per language (1920x1080, 24 fps, 60 s, music + captions)
 and a title thumbnail per language.
+
+Narration: put a recording of the whole script in ./narration/ named arabic.*, sorani.* or
+kurmanji.* (mp3, m4a, wav...), read with a clear pause between scenes. It is cut at those
+pauses, each part is placed at its scene, the music is lowered under the voice, and the
+captions follow the voice. Languages without a narration file keep music only.
 """
 import subprocess
 import sys
@@ -15,6 +20,7 @@ from izz_video import music
 from izz_video.captions import LANGS, parse_script, parse_titles, card_times, render_card, render_title
 from izz_video.render import render_picture, frame_at
 from izz_video.scenes import TOTAL
+from izz_video.narration import build_voice_track, mix
 
 ROOT = Path(__file__).resolve().parent
 SCRIPTS = ROOT / "scripts"
@@ -23,12 +29,26 @@ OUT = ROOT / "output"
 FADE = 0.35
 
 
+def find_narration(key):
+    folder = ROOT / "narration"
+    hits = sorted(folder.glob(f"{key}.*")) if folder.exists() else []
+    return hits[0] if hits else None
+
+
 def build_language(key, picture, audio):
     script_file, _, _, _, label = LANGS[key]
     cards_dir = BUILD / "cards"
     cards_dir.mkdir(parents=True, exist_ok=True)
+    scenes = parse_script(SCRIPTS / script_file)
+    narration = find_narration(key)
+    if narration:
+        timing = build_voice_track(narration, BUILD / f"voice_{key}.wav")
+        audio = mix(audio, BUILD / f"voice_{key}.wav", BUILD / f"mix_{key}.m4a")
+        for scene, tm in zip(scenes, timing):  # captions follow the spoken line
+            scene["start"], scene["end"] = tm["start"] - 0.35, tm["end"] + 0.6
+        print(f"  {label}: narration from {narration.name}")
     cards = []
-    for i, scene in enumerate(parse_script(SCRIPTS / script_file)):
+    for i, scene in enumerate(scenes):
         for j, (text, (t0, t1)) in enumerate(zip(scene["cards"], card_times(scene, TOTAL))):
             png = cards_dir / f"{key}_{i}_{j}.png"
             render_card(text, key, png)
