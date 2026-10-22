@@ -43,7 +43,7 @@ def frame_at(T):
 def _render_chunk(args):
     f0, f1, out = args
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
-           "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "medium", "-crf", "17",
+           "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "medium", "-crf", "18",
            "-pix_fmt", "yuv420p", str(out)]
     p = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     for n in range(f0, f1):

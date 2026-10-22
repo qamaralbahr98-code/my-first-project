@@ -492,7 +492,7 @@ class Nile:
         wl.paste(self.water, (0, 830))
         cam.place(f, wl, 0.7)
         d = ImageDraw.Draw(f)
-        rng = np.random.default_rng(int(t * 8))
+        rng = np.random.default_rng(int(abs(t) * 8) + 1000)
         for k in range(110):  # shimmering sun path on the water
             wy = 835 + (k / 110) ** 1.5 * 480
             wx = 820 + rng.normal(0, 25 + (wy - 830) * 0.18)
@@ -754,7 +754,7 @@ class Sunset:
         cam.place(f, self.far, 0.45)
         cam.place(f, self.water, 0.7)
         d = ImageDraw.Draw(f)
-        rng = np.random.default_rng(int(t * 8))
+        rng = np.random.default_rng(int(abs(t) * 8) + 1000)
         for k in range(50):
             wy = 945 + (k / 50) ** 1.5 * 300
             wx = 1260 + rng.normal(0, 30 + (wy - 940) * 0.15)

@@ -334,7 +334,7 @@ def film_look(img, seed):
         grade = np.array([1.04, 1.0, 0.9], np.float32)  # warm grade
         _vign = (v[..., None] * grade).astype(np.float32)
         g = np.random.default_rng(1)
-        small = g.normal(0, 7.5, (8, H // 2, W // 2)).astype(np.float32)
+        small = g.normal(0, 4.5, (8, H // 2, W // 2)).astype(np.float32)
         _grain = [np.kron(s, np.ones((2, 2), np.float32)) for s in small]
     arr = np.asarray(img.convert("RGB")).astype(np.float32)
     arr = arr * _vign
