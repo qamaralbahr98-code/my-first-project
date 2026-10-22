@@ -46,7 +46,7 @@ def build_language(key, picture, audio):
         prev = f"v{k}"
     out = OUT / f"Izz_ibn_Abd_al-Salam_{label}.mp4"
     cmd = ["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(chain),
-           "-map", f"[{prev}]", "-map", "1:a", "-c:v", "libx264", "-preset", "medium", "-crf", "21",
+           "-map", f"[{prev}]", "-map", "1:a", "-c:v", "libx264", "-preset", "slow", "-crf", "26",
            "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-t", str(TOTAL),
            "-movflags", "+faststart", str(out)]
     subprocess.run(cmd, check=True)
