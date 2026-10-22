@@ -4,8 +4,9 @@
     python3 build.py arabic sorani   # just some
     python3 build.py --redraw        # force re-render of the shared picture track
 
-Outputs go to ./output/: one MP4 per language (1920x1080, 24 fps, 60 s, music + captions)
-and a title thumbnail per language.
+Outputs go to ./output/: one MP4 per language (1920x1080, 24 fps, 60 s film + 6 s Dwin end card,
+music + captions, Dwin logo in the top-left corner) and a branded thumbnail per language.
+Brand assets live in ./brand (logos, portrait, medallion) and ./fonts (Aljazeera, Speda, Montserrat).
 
 Narration: put a recording of the whole script in ./narration/ named arabic.*, sorani.* or
 kurmanji.* (mp3, m4a, wav...), read with a clear pause between scenes. It is cut at those
@@ -17,7 +18,8 @@ import sys
 from pathlib import Path
 
 from izz_video import music
-from izz_video.captions import LANGS, parse_script, parse_titles, card_times, render_card, render_title
+from izz_video.captions import LANGS, parse_script, parse_titles, card_times, render_card
+from izz_video.brand import corner_badge, end_card, thumbnail
 from izz_video.render import render_picture, frame_at
 from izz_video.scenes import TOTAL
 from izz_video.narration import build_voice_track, mix
@@ -27,6 +29,7 @@ SCRIPTS = ROOT / "scripts"
 BUILD = ROOT / "build"
 OUT = ROOT / "output"
 FADE = 0.35
+END = 6.0          # seconds of Dwin end card after the film
 
 
 def find_narration(key):
@@ -54,20 +57,35 @@ def build_language(key, picture, audio):
             render_card(text, key, png)
             cards.append((png, t0, t1))
 
-    inputs = ["-i", str(picture), "-i", str(audio)]
+    badge = corner_badge(key, BUILD / f"badge_{key}.png")
+    card = end_card(key, BUILD / f"endcard_{key}.jpg")
+    inputs = ["-i", str(picture), "-i", str(audio), "-i", str(BUILD / "outro.wav"),
+              "-loop", "1", "-framerate", "24", "-t", str(END), "-i", str(card),
+              "-loop", "1", "-framerate", "24", "-t", str(TOTAL), "-i", str(badge)]
+    base = 5                                   # card PNG inputs start after these five
     chain, prev = [], "0:v"
     for k, (png, t0, t1) in enumerate(cards):
         d = t1 - t0
         inputs += ["-loop", "1", "-framerate", "24", "-t", f"{d:.3f}", "-i", str(png)]
-        idx = k + 2
+        idx = k + base
         chain.append(f"[{idx}:v]format=rgba,fade=t=in:st=0:d={FADE}:alpha=1,"
                      f"fade=t=out:st={d - FADE:.3f}:d={FADE}:alpha=1,setpts=PTS-STARTPTS+{t0:.3f}/TB[c{k}]")
         chain.append(f"[{prev}][c{k}]overlay=0:0:eof_action=pass[v{k}]")
         prev = f"v{k}"
+    # Dwin logo in the top-left corner for the whole film, fading with the picture
+    chain.append(f"[4:v]format=rgba,fade=t=in:st=0.6:d=0.8:alpha=1,"
+                 f"fade=t=out:st={TOTAL - 1.6:.2f}:d=1.4:alpha=1[logo]")
+    chain.append(f"[{prev}][logo]overlay=0:0:eof_action=pass,trim=duration={TOTAL},setpts=PTS-STARTPTS,"
+                 f"format=yuv420p,setsar=1[film]")
+    # end card: fades up from black, holds, fades out
+    chain.append(f"[3:v]fps=24,format=yuv420p,setsar=1,fade=t=in:st=0:d=0.8,fade=t=out:st={END - 0.9}:d=0.9[end]")
+    chain.append(f"[1:a]atrim=0:{TOTAL},asetpts=PTS-STARTPTS,aformat=sample_rates=48000:channel_layouts=stereo[a1]")
+    chain.append("[2:a]aformat=sample_rates=48000:channel_layouts=stereo[a2]")
+    chain.append("[film][a1][end][a2]concat=n=2:v=1:a=1[vout][aout]")
     out = OUT / f"Izz_ibn_Abd_al-Salam_{label}.mp4"
     cmd = ["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(chain),
-           "-map", f"[{prev}]", "-map", "1:a", "-c:v", "libx264", "-preset", "slow", "-crf", "26",
-           "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-t", str(TOTAL),
+           "-map", "[vout]", "-map", "[aout]", "-c:v", "libx264", "-preset", "slow", "-crf", "26",
+           "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k",
            "-movflags", "+faststart", str(out)]
     subprocess.run(cmd, check=True)
     return out
@@ -90,11 +108,12 @@ def main(args):
         print("Rendering picture track (a few minutes)...")
         render_picture(picture)
 
+    music.render_outro(BUILD / "outro.wav", END)
     titles = parse_titles(SCRIPTS / "00_title_and_style.txt")
-    thumb_frame = frame_at(53.0)
+    thumb_bg = frame_at(53.0)
     for key in keys:
+        thumbnail(key, titles[key], thumb_bg, OUT / f"Izz_ibn_Abd_al-Salam_{LANGS[key][4]}_thumbnail.jpg")
         out = build_language(key, picture, audio)
-        render_title(titles[key], key, thumb_frame, OUT / f"Izz_ibn_Abd_al-Salam_{LANGS[key][4]}_thumbnail.jpg")
         print("Wrote", out)
 
 

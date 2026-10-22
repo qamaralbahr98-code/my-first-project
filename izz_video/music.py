@@ -277,3 +277,33 @@ def render(path):
 if __name__ == "__main__":
     import sys
     render(sys.argv[1] if len(sys.argv) > 1 else "music.wav")
+
+
+def render_outro(path, seconds=6.0):
+    """A short, quiet closing phrase for the end card: soft drone, a few oud notes, one held ney note."""
+    import wave
+    n = int(seconds * SR)
+    L, R = np.zeros(n), np.zeros(n)
+
+    def put(sig, t0, gain, pan=0.0):
+        add(L, sig, t0, gain * np.sqrt(0.5 * (1 - pan)))
+        add(R, sig, t0, gain * np.sqrt(0.5 * (1 + pan)))
+
+    drone = pad([f("D", -2), f("A", -2), f("D", -1)], seconds, cut=650, detune=0.002)
+    put(drone * env_adsr(len(drone), 1.2, .1, 1, 2.0), 0, 0.22)
+    for t0, nt in [(0.6, "D"), (1.05, "A"), (1.5, "D'"), (2.3, "F#"), (2.75, "Eb"), (3.2, "D")]:
+        put(pluck(f(nt, -1), 1.6, bright=0.4), t0, 0.26, -0.3)
+    last = ney(f("A", 0), 2.6, vib=0.006, breath=0.2)
+    put(last * np.linspace(1, 0, len(last)) ** 1.3, 3.0, 0.22, 0.15)
+    L, R = reverb(L, R, seconds=2.4, mix=0.32)
+    fade = np.ones(n)
+    fade[: int(0.5 * SR)] = np.linspace(0, 1, int(0.5 * SR))
+    fade[-int(1.6 * SR):] = np.linspace(1, 0, int(1.6 * SR)) ** 1.5
+    st = np.stack([L * fade, R * fade], axis=1)
+    st = st / (np.max(np.abs(st)) or 1) * 0.35
+    with wave.open(str(path), "wb") as w:
+        w.setnchannels(2)
+        w.setsampwidth(2)
+        w.setframerate(SR)
+        w.writeframes((st * 32767).astype(np.int16).tobytes())
+    return path

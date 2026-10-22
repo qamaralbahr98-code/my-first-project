@@ -6,13 +6,14 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 from .gfx import W, H
 
-FONT_DIRS = [Path("/usr/share/fonts/truetype/noto"), Path(__file__).resolve().parent.parent / "fonts"]
+FONT_DIRS = [Path(__file__).resolve().parent.parent / "fonts", Path("/usr/share/fonts/truetype/noto")]
 
 LANGS = {
     # key: (script file, font file, direction, raqm language, label)
-    "arabic": ("01_Arabic_Fusha.txt", "NotoNaskhArabic-Regular.ttf", "rtl", "ar", "Arabic"),
-    "sorani": ("02_Kurdish_Sorani.txt", "NotoSansArabic-Regular.ttf", "rtl", "ckb", "Sorani"),
-    "kurmanji": ("03_Kurdish_Kurmanji_Latin.txt", "NotoSans-Regular.ttf", "ltr", "ku", "Kurmanji"),
+    # Dwin brand fonts (./fonts): Aljazeera for Arabic, Speda for Sorani, Montserrat for Kurmanji
+    "arabic": ("01_Arabic_Fusha.txt", "Aljazeera.ttf", "rtl", "ar", "Arabic"),
+    "sorani": ("02_Kurdish_Sorani.txt", "Speda.ttf", "rtl", "ckb", "Sorani"),
+    "kurmanji": ("03_Kurdish_Kurmanji_Latin.txt", "Montserrat-Regular.ttf", "ltr", "ku", "Kurmanji"),
 }
 
 
@@ -79,7 +80,7 @@ def render_card(text, lang_key, out_path):
     path = font_path(fname)
     probe = ImageDraw.Draw(Image.new("RGBA", (10, 10)))
     maxw = W * 0.78
-    size = 50 if lang_key != "arabic" else 56
+    size = {"arabic": 54, "sorani": 52, "kurmanji": 46}[lang_key]
     while True:
         font = ImageFont.truetype(path, size, layout_engine=ImageFont.Layout.RAQM)
         lines = wrap(probe, text, font, maxw, direction, lang)
