@@ -1,0 +1,26 @@
+{
+  "_note": "Replace the colour values with Dwin's official hex codes. Everything in prompts/ is regenerated from this file by tools/build.py.",
+  "colors": {
+    "gold": "#C9A45C",
+    "green": "#0F2A1F",
+    "cream": "#F5EEDC",
+    "text_dark": "#0F2A1F",
+    "text_light": "#FFFFFF"
+  },
+  "fonts": {
+    "ckb": {"name": "Speda", "weight": "Bold", "fallback": "Noto Sans Arabic Bold", "must_render": "ڕ ڵ ۆ ێ ە ڤ گ چ پ ژ"},
+    "kmr": {"name": "Montserrat", "weight": "Bold", "fallback": "Noto Sans Bold", "must_render": "ê î û ç ş Ê Î Û Ç Ş"},
+    "ar":  {"name": "Aljazeera", "weight": "Bold", "fallback": "Noto Naskh Arabic Bold", "must_render": "ة ى ء ئ ؤ «»"}
+  },
+  "channels": {
+    "ckb": "Dween - دوین",
+    "kmr": "Dwîn - Kurmancî",
+    "ar": "دوين - العربية"
+  },
+  "logo": "Dwin logo (gold shield on dark green, cream text), top-left on every shot",
+  "taglines": {
+    "ckb": "دەنگی کورد، بە ناسنامە و باوەڕمانەوە",
+    "kmr": "Dengê Kurdan, bi nasname û baweriya me",
+    "ar": "صوت الكرد، بهويتنا وإيماننا"
+  }
+}

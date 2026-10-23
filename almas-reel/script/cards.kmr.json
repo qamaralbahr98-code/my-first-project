@@ -1,0 +1,659 @@
+{
+  "lang": "kmr",
+  "language": "Kurdish Kurmanji",
+  "direction": "ltr",
+  "total_seconds": 153.5,
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "brand": {
+    "colors": {
+      "gold": "#C9A45C",
+      "green": "#0F2A1F",
+      "cream": "#F5EEDC",
+      "text_dark": "#0F2A1F",
+      "text_light": "#FFFFFF"
+    },
+    "font": {
+      "name": "Montserrat",
+      "weight": "Bold",
+      "fallback": "Noto Sans Bold",
+      "must_render": "ê î û ç ş Ê Î Û Ç Ş"
+    },
+    "channel": "Dwîn - Kurmancî"
+  },
+  "labels": {
+    "position_tag": "Helwesta Dwînê",
+    "claim_tag": "Îdîaya vîdyoyê",
+    "unverified_tag": "Nehatiye piştrastkirin",
+    "illustrative": "Wêneya nimûneyî"
+  },
+  "cards": [
+    {
+      "id": "C01",
+      "chapter": 1,
+      "start": 0.0,
+      "end": 5.8,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "Kremek ku navdaran",
+        "reklama wî kirin",
+        "bi hezaran kesan kirî"
+      ],
+      "highlight": null,
+      "tag": null,
+      "illustrative": false,
+      "credit": "HOKAR",
+      "broll": [
+        "Opening shot (reused as the loop shot at the end): close-up of a hand reaching for a cream jar, slow push-in, shallow focus. Use the HOKAR clip of a man holding up a jar, or film a generic unbranded jar yourself.",
+        "Phone screen scrolling a social feed; every face and brand on the screen is blurred."
+      ],
+      "sfx": "Low sub-bass hit on frame 1; soft tick as each line appears.",
+      "fact_refs": [
+        "F01"
+      ]
+    },
+    {
+      "id": "C02",
+      "chapter": 1,
+      "start": 5.8,
+      "end": 10.4,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "Niha vîdyoyeke belavbûyî dibêje",
+        "kremê «Almas» sexte ye"
+      ],
+      "highlight": 1,
+      "tag": null,
+      "illustrative": false,
+      "credit": "HOKAR",
+      "broll": [
+        "HOKAR reel: the presenter speaking into a microphone on an Erbil street at night. Original audio muted."
+      ],
+      "sfx": "Short reverse-cymbal swell into the card.",
+      "fact_refs": [
+        "F01"
+      ]
+    },
+    {
+      "id": "C03",
+      "chapter": 1,
+      "start": 10.4,
+      "end": 16.6,
+      "style": "B",
+      "flash_before": false,
+      "lines": [
+        "Bihayê her qûtiyekê",
+        "25 heta 35 hezar dînar",
+        "li gorî vîdyoyê"
+      ],
+      "highlight": 1,
+      "tag": null,
+      "illustrative": false,
+      "credit": "HOKAR",
+      "broll": [
+        "HOKAR clip: men holding up jars of the cream. Slow push-in on one jar; darken the background so the number reads."
+      ],
+      "sfx": "A single dull impact on the number line. No cartoon or cash-register sounds.",
+      "fact_refs": [
+        "F02"
+      ]
+    },
+    {
+      "id": "C04",
+      "chapter": 2,
+      "start": 17.1,
+      "end": 23.9,
+      "style": "A",
+      "flash_before": true,
+      "lines": [
+        "Vîdyo îdîa dike ku",
+        "li Hewlêrê hatiye çêkirin",
+        "û etîketa wî jî sexte ye"
+      ],
+      "highlight": null,
+      "tag": "Îdîaya vîdyoyê",
+      "illustrative": false,
+      "credit": "HOKAR",
+      "broll": [
+        "Wide night shot of an Erbil street (own footage or HOKAR background).",
+        "Close-up of a jar label from the HOKAR clip; do not add any 'FAKE' stamp or red X: the claim is unconfirmed."
+      ],
+      "sfx": "Whoosh + low boom on the white flash before this card.",
+      "fact_refs": [
+        "F03",
+        "F04"
+      ]
+    },
+    {
+      "id": "C05",
+      "chapter": 2,
+      "start": 23.9,
+      "end": 30.1,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "Hin reklamkeran",
+        "bi Quranê sond xwarin",
+        "ku ew bi kêr tê"
+      ],
+      "highlight": 1,
+      "tag": null,
+      "illustrative": false,
+      "credit": "HOKAR",
+      "broll": [
+        "HOKAR clips of the advertisers holding the jars. No zooms, freeze-frames or mocking effects on faces; keep it respectful."
+      ],
+      "sfx": "Music drops to the pulse only for this card.",
+      "fact_refs": [
+        "F05"
+      ]
+    },
+    {
+      "id": "C06",
+      "chapter": 2,
+      "start": 30.1,
+      "end": 36.3,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "Ev îdîa hîn",
+        "bi encama laboratuwarê",
+        "an biryara dadgehê",
+        "nehatine piştrastkirin"
+      ],
+      "highlight": 2,
+      "tag": "Nehatiye piştrastkirin",
+      "illustrative": true,
+      "credit": null,
+      "broll": [
+        "Generic laboratory glassware or a courthouse exterior, marked 'illustrative' in small text (see labels.illustrative)."
+      ],
+      "sfx": "Hold the music steady; no hit. This card must feel calm and factual.",
+      "fact_refs": [
+        "F06"
+      ]
+    },
+    {
+      "id": "C07",
+      "chapter": 3,
+      "start": 36.8,
+      "end": 42.2,
+      "style": "A",
+      "flash_before": true,
+      "lines": [
+        "Kurdistan24 di kontroleke bazarê de",
+        "hebên spîkirina çerm nîşan dan"
+      ],
+      "highlight": null,
+      "tag": null,
+      "illustrative": false,
+      "credit": "Kurdistan24",
+      "broll": [
+        "Kurdistan24 reel: market stalls, uniformed security officers, shelves of cosmetics and supplements."
+      ],
+      "sfx": "Whoosh + low boom on the white flash before this card; light street ambience under the music.",
+      "fact_refs": [
+        "F07"
+      ]
+    },
+    {
+      "id": "C08",
+      "chapter": 3,
+      "start": 42.2,
+      "end": 48.4,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "Rasul Abdulxaliq hişyarî da:",
+        "dikarin zirareke giran bidin",
+        "heta penceşêrê jî"
+      ],
+      "highlight": 2,
+      "tag": null,
+      "illustrative": false,
+      "credit": "Kurdistan24",
+      "broll": [
+        "Kurdistan24 reel: the speaker holding up the pink bottle of whitening pills."
+      ],
+      "sfx": "Music ducks 4 dB under this card.",
+      "fact_refs": [
+        "F08"
+      ]
+    },
+    {
+      "id": "C09",
+      "chapter": 3,
+      "start": 48.4,
+      "end": 55.0,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "Derman divê tenê",
+        "li dermanxaneyên destûrdar bê firotin",
+        "ne li tezgehên bazarê"
+      ],
+      "highlight": 1,
+      "tag": null,
+      "illustrative": false,
+      "credit": "Kurdistan24",
+      "broll": [
+        "Kurdistan24: open market stall with medicine and supplements.",
+        "Contrast cut: a licensed pharmacy counter (own footage), green cross sign."
+      ],
+      "sfx": "Hard cut on the beat between the stall and the pharmacy.",
+      "fact_refs": [
+        "F09"
+      ]
+    },
+    {
+      "id": "C10",
+      "chapter": 3,
+      "start": 55.0,
+      "end": 61.2,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "Etîketa Wezareta Tenduristiyê",
+        "nayê wê wateyê",
+        "ku bi qanûnî ketiye bazarê"
+      ],
+      "highlight": 1,
+      "tag": null,
+      "illustrative": false,
+      "credit": "Kurdistan24",
+      "broll": [
+        "Macro close-up of a product sticker on a box (Kurdistan24 footage or a generic box you film; blur any real brand)."
+      ],
+      "sfx": "Single soft impact on 'does not mean'.",
+      "fact_refs": [
+        "F10"
+      ]
+    },
+    {
+      "id": "C11",
+      "chapter": 4,
+      "start": 61.7,
+      "end": 68.5,
+      "style": "A",
+      "flash_before": true,
+      "lines": [
+        "Faxir Herîrî bersiv da:",
+        "«Etîket rast be an sexte,",
+        "ne pirsgirêka min e»"
+      ],
+      "highlight": null,
+      "tag": null,
+      "illustrative": false,
+      "credit": "Fakhir Hariri (Facebook)",
+      "broll": [
+        "Fakhir Hariri's own clarification video, speaking to camera. Use it unaltered: no slow-motion, filters, zooms or sound effects on him."
+      ],
+      "sfx": "Music drops to a low drone; no hits during his two cards (fairness).",
+      "fact_refs": [
+        "F11"
+      ]
+    },
+    {
+      "id": "C12",
+      "chapter": 4,
+      "start": 68.5,
+      "end": 75.3,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "Got nîvê hunermendên Kurdistanê",
+        "reklama vê hilberê kirine",
+        "û wî kes nexapandiye"
+      ],
+      "highlight": null,
+      "tag": null,
+      "illustrative": false,
+      "credit": "Fakhir Hariri (Facebook)",
+      "broll": [
+        "Continue the same Hariri clip; one cut to a second moment of the same video."
+      ],
+      "sfx": "Low drone continues.",
+      "fact_refs": [
+        "F12"
+      ]
+    },
+    {
+      "id": "C13",
+      "chapter": 5,
+      "start": 75.8,
+      "end": 82.6,
+      "style": "A",
+      "flash_before": true,
+      "lines": [
+        "Qanûna Parastina Xerîdar a Iraqê",
+        "hejmar 1, sala 2010",
+        "reklamkeran jî digire nav xwe"
+      ],
+      "highlight": 1,
+      "tag": null,
+      "illustrative": false,
+      "credit": "UN ESCWA – Iraq Law No. 1/2010",
+      "broll": [
+        "Screen capture of the official Arabic law text (UN ESCWA PDF), slow scroll, with the definition of 'advertiser' (Article 1) softly highlighted."
+      ],
+      "sfx": "Whoosh + low boom on the white flash; music starts its slow build here.",
+      "fact_refs": [
+        "F13"
+      ]
+    },
+    {
+      "id": "C14",
+      "chapter": 5,
+      "start": 82.6,
+      "end": 88.4,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "Madeya 7:",
+        "reklamker divê berî reklamê",
+        "agahiyên hilberê kontrol bike"
+      ],
+      "highlight": 0,
+      "tag": null,
+      "illustrative": false,
+      "credit": "UN ESCWA – Iraq Law No. 1/2010",
+      "broll": [
+        "Law PDF: Article 7 highlighted line by line in sync with the words."
+      ],
+      "sfx": "Soft tick per line.",
+      "fact_refs": [
+        "F14"
+      ]
+    },
+    {
+      "id": "C15",
+      "chapter": 5,
+      "start": 88.4,
+      "end": 95.0,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "Madeya 9:",
+        "xapandin û sextekarî qedexe ne",
+        "ji bo firoşkar û reklamkeran"
+      ],
+      "highlight": 0,
+      "tag": null,
+      "illustrative": false,
+      "credit": "UN ESCWA – Iraq Law No. 1/2010",
+      "broll": [
+        "Law PDF: Article 9 highlighted."
+      ],
+      "sfx": "Soft tick per line.",
+      "fact_refs": [
+        "F15"
+      ]
+    },
+    {
+      "id": "C16",
+      "chapter": 5,
+      "start": 95.0,
+      "end": 101.8,
+      "style": "B",
+      "flash_before": false,
+      "lines": [
+        "Madeya 12:",
+        "herî kêm 3 meh zindan",
+        "û/an herî kêm 1 milyon dînar",
+        "cezayê pereyan"
+      ],
+      "highlight": 1,
+      "tag": null,
+      "illustrative": true,
+      "credit": null,
+      "broll": [
+        "Dark, slow push-in on a judge's gavel or an empty courtroom (stock), marked 'illustrative'."
+      ],
+      "sfx": "Deep impact on the prison line; music peaks here.",
+      "fact_refs": [
+        "F16"
+      ]
+    },
+    {
+      "id": "C17",
+      "chapter": 6,
+      "start": 102.3,
+      "end": 106.6,
+      "style": "C",
+      "flash_before": true,
+      "lines": [
+        "Etîket",
+        "ne kontrola ewlehiyê ye"
+      ],
+      "highlight": null,
+      "tag": "Helwesta Dwînê",
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "Macro, own footage: a sticker slowly peeled off a plain, unbranded jar. Black-and-white grade."
+      ],
+      "sfx": "White flash + boom, then near-silence: one low piano note.",
+      "fact_refs": [
+        "F10",
+        "F17"
+      ]
+    },
+    {
+      "id": "C18",
+      "chapter": 6,
+      "start": 106.6,
+      "end": 113.4,
+      "style": "C",
+      "flash_before": false,
+      "lines": [
+        "Firotina baweriya xelkê bi pereyan",
+        "bêyî kontrolê",
+        "xiyaneta li şopîneran e"
+      ],
+      "highlight": 2,
+      "tag": "Helwesta Dwînê",
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "Dwin dark-green background; behind it, very blurred, a phone showing a like counter rising."
+      ],
+      "sfx": "Firm low string swell.",
+      "fact_refs": [
+        "F17"
+      ]
+    },
+    {
+      "id": "C19",
+      "chapter": 6,
+      "start": 113.4,
+      "end": 120.2,
+      "style": "C",
+      "flash_before": false,
+      "lines": [
+        "Em hemû kesên ku",
+        "bi reklamên bê kontrol xelkê dixapînin",
+        "şermezar dikin"
+      ],
+      "highlight": 0,
+      "tag": "Helwesta Dwînê",
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "Same Dwin background, Dwin logo watermark centred at 8% opacity behind the text."
+      ],
+      "sfx": "Strings hold; one deep hit on the last word, then music turns to the hopeful cue.",
+      "fact_refs": [
+        "F17"
+      ]
+    },
+    {
+      "id": "C20",
+      "chapter": 7,
+      "start": 120.7,
+      "end": 125.7,
+      "style": "A",
+      "flash_before": true,
+      "lines": [
+        "Derman û kremên bijîşkî",
+        "tenê ji dermanxaneyên destûrdar bikire"
+      ],
+      "highlight": 1,
+      "tag": null,
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "Own footage: a pharmacist handing a boxed medicine across the counter; warm, bright grade."
+      ],
+      "sfx": "Whoosh on the white flash; hopeful piano + light percussion starts.",
+      "fact_refs": [
+        "F18"
+      ]
+    },
+    {
+      "id": "C21",
+      "chapter": 7,
+      "start": 125.7,
+      "end": 131.9,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "Reklama kesekî navdar",
+        "dîsa jî reklam e",
+        "ne delîla ewlehiyê ye"
+      ],
+      "highlight": 2,
+      "tag": null,
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "A thumb scrolling past a generic ad on a phone (mock ad with an invented product; no real person)."
+      ],
+      "sfx": "Soft swipe sound on the scroll.",
+      "fact_refs": [
+        "F18"
+      ]
+    },
+    {
+      "id": "C22",
+      "chapter": 7,
+      "start": 131.9,
+      "end": 136.6,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "Fatûre û qûtiyê",
+        "û wêneya reklamê",
+        "biparêze"
+      ],
+      "highlight": null,
+      "tag": null,
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "Own footage: hands photographing a receipt and a product box with a phone."
+      ],
+      "sfx": "Camera-shutter click synced to the phone tap.",
+      "fact_refs": [
+        "F18"
+      ]
+    },
+    {
+      "id": "C23",
+      "chapter": 7,
+      "start": 136.6,
+      "end": 143.4,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "Heke zirar da te",
+        "gilî bike li ba rayedarên tenduristiyê",
+        "qanûn firoşkar û reklamkeran digire"
+      ],
+      "highlight": 2,
+      "tag": null,
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "Exterior of a health directorate building (own footage) or a hand filling in a complaint form."
+      ],
+      "sfx": "Music lifts slightly.",
+      "fact_refs": [
+        "F13",
+        "F18",
+        "F19"
+      ]
+    },
+    {
+      "id": "C24",
+      "chapter": 8,
+      "start": 143.4,
+      "end": 148.0,
+      "style": "B",
+      "flash_before": false,
+      "lines": [
+        "Berî ku bikirî",
+        "bipirse: kê ew kontrol kiriye?"
+      ],
+      "highlight": 1,
+      "tag": null,
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "Return to the opening shot (hand reaching for the jar), the hand stops and pulls back. Ends on the exact first frame of C01 so the reel loops."
+      ],
+      "sfx": "Music resolves on the final chord; hard stop on the last frame.",
+      "fact_refs": [
+        "F18"
+      ]
+    },
+    {
+      "id": "C25",
+      "chapter": 8,
+      "start": 148.0,
+      "end": 151.0,
+      "style": "S",
+      "flash_before": false,
+      "lines": [
+        "Çavkanî:",
+        "HOKAR · Kurdistan24 · rûpela Faxir Herîrî",
+        "Qanûna Parastina Xerîdar, hejmar 1, 2010"
+      ],
+      "highlight": null,
+      "tag": null,
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "Dwin dark-green end background."
+      ],
+      "sfx": "Silence or the last chord's tail.",
+      "fact_refs": []
+    },
+    {
+      "id": "C26",
+      "chapter": 8,
+      "start": 151.0,
+      "end": 153.5,
+      "style": "E",
+      "flash_before": false,
+      "lines": [
+        "Dwîn - Kurmancî",
+        "Dengê Kurdan, bi nasname û baweriya me"
+      ],
+      "highlight": null,
+      "tag": null,
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "Dwin logo animates in (scale 96% → 100%, 0.4 s), dark-green background, gold shield."
+      ],
+      "sfx": "Dwin sound logo if you have one; otherwise silence.",
+      "fact_refs": []
+    }
+  ],
+  "post_caption": "Gelo reklama kesekî navdar bes e ku tu baweriyê bi hilberekê bînî?\nVîdyoyeke belavbûyî dibêje kremê «Almas» sexte ye, û Faxir Herîrî dibêje etîket ne pirsgirêka wî ye. Qanûna Parastina Xerîdar a Iraqê (hejmar 1, 2010) reklamkeran jî berpirsiyar dike.\nDerman tenê ji dermanxaneyên destûrdar bikire.\nDwîn - Dengê Kurdan, bi nasname û baweriya me\n#Dwin #KremêAlmas #ParastinaXerîdar #ReklamaSexte #Kurdistan"
+}

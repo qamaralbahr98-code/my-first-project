@@ -1,0 +1,657 @@
+{
+  "lang": "ckb",
+  "language": "Kurdish Sorani",
+  "direction": "rtl",
+  "total_seconds": 142.8,
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "brand": {
+    "colors": {
+      "gold": "#C9A45C",
+      "green": "#0F2A1F",
+      "cream": "#F5EEDC",
+      "text_dark": "#0F2A1F",
+      "text_light": "#FFFFFF"
+    },
+    "font": {
+      "name": "Speda",
+      "weight": "Bold",
+      "fallback": "Noto Sans Arabic Bold",
+      "must_render": "ڕ ڵ ۆ ێ ە ڤ گ چ پ ژ"
+    },
+    "channel": "Dween - دوین"
+  },
+  "labels": {
+    "position_tag": "هەڵوێستی دوین",
+    "claim_tag": "بانگەشەی ڤیدیۆکە",
+    "unverified_tag": "پشتڕاست نەکراوەتەوە",
+    "illustrative": "وێنەی ڕوونکردنەوە"
+  },
+  "cards": [
+    {
+      "id": "C01",
+      "chapter": 1,
+      "start": 0.0,
+      "end": 5.8,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "کرێمێک کە ڕووە ناسراوەکان",
+        "ڕیکلامیان بۆ کرد",
+        "هەزاران کەس کڕییان"
+      ],
+      "highlight": null,
+      "tag": null,
+      "illustrative": false,
+      "credit": "HOKAR",
+      "broll": [
+        "Opening shot (reused as the loop shot at the end): close-up of a hand reaching for a cream jar, slow push-in, shallow focus. Use the HOKAR clip of a man holding up a jar, or film a generic unbranded jar yourself.",
+        "Phone screen scrolling a social feed; every face and brand on the screen is blurred."
+      ],
+      "sfx": "Low sub-bass hit on frame 1; soft tick as each line appears.",
+      "fact_refs": [
+        "F01"
+      ]
+    },
+    {
+      "id": "C02",
+      "chapter": 1,
+      "start": 5.8,
+      "end": 10.1,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "ئێستا ڤیدیۆیەکی بڵاوبووە دەڵێت",
+        "کرێمی ئەڵماس ساختەیە"
+      ],
+      "highlight": 1,
+      "tag": null,
+      "illustrative": false,
+      "credit": "HOKAR",
+      "broll": [
+        "HOKAR reel: the presenter speaking into a microphone on an Erbil street at night. Original audio muted."
+      ],
+      "sfx": "Short reverse-cymbal swell into the card.",
+      "fact_refs": [
+        "F01"
+      ]
+    },
+    {
+      "id": "C03",
+      "chapter": 1,
+      "start": 10.1,
+      "end": 15.9,
+      "style": "B",
+      "flash_before": false,
+      "lines": [
+        "نرخی هەر قوتوویەک",
+        "25 بۆ 35 هەزار دینار",
+        "بەپێی ڤیدیۆکە"
+      ],
+      "highlight": 1,
+      "tag": null,
+      "illustrative": false,
+      "credit": "HOKAR",
+      "broll": [
+        "HOKAR clip: men holding up jars of the cream. Slow push-in on one jar; darken the background so the number reads."
+      ],
+      "sfx": "A single dull impact on the number line. No cartoon or cash-register sounds.",
+      "fact_refs": [
+        "F02"
+      ]
+    },
+    {
+      "id": "C04",
+      "chapter": 2,
+      "start": 16.4,
+      "end": 21.4,
+      "style": "A",
+      "flash_before": true,
+      "lines": [
+        "ڤیدیۆکە دەڵێت:",
+        "لە هەولێر دروستکراوە",
+        "و ستیکەرەکەشی ساختەیە"
+      ],
+      "highlight": null,
+      "tag": "بانگەشەی ڤیدیۆکە",
+      "illustrative": false,
+      "credit": "HOKAR",
+      "broll": [
+        "Wide night shot of an Erbil street (own footage or HOKAR background).",
+        "Close-up of a jar label from the HOKAR clip; do not add any 'FAKE' stamp or red X: the claim is unconfirmed."
+      ],
+      "sfx": "Whoosh + low boom on the white flash before this card.",
+      "fact_refs": [
+        "F03",
+        "F04"
+      ]
+    },
+    {
+      "id": "C05",
+      "chapter": 2,
+      "start": 21.4,
+      "end": 27.2,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "هەندێک لە ڕیکلامکەران",
+        "سوێندیان بە قورئان خوارد",
+        "کە سوودی هەیە"
+      ],
+      "highlight": 1,
+      "tag": null,
+      "illustrative": false,
+      "credit": "HOKAR",
+      "broll": [
+        "HOKAR clips of the advertisers holding the jars. No zooms, freeze-frames or mocking effects on faces; keep it respectful."
+      ],
+      "sfx": "Music drops to the pulse only for this card.",
+      "fact_refs": [
+        "F05"
+      ]
+    },
+    {
+      "id": "C06",
+      "chapter": 2,
+      "start": 27.2,
+      "end": 33.0,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "ئەم بانگەشانە هێشتا",
+        "بە ئەنجامی تاقیگە یان بڕیاری دادگا",
+        "نەسەلمێنراون"
+      ],
+      "highlight": 2,
+      "tag": "پشتڕاست نەکراوەتەوە",
+      "illustrative": true,
+      "credit": null,
+      "broll": [
+        "Generic laboratory glassware or a courthouse exterior, marked 'illustrative' in small text (see labels.illustrative)."
+      ],
+      "sfx": "Hold the music steady; no hit. This card must feel calm and factual.",
+      "fact_refs": [
+        "F06"
+      ]
+    },
+    {
+      "id": "C07",
+      "chapter": 3,
+      "start": 33.5,
+      "end": 38.1,
+      "style": "A",
+      "flash_before": true,
+      "lines": [
+        "کوردستان24 لە پشکنینێکی بازاڕدا",
+        "حەبی سپیکردنەوەی پێستی نیشاندا"
+      ],
+      "highlight": null,
+      "tag": null,
+      "illustrative": false,
+      "credit": "Kurdistan24",
+      "broll": [
+        "Kurdistan24 reel: market stalls, uniformed security officers, shelves of cosmetics and supplements."
+      ],
+      "sfx": "Whoosh + low boom on the white flash before this card; light street ambience under the music.",
+      "fact_refs": [
+        "F07"
+      ]
+    },
+    {
+      "id": "C08",
+      "chapter": 3,
+      "start": 38.1,
+      "end": 43.9,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "ڕەسوڵ عەبدولخالق ئاگاداری کردەوە:",
+        "دەکرێت زیانی گەورە بگەیەنن",
+        "تەنانەت شێرپەنجە"
+      ],
+      "highlight": 2,
+      "tag": null,
+      "illustrative": false,
+      "credit": "Kurdistan24",
+      "broll": [
+        "Kurdistan24 reel: the speaker holding up the pink bottle of whitening pills."
+      ],
+      "sfx": "Music ducks 4 dB under this card.",
+      "fact_refs": [
+        "F08"
+      ]
+    },
+    {
+      "id": "C09",
+      "chapter": 3,
+      "start": 43.9,
+      "end": 50.1,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "دەرمان دەبێت تەنها لە",
+        "دەرمانخانەی مۆڵەتدار بفرۆشرێت",
+        "نەک لە بەستەی بازاڕ"
+      ],
+      "highlight": 1,
+      "tag": null,
+      "illustrative": false,
+      "credit": "Kurdistan24",
+      "broll": [
+        "Kurdistan24: open market stall with medicine and supplements.",
+        "Contrast cut: a licensed pharmacy counter (own footage), green cross sign."
+      ],
+      "sfx": "Hard cut on the beat between the stall and the pharmacy.",
+      "fact_refs": [
+        "F09"
+      ]
+    },
+    {
+      "id": "C10",
+      "chapter": 3,
+      "start": 50.1,
+      "end": 55.9,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "ستیکەری وەزارەتی تەندروستی",
+        "مانای ئەوە نییە",
+        "بە یاسایی هاتۆتە بازاڕەوە"
+      ],
+      "highlight": 1,
+      "tag": null,
+      "illustrative": false,
+      "credit": "Kurdistan24",
+      "broll": [
+        "Macro close-up of a product sticker on a box (Kurdistan24 footage or a generic box you film; blur any real brand)."
+      ],
+      "sfx": "Single soft impact on 'does not mean'.",
+      "fact_refs": [
+        "F10"
+      ]
+    },
+    {
+      "id": "C11",
+      "chapter": 4,
+      "start": 56.4,
+      "end": 63.2,
+      "style": "A",
+      "flash_before": true,
+      "lines": [
+        "فاخیر حەریری وەڵامی دایەوە:",
+        "«ستیکەرەکە ڕاست بێت یان ساختە",
+        "کێشەی من نییە»"
+      ],
+      "highlight": null,
+      "tag": null,
+      "illustrative": false,
+      "credit": "Fakhir Hariri (Facebook)",
+      "broll": [
+        "Fakhir Hariri's own clarification video, speaking to camera. Use it unaltered: no slow-motion, filters, zooms or sound effects on him."
+      ],
+      "sfx": "Music drops to a low drone; no hits during his two cards (fairness).",
+      "fact_refs": [
+        "F11"
+      ]
+    },
+    {
+      "id": "C12",
+      "chapter": 4,
+      "start": 63.2,
+      "end": 69.5,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "گوتی نیوەی هونەرمەندانی کوردستان",
+        "ڕیکلامیان بۆ کردووە",
+        "و کەسی هەڵنەخەڵەتاندووە"
+      ],
+      "highlight": null,
+      "tag": null,
+      "illustrative": false,
+      "credit": "Fakhir Hariri (Facebook)",
+      "broll": [
+        "Continue the same Hariri clip; one cut to a second moment of the same video."
+      ],
+      "sfx": "Low drone continues.",
+      "fact_refs": [
+        "F12"
+      ]
+    },
+    {
+      "id": "C13",
+      "chapter": 5,
+      "start": 70.0,
+      "end": 75.8,
+      "style": "A",
+      "flash_before": true,
+      "lines": [
+        "یاسای پاراستنی بەکاربەری عێراق",
+        "ژمارە 1ی ساڵی 2010",
+        "ڕیکلامکەریش دەگرێتەوە"
+      ],
+      "highlight": 1,
+      "tag": null,
+      "illustrative": false,
+      "credit": "UN ESCWA – Iraq Law No. 1/2010",
+      "broll": [
+        "Screen capture of the official Arabic law text (UN ESCWA PDF), slow scroll, with the definition of 'advertiser' (Article 1) softly highlighted."
+      ],
+      "sfx": "Whoosh + low boom on the white flash; music starts its slow build here.",
+      "fact_refs": [
+        "F13"
+      ]
+    },
+    {
+      "id": "C14",
+      "chapter": 5,
+      "start": 75.8,
+      "end": 81.2,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "ماددەی 7:",
+        "ڕیکلامکەر دەبێت پێش ڕیکلامکردن",
+        "زانیارییەکانی بەرهەمەکە بپشکنێت"
+      ],
+      "highlight": 0,
+      "tag": null,
+      "illustrative": false,
+      "credit": "UN ESCWA – Iraq Law No. 1/2010",
+      "broll": [
+        "Law PDF: Article 7 highlighted line by line in sync with the words."
+      ],
+      "sfx": "Soft tick per line.",
+      "fact_refs": [
+        "F14"
+      ]
+    },
+    {
+      "id": "C15",
+      "chapter": 5,
+      "start": 81.2,
+      "end": 87.0,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "ماددەی 9:",
+        "فێڵ و هەڵخەڵەتاندن قەدەغەیە",
+        "بۆ فرۆشیار و ڕیکلامکەر"
+      ],
+      "highlight": 0,
+      "tag": null,
+      "illustrative": false,
+      "credit": "UN ESCWA – Iraq Law No. 1/2010",
+      "broll": [
+        "Law PDF: Article 9 highlighted."
+      ],
+      "sfx": "Soft tick per line.",
+      "fact_refs": [
+        "F15"
+      ]
+    },
+    {
+      "id": "C16",
+      "chapter": 5,
+      "start": 87.0,
+      "end": 93.6,
+      "style": "B",
+      "flash_before": false,
+      "lines": [
+        "ماددەی 12:",
+        "لانیکەم 3 مانگ زیندان",
+        "و/یان لانیکەم 1 ملیۆن دینار غەرامە"
+      ],
+      "highlight": 1,
+      "tag": null,
+      "illustrative": true,
+      "credit": null,
+      "broll": [
+        "Dark, slow push-in on a judge's gavel or an empty courtroom (stock), marked 'illustrative'."
+      ],
+      "sfx": "Deep impact on the prison line; music peaks here.",
+      "fact_refs": [
+        "F16"
+      ]
+    },
+    {
+      "id": "C17",
+      "chapter": 6,
+      "start": 94.1,
+      "end": 98.0,
+      "style": "C",
+      "flash_before": true,
+      "lines": [
+        "ستیکەر",
+        "پشکنینی سەلامەتی نییە"
+      ],
+      "highlight": null,
+      "tag": "هەڵوێستی دوین",
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "Macro, own footage: a sticker slowly peeled off a plain, unbranded jar. Black-and-white grade."
+      ],
+      "sfx": "White flash + boom, then near-silence: one low piano note.",
+      "fact_refs": [
+        "F10",
+        "F17"
+      ]
+    },
+    {
+      "id": "C18",
+      "chapter": 6,
+      "start": 98.0,
+      "end": 104.6,
+      "style": "C",
+      "flash_before": false,
+      "lines": [
+        "فرۆشتنی متمانەی خەڵک بە پارە",
+        "بەبێ پشکنین",
+        "خیانەتە لە شوێنکەوتووان"
+      ],
+      "highlight": 2,
+      "tag": "هەڵوێستی دوین",
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "Dwin dark-green background; behind it, very blurred, a phone showing a like counter rising."
+      ],
+      "sfx": "Firm low string swell.",
+      "fact_refs": [
+        "F17"
+      ]
+    },
+    {
+      "id": "C19",
+      "chapter": 6,
+      "start": 104.6,
+      "end": 111.4,
+      "style": "C",
+      "flash_before": false,
+      "lines": [
+        "ئیدانەی هەموو ئەوانە دەکەین",
+        "کە خەڵک هەڵدەخەڵەتێنن",
+        "بە ڕیکلامی بێ پشکنین"
+      ],
+      "highlight": 0,
+      "tag": "هەڵوێستی دوین",
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "Same Dwin background, Dwin logo watermark centred at 8% opacity behind the text."
+      ],
+      "sfx": "Strings hold; one deep hit on the last word, then music turns to the hopeful cue.",
+      "fact_refs": [
+        "F17"
+      ]
+    },
+    {
+      "id": "C20",
+      "chapter": 7,
+      "start": 111.9,
+      "end": 116.9,
+      "style": "A",
+      "flash_before": true,
+      "lines": [
+        "دەرمان و کرێمی پزیشکی",
+        "تەنها لە دەرمانخانەی مۆڵەتدار بکڕە"
+      ],
+      "highlight": 1,
+      "tag": null,
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "Own footage: a pharmacist handing a boxed medicine across the counter; warm, bright grade."
+      ],
+      "sfx": "Whoosh on the white flash; hopeful piano + light percussion starts.",
+      "fact_refs": [
+        "F18"
+      ]
+    },
+    {
+      "id": "C21",
+      "chapter": 7,
+      "start": 116.9,
+      "end": 121.9,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "ڕیکلامی کەسی ناودار",
+        "هەر ڕیکلامە",
+        "بەڵگەی سەلامەتی نییە"
+      ],
+      "highlight": 2,
+      "tag": null,
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "A thumb scrolling past a generic ad on a phone (mock ad with an invented product; no real person)."
+      ],
+      "sfx": "Soft swipe sound on the scroll.",
+      "fact_refs": [
+        "F18"
+      ]
+    },
+    {
+      "id": "C22",
+      "chapter": 7,
+      "start": 121.9,
+      "end": 126.6,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "پسوولە و قوتووەکە",
+        "و وێنەی ڕیکلامەکە",
+        "هەڵبگرە"
+      ],
+      "highlight": null,
+      "tag": null,
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "Own footage: hands photographing a receipt and a product box with a phone."
+      ],
+      "sfx": "Camera-shutter click synced to the phone tap.",
+      "fact_refs": [
+        "F18"
+      ]
+    },
+    {
+      "id": "C23",
+      "chapter": 7,
+      "start": 126.6,
+      "end": 133.4,
+      "style": "A",
+      "flash_before": false,
+      "lines": [
+        "ئەگەر زیانی پێگەیاندیت",
+        "سکاڵا لای دەزگا تەندروستییەکان بکە",
+        "یاسا فرۆشیار و ڕیکلامکەر دەگرێتەوە"
+      ],
+      "highlight": 2,
+      "tag": null,
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "Exterior of a health directorate building (own footage) or a hand filling in a complaint form."
+      ],
+      "sfx": "Music lifts slightly.",
+      "fact_refs": [
+        "F13",
+        "F18",
+        "F19"
+      ]
+    },
+    {
+      "id": "C24",
+      "chapter": 8,
+      "start": 133.4,
+      "end": 137.3,
+      "style": "B",
+      "flash_before": false,
+      "lines": [
+        "پێش ئەوەی بیکڕیت",
+        "بپرسە: کێ پشکنیویەتی؟"
+      ],
+      "highlight": 1,
+      "tag": null,
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "Return to the opening shot (hand reaching for the jar), the hand stops and pulls back. Ends on the exact first frame of C01 so the reel loops."
+      ],
+      "sfx": "Music resolves on the final chord; hard stop on the last frame.",
+      "fact_refs": [
+        "F18"
+      ]
+    },
+    {
+      "id": "C25",
+      "chapter": 8,
+      "start": 137.3,
+      "end": 140.3,
+      "style": "S",
+      "flash_before": false,
+      "lines": [
+        "سەرچاوەکان:",
+        "HOKAR · کوردستان24 · پەیجی فاخیر حەریری",
+        "یاسای پاراستنی بەکاربەر، ژمارە 1ی 2010"
+      ],
+      "highlight": null,
+      "tag": null,
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "Dwin dark-green end background."
+      ],
+      "sfx": "Silence or the last chord's tail.",
+      "fact_refs": []
+    },
+    {
+      "id": "C26",
+      "chapter": 8,
+      "start": 140.3,
+      "end": 142.8,
+      "style": "E",
+      "flash_before": false,
+      "lines": [
+        "Dween - دوین",
+        "دەنگی کورد، بە ناسنامە و باوەڕمانەوە"
+      ],
+      "highlight": null,
+      "tag": null,
+      "illustrative": false,
+      "credit": null,
+      "broll": [
+        "Dwin logo animates in (scale 96% → 100%, 0.4 s), dark-green background, gold shield."
+      ],
+      "sfx": "Dwin sound logo if you have one; otherwise silence.",
+      "fact_refs": []
+    }
+  ],
+  "post_caption": "ئایا ڕیکلامی کەسێکی ناودار بەسە بۆ ئەوەی متمانە بە بەرهەمێک بکەیت؟\nڤیدیۆیەکی بڵاوبووە دەڵێت کرێمی ئەڵماس ساختەیە، و فاخیر حەریری دەڵێت ستیکەرەکە کێشەی ئەو نییە. یاسای پاراستنی بەکاربەری عێراق (ژمارە 1ی 2010) ڕیکلامکەریش بەرپرسیار دەکات.\nدەرمان تەنها لە دەرمانخانەی مۆڵەتدار بکڕە.\nدوین - دەنگی کورد، بە ناسنامە و باوەڕمانەوە\n#دوین #کرێمی_ئەڵماس #پاراستنی_بەکاربەر #ڕیکلامی_ساختە #کوردستان"
+}

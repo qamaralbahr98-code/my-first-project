@@ -1,0 +1,1041 @@
+{
+  "project": {
+    "slug": "almas-cream-influencer-ads",
+    "title_en": "Fake Cream, Real Victims: Influencer Ads and Consumer Rights in Kurdistan",
+    "titles": {
+      "ckb": "کرێمی ساختە، قوربانیی ڕاستەقینە",
+      "kmr": "Kremê sexte, qurbaniyên rastîn",
+      "ar": "كريم مغشوش وضحايا حقيقيون"
+    },
+    "source_article": "source/article.txt",
+    "article_date": "2026-10-23",
+    "brand": "Dwin",
+    "format": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30
+    }
+  },
+  "labels": {
+    "position_tag": {
+      "ckb": "هەڵوێستی دوین",
+      "kmr": "Helwesta Dwînê",
+      "ar": "موقف دوين"
+    },
+    "claim_tag": {
+      "ckb": "بانگەشەی ڤیدیۆکە",
+      "kmr": "Îdîaya vîdyoyê",
+      "ar": "ادعاء الفيديو"
+    },
+    "unverified_tag": {
+      "ckb": "پشتڕاست نەکراوەتەوە",
+      "kmr": "Nehatiye piştrastkirin",
+      "ar": "غير مؤكد"
+    },
+    "illustrative": {
+      "ckb": "وێنەی ڕوونکردنەوە",
+      "kmr": "Wêneya nimûneyî",
+      "ar": "صورة توضيحية"
+    }
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "name_en": "Hook",
+      "music": "tension",
+      "flash_before": false
+    },
+    {
+      "id": 2,
+      "name_en": "The accusation",
+      "music": "tension",
+      "flash_before": true
+    },
+    {
+      "id": 3,
+      "name_en": "The official warning",
+      "music": "tension",
+      "flash_before": true
+    },
+    {
+      "id": 4,
+      "name_en": "The response",
+      "music": "tension_low",
+      "flash_before": true
+    },
+    {
+      "id": 5,
+      "name_en": "The law",
+      "music": "tension_build",
+      "flash_before": true
+    },
+    {
+      "id": 6,
+      "name_en": "Dwin's position",
+      "music": "resolve",
+      "flash_before": true
+    },
+    {
+      "id": 7,
+      "name_en": "Protect yourself",
+      "music": "hope",
+      "flash_before": true
+    },
+    {
+      "id": 8,
+      "name_en": "Close",
+      "music": "hope_end",
+      "flash_before": false
+    }
+  ],
+  "cards": [
+    {
+      "id": "C01",
+      "chapter": 1,
+      "style": "A",
+      "highlight": null,
+      "meaning_en": "A cream that famous faces advertised / thousands of people bought it",
+      "text": {
+        "ckb": [
+          "کرێمێک کە ڕووە ناسراوەکان",
+          "ڕیکلامیان بۆ کرد",
+          "هەزاران کەس کڕییان"
+        ],
+        "kmr": [
+          "Kremek ku navdaran",
+          "reklama wî kirin",
+          "bi hezaran kesan kirî"
+        ],
+        "ar": [
+          "كريمٌ روّج له مشاهير",
+          "واشتراه الآلاف"
+        ]
+      },
+      "broll": [
+        "Opening shot (reused as the loop shot at the end): close-up of a hand reaching for a cream jar, slow push-in, shallow focus. Use the HOKAR clip of a man holding up a jar, or film a generic unbranded jar yourself.",
+        "Phone screen scrolling a social feed; every face and brand on the screen is blurred."
+      ],
+      "credit": "HOKAR",
+      "sfx": "Low sub-bass hit on frame 1; soft tick as each line appears.",
+      "fact_refs": [
+        "F01"
+      ]
+    },
+    {
+      "id": "C02",
+      "chapter": 1,
+      "style": "A",
+      "highlight": 1,
+      "meaning_en": "Now a viral video says / the 'Almas' cream is fake",
+      "text": {
+        "ckb": [
+          "ئێستا ڤیدیۆیەکی بڵاوبووە دەڵێت",
+          "کرێمی ئەڵماس ساختەیە"
+        ],
+        "kmr": [
+          "Niha vîdyoyeke belavbûyî dibêje",
+          "kremê «Almas» sexte ye"
+        ],
+        "ar": [
+          "والآن يقول فيديو منتشر",
+          "إن كريم «ألماس» مغشوش"
+        ]
+      },
+      "broll": [
+        "HOKAR reel: the presenter speaking into a microphone on an Erbil street at night. Original audio muted."
+      ],
+      "credit": "HOKAR",
+      "sfx": "Short reverse-cymbal swell into the card.",
+      "fact_refs": [
+        "F01"
+      ]
+    },
+    {
+      "id": "C03",
+      "chapter": 1,
+      "style": "B",
+      "highlight": 1,
+      "meaning_en": "Price per jar / 25,000 to 35,000 dinars / according to the video",
+      "text": {
+        "ckb": [
+          "نرخی هەر قوتوویەک",
+          "25 بۆ 35 هەزار دینار",
+          "بەپێی ڤیدیۆکە"
+        ],
+        "kmr": [
+          "Bihayê her qûtiyekê",
+          "25 heta 35 hezar dînar",
+          "li gorî vîdyoyê"
+        ],
+        "ar": [
+          "سعر العلبة الواحدة",
+          "من 25 إلى 35 ألف دينار",
+          "بحسب الفيديو"
+        ]
+      },
+      "broll": [
+        "HOKAR clip: men holding up jars of the cream. Slow push-in on one jar; darken the background so the number reads."
+      ],
+      "credit": "HOKAR",
+      "sfx": "A single dull impact on the number line. No cartoon or cash-register sounds.",
+      "fact_refs": [
+        "F02"
+      ]
+    },
+    {
+      "id": "C04",
+      "chapter": 2,
+      "style": "A",
+      "highlight": null,
+      "tag": "claim_tag",
+      "meaning_en": "The video claims: / it was made in Erbil / and even its sticker is fake",
+      "text": {
+        "ckb": [
+          "ڤیدیۆکە دەڵێت:",
+          "لە هەولێر دروستکراوە",
+          "و ستیکەرەکەشی ساختەیە"
+        ],
+        "kmr": [
+          "Vîdyo îdîa dike ku",
+          "li Hewlêrê hatiye çêkirin",
+          "û etîketa wî jî sexte ye"
+        ],
+        "ar": [
+          "ويزعم الفيديو أنه",
+          "مُصنَّع محليًا في أربيل",
+          "وأن ملصقه مزوَّر أيضًا"
+        ]
+      },
+      "broll": [
+        "Wide night shot of an Erbil street (own footage or HOKAR background).",
+        "Close-up of a jar label from the HOKAR clip; do not add any 'FAKE' stamp or red X: the claim is unconfirmed."
+      ],
+      "credit": "HOKAR",
+      "sfx": "Whoosh + low boom on the white flash before this card.",
+      "fact_refs": [
+        "F03",
+        "F04"
+      ]
+    },
+    {
+      "id": "C05",
+      "chapter": 2,
+      "style": "A",
+      "highlight": 1,
+      "meaning_en": "Some of the advertisers / swore on the Quran / that it works",
+      "text": {
+        "ckb": [
+          "هەندێک لە ڕیکلامکەران",
+          "سوێندیان بە قورئان خوارد",
+          "کە سوودی هەیە"
+        ],
+        "kmr": [
+          "Hin reklamkeran",
+          "bi Quranê sond xwarin",
+          "ku ew bi kêr tê"
+        ],
+        "ar": [
+          "وبعض المروّجين",
+          "أقسموا بالقرآن",
+          "على أنه فعّال"
+        ]
+      },
+      "broll": [
+        "HOKAR clips of the advertisers holding the jars. No zooms, freeze-frames or mocking effects on faces; keep it respectful."
+      ],
+      "credit": "HOKAR",
+      "sfx": "Music drops to the pulse only for this card.",
+      "fact_refs": [
+        "F05"
+      ]
+    },
+    {
+      "id": "C06",
+      "chapter": 2,
+      "style": "A",
+      "highlight": 2,
+      "tag": "unverified_tag",
+      "meaning_en": "These claims have not yet been / confirmed by a lab result / or a court ruling",
+      "text": {
+        "ckb": [
+          "ئەم بانگەشانە هێشتا",
+          "بە ئەنجامی تاقیگە یان بڕیاری دادگا",
+          "نەسەلمێنراون"
+        ],
+        "kmr": [
+          "Ev îdîa hîn",
+          "bi encama laboratuwarê",
+          "an biryara dadgehê",
+          "nehatine piştrastkirin"
+        ],
+        "ar": [
+          "هذه الادعاءات لم تؤكدها بعد",
+          "نتائج مختبر رسمية",
+          "أو أحكام قضائية"
+        ]
+      },
+      "broll": [
+        "Generic laboratory glassware or a courthouse exterior, marked 'illustrative' in small text (see labels.illustrative)."
+      ],
+      "credit": null,
+      "illustrative": true,
+      "sfx": "Hold the music steady; no hit. This card must feel calm and factual.",
+      "fact_refs": [
+        "F06"
+      ]
+    },
+    {
+      "id": "C07",
+      "chapter": 3,
+      "style": "A",
+      "highlight": null,
+      "meaning_en": "In a market inspection, Kurdistan24 / showed skin-whitening pills",
+      "text": {
+        "ckb": [
+          "کوردستان24 لە پشکنینێکی بازاڕدا",
+          "حەبی سپیکردنەوەی پێستی نیشاندا"
+        ],
+        "kmr": [
+          "Kurdistan24 di kontroleke bazarê de",
+          "hebên spîkirina çerm nîşan dan"
+        ],
+        "ar": [
+          "كوردستان 24 صوّرت حملة تفتيش",
+          "على حبوب تبييض البشرة"
+        ]
+      },
+      "broll": [
+        "Kurdistan24 reel: market stalls, uniformed security officers, shelves of cosmetics and supplements."
+      ],
+      "credit": "Kurdistan24",
+      "sfx": "Whoosh + low boom on the white flash before this card; light street ambience under the music.",
+      "fact_refs": [
+        "F07"
+      ]
+    },
+    {
+      "id": "C08",
+      "chapter": 3,
+      "style": "A",
+      "highlight": 2,
+      "meaning_en": "Rasul Abdulkhaliq warned: / they can cause serious harm / even cancer",
+      "text": {
+        "ckb": [
+          "ڕەسوڵ عەبدولخالق ئاگاداری کردەوە:",
+          "دەکرێت زیانی گەورە بگەیەنن",
+          "تەنانەت شێرپەنجە"
+        ],
+        "kmr": [
+          "Rasul Abdulxaliq hişyarî da:",
+          "dikarin zirareke giran bidin",
+          "heta penceşêrê jî"
+        ],
+        "ar": [
+          "رسول عبد الخالق حذّر:",
+          "قد تسبب أضرارًا خطيرة",
+          "منها السرطان"
+        ]
+      },
+      "broll": [
+        "Kurdistan24 reel: the speaker holding up the pink bottle of whitening pills."
+      ],
+      "credit": "Kurdistan24",
+      "sfx": "Music ducks 4 dB under this card.",
+      "fact_refs": [
+        "F08"
+      ],
+      "editor_note": "Show his name only. His official title is not stated in the clips; add it only after confirming it."
+    },
+    {
+      "id": "C09",
+      "chapter": 3,
+      "style": "A",
+      "highlight": 1,
+      "meaning_en": "Medicine should only be sold / in licensed pharmacies / not on market stalls",
+      "text": {
+        "ckb": [
+          "دەرمان دەبێت تەنها لە",
+          "دەرمانخانەی مۆڵەتدار بفرۆشرێت",
+          "نەک لە بەستەی بازاڕ"
+        ],
+        "kmr": [
+          "Derman divê tenê",
+          "li dermanxaneyên destûrdar bê firotin",
+          "ne li tezgehên bazarê"
+        ],
+        "ar": [
+          "يجب أن يُباع الدواء",
+          "في الصيدليات المرخّصة فقط",
+          "لا على بسطات الأسواق"
+        ]
+      },
+      "broll": [
+        "Kurdistan24: open market stall with medicine and supplements.",
+        "Contrast cut: a licensed pharmacy counter (own footage), green cross sign."
+      ],
+      "credit": "Kurdistan24",
+      "sfx": "Hard cut on the beat between the stall and the pharmacy.",
+      "fact_refs": [
+        "F09"
+      ]
+    },
+    {
+      "id": "C10",
+      "chapter": 3,
+      "style": "A",
+      "highlight": 1,
+      "meaning_en": "A Ministry of Health sticker / does not mean / it entered the market legally",
+      "text": {
+        "ckb": [
+          "ستیکەری وەزارەتی تەندروستی",
+          "مانای ئەوە نییە",
+          "بە یاسایی هاتۆتە بازاڕەوە"
+        ],
+        "kmr": [
+          "Etîketa Wezareta Tenduristiyê",
+          "nayê wê wateyê",
+          "ku bi qanûnî ketiye bazarê"
+        ],
+        "ar": [
+          "ملصق وزارة الصحة",
+          "لا يعني",
+          "أنه دخل السوق بشكل قانوني"
+        ]
+      },
+      "broll": [
+        "Macro close-up of a product sticker on a box (Kurdistan24 footage or a generic box you film; blur any real brand)."
+      ],
+      "credit": "Kurdistan24",
+      "sfx": "Single soft impact on 'does not mean'.",
+      "fact_refs": [
+        "F10"
+      ]
+    },
+    {
+      "id": "C11",
+      "chapter": 4,
+      "style": "A",
+      "highlight": null,
+      "meaning_en": "Fakhir Hariri responded: / \"Whether the sticker is real or fake / is not my problem\"",
+      "text": {
+        "ckb": [
+          "فاخیر حەریری وەڵامی دایەوە:",
+          "«ستیکەرەکە ڕاست بێت یان ساختە",
+          "کێشەی من نییە»"
+        ],
+        "kmr": [
+          "Faxir Herîrî bersiv da:",
+          "«Etîket rast be an sexte,",
+          "ne pirsgirêka min e»"
+        ],
+        "ar": [
+          "فاخر حريري ردّ قائلًا:",
+          "«سواء كان الملصق حقيقيًا أو مزورًا",
+          "فهذه ليست مشكلتي»"
+        ]
+      },
+      "broll": [
+        "Fakhir Hariri's own clarification video, speaking to camera. Use it unaltered: no slow-motion, filters, zooms or sound effects on him."
+      ],
+      "credit": "Fakhir Hariri (Facebook)",
+      "sfx": "Music drops to a low drone; no hits during his two cards (fairness).",
+      "fact_refs": [
+        "F11"
+      ]
+    },
+    {
+      "id": "C12",
+      "chapter": 4,
+      "style": "A",
+      "highlight": null,
+      "meaning_en": "He said half of Kurdistan's artists / advertised it / and he deceived no one",
+      "text": {
+        "ckb": [
+          "گوتی نیوەی هونەرمەندانی کوردستان",
+          "ڕیکلامیان بۆ کردووە",
+          "و کەسی هەڵنەخەڵەتاندووە"
+        ],
+        "kmr": [
+          "Got nîvê hunermendên Kurdistanê",
+          "reklama vê hilberê kirine",
+          "û wî kes nexapandiye"
+        ],
+        "ar": [
+          "وقال إن نصف فناني كردستان",
+          "روّجوا للمنتج",
+          "وإنه لم يخدع أحدًا"
+        ]
+      },
+      "broll": [
+        "Continue the same Hariri clip; one cut to a second moment of the same video."
+      ],
+      "credit": "Fakhir Hariri (Facebook)",
+      "sfx": "Low drone continues.",
+      "fact_refs": [
+        "F12"
+      ]
+    },
+    {
+      "id": "C13",
+      "chapter": 5,
+      "style": "A",
+      "highlight": 1,
+      "meaning_en": "Iraq's Consumer Protection Law / No. 1 of 2010 / also covers advertisers",
+      "text": {
+        "ckb": [
+          "یاسای پاراستنی بەکاربەری عێراق",
+          "ژمارە 1ی ساڵی 2010",
+          "ڕیکلامکەریش دەگرێتەوە"
+        ],
+        "kmr": [
+          "Qanûna Parastina Xerîdar a Iraqê",
+          "hejmar 1, sala 2010",
+          "reklamkeran jî digire nav xwe"
+        ],
+        "ar": [
+          "قانون حماية المستهلك العراقي",
+          "رقم 1 لسنة 2010",
+          "يشمل المعلنين أيضًا"
+        ]
+      },
+      "broll": [
+        "Screen capture of the official Arabic law text (UN ESCWA PDF), slow scroll, with the definition of 'advertiser' (Article 1) softly highlighted."
+      ],
+      "credit": "UN ESCWA – Iraq Law No. 1/2010",
+      "sfx": "Whoosh + low boom on the white flash; music starts its slow build here.",
+      "fact_refs": [
+        "F13"
+      ]
+    },
+    {
+      "id": "C14",
+      "chapter": 5,
+      "style": "A",
+      "highlight": 0,
+      "meaning_en": "Article 7: / the advertiser must check the product's details / before advertising it",
+      "text": {
+        "ckb": [
+          "ماددەی 7:",
+          "ڕیکلامکەر دەبێت پێش ڕیکلامکردن",
+          "زانیارییەکانی بەرهەمەکە بپشکنێت"
+        ],
+        "kmr": [
+          "Madeya 7:",
+          "reklamker divê berî reklamê",
+          "agahiyên hilberê kontrol bike"
+        ],
+        "ar": [
+          "المادة 7:",
+          "على المعلن قبل الإعلان",
+          "التحقق من بيانات المنتج"
+        ]
+      },
+      "broll": [
+        "Law PDF: Article 7 highlighted line by line in sync with the words."
+      ],
+      "credit": "UN ESCWA – Iraq Law No. 1/2010",
+      "sfx": "Soft tick per line.",
+      "fact_refs": [
+        "F14"
+      ]
+    },
+    {
+      "id": "C15",
+      "chapter": 5,
+      "style": "A",
+      "highlight": 0,
+      "meaning_en": "Article 9: / fraud and deception are banned / for sellers and advertisers",
+      "text": {
+        "ckb": [
+          "ماددەی 9:",
+          "فێڵ و هەڵخەڵەتاندن قەدەغەیە",
+          "بۆ فرۆشیار و ڕیکلامکەر"
+        ],
+        "kmr": [
+          "Madeya 9:",
+          "xapandin û sextekarî qedexe ne",
+          "ji bo firoşkar û reklamkeran"
+        ],
+        "ar": [
+          "المادة 9:",
+          "يُحظر الغش والتضليل",
+          "على المورّد والمعلن معًا"
+        ]
+      },
+      "broll": [
+        "Law PDF: Article 9 highlighted."
+      ],
+      "credit": "UN ESCWA – Iraq Law No. 1/2010",
+      "sfx": "Soft tick per line.",
+      "fact_refs": [
+        "F15"
+      ]
+    },
+    {
+      "id": "C16",
+      "chapter": 5,
+      "style": "B",
+      "highlight": 1,
+      "meaning_en": "Article 12: / at least 3 months in prison / and/or a fine of at least 1 million dinars",
+      "text": {
+        "ckb": [
+          "ماددەی 12:",
+          "لانیکەم 3 مانگ زیندان",
+          "و/یان لانیکەم 1 ملیۆن دینار غەرامە"
+        ],
+        "kmr": [
+          "Madeya 12:",
+          "herî kêm 3 meh zindan",
+          "û/an herî kêm 1 milyon dînar",
+          "cezayê pereyan"
+        ],
+        "ar": [
+          "المادة 12:",
+          "الحبس 3 أشهر على الأقل",
+          "و/أو غرامة لا تقل عن مليون دينار"
+        ]
+      },
+      "broll": [
+        "Dark, slow push-in on a judge's gavel or an empty courtroom (stock), marked 'illustrative'."
+      ],
+      "credit": null,
+      "illustrative": true,
+      "sfx": "Deep impact on the prison line; music peaks here.",
+      "fact_refs": [
+        "F16"
+      ]
+    },
+    {
+      "id": "C17",
+      "chapter": 6,
+      "style": "C",
+      "highlight": null,
+      "tag": "position_tag",
+      "meaning_en": "A sticker / is not a safety test",
+      "text": {
+        "ckb": [
+          "ستیکەر",
+          "پشکنینی سەلامەتی نییە"
+        ],
+        "kmr": [
+          "Etîket",
+          "ne kontrola ewlehiyê ye"
+        ],
+        "ar": [
+          "الملصق",
+          "ليس فحصًا للسلامة"
+        ]
+      },
+      "broll": [
+        "Macro, own footage: a sticker slowly peeled off a plain, unbranded jar. Black-and-white grade."
+      ],
+      "credit": null,
+      "sfx": "White flash + boom, then near-silence: one low piano note.",
+      "fact_refs": [
+        "F10",
+        "F17"
+      ]
+    },
+    {
+      "id": "C18",
+      "chapter": 6,
+      "style": "C",
+      "highlight": 2,
+      "tag": "position_tag",
+      "meaning_en": "Selling people's trust for money / without checking / is a betrayal of followers",
+      "text": {
+        "ckb": [
+          "فرۆشتنی متمانەی خەڵک بە پارە",
+          "بەبێ پشکنین",
+          "خیانەتە لە شوێنکەوتووان"
+        ],
+        "kmr": [
+          "Firotina baweriya xelkê bi pereyan",
+          "bêyî kontrolê",
+          "xiyaneta li şopîneran e"
+        ],
+        "ar": [
+          "بيع ثقة الناس مقابل المال",
+          "دون تحقق",
+          "خيانة للمتابعين"
+        ]
+      },
+      "broll": [
+        "Dwin dark-green background; behind it, very blurred, a phone showing a like counter rising."
+      ],
+      "credit": null,
+      "sfx": "Firm low string swell.",
+      "fact_refs": [
+        "F17"
+      ]
+    },
+    {
+      "id": "C19",
+      "chapter": 6,
+      "style": "C",
+      "highlight": 0,
+      "tag": "position_tag",
+      "meaning_en": "We condemn everyone / who misleads people / with ads they never checked",
+      "text": {
+        "ckb": [
+          "ئیدانەی هەموو ئەوانە دەکەین",
+          "کە خەڵک هەڵدەخەڵەتێنن",
+          "بە ڕیکلامی بێ پشکنین"
+        ],
+        "kmr": [
+          "Em hemû kesên ku",
+          "bi reklamên bê kontrol xelkê dixapînin",
+          "şermezar dikin"
+        ],
+        "ar": [
+          "ندين كل من يضلّل الناس",
+          "بإعلانات",
+          "لم يتحقق منها"
+        ]
+      },
+      "broll": [
+        "Same Dwin background, Dwin logo watermark centred at 8% opacity behind the text."
+      ],
+      "credit": null,
+      "sfx": "Strings hold; one deep hit on the last word, then music turns to the hopeful cue.",
+      "fact_refs": [
+        "F17"
+      ]
+    },
+    {
+      "id": "C20",
+      "chapter": 7,
+      "style": "A",
+      "highlight": 1,
+      "meaning_en": "Medicines and medicated creams / buy them only from licensed pharmacies",
+      "text": {
+        "ckb": [
+          "دەرمان و کرێمی پزیشکی",
+          "تەنها لە دەرمانخانەی مۆڵەتدار بکڕە"
+        ],
+        "kmr": [
+          "Derman û kremên bijîşkî",
+          "tenê ji dermanxaneyên destûrdar bikire"
+        ],
+        "ar": [
+          "الأدوية والكريمات العلاجية",
+          "اشترها من الصيدليات المرخّصة فقط"
+        ]
+      },
+      "broll": [
+        "Own footage: a pharmacist handing a boxed medicine across the counter; warm, bright grade."
+      ],
+      "credit": null,
+      "sfx": "Whoosh on the white flash; hopeful piano + light percussion starts.",
+      "fact_refs": [
+        "F18"
+      ]
+    },
+    {
+      "id": "C21",
+      "chapter": 7,
+      "style": "A",
+      "highlight": 2,
+      "meaning_en": "A celebrity ad / is still an ad / not proof that it is safe",
+      "text": {
+        "ckb": [
+          "ڕیکلامی کەسی ناودار",
+          "هەر ڕیکلامە",
+          "بەڵگەی سەلامەتی نییە"
+        ],
+        "kmr": [
+          "Reklama kesekî navdar",
+          "dîsa jî reklam e",
+          "ne delîla ewlehiyê ye"
+        ],
+        "ar": [
+          "إعلان المشهور",
+          "يبقى إعلانًا",
+          "وليس دليلًا على السلامة"
+        ]
+      },
+      "broll": [
+        "A thumb scrolling past a generic ad on a phone (mock ad with an invented product; no real person)."
+      ],
+      "credit": null,
+      "sfx": "Soft swipe sound on the scroll.",
+      "fact_refs": [
+        "F18"
+      ]
+    },
+    {
+      "id": "C22",
+      "chapter": 7,
+      "style": "A",
+      "highlight": null,
+      "meaning_en": "Keep the receipt, the packaging / and a screenshot of the ad",
+      "text": {
+        "ckb": [
+          "پسوولە و قوتووەکە",
+          "و وێنەی ڕیکلامەکە",
+          "هەڵبگرە"
+        ],
+        "kmr": [
+          "Fatûre û qûtiyê",
+          "û wêneya reklamê",
+          "biparêze"
+        ],
+        "ar": [
+          "احتفظ بالفاتورة والعلبة",
+          "ولقطة شاشة للإعلان"
+        ]
+      },
+      "broll": [
+        "Own footage: hands photographing a receipt and a product box with a phone."
+      ],
+      "credit": null,
+      "sfx": "Camera-shutter click synced to the phone tap.",
+      "fact_refs": [
+        "F18"
+      ]
+    },
+    {
+      "id": "C23",
+      "chapter": 7,
+      "style": "A",
+      "highlight": 2,
+      "meaning_en": "If it harmed you / complain to the health authorities / the law covers seller and advertiser",
+      "text": {
+        "ckb": [
+          "ئەگەر زیانی پێگەیاندیت",
+          "سکاڵا لای دەزگا تەندروستییەکان بکە",
+          "یاسا فرۆشیار و ڕیکلامکەر دەگرێتەوە"
+        ],
+        "kmr": [
+          "Heke zirar da te",
+          "gilî bike li ba rayedarên tenduristiyê",
+          "qanûn firoşkar û reklamkeran digire"
+        ],
+        "ar": [
+          "إذا تضرّرت",
+          "قدّم شكوى للجهات الصحية",
+          "فالقانون يشمل البائع والمعلن"
+        ]
+      },
+      "broll": [
+        "Exterior of a health directorate building (own footage) or a hand filling in a complaint form."
+      ],
+      "credit": null,
+      "sfx": "Music lifts slightly.",
+      "fact_refs": [
+        "F13",
+        "F18",
+        "F19"
+      ]
+    },
+    {
+      "id": "C24",
+      "chapter": 8,
+      "style": "B",
+      "highlight": 1,
+      "meaning_en": "Before you buy / ask: who checked it?",
+      "text": {
+        "ckb": [
+          "پێش ئەوەی بیکڕیت",
+          "بپرسە: کێ پشکنیویەتی؟"
+        ],
+        "kmr": [
+          "Berî ku bikirî",
+          "bipirse: kê ew kontrol kiriye?"
+        ],
+        "ar": [
+          "قبل أن تشتري",
+          "اسأل: من فحصه؟"
+        ]
+      },
+      "broll": [
+        "Return to the opening shot (hand reaching for the jar), the hand stops and pulls back. Ends on the exact first frame of C01 so the reel loops."
+      ],
+      "credit": null,
+      "sfx": "Music resolves on the final chord; hard stop on the last frame.",
+      "fact_refs": [
+        "F18"
+      ]
+    },
+    {
+      "id": "C25",
+      "chapter": 8,
+      "style": "S",
+      "highlight": null,
+      "meaning_en": "Sources: HOKAR · Kurdistan24 · Fakhir Hariri's page · Consumer Protection Law No. 1 of 2010",
+      "text": {
+        "ckb": [
+          "سەرچاوەکان:",
+          "HOKAR · کوردستان24 · پەیجی فاخیر حەریری",
+          "یاسای پاراستنی بەکاربەر، ژمارە 1ی 2010"
+        ],
+        "kmr": [
+          "Çavkanî:",
+          "HOKAR · Kurdistan24 · rûpela Faxir Herîrî",
+          "Qanûna Parastina Xerîdar, hejmar 1, 2010"
+        ],
+        "ar": [
+          "المصادر:",
+          "HOKAR · كوردستان 24 · صفحة فاخر حريري",
+          "قانون حماية المستهلك رقم 1 لسنة 2010"
+        ]
+      },
+      "broll": [
+        "Dwin dark-green end background."
+      ],
+      "credit": null,
+      "fixed_duration": 3.0,
+      "sfx": "Silence or the last chord's tail.",
+      "fact_refs": []
+    },
+    {
+      "id": "C26",
+      "chapter": 8,
+      "style": "E",
+      "highlight": null,
+      "meaning_en": "End card: Dwin logo + channel name + tagline",
+      "text": {
+        "ckb": [
+          "Dween - دوین",
+          "دەنگی کورد، بە ناسنامە و باوەڕمانەوە"
+        ],
+        "kmr": [
+          "Dwîn - Kurmancî",
+          "Dengê Kurdan, bi nasname û baweriya me"
+        ],
+        "ar": [
+          "دوين - العربية",
+          "صوت الكرد، بهويتنا وإيماننا"
+        ]
+      },
+      "broll": [
+        "Dwin logo animates in (scale 96% → 100%, 0.4 s), dark-green background, gold shield."
+      ],
+      "credit": null,
+      "fixed_duration": 2.5,
+      "sfx": "Dwin sound logo if you have one; otherwise silence.",
+      "fact_refs": []
+    }
+  ],
+  "post_caption": {
+    "ckb": "ئایا ڕیکلامی کەسێکی ناودار بەسە بۆ ئەوەی متمانە بە بەرهەمێک بکەیت؟\nڤیدیۆیەکی بڵاوبووە دەڵێت کرێمی ئەڵماس ساختەیە، و فاخیر حەریری دەڵێت ستیکەرەکە کێشەی ئەو نییە. یاسای پاراستنی بەکاربەری عێراق (ژمارە 1ی 2010) ڕیکلامکەریش بەرپرسیار دەکات.\nدەرمان تەنها لە دەرمانخانەی مۆڵەتدار بکڕە.\nدوین - دەنگی کورد، بە ناسنامە و باوەڕمانەوە\n#دوین #کرێمی_ئەڵماس #پاراستنی_بەکاربەر #ڕیکلامی_ساختە #کوردستان",
+    "kmr": "Gelo reklama kesekî navdar bes e ku tu baweriyê bi hilberekê bînî?\nVîdyoyeke belavbûyî dibêje kremê «Almas» sexte ye, û Faxir Herîrî dibêje etîket ne pirsgirêka wî ye. Qanûna Parastina Xerîdar a Iraqê (hejmar 1, 2010) reklamkeran jî berpirsiyar dike.\nDerman tenê ji dermanxaneyên destûrdar bikire.\nDwîn - Dengê Kurdan, bi nasname û baweriya me\n#Dwin #KremêAlmas #ParastinaXerîdar #ReklamaSexte #Kurdistan",
+    "ar": "هل يكفي إعلان مشهور لتثق بمنتج؟\nفيديو منتشر يقول إن كريم «ألماس» مغشوش، وفاخر حريري يقول إن الملصق ليس مشكلته. قانون حماية المستهلك العراقي (رقم 1 لسنة 2010) يحمّل المعلن المسؤولية أيضًا.\nاشترِ الدواء من الصيدليات المرخّصة فقط.\nدوين - صوت الكرد، بهويتنا وإيماننا\n#دوين #كريم_ألماس #حماية_المستهلك #الإعلانات_المضللة #كردستان"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "claim_en": "The Almas cream was promoted by Fakhir Hariri and other well-known Kurdish personalities; a viral video says it is fake and that thousands of buyers were misled.",
+      "status": "attributed claim (HOKAR video)",
+      "source": "Article ¶1 and ¶7"
+    },
+    {
+      "id": "F02",
+      "claim_en": "Jars sold for 25,000–35,000 Iraqi dinars each.",
+      "status": "attributed claim (HOKAR video)",
+      "source": "Article ¶1, ¶9"
+    },
+    {
+      "id": "F03",
+      "claim_en": "The cream was being produced locally in Erbil, not by an established manufacturer.",
+      "status": "attributed claim, unconfirmed",
+      "source": "Article ¶10, ¶65"
+    },
+    {
+      "id": "F04",
+      "claim_en": "Its label sticker was fake.",
+      "status": "attributed claim, unconfirmed",
+      "source": "Article ¶11, ¶65"
+    },
+    {
+      "id": "F05",
+      "claim_en": "Some of the artists who promoted it swore on the Quran that it worked.",
+      "status": "attributed claim (HOKAR presenter)",
+      "source": "Article ¶8"
+    },
+    {
+      "id": "F06",
+      "claim_en": "The claims of fakeness, local production and forged sticker are not confirmed by an official lab result or court ruling in the material reviewed.",
+      "status": "verified statement of what is NOT confirmed",
+      "source": "Article ¶65"
+    },
+    {
+      "id": "F07",
+      "claim_en": "Kurdistan24 reported on a market inspection/crackdown on whitening medicines, with security officers present.",
+      "status": "reported by Kurdistan24",
+      "source": "Article ¶5, ¶15"
+    },
+    {
+      "id": "F08",
+      "claim_en": "Rasul Abdulkhaliq warned the whitening product can cause serious harm, including cancer.",
+      "status": "attributed quote; his title unconfirmed",
+      "source": "Article ¶16–17, ¶65"
+    },
+    {
+      "id": "F09",
+      "claim_en": "Such medicines should only be sold through licensed pharmacies; these were on open stalls without a permit.",
+      "status": "attributed (Rasul Abdulkhaliq)",
+      "source": "Article ¶18"
+    },
+    {
+      "id": "F10",
+      "claim_en": "A Ministry of Health sticker does not mean the product entered the market legally.",
+      "status": "attributed (Rasul Abdulkhaliq)",
+      "source": "Article ¶19"
+    },
+    {
+      "id": "F11",
+      "claim_en": "Fakhir Hariri said whether the sticker is genuine or forged is not his problem; checking it is the ministry's job.",
+      "status": "attributed quote (his own video)",
+      "source": "Article ¶26"
+    },
+    {
+      "id": "F12",
+      "claim_en": "Hariri said half of Kurdistan's artists advertised the product and that he deceived no one.",
+      "status": "attributed quote (his own video)",
+      "source": "Article ¶28–29"
+    },
+    {
+      "id": "F13",
+      "claim_en": "Iraq Consumer Protection Law No. 1 of 2010 defines 'advertiser' (Art. 1) and applies to anyone who makes, sells, markets, imports or advertises (Art. 3).",
+      "status": "verified against official text",
+      "source": "UN ESCWA PDF, Arts. 1 and 3"
+    },
+    {
+      "id": "F14",
+      "claim_en": "Article 7 requires suppliers and advertisers to verify product data before selling or advertising, and bars promoting non-compliant products.",
+      "status": "verified against official text",
+      "source": "UN ESCWA PDF, Art. 7"
+    },
+    {
+      "id": "F15",
+      "claim_en": "Article 9 bans suppliers and advertisers from fraud, deception and misleading acts.",
+      "status": "verified against official text",
+      "source": "UN ESCWA PDF, Art. 9"
+    },
+    {
+      "id": "F16",
+      "claim_en": "Violating Article 9 is punishable by at least 3 months in prison and/or a fine of at least 1,000,000 dinars. This is Article 12 of the law (the source article said Article 10; Article 10 covers council staff).",
+      "status": "verified against official text; CORRECTED article number",
+      "source": "UN ESCWA PDF, Art. 12"
+    },
+    {
+      "id": "F17",
+      "claim_en": "Dwin's editorial position: a sticker is not a safety test; promoting products without checking them betrays followers' trust; Dwin condemns anyone who misleads people with unchecked ads.",
+      "status": "OPINION — must appear only in Style C cards with the 'Dwin's position' tag",
+      "source": "Editorial"
+    },
+    {
+      "id": "F18",
+      "claim_en": "Consumer advice: buy medicines only from licensed pharmacies; a celebrity ad is not evidence; keep receipt, packaging and screenshots; report harm.",
+      "status": "advice from the article",
+      "source": "Article ¶58–62"
+    },
+    {
+      "id": "F19",
+      "claim_en": "Consumers can claim compensation through the courts (Art. 6).",
+      "status": "verified against official text",
+      "source": "UN ESCWA PDF, Art. 6"
+    }
+  ]
+}
