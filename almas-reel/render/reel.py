@@ -113,7 +113,7 @@ def moved(img, motion, u):
         return img.copy()
     cw, ch = W / z, H / z
     x0 = (W - cw) / 2
-    y0 = (H - ch) / 2 + dy / z
+    y0 = min(max(0.0, (H - ch) / 2 + dy / z), H - ch - 1e-3)
     return img.resize((W, H), Image.BILINEAR, box=(x0, y0, x0 + cw, y0 + ch))
 
 
