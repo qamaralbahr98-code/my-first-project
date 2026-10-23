@@ -14,11 +14,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from make_news import CREAM, GOLD, GREEN, H, LANG, W, font, logo, tw, wrap   # noqa: E402
 
 
-def portrait(path, d):
-    """Square crop around the face, made round, with a gold ring."""
+def portrait(path, d, crop=(0.56, 0.46, 0.80)):
+    """Square crop around the face (centre x, centre y, size as fractions), made round, with a gold ring."""
     im = Image.open(path).convert("RGB")
-    s = int(min(im.size) * 0.80)
-    cx, cy = int(im.width * 0.56), int(im.height * 0.46)
+    s = int(min(im.size) * crop[2])
+    cx, cy = int(im.width * crop[0]), int(im.height * crop[1])
     box = (max(0, cx - s // 2), max(0, cy - s // 2))
     im = im.crop((box[0], box[1], box[0] + s, box[1] + s)).resize((d, d), Image.LANCZOS)
     m = Image.new("L", (d * 4, d * 4), 0)
@@ -56,7 +56,7 @@ def card(folder, key, texts):
 
     # round portrait, centred, and the name under it
     pd = 300
-    por = portrait(folder / "photo.jpg", pd)
+    por = portrait(folder / "photo.jpg", pd, tuple(texts.get("_crop", (0.56, 0.46, 0.80))))
     shadow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ImageDraw.Draw(shadow).ellipse([W / 2 - pd / 2 - 4, 74, W / 2 + pd / 2 + 20, 74 + pd + 24], fill=(0, 0, 0, 120))
     img.alpha_composite(shadow.filter(ImageFilter.GaussianBlur(14)))
@@ -69,7 +69,7 @@ def card(folder, key, texts):
     margin = 80
     top, bottom = 60 + por.height + 120, H - 120
     maxw = W - 2 * margin
-    size = int(42 * k)
+    size = int(texts.get("_size", 42) * k)
     while True:
         f = font(L["font"], size)
         lh = int(size * (1.6 if rtl else 1.42))
@@ -80,7 +80,8 @@ def card(folder, key, texts):
         size -= 1
     y = top + (bottom - top - total) / 2 + size
     qf = font("Montserrat-Regular.ttf", 140)
-    d.text((W - margin + 10, top - 20) if rtl else (margin - 10, top - 20), "”" if rtl else "“", font=qf,
+    if texts.get("_mark", True):
+        d.text((W - margin + 10, top - 20) if rtl else (margin - 10, top - 20), "”" if rtl else "“", font=qf,
            fill=GOLD + (110,), anchor="rm" if rtl else "lm")
     for bi, b in enumerate(blocks):
         for line in b:
