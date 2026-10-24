@@ -107,7 +107,8 @@ def wrap(sentence, maxc):
         half = len(" ".join(words)) / 2
         a, b = [], []
         for w in words:
-            (a if len(" ".join(a + [w])) <= half + 4 or not a else b).append(w)
+            # once a word has gone to the second line, every later word goes there too (keeps word order)
+            (a if not b and (len(" ".join(a + [w])) <= half + 4 or not a) else b).append(w)
         lines[-2:] = [" ".join(a), " ".join(b)]
     return lines
 

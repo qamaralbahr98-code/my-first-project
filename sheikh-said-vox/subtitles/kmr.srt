@@ -101,13 +101,13 @@ xweseriya herêmî û rêyeke ber bi
 serxwebûnê ve da Kurdan.
 
 23
-00:01:58,150 --> 00:02:04,359
+00:01:58,150 --> 00:02:04,083
 Lê di sala 1923an de, Peymana Lozanê ew
-soz veşart, û pê re mafên li
+soz veşart, û pê re mafên
 
 24
-00:02:04,409 --> 00:02:06,200
-gelê kurd Tirkiyeyê.
+00:02:04,133 --> 00:02:06,200
+gelê kurd li Tirkiyeyê.
 
 25
 00:02:06,750 --> 00:02:13,408
@@ -156,13 +156,13 @@ Rêber û têkoşerên kurd hatin girtin,
 sirgûnkirin û kuştin.
 
 35
-00:02:49,050 --> 00:02:54,389
+00:02:49,050 --> 00:02:54,144
 Erdên çandiniyê yên herî baş ên Kurdan
-hatin desteserkirin û ji re
+hatin desteserkirin û ji
 
 36
-00:02:54,439 --> 00:02:55,940
-Tirkan hatin dayîn.
+00:02:54,194 --> 00:02:55,940
+Tirkan re hatin dayîn.
 
 37
 00:02:55,990 --> 00:03:01,900
@@ -200,8 +200,8 @@ rêberekî tevgera kurd û nûnerê berê yê
 
 44
 00:03:34,082 --> 00:03:37,929
-Bedlîsê di parlamentoya de,
-Tirkiyeyê çû Xinûsê.
+Bedlîsê di parlamentoya
+Tirkiyeyê de, çû Xinûsê.
 
 45
 00:03:37,979 --> 00:03:42,800
@@ -262,8 +262,8 @@ gihîştin wê baweriyê ku mafê neteweyî yê
 
 57
 00:04:35,282 --> 00:04:38,697
-Kurdan bêyî serhildaneke nayê
-çekdarî misogerkirin.
+Kurdan bêyî serhildaneke
+çekdarî nayê misogerkirin.
 
 58
 00:04:38,747 --> 00:04:44,200
@@ -329,8 +329,8 @@ telgrafên veşartî yên rejîmê.
 
 71
 00:05:50,943 --> 00:05:55,000
-Di 11ê Sibatê de, ew û xwe
-siwarên çûn ba Şêx.
+Di 11ê Sibatê de, ew û
+siwarên xwe çûn ba Şêx.
 
 72
 00:05:55,550 --> 00:06:00,944
@@ -346,13 +346,13 @@ destpêkirina serhildanê bide.
 Serhildan bi lez belav bû.
 
 75
-00:06:05,538 --> 00:06:09,888
+00:06:05,538 --> 00:06:09,681
 Enqereyê îdareya leşkerî ragihand,
-qanûneke taybet derxist, û bû
+qanûneke taybet derxist, û
 
 76
-00:06:09,938 --> 00:06:11,400
-Îsmet Paşa serokwezîr.
+00:06:09,731 --> 00:06:11,400
+Îsmet Paşa bû serokwezîr.
 
 77
 00:06:13,950 --> 00:06:19,892
@@ -385,8 +385,8 @@ desthilatdariya tirk de bindest û zordîtî
 
 83
 00:06:42,710 --> 00:06:46,300
-bûn, loma piraniya wan bûn.
-beşdarî serhildanê
+bûn, loma piraniya wan
+beşdarî serhildanê bûn.
 
 84
 00:06:46,850 --> 00:06:52,828
@@ -445,8 +445,8 @@ ji berxwedanê berde.
 
 96
 00:07:39,494 --> 00:07:43,456
-Ji destpêka Adarê ve, êrîş pê
-pêşmergeyan dest kir.
+Ji destpêka Adarê ve,
+pêşmergeyan êrîş dest pê kir.
 
 97
 00:07:43,506 --> 00:07:48,727
@@ -641,13 +641,13 @@ miletekî înkar dikir.
 Îro jî wisa ye:
 
 138
-00:11:21,475 --> 00:11:26,525
+00:11:21,475 --> 00:11:25,925
 ji sala 2014an ve, gava DAIŞê Iraq û
-Sûriye dagirtin, Herêma deriyên
+Sûriye dagirtin, Herêma
 
 139
-00:11:26,575 --> 00:11:28,250
-Kurdistanê xwe vekirin.
+00:11:25,975 --> 00:11:28,250
+Kurdistanê deriyên xwe vekirin.
 
 140
 00:11:28,300 --> 00:11:33,200
