@@ -4,3 +4,5 @@ __pycache__/
 renders/
 fonts/*.ttf
 fonts/*.otf
+output/*.mp4
+output/*.m4a
