@@ -68,8 +68,11 @@ def main(lang):
     aac = b / "audio" / "mix.m4a"
     loudnorm(b / "audio" / "mix.wav", aac)
     tmp = b / "video" / "muxed.mp4"
+    # the master parts are near-lossless (~18 Mbit/s with grain); the delivery file is capped at 6 Mbit/s
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(b / "video" / "picture.mp4"), "-i", str(aac), "-map", "0:v",
-                    "-map", "1:a", "-c", "copy", "-shortest", "-movflags", "+faststart", str(tmp)], check=True)
+                    "-map", "1:a", "-c:v", "libx264", "-preset", "faster", "-crf", "22", "-maxrate", "6M", "-bufsize",
+                    "12M", "-pix_fmt", "yuv420p", "-c:a", "copy", "-shortest", "-movflags", "+faststart", str(tmp)],
+                   check=True)
     final = OUT / f"dwin_sheikh_said_{lang}_16x9_v01.mp4"
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(tmp), "-i", str(thumb), "-map", "0", "-map", "1", "-c", "copy",
                     "-c:v:1", "mjpeg", "-disposition:v:1", "attached_pic", "-movflags", "+faststart", str(final)], check=True)
