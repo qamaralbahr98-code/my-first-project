@@ -40,6 +40,8 @@ def thumbnail(lang, path):
     yrs = kit.line_img(L.key, L.dir, years, 96, GOLD, 3)[0]
     paste(f, yrs, x - yrs.width if L.rtl else x, 470)
     strip = kit.label_strip(L, tag, 74, CREAM, RED, pad=(34, 14), rot=-2)
+    if strip.width > room + 20:
+        strip = strip.resize((int(room + 20), int(strip.height * (room + 20) / strip.width)), Image.LANCZOS)
     paste(f, strip, (x - strip.width + 20) if L.rtl else x - 20, 660)
     paste(f, kit.logo(lang, False, 150, 1.0), W - 190 if L.rtl else 40, 36)    # the portrait takes the other corner
     f.convert("RGB").save(path, quality=93)
