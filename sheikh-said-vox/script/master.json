@@ -1,0 +1,3111 @@
+{
+  "project": {
+    "slug": "sheikh-said-piran-vox",
+    "title_en": "Sheikh Said Piran (1865–1925): faith, a people and a broken promise",
+    "titles": {
+      "ckb": "شێخ سەعیدی پیران: ئیمان، گەلێک، و بەڵێنێکی شکاو",
+      "kmr": "Şêx Seîdê Pîran: bawerî, gelek û sozeke şikestî",
+      "ar": "الشيخ سعيد بيران: إيمان، وشعب، ووعدٌ مكسور"
+    },
+    "source_article_note": "Sorani article 'شێخ سەعیدی پیران (1865–1925)' (7 pages), checked against external historical sources",
+    "format": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "vertical_cutdown": {
+        "width": 1080,
+        "height": 1920
+      }
+    }
+  },
+  "labels": {
+    "position_tag": {
+      "ckb": "هەڵوێستی دوین",
+      "kmr": "Helwesta Dwînê",
+      "ar": "موقف دوين"
+    },
+    "illustration": {
+      "ckb": "وێنەی هونەری",
+      "kmr": "Wêneya hunerî",
+      "ar": "رسم فنّي"
+    },
+    "attributed": {
+      "ckb": "وتەیەکی دراوەتە پاڵی",
+      "kmr": "Gotineke ku jê re tê girêdan",
+      "ar": "قولٌ منسوب إليه"
+    },
+    "per_article": {
+      "ckb": "بەپێی وتارەکە",
+      "kmr": "Li gorî gotarê",
+      "ar": "بحسب المقال"
+    },
+    "historians": {
+      "ckb": "مێژوونووسانی ئەمڕۆ",
+      "kmr": "Dîroknasên îro",
+      "ar": "مؤرخو اليوم"
+    },
+    "colourised": {
+      "ckb": "وێنەی ڕەنگکراو",
+      "kmr": "Wêneya rengkirî",
+      "ar": "صورة ملوّنة"
+    }
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "name_en": "Cold open",
+      "title": null,
+      "music": "Low drone, a single tembûr/oud note, wind. Dark and still."
+    },
+    {
+      "id": 2,
+      "name_en": "The scholar of Palu",
+      "title": {
+        "ckb": "زانای پالۆ",
+        "kmr": "Zanayê Palûyê",
+        "ar": "عالِم بالو"
+      },
+      "music": "Warm strings + ney, gentle, 70 BPM."
+    },
+    {
+      "id": 3,
+      "name_en": "Kurds and the ummah",
+      "title": {
+        "ckb": "کورد و ئوممەت",
+        "kmr": "Kurd û ummet",
+        "ar": "الكرد والأمة"
+      },
+      "music": "Majestic: low strings, daf on the downbeat, rising."
+    },
+    {
+      "id": 4,
+      "name_en": "The broken promise",
+      "title": {
+        "ckb": "بەڵێنی شکاو",
+        "kmr": "Soza şikestî",
+        "ar": "الوعد المكسور"
+      },
+      "music": "Tension: ticking pulse, low brass, dissonant strings, 90 BPM."
+    },
+    {
+      "id": 5,
+      "name_en": "The secret plan",
+      "title": {
+        "ckb": "پلانی نهێنی",
+        "kmr": "Plana veşartî",
+        "ar": "الخطة السرية"
+      },
+      "music": "Investigative pulse, muted percussion, building."
+    },
+    {
+      "id": 6,
+      "name_en": "Piran: the spark",
+      "title": {
+        "ckb": "پیران: پریشکەکە",
+        "kmr": "Pîran: çirûsk",
+        "ar": "بيران: الشرارة"
+      },
+      "music": "Drums enter; urgent; hard hits on the clash."
+    },
+    {
+      "id": 7,
+      "name_en": "The siege of Amed",
+      "title": {
+        "ckb": "گەمارۆی ئامەد",
+        "kmr": "Dorpêça Amedê",
+        "ar": "حصار آمد"
+      },
+      "music": "Full epic: daf + taiko + strings; peak at the Mardin Gate; falls away when the siege is lifted."
+    },
+    {
+      "id": 8,
+      "name_en": "Betrayal",
+      "title": {
+        "ckb": "خیانەت",
+        "kmr": "Xiyanet",
+        "ar": "الخيانة"
+      },
+      "music": "Music collapses to a single sustained low note; heartbeat-like pulse."
+    },
+    {
+      "id": 9,
+      "name_en": "In prison",
+      "title": {
+        "ckb": "لە زینداندا",
+        "kmr": "Di zindanê de",
+        "ar": "في السجن"
+      },
+      "music": "Near silence. Solo tembûr or ney. Prison room tone."
+    },
+    {
+      "id": 10,
+      "name_en": "The last journey",
+      "title": {
+        "ckb": "کۆچی دوایی",
+        "kmr": "Koça dawî",
+        "ar": "الرحلة الأخيرة"
+      },
+      "music": "Slow, mournful strings; no percussion."
+    },
+    {
+      "id": 11,
+      "name_en": "Words that remain",
+      "title": {
+        "ckb": "وتە بەپێزەکانی",
+        "kmr": "Gotinên wî yên bi qîmet",
+        "ar": "كلماتٌ باقية"
+      },
+      "music": "Same theme as chapter 2, slower, with a soft choir pad (no lyrics)."
+    },
+    {
+      "id": 12,
+      "name_en": "One ummah",
+      "title": {
+        "ckb": "یەک ئوممەت",
+        "kmr": "Yek ummet",
+        "ar": "أمةٌ واحدة"
+      },
+      "music": "Hopeful: warm strings + piano + light daf, rising to the closing."
+    },
+    {
+      "id": 13,
+      "name_en": "Dwin's position and close",
+      "title": null,
+      "music": "Firm low strings for the position; final theme resolves; hard stop on the end card."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "chapter": 1,
+      "kind": "photo",
+      "voice": "narrator",
+      "vo_en": "Amed, Diyarbakır. Dawn, the 29th of June, 1925. A white-bearded sheikh is led to the gallows.",
+      "vo": {
+        "ckb": "ئامەد، دیاربەکر. بەرەبەیانی 29ی حوزەیرانی 1925. شێخێکی ڕیش سپی بەرەو سێدارە دەبرێت.",
+        "kmr": "Amed, Diyarbekir. Sibeha 29ê Hezîrana 1925an. Şêxekî riwspî ber bi sêdarê ve tê birin.",
+        "ar": "آمد، ديار بكر. فجر التاسع والعشرين من حزيران عام 1925. يُقاد شيخٌ أبيض اللحية إلى المشنقة."
+      },
+      "ost": {
+        "ckb": [
+          "ئامەد · 29ی حوزەیرانی 1925"
+        ],
+        "kmr": [
+          "Amed · 29ê Hezîrana 1925an"
+        ],
+        "ar": [
+          "آمد · 29 حزيران 1925"
+        ]
+      },
+      "visual": [
+        "Black screen, wind. Fade up on the black basalt walls of Diyarbakır at dawn (archival or own footage), blue-grey grade.",
+        "Slow 2.5D parallax push-in. The date types on, typewriter style, lower left (lower right for RTL).",
+        "No hanging imagery, no rope, no bodies: the gallows is only implied by sound and words."
+      ],
+      "assets": [
+        "A07"
+      ],
+      "sfx": "Wind, distant birds, one slow wooden creak at the end of the line.",
+      "facts": [
+        "F30"
+      ],
+      "images": [
+        "assets/images/S01_Diyarbakir_Basalt_Walls_Dawn.jpg"
+      ]
+    },
+    {
+      "id": "S02",
+      "chapter": 1,
+      "kind": "quote",
+      "voice": "quote",
+      "vo_en": "In one of his best-known sayings, he says: 'Life is coming to an end, and I never regret what I have done for the sake of God. We are content, because our sons and daughters will not be ashamed of us before our enemies.'",
+      "vo": {
+        "ckb": "لە یەکێک لە وتە بەناوبانگەکانیدا دەڵێت: «وا ژیان خەریکە کۆتایی دێت و هەرگیز پەشیمان نیم لەوەی لە پێناوی خوادا کردوومە. ئێمە دڵمان خۆشە، چونکە کوڕ و کچەکانمان لەبەر ئێمە شەرم دایانناگرێ لەبەردەم دوژمناندا.»",
+        "kmr": "Di yek ji gotinên wî yên navdar de dibêje: «Va jiyan ber bi dawiyê ve diçe, û ez qet poşman nînim ji tiştê ku min di riya Xwedê de kiriye. Em dilxweş in, ji ber ku kur û keçên me ji ber me li ber dijminan şerm nakin.»",
+        "ar": "يقول في واحدٍ من أشهر أقواله: «ها هي الحياة توشك على نهايتها، ولستُ نادمًا أبدًا على ما فعلتُه في سبيل الله. نحن مطمئنّون، لأنّ أبناءنا وبناتنا لن يخجلوا بنا أمام الأعداء.»"
+      },
+      "ost": {
+        "ckb": [
+          "«هەرگیز پەشیمان نیم",
+          "لەوەی لە پێناوی خوادا کردوومە»"
+        ],
+        "kmr": [
+          "«Ez qet poşman nînim",
+          "ji tiştê ku min di riya Xwedê de kiriye»"
+        ],
+        "ar": [
+          "«لستُ نادمًا أبدًا",
+          "على ما فعلتُه في سبيل الله»"
+        ]
+      },
+      "tag": "attributed",
+      "visual": [
+        "Quote card (Vox pull-quote): parchment paper, the line types on word by word in large serif-style type; key words get a gold hand-drawn underline.",
+        "Behind it, at 20% opacity, the archival portrait of Sheikh Said slowly fades in."
+      ],
+      "assets": [
+        "A01",
+        "A30"
+      ],
+      "sfx": "Typewriter keys per word (soft), paper rustle.",
+      "facts": [
+        "F27"
+      ],
+      "images": [
+        "assets/images/Sheikh_Said_Archival_Sepia_Portrait.jpg"
+      ]
+    },
+    {
+      "id": "S03",
+      "chapter": 1,
+      "kind": "title",
+      "voice": "narrator",
+      "vo_en": "This is the story of Sheikh Said Piran: a scholar of faith who rose up for his people, and paid for it with his life.",
+      "vo": {
+        "ckb": "ئەمە چیرۆکی شێخ سەعیدی پیرانە: زانایەکی ئایینی کە بۆ گەلەکەی هەستایەوە، و باجەکەی بە گیانی خۆی دا.",
+        "kmr": "Ev çîroka Şêx Seîdê Pîran e: zanayekî olî ku ji bo gelê xwe rabû, û bedela wê bi canê xwe da.",
+        "ar": "هذه قصة الشيخ سعيد بيران: عالمٌ دينيّ نهض من أجل شعبه، ودفع حياته ثمنًا لذلك."
+      },
+      "ost": {
+        "ckb": [
+          "شێخ سەعیدی پیران",
+          "1865 – 1925",
+          "ئیمان، گەلێک، و بەڵێنێکی شکاو"
+        ],
+        "kmr": [
+          "Şêx Seîdê Pîran",
+          "1865 – 1925",
+          "Bawerî, gelek û sozeke şikestî"
+        ],
+        "ar": [
+          "الشيخ سعيد بيران",
+          "1865 – 1925",
+          "إيمان، وشعب، ووعدٌ مكسور"
+        ]
+      },
+      "visual": [
+        "Main title: the archival portrait cut out with torn-paper edges on a parchment background; name in large type, years under it, subtitle in gold.",
+        "Paper pieces slide in with a slight overshoot; light leak sweeps across."
+      ],
+      "assets": [
+        "A01",
+        "A30"
+      ],
+      "sfx": "Deep boom + reverse swell into the title; paper slap.",
+      "facts": [
+        "F01"
+      ],
+      "images": [
+        "assets/images/Sheikh_Said_Archival_Sepia_Portrait.jpg"
+      ]
+    },
+    {
+      "id": "S04",
+      "chapter": 2,
+      "kind": "map",
+      "voice": "narrator",
+      "vo_en": "He was born in 1865, 1281 of the Hijri calendar, in the Palu region, and became one of the great sheikhs of the Naqshbandi order.",
+      "vo": {
+        "ckb": "ساڵی 1865ی زایینی، بەرامبەر 1281ی کۆچی، لە ناوچەی پالۆ لەدایک بوو، و بوو بە یەکێک لە شێخە بەرزەکانی نەقشبەندی.",
+        "kmr": "Ew di sala 1865an de, ango 1281ê koçî, li herêma Palûyê hat dinyayê, û bû yek ji şêxên mezin ên Nexşebendî.",
+        "ar": "وُلد عام 1865 للميلاد، الموافق 1281 للهجرة، في منطقة بالو، وصار واحدًا من كبار شيوخ الطريقة النقشبندية."
+      },
+      "ost": {
+        "ckb": [
+          "1865ی زایینی · 1281ی کۆچی",
+          "پالۆ"
+        ],
+        "kmr": [
+          "1865 · 1281 koçî",
+          "Palû"
+        ],
+        "ar": [
+          "1865م · 1281هـ",
+          "بالو"
+        ]
+      },
+      "visual": [
+        "Chapter card first (chapter title in large type on paper, number '1' in gold).",
+        "Animated map: zoom from the wider region down to Palu on the Murat river; a gold pin drops; the label writes itself on.",
+        "Cut to a landscape of the Palu valley (own/stock footage) with a slow pan."
+      ],
+      "assets": [
+        "A22",
+        "A09"
+      ],
+      "sfx": "Map whoosh, pin 'pop', pen scribble for the label.",
+      "facts": [
+        "F01",
+        "F02"
+      ],
+      "images": [
+        "assets/images/S04_Palu_Valley_Murat_River.jpg"
+      ]
+    },
+    {
+      "id": "S05",
+      "chapter": 2,
+      "kind": "tree",
+      "voice": "narrator",
+      "vo_en": "After his grandfather, Sheikh Ali, died, his father, Sheikh Mahmud Fawzi Efendi, left Palu for the town of Khinis. His mother was Merve Khan.",
+      "vo": {
+        "ckb": "دوای مردنی باپیرەی، شێخ عەلی، باوکی، شێخ مەحموود فەوزی ئەفەندی، پالۆی بەجێهێشت و ڕووی کردە شاری خنس. دایکیشی ناوی مەرڤە خان بوو.",
+        "kmr": "Piştî mirina bapîrê wî, Şêx Elî, bavê wî, Şêx Mehmûd Fewzî Efendî, Palû terk kir û çû bajarê Xinûsê. Navê diya wî jî Merve Xan bû.",
+        "ar": "بعد وفاة جدّه الشيخ علي، غادر والده الشيخ محمود فوزي أفندي بالو متوجّهًا إلى مدينة خنس. أما والدته فكان اسمها مروة خان."
+      },
+      "ost": {
+        "ckb": [
+          "شێخ عەلی · باپیرە",
+          "شێخ مەحموود فەوزی ئەفەندی · باوک",
+          "مەرڤە خان · دایک"
+        ],
+        "kmr": [
+          "Şêx Elî · bapîr",
+          "Şêx Mehmûd Fewzî Efendî · bav",
+          "Merve Xan · dayik"
+        ],
+        "ar": [
+          "الشيخ علي · الجد",
+          "الشيخ محمود فوزي أفندي · الأب",
+          "مروة خان · الأم"
+        ]
+      },
+      "visual": [
+        "Family tree drawn in ink on paper: three name cards connected by hand-drawn lines (no invented faces: use name cards only).",
+        "Then the map: an animated dotted line travels from Palu to Khinis (Hınıs)."
+      ],
+      "assets": [
+        "A22",
+        "A30"
+      ],
+      "sfx": "Pen drawing lines; soft whoosh on the route.",
+      "facts": [
+        "F02"
+      ],
+      "images": [
+        "assets/images/S04_Palu_Valley_Murat_River.jpg"
+      ]
+    },
+    {
+      "id": "S06",
+      "chapter": 2,
+      "kind": "photo",
+      "voice": "narrator",
+      "vo_en": "In Khinis he completed his religious studies. His standing as a sheikh, his intelligence and his ability soon drew the attention of a secret Kurdish society.",
+      "vo": {
+        "ckb": "لە خنس خوێندنی ئایینی تەواو کرد. پێگەی کۆمەڵایەتیی وەک شێخ، زیرەکی و لێهاتوویی، سەرنجی کۆمەڵەیەکی نهێنیی کوردی ڕاکێشا.",
+        "kmr": "Li Xinûsê xwendina xwe ya olî temam kir. Cihê wî yê civakî wek şêx, jîrî û jêhatîbûna wî, bala komeleyeke kurdî ya veşartî kişand.",
+        "ar": "في خنس أتمّ دراسته الدينية. ومكانته الاجتماعية شيخًا، وذكاؤه وكفاءته، لفتت انتباه جمعيةٍ كرديةٍ سرّية."
+      },
+      "ost": {
+        "ckb": [
+          "زانا · شێخ · سەرکردە"
+        ],
+        "kmr": [
+          "Zana · Şêx · Rêber"
+        ],
+        "ar": [
+          "عالِم · شيخ · قائد"
+        ]
+      },
+      "visual": [
+        "Archival portrait of Sheikh Said (turban, white beard) in 2.5D parallax; old manuscript pages and a Qur'an stand (generic, own footage) slide behind him as paper cut-outs.",
+        "The three words appear one by one, each with a gold highlighter stroke."
+      ],
+      "assets": [
+        "A01",
+        "A31"
+      ],
+      "sfx": "Page turns; soft highlighter squeak per word.",
+      "facts": [
+        "F03"
+      ],
+      "images": [
+        "assets/images/Sheikh_Said_Archival_Sepia_Portrait.jpg",
+        "assets/images/S06_Khinis_Plateau_Winter.jpg",
+        "assets/images/S06_Sheikh_Said_in_Khinis.jpg"
+      ]
+    },
+    {
+      "id": "S07",
+      "chapter": 3,
+      "kind": "montage",
+      "voice": "narrator",
+      "vo_en": "To understand his choice, we have to go further back. For centuries, the Kurds stood at the heart of the Islamic world.",
+      "vo": {
+        "ckb": "بۆ تێگەیشتن لە بڕیارەکەی، دەبێت زیاتر بگەڕێینەوە دواوە. بۆ چەندین سەدە، کورد لە دڵی جیهانی ئیسلامیدا بووە.",
+        "kmr": "Ji bo ku em biryara wî fêm bikin, divê em hîn bêtir vegerin paş. Bi sedsalan, Kurd di dilê cîhana îslamî de bûn.",
+        "ar": "ولكي نفهم قراره، علينا أن نعود إلى الوراء أكثر. فعلى مدى قرون، كان الكرد في قلب العالم الإسلامي."
+      },
+      "ost": {
+        "ckb": [
+          "کورد و ئوممەتی ئیسلامی"
+        ],
+        "kmr": [
+          "Kurd û ummeta îslamî"
+        ],
+        "ar": [
+          "الكرد والأمة الإسلامية"
+        ]
+      },
+      "visual": [
+        "Chapter card. Then a fast Vox 'rewind' effect: the calendar flips back through years on screen (1925 → 1187), paper-tear transition.",
+        "Montage of historic mosques and madrasas of Kurdistan and the region (e.g. Diyarbakır Great Mosque, Erbil citadel), slow pans."
+      ],
+      "assets": [
+        "A23",
+        "A07"
+      ],
+      "sfx": "Rewind whoosh with clock ticks; then a daf hit.",
+      "facts": [
+        "F04"
+      ],
+      "images": []
+    },
+    {
+      "id": "S08",
+      "chapter": 3,
+      "kind": "montage",
+      "voice": "narrator",
+      "vo_en": "It was a Kurd, Salahuddin al-Ayyubi, who liberated Jerusalem in 1187.",
+      "vo": {
+        "ckb": "کوردێک بوو، سەلاحەدینی ئەیووبی، کە لە ساڵی 1187دا قودسی ئازاد کرد.",
+        "kmr": "Kurdek bû, Selahedînê Eyûbî, ku di sala 1187an de Qudsê azad kir.",
+        "ar": "كان كرديًّا، صلاح الدين الأيوبي، من حرّر القدس عام 1187."
+      },
+      "ost": {
+        "ckb": [
+          "سەلاحەدینی ئەیووبی",
+          "قودس · 1187"
+        ],
+        "kmr": [
+          "Selahedînê Eyûbî",
+          "Quds · 1187"
+        ],
+        "ar": [
+          "صلاح الدين الأيوبي",
+          "القدس · 1187"
+        ]
+      },
+      "visual": [
+        "The Salahuddin statue in Damascus (photo) and the Dome of the Rock / Al-Aqsa (photo), cut out on paper; gold circle drawn around the name.",
+        "A thin animated line on a small inset map connects Tikrit (his birthplace) to Jerusalem."
+      ],
+      "assets": [
+        "A10"
+      ],
+      "sfx": "Daf hit on 'Jerusalem'; low strings swell.",
+      "facts": [
+        "F04"
+      ],
+      "images": [
+        "assets/images/S08_Salahuddin_al-Ayyubi.jpg"
+      ]
+    },
+    {
+      "id": "S09",
+      "chapter": 3,
+      "kind": "photo",
+      "voice": "narrator",
+      "vo_en": "In the First World War, Kurds fought beside Turks, from Gallipoli to the War of Independence, as brothers in one Muslim ummah.",
+      "vo": {
+        "ckb": "لە جەنگی یەکەمی جیهانیشدا، کورد شان بە شانی تورک جەنگا، لە چاناقەڵاوە تا جەنگی سەربەخۆیی، وەک برا لە یەک ئوممەتی موسوڵماندا.",
+        "kmr": "Di Şerê Cîhanê yê Yekem de jî, Kurdan mil bi milê Tirkan şer kir, ji Çanakkaleyê heta Şerê Serxwebûnê, wek bira di yek ummeta misilman de.",
+        "ar": "وفي الحرب العالمية الأولى، قاتل الكرد جنبًا إلى جنب مع الترك، من جناق قلعة إلى حرب الاستقلال، إخوةً في أمةٍ مسلمةٍ واحدة."
+      },
+      "ost": {
+        "ckb": [
+          "چاناقەڵا · 1915",
+          "جەنگی سەربەخۆیی · 1919–1922"
+        ],
+        "kmr": [
+          "Çanakkale · 1915",
+          "Şerê Serxwebûnê · 1919–1922"
+        ],
+        "ar": [
+          "جناق قلعة · 1915",
+          "حرب الاستقلال · 1919–1922"
+        ]
+      },
+      "visual": [
+        "Archival public-domain photos of Ottoman soldiers at Gallipoli 1915, sepia, Ken Burns move; two photos slide together as if 'side by side'.",
+        "A simple animated timeline bar along the bottom: 1915 → 1919 → 1922, with gold ticks."
+      ],
+      "assets": [
+        "A11"
+      ],
+      "sfx": "Distant marching drums (soft), paper slide.",
+      "facts": [
+        "F05"
+      ],
+      "images": [
+        "assets/images/Ottoman_Soldiers_at_Gallipoli_1915.jpg"
+      ]
+    },
+    {
+      "id": "S10",
+      "chapter": 3,
+      "kind": "map",
+      "voice": "narrator",
+      "vo_en": "In 1920, the Treaty of Sèvres even promised the Kurds local autonomy, and a path to independence.",
+      "vo": {
+        "ckb": "لە ساڵی 1920دا، پەیماننامەی سیڤەر تەنانەت بەڵێنی ئۆتۆنۆمیی ناوچەیی و ڕێگەیەک بەرەو سەربەخۆیی بە کورد دا.",
+        "kmr": "Di sala 1920an de, Peymana Sêvrê heta soza xweseriya herêmî û rêyeke ber bi serxwebûnê ve da Kurdan.",
+        "ar": "وفي عام 1920، وعدت معاهدة سيفر الكردَ بحكمٍ ذاتيّ محلّي، وبطريقٍ نحو الاستقلال."
+      },
+      "ost": {
+        "ckb": [
+          "سیڤەر · 1920",
+          "ماددەکانی 62–64"
+        ],
+        "kmr": [
+          "Sêvr · 1920",
+          "Madeyên 62–64"
+        ],
+        "ar": [
+          "سيفر · 1920",
+          "المواد 62–64"
+        ]
+      },
+      "visual": [
+        "The historic Treaty of Sèvres map (public domain): the Kurdish area fills in with a soft gold tint; Articles 62–64 of the treaty text appear as a scanned document with highlighter strokes."
+      ],
+      "assets": [
+        "A12"
+      ],
+      "sfx": "Map unfold rustle; highlighter squeak.",
+      "facts": [
+        "F06"
+      ],
+      "images": []
+    },
+    {
+      "id": "S11",
+      "chapter": 4,
+      "kind": "doc",
+      "voice": "narrator",
+      "vo_en": "But in 1923, the Treaty of Lausanne buried that promise, and with it, the rights of the Kurds in Turkey.",
+      "vo": {
+        "ckb": "بەڵام لە ساڵی 1923دا، پەیمانی لۆزان ئەو بەڵێنەی ناشت، و لەگەڵیدا مافەکانی گەلی کورد لە تورکیا.",
+        "kmr": "Lê di sala 1923an de, Peymana Lozanê ew soz veşart, û pê re mafên gelê kurd li Tirkiyeyê.",
+        "ar": "لكن في عام 1923، دفنت معاهدة لوزان ذلك الوعد، ودفنت معه حقوق الشعب الكردي في تركيا."
+      },
+      "ost": {
+        "ckb": [
+          "لۆزان · 24ی تەممووزی 1923"
+        ],
+        "kmr": [
+          "Lozan · 24ê Tîrmeha 1923an"
+        ],
+        "ar": [
+          "لوزان · 24 تموز 1923"
+        ]
+      },
+      "visual": [
+        "Chapter card. Archival photo of the Lausanne Conference delegates (public domain).",
+        "The gold Kurdish tint from S10's map drains away; the Sèvres map tears in two (paper-tear effect)."
+      ],
+      "assets": [
+        "A13",
+        "A12"
+      ],
+      "sfx": "Paper tear on 'buried'; low brass note.",
+      "facts": [
+        "F07"
+      ],
+      "images": []
+    },
+    {
+      "id": "S12",
+      "chapter": 4,
+      "kind": "doc",
+      "voice": "narrator",
+      "vo_en": "In March 1924, Ankara abolished the Caliphate, the last bond that tied the Muslims of the region together.",
+      "vo": {
+        "ckb": "لە ئازاری 1924دا، ئەنقەرە خیلافەتی هەڵوەشاندەوە، دوایین پەیوەندی کە موسوڵمانانی ناوچەکەی پێکەوە دەبەستەوە.",
+        "kmr": "Di Adara 1924an de, Enqereyê Xîlafet betal kir, ew girêka dawî ya ku misilmanên herêmê bi hev ve girê dida.",
+        "ar": "وفي آذار 1924، ألغت أنقرة الخلافة، آخرَ رابطةٍ كانت تجمع مسلمي المنطقة."
+      },
+      "ost": {
+        "ckb": [
+          "3ی ئازاری 1924",
+          "هەڵوەشاندنەوەی خیلافەت"
+        ],
+        "kmr": [
+          "3ê Adara 1924an",
+          "Betalkirina Xîlafetê"
+        ],
+        "ar": [
+          "3 آذار 1924",
+          "إلغاء الخلافة"
+        ]
+      },
+      "visual": [
+        "A 1924 newspaper front page (public domain scan) announcing the abolition, pushed in; the headline is circled in red ink.",
+        "A string/thread graphic connecting cities snaps."
+      ],
+      "assets": [
+        "A14"
+      ],
+      "sfx": "Thread snap; newspaper rustle.",
+      "facts": [
+        "F08"
+      ],
+      "images": []
+    },
+    {
+      "id": "S13",
+      "chapter": 4,
+      "kind": "doc",
+      "voice": "narrator",
+      "vo_en": "The new constitution recognised only one nation: the Turks. Every other people was counted as Turkish, and the Kurds would later even be called 'Mountain Turks'.",
+      "vo": {
+        "ckb": "دەستووری نوێ تەنها دانی بە یەک نەتەوەدا نا: تورک. نەتەوەکانی تر هەموو بە تورک دانران، و دواتر تەنانەت ناویان لە کورد نا «تورکی چیایی».",
+        "kmr": "Destûra nû tenê yek netewe nas kir: Tirk. Hemû gelên din wek Tirk hatin hesibandin, û paşê heta navê Kurdan kirin «Tirkên Çiyayî».",
+        "ar": "اعترف الدستور الجديد بأمةٍ واحدةٍ فقط: الترك. وعُدّت سائر الشعوب تركًا، بل سُمّي الكرد لاحقًا «أتراك الجبال»."
+      },
+      "ost": {
+        "ckb": [
+          "یەک نەتەوە",
+          "«تورکی چیایی»"
+        ],
+        "kmr": [
+          "Yek netewe",
+          "«Tirkên Çiyayî»"
+        ],
+        "ar": [
+          "أمة واحدة",
+          "«أتراك الجبال»"
+        ]
+      },
+      "visual": [
+        "Kinetic typography: many small labels (Kurd, Arab, Circassian, Laz...) on paper; a big rubber stamp comes down and they all turn into one word. Then the phrase 'Mountain Turks' in quotation marks, crossed out by hand in red."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "Rubber stamp thud; marker strike-through.",
+      "facts": [
+        "F09"
+      ],
+      "images": []
+    },
+    {
+      "id": "S14",
+      "chapter": 4,
+      "kind": "doc",
+      "voice": "narrator",
+      "vo_en": "Turkish became the only official language. Kurdish was banned, along with every Kurdish school, society and magazine.",
+      "vo": {
+        "ckb": "زمانی تورکی کرا بە تاکە زمانی فەرمی. زمانی کوردی قەدەغە کرا، لەگەڵ هەموو قوتابخانە و ڕێکخراو و گۆڤارێکی کوردی.",
+        "kmr": "Zimanê tirkî bû tenê zimanê fermî. Zimanê kurdî hate qedexekirin, ligel hemû dibistan, rêxistin û kovarên kurdî.",
+        "ar": "صارت التركية اللغةَ الرسمية الوحيدة. وحُظرت اللغة الكردية، ومعها كلّ مدرسةٍ وجمعيةٍ ومجلةٍ كردية."
+      },
+      "ost": {
+        "ckb": [
+          "زمانی کوردی: قەدەغە",
+          "قوتابخانە · ڕێکخراو · گۆڤار"
+        ],
+        "kmr": [
+          "Zimanê kurdî: qedexe",
+          "Dibistan · Rêxistin · Kovar"
+        ],
+        "ar": [
+          "اللغة الكردية: محظورة",
+          "مدارس · جمعيات · مجلات"
+        ]
+      },
+      "visual": [
+        "Archival Kurdish periodicals of the era (e.g. covers of early Kurdish magazines, public domain scans) slide in, then each is closed with a padlock icon drawn in ink.",
+        "A school door (own/stock footage) closes in shadow."
+      ],
+      "assets": [
+        "A24"
+      ],
+      "sfx": "Three padlock clicks, one per item.",
+      "facts": [
+        "F09"
+      ],
+      "images": []
+    },
+    {
+      "id": "S15",
+      "chapter": 4,
+      "kind": "map",
+      "voice": "narrator",
+      "vo_en": "Kurds were driven from the lands of their fathers to western Anatolia, and Turks were settled in their place. Kurdish leaders and activists were arrested, exiled and killed.",
+      "vo": {
+        "ckb": "کورد لە زەوی باب و باپیرانیان ڕاگوێزران بۆ ڕۆژئاوای ئەنادۆڵ، و تورک لە شوێنیان نیشتەجێ کران. سەرکردە و تێکۆشەرانی کورد گیران، دوورخرانەوە و کوژران.",
+        "kmr": "Kurd ji erdê bav û kalên xwe ber bi rojavayê Anatolyayê ve hatin koçberkirin, û Tirk li şûna wan hatin bicihkirin. Rêber û têkoşerên kurd hatin girtin, sirgûnkirin û kuştin.",
+        "ar": "هُجّر الكرد من أرض آبائهم وأجدادهم إلى غرب الأناضول، وتوطّن الترك مكانهم. واعتُقل قادة الكرد وناشطوهم، ونُفوا، وقُتلوا."
+      },
+      "ost": {
+        "ckb": [
+          "ڕاگواستن · گرتن · دوورخستنەوە · کوشتن"
+        ],
+        "kmr": [
+          "Koçberkirin · Girtin · Sirgûn · Kuştin"
+        ],
+        "ar": [
+          "تهجير · اعتقال · نفي · قتل"
+        ]
+      },
+      "visual": [
+        "Map: many small arrows flow from the east to western Anatolia while other arrows flow in; dots representing villages dim.",
+        "Then four words stamp on, one by one, in red ink."
+      ],
+      "assets": [
+        "A22"
+      ],
+      "sfx": "Low rumble under the arrows; four stamp thuds.",
+      "facts": [
+        "F10"
+      ],
+      "images": []
+    },
+    {
+      "id": "S16",
+      "chapter": 4,
+      "kind": "photo",
+      "voice": "narrator",
+      "vo_en": "The best farmland was taken from Kurds and given to Turks. Kurdish farmers were left without land or work, and a great famine spread across Kurdistan.",
+      "vo": {
+        "ckb": "باشترین زەوییە کشتوکاڵییەکانی کورد داگیر کران و درانە تورک. جووتیارانی کورد بێ زەوی و بێکار مانەوە، و گرانییەکی گەورە لە کوردستان پەیدا بوو.",
+        "kmr": "Erdên çandiniyê yên herî baş ên Kurdan hatin desteserkirin û ji Tirkan re hatin dayîn. Cotkarên kurd bê erd û bê kar man, û xelayeke mezin li Kurdistanê derket.",
+        "ar": "صودرت أفضل الأراضي الزراعية للكرد ومُنحت للترك. فبقي الفلاحون الكرد بلا أرضٍ ولا عمل، وحلّت بكردستان مجاعةٌ كبيرة."
+      },
+      "ost": {
+        "ckb": [
+          "زەوی داگیرکرا",
+          "گرانی"
+        ],
+        "kmr": [
+          "Erd hate desteserkirin",
+          "Xela"
+        ],
+        "ar": [
+          "مصادرة الأراضي",
+          "مجاعة"
+        ]
+      },
+      "visual": [
+        "Archival photos of Kurdish farmers / wheat fields of the era (public domain), desaturated; a hand-drawn boundary line cuts the field and the colour drains from one side."
+      ],
+      "assets": [
+        "A25"
+      ],
+      "sfx": "Wind over fields; empty bowl/wooden sound, sparse.",
+      "facts": [
+        "F11"
+      ],
+      "images": []
+    },
+    {
+      "id": "S17",
+      "chapter": 4,
+      "kind": "map",
+      "voice": "narrator",
+      "vo_en": "Large numbers of Turkish soldiers were sent to cut this part of Kurdistan off from trade with its other parts, while heavy taxes and levies were laid on its people.",
+      "vo": {
+        "ckb": "ژمارەیەکی زۆر سەربازی تورک ڕەوانەی کوردستان کران، بۆ ئەوەی پەیوەندیی بازرگانیی ئەم پارچەیە لەگەڵ پارچەکانی تری کوردستان بپچڕێنن، و باج و سەرانەیەکی قورسیش خرایە سەر خەڵکەکەی.",
+        "kmr": "Hejmareke mezin a leşkerên tirk şandin Kurdistanê, da ku têkiliyên bazirganî yên vê parçeyê bi parçeyên din ên Kurdistanê re qut bikin, û bac û xercên giran jî danîn ser gelê wê.",
+        "ar": "وأُرسل عددٌ كبيرٌ من الجنود الترك إلى كردستان لقطع الروابط التجارية بين هذا الجزء وسائر أجزائها، وفُرضت على أهلها ضرائبُ وجباياتٌ ثقيلة."
+      },
+      "ost": {
+        "ckb": [
+          "بازرگانی پچڕێنرا",
+          "باجی قورس"
+        ],
+        "kmr": [
+          "Bazirganî hate qutkirin",
+          "Bacên giran"
+        ],
+        "ar": [
+          "قطع التجارة",
+          "ضرائب ثقيلة"
+        ]
+      },
+      "visual": [
+        "Map: trade routes drawn as dotted gold lines between parts of Kurdistan get cut by red barrier marks; a tax ledger (generic, illustrative) stamps over the bottom of the frame."
+      ],
+      "assets": [
+        "A22"
+      ],
+      "sfx": "Scissor snips on each route; ledger stamp.",
+      "facts": [
+        "F11"
+      ],
+      "images": []
+    },
+    {
+      "id": "S18",
+      "chapter": 5,
+      "kind": "doc",
+      "voice": "narrator",
+      "vo_en": "Resistance was organised in secret, by Azadi, the Kurdish Independence Society. The society built direct ties with Sheikh Said.",
+      "vo": {
+        "ckb": "بەرگری بە نهێنی ڕێکخرا، لەلایەن کۆمەڵەی سەرخۆبوون، ئازادی. کۆمەڵەکە پەیوەندییەکی ڕاستەوخۆی لەگەڵ شێخ سەعید دامەزراند.",
+        "kmr": "Berxwedan bi dizî hate birêxistinkirin, ji aliyê Civata Serxwebûnê, Azadî. Civatê têkiliyeke rasterast bi Şêx Seîd re danî.",
+        "ar": "نُظّمت المقاومة سرًّا، على يد جمعية الاستقلال الكردية، «آزادي». وأقامت الجمعية صلةً مباشرةً مع الشيخ سعيد."
+      },
+      "ost": {
+        "ckb": [
+          "کۆمەڵەی سەرخۆبوون (ئازادی)"
+        ],
+        "kmr": [
+          "Civata Serxwebûnê (Azadî)"
+        ],
+        "ar": [
+          "جمعية الاستقلال (آزادي)"
+        ]
+      },
+      "visual": [
+        "Chapter card. A dark 'case board': pinned paper notes and string (Vox investigation style). The society's name is typed on a card and pinned; a red string runs to Sheikh Said's portrait."
+      ],
+      "assets": [
+        "A01",
+        "A30"
+      ],
+      "sfx": "Pin pushes into cork; string pull.",
+      "facts": [
+        "F03",
+        "F12"
+      ],
+      "images": [
+        "assets/images/Sheikh_Said_Archival_Sepia_Portrait.jpg"
+      ]
+    },
+    {
+      "id": "S19",
+      "chapter": 5,
+      "kind": "map",
+      "voice": "narrator",
+      "vo_en": "At the end of summer 1923, Yusuf Ziya, a leader of the Kurdish movement and a former deputy for Bitlis in the Turkish parliament, came to Khinis. He and Sheikh Said agreed to launch a new revolt.",
+      "vo": {
+        "ckb": "لە کۆتایی هاوینی 1923دا، یووسف زیا، سەرکردەیەکی بزووتنەوەی کورد و نوێنەری پێشووی بەتلیس لە پەرلەمانی تورکیا، چوو بۆ خنس. لەگەڵ شێخ سەعید ڕێککەوتن کە شۆڕشێکی نوێ هەڵبگیرسێنن.",
+        "kmr": "Di dawiya havîna 1923an de, Yûsif Ziya, rêberekî tevgera kurd û nûnerê berê yê Bedlîsê di parlamentoya Tirkiyeyê de, çû Xinûsê. Ew û Şêx Seîd li hev kirin ku serhildaneke nû dest pê bikin.",
+        "ar": "في أواخر صيف 1923، توجّه يوسف ضياء، أحد قادة الحركة الكردية والنائب السابق عن بدليس في البرلمان التركي، إلى خنس. واتفق مع الشيخ سعيد على إشعال ثورةٍ جديدة."
+      },
+      "ost": {
+        "ckb": [
+          "هاوینی 1923",
+          "یووسف زیا بۆ خنس"
+        ],
+        "kmr": [
+          "Havîna 1923an",
+          "Yûsif Ziya → Xinûs"
+        ],
+        "ar": [
+          "صيف 1923",
+          "يوسف ضياء إلى خنس"
+        ]
+      },
+      "visual": [
+        "Map: an animated route from Bitlis to Khinis; a name card for Yusuf Ziya pins onto the case board next to Sheikh Said; the two cards are joined with a gold string (agreement)."
+      ],
+      "assets": [
+        "A22",
+        "A30"
+      ],
+      "sfx": "Footsteps-on-gravel texture under the route; handshake-like soft thump.",
+      "facts": [
+        "F12"
+      ],
+      "images": [
+        "assets/images/Yusuf_Ziya_Bey_Portrait.jpg"
+      ]
+    },
+    {
+      "id": "S20",
+      "chapter": 5,
+      "kind": "photo",
+      "voice": "narrator",
+      "vo_en": "In the winter of 1923 to 1924, tribal leaders and members of the society held a broad meeting in Palu, to spread the secret movement and prepare a new uprising for the independence of Kurdistan.",
+      "vo": {
+        "ckb": "لە زستانی 1923 تا 1924، سەرۆک هۆزەکان و ئەندامانی کۆمەڵەکە لە ناوچەی پالۆ کۆبوونەوەیەکی فراوانیان بەست، بۆ فراوانکردنی بزووتنەوە نهێنییەکە و خۆئامادەکردن بۆ ڕاپەڕینێکی نوێ بۆ سەربەخۆیی کوردستان.",
+        "kmr": "Di zivistana 1923–1924an de, serokên eşîran û endamên Civatê li herêma Palûyê civîneke fireh li dar xistin, ji bo berfirehkirina tevgera veşartî û amadekariya serhildaneke nû ji bo serxwebûna Kurdistanê.",
+        "ar": "وفي شتاء 1923–1924، عقد رؤساء العشائر وأعضاء الجمعية اجتماعًا موسّعًا في منطقة بالو، لتوسيع الحركة السرية والاستعداد لانتفاضةٍ جديدة من أجل استقلال كردستان."
+      },
+      "ost": {
+        "ckb": [
+          "زستانی 1923–1924",
+          "کۆبوونەوەی پالۆ"
+        ],
+        "kmr": [
+          "Zivistana 1923–1924",
+          "Civîna Palûyê"
+        ],
+        "ar": [
+          "شتاء 1923–1924",
+          "اجتماع بالو"
+        ]
+      },
+      "visual": [
+        "The archival group photo of Sheikh Said with companions (from the article, PDF page 5) in 2.5D parallax, snow particles drifting; a lamp-light flicker grade."
+      ],
+      "assets": [
+        "A03"
+      ],
+      "sfx": "Winter wind; low murmur of a room; a fire crackle.",
+      "facts": [
+        "F13"
+      ],
+      "images": [
+        "assets/images/Sheikh_Said_Group_Photo.jpg"
+      ]
+    },
+    {
+      "id": "S21",
+      "chapter": 5,
+      "kind": "doc",
+      "voice": "narrator",
+      "vo_en": "The work had wide support from Sheikh Mahmud Hafid and Simko Shikak, and it was decided to send a memorandum on the national rights of the Kurds to the League of Nations.",
+      "vo": {
+        "ckb": "ئەم کارە یارمەتییەکی بەرفراوانی شێخ مەحموودی حەفید و سمکۆی شکاکی لەگەڵ بوو، و بڕیار درا یادداشتێک دەربارەی مافە نەتەوەییەکانی کورد بۆ کۆمەڵەی نەتەوەکان بنێردرێت.",
+        "kmr": "Ev kar bi alîkariyeke fireh a Şêx Mehmûdê Hefîd û Simkoyê Şikak hate kirin, û biryar hate dayîn ku bîranînameyek li ser mafên neteweyî yên Kurdan ji Komela Miletan re bê şandin.",
+        "ar": "وقد حظي هذا العمل بدعمٍ واسعٍ من الشيخ محمود الحفيد وسمكو الشكاكي، وتقرّر إرسال مذكرةٍ بشأن الحقوق القومية للكرد إلى عصبة الأمم."
+      },
+      "ost": {
+        "ckb": [
+          "شێخ مەحموودی حەفید · سمکۆی شکاک",
+          "یادداشت بۆ کۆمەڵەی نەتەوەکان"
+        ],
+        "kmr": [
+          "Şêx Mehmûdê Hefîd · Simkoyê Şikak",
+          "Bîranîname ji Komela Miletan re"
+        ],
+        "ar": [
+          "الشيخ محمود الحفيد · سمكو الشكاكي",
+          "مذكرة إلى عصبة الأمم"
+        ]
+      },
+      "visual": [
+        "Two archival portraits (public domain) of Sheikh Mahmud Hafid and Simko Shikak pin onto the case board.",
+        "Then an envelope stamps and flies across a map toward Geneva; archival photo of the League of Nations building."
+      ],
+      "assets": [
+        "A18",
+        "A16"
+      ],
+      "sfx": "Envelope whoosh; wax-seal thud.",
+      "facts": [
+        "F14"
+      ],
+      "images": [
+        "assets/images/Sheikh_Mahmud_Hafid_Portrait.jpg",
+        "assets/images/Simko_Shikak_Portrait.jpg"
+      ]
+    },
+    {
+      "id": "S22",
+      "chapter": 5,
+      "kind": "map",
+      "voice": "narrator",
+      "vo_en": "After he was elected head of the society, Sheikh Said chose armed struggle, but he wanted the decision to carry the mark of all Kurdistan. So he sent his son, Ali Riza, to Amed and Aleppo, to learn the views of Kurdish leaders in the west, south and east.",
+      "vo": {
+        "ckb": "دوای ئەوەی شێخ سەعید کرا بە سەرۆکی کۆمەڵەکە، بڕیاری بزووتنەوەی چەکداری دا، بەڵام دەیویست بڕیارەکە مۆرکی هەموو کوردستانی پێوە بێت. بۆیە کوڕەکەی، عەلی ڕەزا، نارد بۆ ئامەد و حەلەب، بۆ زانینی ڕای سەرکردە کوردەکانی ڕۆژئاوا، باشوور و ڕۆژهەڵات.",
+        "kmr": "Piştî ku Şêx Seîd bû serokê Civatê, biryara tevgera çekdarî da, lê dixwest biryar mohra hemû Kurdistanê li ser be. Loma kurê xwe, Elî Riza, şand Amed û Helebê, da ku nêrînên rêberên kurd ên rojava, başûr û rojhilat bizane.",
+        "ar": "بعد انتخاب الشيخ سعيد رئيسًا للجمعية، قرّر خوض الحراك المسلّح، لكنه أراد أن يحمل القرار بصمة كردستان كلّها. فأرسل ابنه علي رضا إلى آمد وحلب، لاستطلاع آراء القادة الكرد في الغرب والجنوب والشرق."
+      },
+      "ost": {
+        "ckb": [
+          "عەلی ڕەزا",
+          "ئامەد · حەلەب"
+        ],
+        "kmr": [
+          "Elî Riza",
+          "Amed · Heleb"
+        ],
+        "ar": [
+          "علي رضا",
+          "آمد · حلب"
+        ]
+      },
+      "visual": [
+        "Map: from Khinis, two animated routes go to Amed and Aleppo; compass labels (west, south, east) light up in turn.",
+        "Archival photo of Aleppo citadel (public domain) slides in at the end of the route."
+      ],
+      "assets": [
+        "A22",
+        "A17"
+      ],
+      "sfx": "Horse trot (soft) under the routes; map pin pops.",
+      "facts": [
+        "F15"
+      ],
+      "images": [
+        "assets/images/S22_Ali_Riza.jpg"
+      ]
+    },
+    {
+      "id": "S23",
+      "chapter": 5,
+      "kind": "title",
+      "voice": "narrator",
+      "vo_en": "After a large meeting in Aleppo, they all agreed that the national rights of the Kurds would not be won without an armed uprising. The 21st of March 1925, Newroz, was set as the first day.",
+      "vo": {
+        "ckb": "دوای کۆبوونەوەیەکی گەورە لە حەلەب، هەموو گەیشتنە ئەو باوەڕەی کە مافی نەتەوەیی کورد بەبێ شۆڕشێکی چەکدارانە مسۆگەر ناکرێت. ڕۆژی 21ی ئازاری 1925، ڕۆژی نەورۆز، کرا بە یەکەم ڕۆژی ڕاپەڕین.",
+        "kmr": "Piştî civîneke mezin li Helebê, hemû gihîştin wê baweriyê ku mafê neteweyî yê Kurdan bêyî serhildaneke çekdarî nayê misogerkirin. Roja 21ê Adara 1925an, roja Newrozê, wek roja yekem a serhildanê hate diyarkirin.",
+        "ar": "بعد اجتماعٍ كبيرٍ في حلب، اتفق الجميع على أن الحقوق القومية للكرد لا تُنال إلا بثورةٍ مسلّحة. وحُدّد يوم 21 آذار 1925، يوم نوروز، أولَ أيام الانتفاضة."
+      },
+      "ost": {
+        "ckb": [
+          "21ی ئازاری 1925",
+          "ڕۆژی یەکەم"
+        ],
+        "kmr": [
+          "21ê Adara 1925an",
+          "Roja yekem"
+        ],
+        "ar": [
+          "21 آذار 1925",
+          "اليوم الأول"
+        ]
+      },
+      "visual": [
+        "A paper wall calendar for March 1925; '21' is circled in gold ink; a small flame graphic (Newroz) flickers beside it."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "Pen circle; soft fire crackle.",
+      "facts": [
+        "F15"
+      ],
+      "images": [
+        "assets/images/S23_March_1925_Calendar_21_Circled_ckb.jpg",
+        "assets/images/S23_March_1925_Calendar_21_Circled_kmr.jpg",
+        "assets/images/S23_March_1925_Calendar_21_Circled_ar.jpg"
+      ]
+    },
+    {
+      "id": "S24",
+      "chapter": 5,
+      "kind": "map",
+      "voice": "narrator",
+      "vo_en": "In the second half of January 1925, Sheikh Said toured most regions of Kurdistan, and in every region, crowds of supporters and friends came to him.",
+      "vo": {
+        "ckb": "لە نیوەی دووەمی کانوونی دووەمی 1925دا، شێخ سەعید گەشتێکی بە زۆربەی ناوچەکانی کوردستاندا کرد، و لە هەر ناوچەیەک، لایەنگر و دۆست بە کۆمەڵ ڕوویان تێدەکرد.",
+        "kmr": "Di nîvê duyem ê Çileya 1925an de, Şêx Seîd li piraniya herêmên Kurdistanê geriya, û li her herêmê, alîgir û dostan bi kom berê xwe didan wî.",
+        "ar": "وفي النصف الثاني من كانون الثاني 1925، جال الشيخ سعيد في معظم مناطق كردستان، وفي كل منطقةٍ كان الأنصار والأصدقاء يتوافدون إليه جماعات."
+      },
+      "ost": {
+        "ckb": [
+          "کانوونی دووەمی 1925",
+          "گەشت بە کوردستاندا"
+        ],
+        "kmr": [
+          "Çileya 1925an",
+          "Gera Kurdistanê"
+        ],
+        "ar": [
+          "كانون الثاني 1925",
+          "جولة في كردستان"
+        ]
+      },
+      "visual": [
+        "Map: a gold route loops through many towns; at each stop small dots multiply around the pin (supporters gathering).",
+        "Short insert: the painted image of the Sheikh on horseback with riders (from the article, PDF page 7), labelled as an illustration."
+      ],
+      "assets": [
+        "A22",
+        "A06"
+      ],
+      "sfx": "Horse hooves in snow; crowd murmur rising at each stop.",
+      "facts": [
+        "F16"
+      ],
+      "images": [
+        "assets/images/Sheikh_Said_Painting_on_Horseback.jpg",
+        "assets/images/S24_Sheikh_Said_on_Tour.jpg"
+      ]
+    },
+    {
+      "id": "S25",
+      "chapter": 5,
+      "kind": "map",
+      "voice": "narrator",
+      "vo_en": "On the 5th of February 1925, he left Khinis with a hundred horsemen, heading for the village of Piran and the house of his brother, Sheikh Abdulrahim.",
+      "vo": {
+        "ckb": "لە 5ی شوباتی 1925دا، لەگەڵ سەد سوارە خنسی بەجێهێشت، بەرەو گوندی پیران، بۆ ماڵی براکەی، شێخ عەبدولڕەحیم.",
+        "kmr": "Di 5ê Sibata 1925an de, bi sed siwaran ve ji Xinûsê derket, ber bi gundê Pîranê ve, ber bi mala birayê xwe, Şêx Ebdurrehîm.",
+        "ar": "في 5 شباط 1925، غادر خنس مع مئة فارس، متجهًا إلى قرية بيران، إلى بيت أخيه الشيخ عبد الرحيم."
+      },
+      "ost": {
+        "ckb": [
+          "5ی شوباتی 1925",
+          "100 سوارە بەرەو پیران"
+        ],
+        "kmr": [
+          "5ê Sibata 1925an",
+          "100 siwar → Pîran"
+        ],
+        "ar": [
+          "5 شباط 1925",
+          "100 فارس نحو بيران"
+        ]
+      },
+      "visual": [
+        "Map: one route Khinis → Piran; a counter '100' ticks up beside a small horse icon.",
+        "Winter landscape of the region (own/stock footage), riders silhouetted far away (no faces)."
+      ],
+      "assets": [
+        "A22",
+        "A09"
+      ],
+      "sfx": "Gallop of a group of horses, snow crunch, wind.",
+      "facts": [
+        "F16"
+      ],
+      "images": [
+        "assets/images/S25_Leaving_Khinis_with_100_Riders.jpg",
+        "assets/images/S25_Snowy_Plateau_Village.jpg",
+        "assets/images/S25-S26_Sheikh_Abdulrahims_House.jpg"
+      ]
+    },
+    {
+      "id": "S26",
+      "chapter": 6,
+      "kind": "doc",
+      "voice": "narrator",
+      "vo_en": "That same night, a Turkish detachment led by Husni Efendi and Mustafa Alim arrived to arrest several of the villagers.",
+      "vo": {
+        "ckb": "هەر لەو شەوەدا، مەفرەزەیەکی سوپای تورک بە سەرۆکایەتیی حوسنی ئەفەندی و مستەفا عالیم گەیشتن، بۆ گرتنی چەند کەسێک لە گوندنشینەکان.",
+        "kmr": "Hema wê şevê, mefrezeyeke artêşa tirk bi serokatiya Husnî Efendî û Mistefa Alîm hat, da ku çend gundiyan bigire.",
+        "ar": "وفي الليلة نفسها، وصلت مفرزةٌ من الجيش التركي بقيادة حسني أفندي ومصطفى عالم، لاعتقال عددٍ من أهالي القرية."
+      },
+      "ost": {
+        "ckb": [
+          "حوسنی ئەفەندی · مستەفا عالیم"
+        ],
+        "kmr": [
+          "Husnî Efendî · Mistefa Alîm"
+        ],
+        "ar": [
+          "حسني أفندي · مصطفى عالم"
+        ]
+      },
+      "visual": [
+        "Chapter card. Night village (illustrative, own footage of a mountain village at night) with lantern light; two typed name cards slide in."
+      ],
+      "assets": [
+        "A26"
+      ],
+      "sfx": "Night insects, dogs barking far away, boots on gravel.",
+      "facts": [
+        "F17"
+      ],
+      "images": [
+        "assets/images/S25-S26_Sheikh_Abdulrahims_House.jpg",
+        "assets/images/S26_Husni_Efendi_Mustafa_Alim_Detachment.jpg"
+      ]
+    },
+    {
+      "id": "S27",
+      "chapter": 6,
+      "kind": "doc",
+      "voice": "narrator",
+      "vo_en": "Sheikh Said refused to let anyone be taken. Both sides took positions. After the shooting, several soldiers of the detachment were dead and the rest were taken prisoner.",
+      "vo": {
+        "ckb": "شێخ سەعید ڕازی نەبوو کەس بگیرێت. هەردوولا سەنگەریان گرت. دوای شەڕ و تەقەکردن، چەند کەسێک لە مەفرەزەکە کوژران و ئەوانی تریش بە دیل گیران.",
+        "kmr": "Şêx Seîd qebûl nekir ku kes bê girtin. Herdu alî ketin sengeran. Piştî şer û teqê, çend leşkerên mefrezeyê hatin kuştin û yên din jî dîl hatin girtin.",
+        "ar": "رفض الشيخ سعيد أن يُعتقل أحد. فتحصّن الطرفان. وبعد قتالٍ وإطلاق نار، قُتل عددٌ من أفراد المفرزة وأُسر الباقون."
+      },
+      "ost": {
+        "ckb": [
+          "ڕازی نەبوو کەس بگیرێت"
+        ],
+        "kmr": [
+          "Qebûl nekir kes bê girtin"
+        ],
+        "ar": [
+          "رفض تسليم أحد"
+        ]
+      },
+      "visual": [
+        "Abstract, non-graphic: muzzle flashes as quick light flickers on dark paper; ink splatter animates across the frame; no bodies, no blood."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "A few distant rifle shots (low in the mix), then sudden silence.",
+      "facts": [
+        "F17"
+      ],
+      "images": [
+        "assets/images/S27_The_Piran_Night.jpg"
+      ]
+    },
+    {
+      "id": "S28",
+      "chapter": 6,
+      "kind": "map",
+      "voice": "narrator",
+      "vo_en": "The clash lit the revolt before its time. When his brother, Sheikh Tayar, heard the news, he took the town of Lice on the 10th of February, seizing government money, letters and secret telegrams. On the 11th, he and his horsemen joined the Sheikh.",
+      "vo": {
+        "ckb": "ئەم ڕووداوە لەپڕ بووە هۆی ئەوەی شۆڕش زووتر لە کاتی خۆی دەست پێبکات. کاتێک شێخ تایەری برای شێخ سەعید هەواڵەکەی بیست، لە 10ی شوباتدا شارۆچکەی لیجەی گرت، و دەستی بەسەر پارە و نامە و تەلەگرافە نهێنییەکانی ڕژێمدا گرت. ڕۆژی 11ی شوبات، لەگەڵ سوارەکانی چوونە خزمەت شێخ.",
+        "kmr": "Ev bûyer bû sedem ku serhildan zûtir ji wextê xwe dest pê bike. Gava Şêx Tayer, birayê Şêx Seîd, ev nûçe bihîst, di 10ê Sibatê de bajarokê Licê girt, û dest danî ser pere, name û telgrafên veşartî yên rejîmê. Di 11ê Sibatê de, ew û siwarên xwe çûn ba Şêx.",
+        "ar": "وهكذا اندلعت الثورة قبل موعدها. وحين بلغ الخبرُ الشيخَ تاير، شقيقَ الشيخ سعيد، سيطر في 10 شباط على بلدة ليجة، واستولى على أموال الحكومة ورسائلها وبرقياتها السرية. وفي 11 شباط، التحق هو وفرسانه بالشيخ."
+      },
+      "ost": {
+        "ckb": [
+          "10ی شوبات · لیجە",
+          "پارە · نامە · تەلەگرافی نهێنی"
+        ],
+        "kmr": [
+          "10ê Sibatê · Licê",
+          "Pere · Name · Telgrafên veşartî"
+        ],
+        "ar": [
+          "10 شباط · ليجة",
+          "أموال · رسائل · برقيات سرية"
+        ]
+      },
+      "visual": [
+        "Map: a gold flame icon ignites at Piran, then Lice lights up.",
+        "A stack of period telegrams (illustrative props) with a 'SECRET' style stamp in Ottoman-Turkish script (no readable fake text), pushed in."
+      ],
+      "assets": [
+        "A22",
+        "A30"
+      ],
+      "sfx": "Match strike; telegraph clicks; galloping horses.",
+      "facts": [
+        "F18",
+        "F19"
+      ],
+      "images": [
+        "assets/images/S28_Sheikh_Tayar_Takes_Lice.jpg",
+        "assets/images/S28_1920s_Desk_Telegrams_Letters_Coins.jpg"
+      ]
+    },
+    {
+      "id": "S29",
+      "chapter": 6,
+      "kind": "title",
+      "voice": "narrator",
+      "vo_en": "Events had outrun the plan. Sheikh Said had no choice but to launch the uprising early.",
+      "vo": {
+        "ckb": "ڕووداوەکان لە پلانەکە خێراتر بوون، و شێخ سەعید ناچار بوو پێشوەخت بڕیاری دەستپێکردنی ڕاپەڕینەکە بدات.",
+        "kmr": "Bûyer ji planê bileztir bûn, û Şêx Seîd neçar ma ku bi pêşwext biryara destpêkirina serhildanê bide.",
+        "ar": "سبقت الأحداثُ الخطة، فاضطُرّ الشيخ سعيد إلى إعلان الانتفاضة قبل موعدها."
+      },
+      "ost": {
+        "ckb": [
+          "دەستپێکردنی پێشوەخت"
+        ],
+        "kmr": [
+          "Destpêka pêşwext"
+        ],
+        "ar": [
+          "انطلاقة مبكرة"
+        ]
+      },
+      "visual": [
+        "The March 1925 calendar from S23: the circle on '21' is scribbled out and the pages rip back to February."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "Pages ripping; drum hit.",
+      "facts": [
+        "F19"
+      ],
+      "images": [
+        "assets/images/S29_March_1925_Calendar_crossed_out_ckb.jpg",
+        "assets/images/S29_March_1925_Calendar_crossed_out_kmr.jpg",
+        "assets/images/S29_March_1925_Calendar_crossed_out_ar.jpg"
+      ]
+    },
+    {
+      "id": "S30",
+      "chapter": 6,
+      "kind": "doc",
+      "voice": "narrator",
+      "vo_en": "The revolt spread quickly. Ankara declared martial law, passed an emergency law, and İsmet Pasha became prime minister.",
+      "vo": {
+        "ckb": "شۆڕشەکە بە خێرایی بڵاو بووەوە. ئەنقەرە حوکمی سەربازی ڕاگەیاند، یاسایەکی تایبەتی دەرکرد، و عیسمەت پاشا بوو بە سەرۆک وەزیران.",
+        "kmr": "Serhildan bi lez belav bû. Enqereyê îdareya leşkerî ragihand, qanûneke taybet derxist, û Îsmet Paşa bû serokwezîr.",
+        "ar": "انتشرت الثورة بسرعة. فأعلنت أنقرة الأحكام العرفية، وأصدرت قانونًا استثنائيًا، وتولّى عصمت باشا رئاسة الحكومة."
+      },
+      "ost": {
+        "ckb": [
+          "حوکمی سەربازی",
+          "عیسمەت پاشا · سەرۆک وەزیران"
+        ],
+        "kmr": [
+          "Îdareya leşkerî",
+          "Îsmet Paşa · serokwezîr"
+        ],
+        "ar": [
+          "الأحكام العرفية",
+          "عصمت باشا · رئيسًا للحكومة"
+        ]
+      },
+      "visual": [
+        "Archival 1925 newspaper front pages about the revolt (public domain scans) fan out; an archival portrait of İsmet Pasha (public domain) pins on."
+      ],
+      "assets": [
+        "A15",
+        "A19"
+      ],
+      "sfx": "Newspaper flips; telegraph clicks.",
+      "facts": [
+        "F20"
+      ],
+      "images": [
+        "assets/images/Ismet_Pasha_Inonu_1920s_Portrait.jpg"
+      ]
+    },
+    {
+      "id": "S31",
+      "chapter": 7,
+      "kind": "data",
+      "voice": "narrator",
+      "vo_en": "According to one statistic of the time, the Kurdish fighters in just four provinces numbered close to 600,000, against fewer than 100,000 Turkish troops. Historians today give far smaller numbers: about 10,000 fighters at the walls of Amed.",
+      "vo": {
+        "ckb": "بەپێی ئامارێکی ئەو کاتە، ژمارەی پێشمەرگە کوردەکان تەنها لە چوار ویلایەتدا نزیکەی 600 هەزار کەس بوو، بەرامبەر هێزی تورک کە لە 100 هەزار کەمتر بوو. بەڵام مێژوونووسانی ئەمڕۆ ژمارەی زۆر کەمتر دەخەنەڕوو: نزیکەی 10 هەزار جەنگاوەر لەبەردەم شووراکانی ئامەد.",
+        "kmr": "Li gorî statîstîkeke wê demê, hejmara pêşmergeyên kurd tenê li çar wilayetan nêzîkî 600 hezar kes bû, li hember hêzên tirk ên ku ji 100 hezarî kêmtir bûn. Lê dîroknasên îro hejmarên gelek kêmtir didin: nêzîkî 10 hezar şervan li ber sûrên Amedê.",
+        "ar": "وبحسب إحصائيةٍ من ذلك الوقت، بلغ عدد المقاتلين الكرد في أربع ولاياتٍ وحدها نحو 600 ألف، مقابل قواتٍ تركيةٍ تقل عن 100 ألف. غير أن المؤرخين اليوم يقدّمون أرقامًا أصغر بكثير: نحو 10 آلاف مقاتل أمام أسوار آمد."
+      },
+      "ost": {
+        "ckb": [
+          "ئامارێکی ئەو کاتە:",
+          "600 هەزار بەرامبەر 100 هەزار",
+          "مێژوونووسانی ئەمڕۆ: نزیکەی 10 هەزار"
+        ],
+        "kmr": [
+          "Statîstîka wê demê:",
+          "600 hezar li hember 100 hezar",
+          "Dîroknasên îro: nêzîkî 10 hezar"
+        ],
+        "ar": [
+          "إحصائية ذلك الوقت:",
+          "600 ألف مقابل 100 ألف",
+          "مؤرخو اليوم: نحو 10 آلاف"
+        ]
+      },
+      "visual": [
+        "Chapter card. Vox-style data graphic: two bars on paper (600,000 vs 100,000) labelled 'statistic of the time'; then a third, much smaller bar (≈10,000) slides in, labelled 'historians today'. Keep bar lengths to scale."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "Bars 'grow' with a rising tone; a soft 'correction' tick for the third bar.",
+      "facts": [
+        "F21",
+        "F22"
+      ],
+      "images": []
+    },
+    {
+      "id": "S32",
+      "chapter": 7,
+      "kind": "map",
+      "voice": "narrator",
+      "vo_en": "Circassians, Arabs and Armenians also lived in these lands. According to the article, they too had been oppressed under Turkish rule, and most of them took part in the revolt.",
+      "vo": {
+        "ckb": "لەم ناوچانەدا چەرکەس و عەرەب و ئەرمەنیش دەژیان. بەپێی وتارەکە، ئەوانیش لە ژێر دەسەڵاتی تورکدا چەوساوە و زوڵملێکراو بوون، بۆیە زۆربەیان بەشداری شۆڕشەکەیان کرد.",
+        "kmr": "Li van herêman Çerkez, Ereb û Ermen jî dijiyan. Li gorî gotarê, ew jî di bin desthilatdariya tirk de bindest û zordîtî bûn, loma piraniya wan beşdarî serhildanê bûn.",
+        "ar": "وكان يعيش في هذه المناطق أيضًا شركس وعرب وأرمن. وبحسب المقال، كانوا هم أيضًا مضطهدين تحت الحكم التركي، فشارك معظمهم في الثورة."
+      },
+      "ost": {
+        "ckb": [
+          "چەرکەس · عەرەب · ئەرمەن"
+        ],
+        "kmr": [
+          "Çerkez · Ereb · Ermen"
+        ],
+        "ar": [
+          "شركس · عرب · أرمن"
+        ]
+      },
+      "tag": "per_article",
+      "visual": [
+        "Map of the four provinces with three soft colour dots for the communities; the 'according to the article' tag stays visible the whole scene."
+      ],
+      "assets": [
+        "A22"
+      ],
+      "sfx": "Soft map tones.",
+      "facts": [
+        "F23"
+      ],
+      "images": []
+    },
+    {
+      "id": "S33",
+      "chapter": 7,
+      "kind": "photo",
+      "voice": "narrator",
+      "vo_en": "Sheikh Said himself led the horsemen of Haji Hasan and Omar Kharo, from the Mistan tribe and from Botan.",
+      "vo": {
+        "ckb": "شێخ سەعید خۆی سەرکردایەتیی سوارە پێشمەرگەکانی حاجی حەسەن و عەمەری خارۆی دەکرد، لە هۆزی مەستان و بۆتان.",
+        "kmr": "Şêx Seîd bi xwe serokatiya siwarên pêşmerge yên Hecî Hesen û Emerê Xaro dikir, ji eşîra Mistan û ji Botanê.",
+        "ar": "وكان الشيخ سعيد نفسه يقود فرسان حاجي حسن وعمر خارو، من عشيرة مستان ومن بوتان."
+      },
+      "ost": {
+        "ckb": [
+          "حاجی حەسەن · عەمەری خارۆ",
+          "مەستان · بۆتان"
+        ],
+        "kmr": [
+          "Hecî Hesen · Emerê Xaro",
+          "Mistan · Botan"
+        ],
+        "ar": [
+          "حاجي حسن · عمر خارو",
+          "مستان · بوتان"
+        ]
+      },
+      "visual": [
+        "The painted image of Sheikh Said on a white horse leading riders (from the article, PDF page 7), labelled 'illustration'; 2.5D parallax with dust particles."
+      ],
+      "assets": [
+        "A06"
+      ],
+      "sfx": "Cavalry gallop, rising; daf rolls.",
+      "facts": [
+        "F24"
+      ],
+      "images": [
+        "assets/images/Sheikh_Said_Painting_on_Horseback.jpg",
+        "assets/images/S33-S34_The_Commanders.jpg"
+      ]
+    },
+    {
+      "id": "S34",
+      "chapter": 7,
+      "kind": "map",
+      "voice": "narrator",
+      "vo_en": "The forces of Salih Beg Khan and Sheikh Shamsaddin reached the Maden area, and Sheikh Ayyub, with thousands of horsemen, joined the ranks of Sheikh Abdulrahim, Sheikh Said's brother, marching to liberate Amed.",
+      "vo": {
+        "ckb": "هێزی ساڵح بەگی خان و هێزەکانی شێخ شەمسەدین گەیشتنە ناوچەی مادن، و شێخ ئەیووب لەگەڵ هەزاران سوارەی پێشمەرگە چووە ناو ڕیزەکانی شێخ عەبدولڕەحیم، برای شێخ سەعید، بەرەو ڕزگارکردنی شاری ئامەد.",
+        "kmr": "Hêza Salih Begê Xan û hêzên Şêx Şemsedîn gihîştin herêma Madenê, û Şêx Eyûb bi hezaran siwarên pêşmerge ve tevlî refên Şêx Ebdurrehîm, birayê Şêx Seîd, bû, ber bi rizgarkirina bajarê Amedê ve.",
+        "ar": "ووصلت قوة صالح بك خان وقوات الشيخ شمس الدين إلى منطقة معدن، وانضمّ الشيخ أيوب مع آلاف الفرسان إلى صفوف الشيخ عبد الرحيم، شقيق الشيخ سعيد، متجهين لتحرير مدينة آمد."
+      },
+      "ost": {
+        "ckb": [
+          "مادن",
+          "بەرەو ئامەد"
+        ],
+        "kmr": [
+          "Maden",
+          "Ber bi Amedê"
+        ],
+        "ar": [
+          "معدن",
+          "نحو آمد"
+        ]
+      },
+      "visual": [
+        "Map: several gold arrows converge on Amed (Diyarbakır) from Maden and the north; commander name cards pop up along the arrows."
+      ],
+      "assets": [
+        "A22"
+      ],
+      "sfx": "Rising percussion; arrows whoosh.",
+      "facts": [
+        "F24"
+      ],
+      "images": [
+        "assets/images/S33-S34_The_Commanders.jpg"
+      ]
+    },
+    {
+      "id": "S35",
+      "chapter": 7,
+      "kind": "photo",
+      "voice": "narrator",
+      "vo_en": "But Sheikh Said saw that his forces could not take Amed by force. So he tried another way: he entered talks with the Turkish government, to open the way for the Kurds inside the city to rise. But there was no way to get weapons to the people inside.",
+      "vo": {
+        "ckb": "بەڵام شێخ سەعید هەستی کرد کە هێزەکانی ناتوانن ئامەد بە زەبری هێز ڕزگار بکەن. بۆیە بیری لە ڕێگایەکی تر کردەوە: کەوتە گفتوگۆ لەگەڵ حکومەتی تورک، تا بوارێکی لەبار بۆ ڕاپەڕینی کوردەکانی ناو شارەکە بڕەخسێنێت. بەڵام هیچ ڕێگایەک نەبوو چەک بگاتە دەست خەڵکی ناو شار.",
+        "kmr": "Lê Şêx Seîd hîs kir ku hêzên wî nikarin Amedê bi zorê rizgar bikin. Loma li rêyeke din geriya: bi hukûmeta tirk re ket danûstandinê, da ku derfeteke guncav ji bo serhildana Kurdên nav bajêr biafirîne. Lê tu rê tunebû ku çek bigihîjin destê xelkê nav bajêr.",
+        "ar": "لكن الشيخ سعيد أدرك أن قواته لا تستطيع تحرير آمد بالقوة. فبحث عن طريقٍ آخر: دخل في مفاوضاتٍ مع الحكومة التركية، ليهيّئ ظرفًا مناسبًا لانتفاضة الكرد داخل المدينة. لكن لم يكن هناك أي سبيلٍ لإيصال السلاح إلى أهلها."
+      },
+      "ost": {
+        "ckb": [
+          "شووراکانی ئامەد"
+        ],
+        "kmr": [
+          "Sûrên Amedê"
+        ],
+        "ar": [
+          "أسوار آمد"
+        ]
+      },
+      "visual": [
+        "The black basalt walls of Diyarbakır (photo/footage), slow lateral dolly; a dotted line tries to cross the wall and stops with a red X."
+      ],
+      "assets": [
+        "A07"
+      ],
+      "sfx": "Wind on stone; a single low drum.",
+      "facts": [
+        "F25"
+      ],
+      "images": [
+        "assets/images/S01_Diyarbakir_Basalt_Walls_Dawn.jpg",
+        "assets/images/S35_Sheikh_Said_before_Amed.jpg"
+      ]
+    },
+    {
+      "id": "S36",
+      "chapter": 7,
+      "kind": "photo",
+      "voice": "narrator",
+      "vo_en": "The siege dragged on, and the garrison refused to give up. From the beginning of March, the peshmerga attacked. At the Mardin Gate, a peshmerga unit and people of the city joined forces and charged the enemy.",
+      "vo": {
+        "ckb": "گەمارۆکە درێژەی کێشا، و سوپای دوژمن لەناو شاردا ڕازی نەبوو دەست لە بەرگری هەڵبگرێت. لە سەرەتای مانگی ئازارەوە، پێشمەرگە هێرشی دەستپێکرد. لە دەرگای ماردینەوە، کەرتێکی پێشمەرگە و خەڵکی شار یەکیان گرتەوە و پەلاماری سوپای دوژمنیان دا.",
+        "kmr": "Dorpêç dirêj kişand, û artêşa dijmin a nav bajêr qebûl nekir ku dev ji berxwedanê berde. Ji destpêka Adarê ve, pêşmergeyan êrîş dest pê kir. Li Deriyê Mêrdînê, komeke pêşmergeyan û xelkê bajêr bûn yek û êrîşî artêşa dijmin kirin.",
+        "ar": "طال الحصار، ورفض جيش العدوّ داخل المدينة التخلّي عن المقاومة. ومع مطلع آذار، بدأ هجوم البيشمركة. وعند باب ماردين، اتحدت مجموعةٌ من البيشمركة مع أهالي المدينة وهاجموا جيش العدوّ."
+      },
+      "ost": {
+        "ckb": [
+          "ئازاری 1925",
+          "دەرگای ماردین"
+        ],
+        "kmr": [
+          "Adara 1925an",
+          "Deriyê Mêrdînê"
+        ],
+        "ar": [
+          "آذار 1925",
+          "باب ماردين"
+        ]
+      },
+      "visual": [
+        "Photo of the Mardin Gate (Mardinkapı) of Diyarbakır's walls; city-plan graphic with the gate highlighted and arrows pushing toward it."
+      ],
+      "assets": [
+        "A07",
+        "A22"
+      ],
+      "sfx": "Battle bed far in the background (muffled), war cries far away, daf peak.",
+      "facts": [
+        "F25"
+      ],
+      "images": [
+        "assets/images/S36_The_Mardin_Gate.jpg"
+      ]
+    },
+    {
+      "id": "S37",
+      "chapter": 7,
+      "kind": "photo",
+      "voice": "narrator",
+      "vo_en": "But the Turks had fortified their positions and held hundreds of new weapons. After fierce fighting, with many killed on both sides, and two or three failed assaults, the final decision was made: lift the siege.",
+      "vo": {
+        "ckb": "بەڵام تورکەکان سەنگەرەکانیان پتەو کردبوو، و سەدان چەکی نوێیان لەبەردەستدا بوو. دوای شەڕێکی قورس و کوژرانی ژمارەیەکی زۆر لە هەردوولا، و شکستی دوو سێ هێرشی پێشمەرگە، بڕیاری کۆتایی درا: وازهێنان لە گەمارۆی شارەکە.",
+        "kmr": "Lê Tirkan sengerên xwe qayîm kiribûn, û bi sedan çekên nû di destê wan de bûn. Piştî şerekî giran û kuştina gelek kesan ji herdu aliyan, û têkçûna du sê êrîşên pêşmergeyan, biryara dawî hate dayîn: dorpêça bajêr bê rakirin.",
+        "ar": "لكنّ الترك كانوا قد حصّنوا مواقعهم جيدًا، وبحوزتهم مئات الأسلحة الحديثة. وبعد قتالٍ ضارٍ سقط فيه كثيرون من الطرفين، وفشل هجومين أو ثلاثة للبيشمركة، اتُّخذ القرار النهائي: رفع الحصار عن المدينة."
+      },
+      "ost": {
+        "ckb": [
+          "گەمارۆ هەڵگیرا"
+        ],
+        "kmr": [
+          "Dorpêç hate rakirin"
+        ],
+        "ar": [
+          "رفع الحصار"
+        ]
+      },
+      "visual": [
+        "The arrows from S34/S36 stop at the walls, flicker, and retract; colour drains to monochrome."
+      ],
+      "assets": [
+        "A22",
+        "A07"
+      ],
+      "sfx": "Music falls away; one long low note; wind.",
+      "facts": [
+        "F25"
+      ],
+      "images": [
+        "assets/images/S01_Diyarbakir_Basalt_Walls_Dawn.jpg"
+      ]
+    },
+    {
+      "id": "S38",
+      "chapter": 8,
+      "kind": "map",
+      "voice": "narrator",
+      "vo_en": "Day after day, the ranks of the revolt fell into disorder, especially when enemy armies came from the north and the south, with tens of thousands of soldiers and warplanes, and turned the siege around.",
+      "vo": {
+        "ckb": "ڕیزەکانی شۆڕش ڕۆژ بە ڕۆژ بەرەو شپرزەیی و پەرشوبڵاوی دەچوون، بەتایبەتی کاتێک سوپای دوژمن لە باکوور و باشوورەوە، بە دەیان هەزار سەرباز و فڕۆکەی جەنگییەوە، هێرشی هێنا و گەمارۆکەی پێچەوانە کردەوە.",
+        "kmr": "Refên serhildanê roj bi roj ber bi tevlîheviyê û belavbûnê ve diçûn, bi taybetî gava artêşa dijmin ji bakur û başûr ve, bi deh hezaran leşker û balafirên şer ve, êrîş kir û dorpêç berevajî kir.",
+        "ar": "أخذت صفوف الثورة تتفكّك يومًا بعد يوم، خاصةً حين زحف جيش العدوّ من الشمال والجنوب، بعشرات الآلاف من الجنود والطائرات الحربية، وقلب الحصار."
+      },
+      "ost": {
+        "ckb": [
+          "لە باکوور و باشوورەوە",
+          "فڕۆکەی جەنگی"
+        ],
+        "kmr": [
+          "Ji bakur û başûr",
+          "Balafirên şer"
+        ],
+        "ar": [
+          "من الشمال والجنوب",
+          "طائرات حربية"
+        ]
+      },
+      "visual": [
+        "Chapter card. Map: thick dark arrows sweep in from north and south and encircle the gold area, which shrinks.",
+        "Archival photo of early Turkish military aircraft (public domain) passes across the frame."
+      ],
+      "assets": [
+        "A22",
+        "A27"
+      ],
+      "sfx": "Propeller-plane drone passing; low rumble.",
+      "facts": [
+        "F26"
+      ],
+      "images": [
+        "assets/images/S38_1920s_Propeller_Warplane.jpg"
+      ]
+    },
+    {
+      "id": "S39",
+      "chapter": 8,
+      "kind": "photo",
+      "voice": "narrator",
+      "vo_en": "At the end of April, through the betrayal of Qasim Beg, chief of the Jibran tribe, Sheikh Said, Sheikh Abdullah, Ali Ghalib, Rashid Agha and 26 other fighters were captured on the bridge over the Murat River, in the Genç area.",
+      "vo": {
+        "ckb": "لە کۆتایی مانگی نیساندا، بەهۆی خیانەتی سەرۆکی هۆزی جبران، قاسم بەگی جبرانەوە، شێخ سەعید، شێخ عەبدوڵڵا، عەلی غالب، ڕەشید ئاغا و 26 شۆڕشگێڕی تر، لەسەر پردی چەمی مووراد لە ناوچەی گەنج بە دیل گیران.",
+        "kmr": "Di dawiya Nîsanê de, bi xiyaneta serokê eşîra Cibran, Qasim Begê Cibran, Şêx Seîd, Şêx Ebdullah, Elî Xalib, Reşîd Axa û 26 şoreşgerên din li ser pira Çemê Miradê li herêma Gencê dîl hatin girtin.",
+        "ar": "وفي أواخر نيسان، وبخيانةٍ من زعيم عشيرة جبران، قاسم بك الجبراني، أُسر الشيخ سعيد والشيخ عبد الله وعلي غالب ورشيد آغا و26 ثائرًا آخرين، على جسر نهر مراد في منطقة كنج."
+      },
+      "ost": {
+        "ckb": [
+          "نیسانی 1925 · پردی چەمی مووراد",
+          "خیانەتی قاسم بەگی جبران"
+        ],
+        "kmr": [
+          "Nîsana 1925an · Pira Çemê Miradê",
+          "Xiyaneta Qasim Begê Cibran"
+        ],
+        "ar": [
+          "نيسان 1925 · جسر نهر مراد",
+          "خيانة قاسم بك الجبراني"
+        ]
+      },
+      "visual": [
+        "Photo/footage of the Murat River and a stone bridge (own/stock), cold grade, slow push-in. The word 'betrayal' writes on in red ink and the paper behind it cracks.",
+        "Then the colourised photo of Sheikh Said walking with men beside a stone wall (A04), labelled 'colourised', slow push-in."
+      ],
+      "assets": [
+        "A08",
+        "A04"
+      ],
+      "sfx": "River water; a single heavy chain sound at the end.",
+      "facts": [
+        "F26"
+      ],
+      "images": [
+        "assets/images/Sheikh_Said_Walking_Beside_a_Wall.jpg",
+        "assets/images/S39_Qasim_Beg_Jibrans_Betrayal.jpg"
+      ]
+    },
+    {
+      "id": "S40",
+      "chapter": 9,
+      "kind": "quote",
+      "voice": "narrator",
+      "vo_en": "In prison, two Turkish soldiers came to him and said: 'Sheikh, İsmet Pasha is coming now. Ask him for forgiveness, and you will be freed.'",
+      "vo": {
+        "ckb": "لە زینداندا، دوو سەربازی تورک چوونە لای و پێیان گوت: «شێخ، ئێستا عیسمەت پاشا دێت، تۆش داوای لێخۆشبوونی لێ بکە و ئازاد دەکرێیت.»",
+        "kmr": "Di zindanê de, du leşkerên tirk çûn ba wî û jê re gotin: «Şêx, niha Îsmet Paşa tê, tu jî lêborînê jê bixwaze û tu dê bê berdan.»",
+        "ar": "في السجن، جاءه جنديّان تركيّان وقالا له: «يا شيخ، الآن يأتي عصمت باشا، فاطلب منه العفو وسيُطلق سراحك.»"
+      },
+      "ost": {
+        "ckb": [
+          "«داوای لێخۆشبوون بکە»"
+        ],
+        "kmr": [
+          "«Lêborînê bixwaze»"
+        ],
+        "ar": [
+          "«اطلب العفو»"
+        ]
+      },
+      "visual": [
+        "Chapter card. The archival photo of Sheikh Said seated between two men in uniform (from the article, PDF page 6), slow push-in; heavy vignette, prison-window light shaft drawn across."
+      ],
+      "assets": [
+        "A02"
+      ],
+      "sfx": "Prison room tone; a metal door far away.",
+      "facts": [
+        "F28"
+      ],
+      "images": [
+        "assets/images/Sheikh_Said_Seated_Between_Two_Men_1925.jpg"
+      ]
+    },
+    {
+      "id": "S41",
+      "chapter": 9,
+      "kind": "quote",
+      "voice": "quote",
+      "vo_en": "He answered: 'I ask forgiveness from God alone, and from no one else. I have done nothing wrong that needs forgiving. And tell İsmet: if I leave this prison, I will take up the struggle again, and fight for my people once more.'",
+      "vo": {
+        "ckb": "شێخ لە وەڵامدا گوتی: «من داوای لێخۆشبوون تەنها لە خودا دەکەم و هیچی تر. من هیچ کارێکی هەڵەم نەکردووە کە داوای لێخۆشبوونی لەسەر بکەم. بە عیسمەتیش بڵێن: گەر لەم زیندانە دەرچم، دووبارە دەست دەکەمەوە بە خەبات و لە پێناو گەلەکەمدا جارێکی تر دەجەنگم.»",
+        "kmr": "Şêx bersiv da: «Ez lêborînê tenê ji Xwedê dixwazim, û tiştekî din na. Min tu karekî xelet nekiriye ku lêborînê jê re bixwazim. Ji Îsmet re jî bibêjin: eger ez ji vê zindanê derkevim, ez ê dîsa dest bi têkoşînê bikim û carek din ji bo gelê xwe şer bikim.»",
+        "ar": "فأجاب الشيخ: «لا أطلب العفو إلا من الله، ولا شيء غير ذلك. لم أرتكب خطأً يستوجب طلب العفو. وقولوا لعصمت: إن خرجتُ من هذا السجن، فسأعود إلى النضال، وأقاتل من أجل شعبي مرةً أخرى.»"
+      },
+      "ost": {
+        "ckb": [
+          "«داوای لێخۆشبوون",
+          "تەنها لە خودا دەکەم»"
+        ],
+        "kmr": [
+          "«Ez lêborînê",
+          "tenê ji Xwedê dixwazim»"
+        ],
+        "ar": [
+          "«لا أطلب العفو",
+          "إلا من الله»"
+        ]
+      },
+      "tag": "per_article",
+      "visual": [
+        "Pull-quote on parchment, typed on word by word; a gold underline under 'God alone'."
+      ],
+      "assets": [
+        "A30",
+        "A02"
+      ],
+      "sfx": "Typewriter, soft; solo ney.",
+      "facts": [
+        "F28"
+      ],
+      "images": [
+        "assets/images/S41-S43_Sheikh_Said_in_Prison.jpg"
+      ]
+    },
+    {
+      "id": "S42",
+      "chapter": 9,
+      "kind": "quote",
+      "voice": "narrator",
+      "vo_en": "His words reached İsmet Pasha, and the Pasha came to the prison himself: 'Ask for forgiveness, admit your regret, and I will certainly free you.'",
+      "vo": {
+        "ckb": "قسەکانی شێخ گەیشتنە عیسمەت پاشا، و پاشا خۆی هات بۆ زیندان: «داوای لێخۆشبوون بکە و دان بە پەشیمانیدا بنێ، بێ دوو دڵی ئازادت دەکەم.»",
+        "kmr": "Gotinên Şêx gihîştin Îsmet Paşa, û Paşa bi xwe hat zindanê: «Lêborînê bixwaze û poşmaniya xwe bîne ziman, bê guman ez ê te azad bikim.»",
+        "ar": "بلغت كلماتُ الشيخ عصمتَ باشا، فجاء الباشا بنفسه إلى السجن: «اطلب العفو واعترف بندمك، وسأطلق سراحك بلا تردّد.»"
+      },
+      "ost": {
+        "ckb": [
+          "عیسمەت پاشا"
+        ],
+        "kmr": [
+          "Îsmet Paşa"
+        ],
+        "ar": [
+          "عصمت باشا"
+        ]
+      },
+      "visual": [
+        "Archival portrait of İsmet Pasha (public domain) slides in from one side; the Sheikh's portrait from the other; they face each other across a vertical paper fold."
+      ],
+      "assets": [
+        "A19",
+        "A02"
+      ],
+      "sfx": "Footsteps in a corridor; door unlock.",
+      "facts": [
+        "F28"
+      ],
+      "images": [
+        "assets/images/Sheikh_Said_Seated_Between_Two_Men_1925.jpg",
+        "assets/images/Ismet_Pasha_Inonu_1920s_Portrait.jpg"
+      ]
+    },
+    {
+      "id": "S43",
+      "chapter": 9,
+      "kind": "quote",
+      "voice": "quote",
+      "vo_en": "The Sheikh said: 'I am a Kurd. Kurdish blood runs in my body, and until I die I will remain a Kurd. You are wasting your time. I will never breathe the air of betrayal for one hour of freedom. Kill me; I will be of no use to you.'",
+      "vo": {
+        "ckb": "شێخ گوتی: «من کوردم، خوێنی کوردم لە لەشدایە، تا دەمرم هەر کورد دەبم. تۆ کاتی خۆت بەهەدەر دەدەی، و من هەرگیز بۆ ساتێکی ئازادی هەوای خیانەت هەڵنامژم. بمکوژن، من سوودم بە ئێوە ناگەیەنم!»",
+        "kmr": "Şêx got: «Ez Kurd im, xwîna kurd di laşê min de ye, heta bimirim ez ê Kurd bim. Tu wextê xwe badihewa derbas dikî, û ez qet ji bo saetekê azadiyê hewaya xiyanetê hilnamijim. Min bikujin, ez ji we re ne bi kêr im!»",
+        "ar": "قال الشيخ: «أنا كرديّ، ودمي الكرديّ يجري في جسدي، وسأبقى كرديًّا حتى أموت. إنك تضيّع وقتك، ولن أتنفّس هواء الخيانة أبدًا من أجل ساعةٍ من الحرية. اقتلوني، فلن تنتفعوا بي!»"
+      },
+      "ost": {
+        "ckb": [
+          "«من کوردم...",
+          "تا دەمرم هەر کورد دەبم»"
+        ],
+        "kmr": [
+          "«Ez Kurd im...",
+          "heta bimirim ez ê Kurd bim»"
+        ],
+        "ar": [
+          "«أنا كرديّ...",
+          "وسأبقى كرديًّا حتى أموت»"
+        ]
+      },
+      "tag": "per_article",
+      "visual": [
+        "Full-frame pull-quote in large type; the portrait behind it brightens slightly on 'I am a Kurd'. Hold 1.5 s of silence after the last word."
+      ],
+      "assets": [
+        "A30",
+        "A01"
+      ],
+      "sfx": "Silence except room tone; one deep heartbeat-like drum after the last word.",
+      "facts": [
+        "F28"
+      ],
+      "images": [
+        "assets/images/Sheikh_Said_Archival_Sepia_Portrait.jpg",
+        "assets/images/S41-S43_Sheikh_Said_in_Prison.jpg"
+      ]
+    },
+    {
+      "id": "S44",
+      "chapter": 10,
+      "kind": "doc",
+      "voice": "narrator",
+      "vo_en": "The trial of Sheikh Said and his companions began at the end of May and lasted a month. Besides Sheikh Said, 47 leaders and fighters were sentenced to death.",
+      "vo": {
+        "ckb": "دادگاییکردنی شێخ سەعید و هاوڕێکانی لە کۆتایی مانگی ئایارەوە دەستیپێکرد و ماوەی مانگێکی خایاند. جگە لە شێخ سەعید، بڕیاری لەسێدارەدانی 47 کەس لە سەرکردە و تێکۆشەرەکانیش درا.",
+        "kmr": "Dadgehkirina Şêx Seîd û hevalên wî di dawiya Gulanê de dest pê kir û mehekê dewam kir. Ji bilî Şêx Seîd, biryara darvekirina 47 rêber û têkoşerên din jî hate dayîn.",
+        "ar": "بدأت محاكمة الشيخ سعيد ورفاقه في أواخر أيار، واستمرت شهرًا. وإلى جانب الشيخ سعيد، صدر حكم الإعدام بحقّ 47 من القادة والمناضلين."
+      },
+      "ost": {
+        "ckb": [
+          "دادگا · ئایاری 1925",
+          "شێخ سەعید + 47"
+        ],
+        "kmr": [
+          "Dadgeh · Gulana 1925an",
+          "Şêx Seîd + 47"
+        ],
+        "ar": [
+          "المحاكمة · أيار 1925",
+          "الشيخ سعيد + 47"
+        ]
+      },
+      "visual": [
+        "Chapter card. Archival photo of the Diyarbakır Independence Tribunal / the trial (public domain) in monochrome; 48 small gold marks appear in a grid, one by one, quickly."
+      ],
+      "assets": [
+        "A28"
+      ],
+      "sfx": "Gavel knock (single); soft tick per mark, accelerating.",
+      "facts": [
+        "F29"
+      ],
+      "images": [
+        "assets/images/Sheikh_Said_Seated_Between_Two_Men_1925.jpg"
+      ]
+    },
+    {
+      "id": "S45",
+      "chapter": 10,
+      "kind": "photo",
+      "voice": "narrator",
+      "vo_en": "On the 29th of June 1925, they were hanged in Amed.",
+      "vo": {
+        "ckb": "لە 29ی حوزەیرانی 1925دا، لە ئامەد لەسێدارە دران.",
+        "kmr": "Di 29ê Hezîrana 1925an de, li Amedê hatin darvekirin.",
+        "ar": "وفي 29 حزيران 1925، أُعدموا شنقًا في آمد."
+      },
+      "ost": {
+        "ckb": [
+          "29ی حوزەیرانی 1925 · ئامەد"
+        ],
+        "kmr": [
+          "29ê Hezîrana 1925an · Amed"
+        ],
+        "ar": [
+          "29 حزيران 1925 · آمد"
+        ]
+      },
+      "visual": [
+        "Return to the dawn shot of Diyarbakır's walls from S01 (bookend). The 48 gold marks from S44 fade to grey. No execution imagery."
+      ],
+      "assets": [
+        "A07"
+      ],
+      "sfx": "Wind; the same wooden creak as S01; then silence.",
+      "facts": [
+        "F30"
+      ],
+      "images": [
+        "assets/images/S01_Diyarbakir_Basalt_Walls_Dawn.jpg"
+      ]
+    },
+    {
+      "id": "S46",
+      "chapter": 10,
+      "kind": "photo",
+      "voice": "narrator",
+      "vo_en": "After him, hundreds of villages were burned and families deported. Even the Kurdish scholar Said Nursi, who had not joined the revolt, was sent into exile.",
+      "vo": {
+        "ckb": "دوای ئەو، سەدان گوند سووتێنران و خێزانەکان ڕاگوێزران. تەنانەت زانای کورد، سەعیدی نوورسی، کە بەشداری شۆڕشەکەی نەکردبوو، دوورخرایەوە.",
+        "kmr": "Piştî wî, bi sedan gund hatin şewitandin û malbat hatin koçberkirin. Heta zanayê kurd, Seîdê Nûrsî, ku beşdarî serhildanê nebûbû, hate sirgûnkirin.",
+        "ar": "من بعده، أُحرقت مئات القرى وهُجّرت العائلات. حتى العالِم الكردي سعيد النورسي، الذي لم يشارك في الثورة، نُفي."
+      },
+      "ost": {
+        "ckb": [
+          "سەدان گوند سووتێنران",
+          "سەعیدی نوورسی · دوورخرایەوە"
+        ],
+        "kmr": [
+          "Bi sedan gund hatin şewitandin",
+          "Seîdê Nûrsî · sirgûn"
+        ],
+        "ar": [
+          "إحراق مئات القرى",
+          "سعيد النورسي · منفيًّا"
+        ]
+      },
+      "visual": [
+        "Map: many village dots turn to grey ash marks; archival portrait of Said Nursi (public domain) with a dotted exile route heading west."
+      ],
+      "assets": [
+        "A22",
+        "A20"
+      ],
+      "sfx": "Low fire crackle (distant), wind.",
+      "facts": [
+        "F31",
+        "F32"
+      ],
+      "images": [
+        "assets/images/Said_Nursi_Portrait.jpg",
+        "assets/images/S46_The_Aftermath.jpg"
+      ]
+    },
+    {
+      "id": "S47",
+      "chapter": 11,
+      "kind": "quote",
+      "voice": "quote",
+      "vo_en": "Among his precious sayings: 'Do not force those who do not want a homeland. A homeland is honour, and no one can force honour on someone who has none.'",
+      "vo": {
+        "ckb": "لە وتە بەپێزەکانیدا دەڵێت: «زۆر لەو کەسانە مەکەن کە نیشتمانیان ناوێ، ئاخر نیشتمان شەرەفە، کەس ناتوانێ بە زۆر شەرەف بدات بە کەسی بێشەرەف.»",
+        "kmr": "Di gotinên wî yên bi qîmet de tê gotin: «Zorê li wan kesan nekin ku welat naxwazin; ji ber ku welat şeref e, û kes nikare bi zorê şerefê bide kesê bêşeref.»",
+        "ar": "ومن أقواله الثمينة: «لا تُكرهوا من لا يريدون وطنًا؛ فالوطن شرف، ولا يستطيع أحدٌ أن يمنح الشرف قسرًا لمن لا شرف له.»"
+      },
+      "ost": {
+        "ckb": [
+          "«نیشتمان شەرەفە»"
+        ],
+        "kmr": [
+          "«Welat şeref e»"
+        ],
+        "ar": [
+          "«الوطن شرف»"
+        ]
+      },
+      "tag": "attributed",
+      "visual": [
+        "Chapter card. Large pull-quote on parchment over the painted cover portrait (from the article, PDF page 1), labelled 'illustration'."
+      ],
+      "assets": [
+        "A05",
+        "A30"
+      ],
+      "sfx": "Theme returns softly; typewriter.",
+      "facts": [
+        "F27"
+      ],
+      "images": [
+        "assets/images/Sheikh_Said_Painted_Cover_Portrait.jpg"
+      ]
+    },
+    {
+      "id": "S48",
+      "chapter": 11,
+      "kind": "quote",
+      "voice": "quote",
+      "vo_en": "And: 'Even if a day comes when you Kurds forget that you are Kurds, be sure the enemy will never forget that you are Kurds.'",
+      "vo": {
+        "ckb": "هەروەها: «تەنانەت ئەگەر ڕۆژێک هات و ئێوەی کورد، کوردبوونی خۆتان لەبیرکرد، دڵنیابن دوژمن هەرگیز لەبیری ناکات کە ئێوە کوردن.»",
+        "kmr": "Û: «Heta eger rojek bê û hûn Kurd, Kurdbûna xwe ji bîr bikin, bawer bin ku dijmin qet ji bîr nake ku hûn Kurd in.»",
+        "ar": "وأيضًا: «حتى لو جاء يومٌ نسيتم فيه أيها الكرد كرديّتكم، فثقوا أن العدوّ لن ينسى أبدًا أنكم كرد.»"
+      },
+      "ost": {
+        "ckb": [
+          "«دوژمن هەرگیز لەبیری ناکات",
+          "کە ئێوە کوردن»"
+        ],
+        "kmr": [
+          "«Dijmin qet ji bîr nake",
+          "ku hûn Kurd in»"
+        ],
+        "ar": [
+          "«العدوّ لن ينسى أبدًا",
+          "أنكم كرد»"
+        ]
+      },
+      "tag": "attributed",
+      "visual": [
+        "Pull-quote; behind it, a slow montage of Kurdish faces of today (own footage, consented, or crowds at Newroz shot from behind/wide)."
+      ],
+      "assets": [
+        "A29",
+        "A30"
+      ],
+      "sfx": "Theme continues.",
+      "facts": [
+        "F27"
+      ],
+      "images": [
+        "assets/images/Sheikh_Said_Colourised_Portrait.jpg"
+      ]
+    },
+    {
+      "id": "S49",
+      "chapter": 12,
+      "kind": "montage",
+      "voice": "narrator",
+      "vo_en": "From Salahuddin to Sheikh Said, the Kurds have stood with the ummah, never against it. Their quarrel was never with the Turkish or Arab peoples, but with a policy that denied a nation its name.",
+      "vo": {
+        "ckb": "لە سەلاحەدینەوە تا شێخ سەعید، کورد هەمیشە لەگەڵ ئوممەت بووە، نەک دژی. کێشەی کورد هەرگیز لەگەڵ گەلی تورک یان عەرەب نەبووە، بەڵکو لەگەڵ سیاسەتێک بوو کە ناوی نەتەوەیەکی ڕەتدەکردەوە.",
+        "kmr": "Ji Selahedîn heta Şêx Seîd, Kurd her tim bi ummetê re bûn, ne li dijî wê. Pirsgirêka Kurdan qet ne bi gelê tirk an ereb re bû, lê bi siyasetekê re bû ku navê miletekî înkar dikir.",
+        "ar": "من صلاح الدين إلى الشيخ سعيد، كان الكرد دائمًا مع الأمة لا ضدّها. ولم تكن مشكلتهم يومًا مع الشعب التركي أو العربي، بل مع سياسةٍ أنكرت على شعبٍ اسمَه."
+      },
+      "ost": {
+        "ckb": [
+          "لەگەڵ ئوممەت، نەک دژی"
+        ],
+        "kmr": [
+          "Bi ummetê re, ne li dijî wê"
+        ],
+        "ar": [
+          "مع الأمة، لا ضدّها"
+        ]
+      },
+      "visual": [
+        "Chapter card. Split-screen collage: Salahuddin (left) and Sheikh Said (right) as paper cut-outs, joined by a gold line; then Kurdish, Arab and Turkish mosque domes (photos) side by side."
+      ],
+      "assets": [
+        "A10",
+        "A01",
+        "A23"
+      ],
+      "sfx": "Warm swell; daf.",
+      "facts": [
+        "F04",
+        "F33"
+      ],
+      "images": [
+        "assets/images/Sheikh_Said_Archival_Sepia_Portrait.jpg",
+        "assets/images/S08_Salahuddin_al-Ayyubi.jpg"
+      ]
+    },
+    {
+      "id": "S50",
+      "chapter": 12,
+      "kind": "data",
+      "voice": "narrator",
+      "vo_en": "And it is still true today. From 2014, as ISIS swept through Iraq and Syria, the Kurdistan Region opened its doors. By 2017, it was hosting more than 1.8 million displaced people and refugees.",
+      "vo": {
+        "ckb": "ئەمڕۆش هەر وایە: لە ساڵی 2014ەوە، کاتێک داعش عێراق و سووریای گرتەوە، هەرێمی کوردستان دەرگاکانی کردەوە. تا ساڵی 2017، زیاتر لە 1.8 ملیۆن ئاوارە و پەنابەری لە خۆ گرتبوو.",
+        "kmr": "Îro jî wisa ye: ji sala 2014an ve, gava DAIŞê Iraq û Sûriye dagirtin, Herêma Kurdistanê deriyên xwe vekirin. Heta sala 2017an, zêdetirî 1.8 milyon koçber û penaber hewandibûn.",
+        "ar": "واليوم أيضًا: منذ عام 2014، حين اجتاح تنظيم داعش العراق وسوريا، فتح إقليم كردستان أبوابه. وبحلول عام 2017، كان يستضيف أكثر من 1.8 مليون نازحٍ ولاجئ."
+      },
+      "ost": {
+        "ckb": [
+          "2014–2017",
+          "زیاتر لە 1.8 ملیۆن ئاوارە و پەنابەر"
+        ],
+        "kmr": [
+          "2014–2017",
+          "Zêdetirî 1.8 milyon koçber û penaber"
+        ],
+        "ar": [
+          "2014–2017",
+          "أكثر من 1.8 مليون نازح ولاجئ"
+        ]
+      },
+      "visual": [
+        "Footage/photos of IDP camps in the Kurdistan Region (licensed, e.g. UNHCR/IOM media with credit, or Dwin's own archive); an animated counter climbs to 1.8 million."
+      ],
+      "assets": [
+        "A21"
+      ],
+      "sfx": "Counter ticks; children's voices far away (ambient, from the footage).",
+      "facts": [
+        "F34"
+      ],
+      "images": []
+    },
+    {
+      "id": "S51",
+      "chapter": 12,
+      "kind": "quote",
+      "voice": "narrator",
+      "vo_en": "The Qur'an says: 'We made you peoples and tribes, that you may know one another.' A Muslim does not deny his brother's language, land or name. Recognition is not division; it is what brotherhood means.",
+      "vo": {
+        "ckb": "قورئان دەفەرموێت: «وَجَعَلْنَاكُمْ شُعُوبًا وَقَبَائِلَ لِتَعَارَفُوا»، واتە: ئێوەمان کردە گەل و هۆز تا یەکتر بناسن. موسوڵمان زمان و خاک و ناوی براکەی ڕەتناکاتەوە. دانپێدانان دابەشکردن نییە؛ ئەوە ماناکەی برایەتییە.",
+        "kmr": "Quran dibêje: «وَجَعَلْنَاكُمْ شُعُوبًا وَقَبَائِلَ لِتَعَارَفُوا», ango: Me hûn kirin gel û eşîr da ku hûn hev nas bikin. Misilman ziman, ax û navê birayê xwe înkar nake. Naskirin ne parçekirin e; ew wateya biratiyê ye.",
+        "ar": "يقول الله تعالى: «وَجَعَلْنَاكُمْ شُعُوبًا وَقَبَائِلَ لِتَعَارَفُوا». والمسلم لا يُنكر على أخيه لغته وأرضه واسمه. فالاعتراف ليس تقسيمًا، بل هو معنى الأخوّة."
+      },
+      "ost": {
+        "ckb": [
+          "«وَجَعَلْنَاكُمْ شُعُوبًا وَقَبَائِلَ لِتَعَارَفُوا»",
+          "الحجرات: 13",
+          "دانپێدانان دابەشکردن نییە"
+        ],
+        "kmr": [
+          "«وَجَعَلْنَاكُمْ شُعُوبًا وَقَبَائِلَ لِتَعَارَفُوا»",
+          "Hucurat: 13",
+          "Naskirin ne parçekirin e"
+        ],
+        "ar": [
+          "«وَجَعَلْنَاكُمْ شُعُوبًا وَقَبَائِلَ لِتَعَارَفُوا»",
+          "الحجرات: 13",
+          "الاعتراف ليس تقسيمًا"
+        ]
+      },
+      "visual": [
+        "The verse in elegant Arabic calligraphy (Naskh or Thuluth font, not hand-faked) on parchment, gold; reference beneath. Then the last line types on.",
+        "Set the verse as its own right-to-left text block (dir=rtl) in every language version, including Kurmanji, so the « » marks and harakat stay in the right place.",
+        "Use a respectful, still frame; no music hits under the verse."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "Music drops under the verse; returns after.",
+      "facts": [
+        "F35"
+      ],
+      "images": []
+    },
+    {
+      "id": "S52",
+      "chapter": 13,
+      "kind": "position",
+      "voice": "narrator",
+      "vo_en": "Dwin's position: we condemn all those who keep misleading people, with propaganda that erases a people's history and turns Muslim against Muslim.",
+      "vo": {
+        "ckb": "هەڵوێستی دوین: ئیدانەی هەموو ئەوانە دەکەین کە بەردەوام خەڵک چەواشە دەکەن، بە پڕوپاگەندەیەک کە مێژووی گەلێک دەسڕێتەوە و موسوڵمان دژی موسوڵمان هاندەدات.",
+        "kmr": "Helwesta Dwînê: Em hemû kesên ku bi berdewamî xelkê dixapînin şermezar dikin, bi propagandayeke ku dîroka gelekî jê dibe û misilman li dijî misilman radike.",
+        "ar": "موقف دوين: ندين كل من يضلّل الناس باستمرار، بدعايةٍ تمحو تاريخ شعبٍ وتؤلّب المسلم على المسلم."
+      },
+      "ost": {
+        "ckb": [
+          "ئیدانەی هەموو ئەوانە دەکەین",
+          "کە بە پڕوپاگەندە خەڵک چەواشە دەکەن",
+          "و موسوڵمان دژی موسوڵمان هاندەدەن"
+        ],
+        "kmr": [
+          "Em hemû kesên ku",
+          "bi propagandayê xelkê dixapînin",
+          "şermezar dikin"
+        ],
+        "ar": [
+          "ندين كل من يضلّل الناس بالدعاية",
+          "ويمحو تاريخ الشعوب",
+          "ويؤلّب المسلم على المسلم"
+        ]
+      },
+      "tag": "position_tag",
+      "visual": [
+        "Dwin position card: full-frame dark green, cream text, gold 'Dwin's position' tag. No people, no flags, no named targets."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "Firm low strings; one deep hit at the end.",
+      "facts": [
+        "F36"
+      ],
+      "images": []
+    },
+    {
+      "id": "S53",
+      "chapter": 13,
+      "kind": "title",
+      "voice": "narrator",
+      "vo_en": "Sheikh Said was buried in an unknown grave. But his story was not buried.",
+      "vo": {
+        "ckb": "شێخ سەعید لە گۆڕێکی نەناسراودا نێژرا. بەڵام چیرۆکەکەی نەنێژرا.",
+        "kmr": "Şêx Seîd di gorek nenas de hate veşartin. Lê çîroka wî nehate veşartin.",
+        "ar": "دُفن الشيخ سعيد في قبرٍ مجهول. لكنّ قصته لم تُدفن."
+      },
+      "ost": {
+        "ckb": [
+          "شێخ سەعیدی پیران",
+          "1865 – 1925"
+        ],
+        "kmr": [
+          "Şêx Seîdê Pîran",
+          "1865 – 1925"
+        ],
+        "ar": [
+          "الشيخ سعيد بيران",
+          "1865 – 1925"
+        ]
+      },
+      "visual": [
+        "Bookend to S03: the torn-paper portrait returns; the paper pieces settle; warm light rises; slow push-in to his eyes."
+      ],
+      "assets": [
+        "A01",
+        "A30"
+      ],
+      "sfx": "Final theme chord; reverb tail.",
+      "facts": [
+        "F37"
+      ],
+      "images": [
+        "assets/images/Sheikh_Said_Archival_Sepia_Portrait.jpg"
+      ]
+    },
+    {
+      "id": "S54",
+      "chapter": 13,
+      "kind": "end",
+      "voice": "none",
+      "vo_en": "",
+      "vo": {
+        "ckb": "",
+        "kmr": "",
+        "ar": ""
+      },
+      "ost": {
+        "ckb": [
+          "Dween - دوین",
+          "دەنگی کورد، بە ناسنامە و باوەڕمانەوە"
+        ],
+        "kmr": [
+          "Dwîn - Kurmancî",
+          "Dengê Kurdan, bi nasname û baweriya me"
+        ],
+        "ar": [
+          "دوين - العربية",
+          "صوت الكرد، بهويتنا وإيماننا"
+        ]
+      },
+      "visual": [
+        "Dwin end card: logo animates in (scale 96% → 100%, 0.4 s) on dark green with the gold shield; channel name and tagline under it. No sources slide (sources go in the post description only)."
+      ],
+      "assets": [
+        "A32"
+      ],
+      "fixed_duration": 3.0,
+      "sfx": "Dwin sound logo, or the last chord's tail.",
+      "facts": [],
+      "images": []
+    }
+  ],
+  "assets": [
+    {
+      "id": "A01",
+      "what": "Archival sepia portrait of Sheikh Said (primary). A colourised/painted version also exists: use it only labelled 'illustration'.",
+      "where": "Wikimedia Commons ('Sheikh Said' 1925 photographs)",
+      "license": "Pre-1926 photograph; generally public domain. Confirm on the file page."
+    },
+    {
+      "id": "A02",
+      "what": "Archival photo: Sheikh Said seated between two men in uniform (1925, during arrest/trial)",
+      "where": "Wikimedia Commons",
+      "license": "Public domain (1925). Confirm."
+    },
+    {
+      "id": "A03",
+      "what": "Archival group photo of Sheikh Said with companions",
+      "where": "Provided image pack",
+      "license": "Historical photo; confirm the source before publishing."
+    },
+    {
+      "id": "A05",
+      "what": "Painted portrait of Sheikh Said (article cover)",
+      "where": "Provided image pack",
+      "license": "Painting: always label 'illustration'. Confirm you have the right to use it."
+    },
+    {
+      "id": "A04",
+      "what": "Colourised photo: Sheikh Said walking with men beside a stone wall (likely 1925, under guard)",
+      "where": "Provided image pack",
+      "license": "Historical photo, colourised by a third party: label 'colourised'; confirm the source."
+    },
+    {
+      "id": "A06",
+      "what": "Painting of Sheikh Said on a white horse leading riders",
+      "where": "Provided image pack",
+      "license": "Painting: always label 'illustration'. Confirm you have the right to use it."
+    },
+    {
+      "id": "A07",
+      "what": "Diyarbakır (Amed) city walls, Mardin Gate (Mardinkapı), dawn shots",
+      "where": "Wikimedia Commons (CC BY-SA, credit the photographer) or own footage",
+      "license": "Follow each file's licence."
+    },
+    {
+      "id": "A08",
+      "what": "Murat River and an old stone bridge near Genç / Bingöl",
+      "where": "Wikimedia Commons or stock (Pexels/Pixabay)",
+      "license": "Follow each file's licence."
+    },
+    {
+      "id": "A09",
+      "what": "Landscapes: Palu valley, Hınıs (Khinis) plateau in winter",
+      "where": "Wikimedia Commons / stock / own",
+      "license": "Follow each file's licence."
+    },
+    {
+      "id": "A10",
+      "what": "Salahuddin statue (Damascus) and Al-Aqsa / Dome of the Rock photos",
+      "where": "Wikimedia Commons",
+      "license": "CC/PD; credit."
+    },
+    {
+      "id": "A11",
+      "what": "Ottoman soldiers at Gallipoli 1915",
+      "where": "Wikimedia Commons (public domain)",
+      "license": "PD."
+    },
+    {
+      "id": "A12",
+      "what": "Treaty of Sèvres 1920 map; scan of Articles 62–64",
+      "where": "Wikimedia Commons; treaty text",
+      "license": "PD."
+    },
+    {
+      "id": "A13",
+      "what": "Lausanne Conference 1922–23 delegates photo",
+      "where": "Wikimedia Commons",
+      "license": "PD."
+    },
+    {
+      "id": "A14",
+      "what": "1924 newspaper front page on the abolition of the Caliphate",
+      "where": "Wikimedia Commons / archive scans",
+      "license": "PD."
+    },
+    {
+      "id": "A15",
+      "what": "1925 newspaper front pages on the revolt",
+      "where": "Wikimedia Commons / archive scans",
+      "license": "PD."
+    },
+    {
+      "id": "A16",
+      "what": "League of Nations (Geneva) archival photo",
+      "where": "Wikimedia Commons / UN Archives Geneva",
+      "license": "PD / credit."
+    },
+    {
+      "id": "A17",
+      "what": "Aleppo citadel archival photo (1920s)",
+      "where": "Wikimedia Commons / Library of Congress (Matson collection)",
+      "license": "PD."
+    },
+    {
+      "id": "A18",
+      "what": "Portraits of Sheikh Mahmud Hafid and Simko Shikak",
+      "where": "Wikimedia Commons",
+      "license": "PD (early 20th century). Confirm."
+    },
+    {
+      "id": "A19",
+      "what": "İsmet Pasha (İnönü) portrait, 1920s",
+      "where": "Wikimedia Commons",
+      "license": "PD."
+    },
+    {
+      "id": "A20",
+      "what": "Said Nursi portrait",
+      "where": "Wikimedia Commons",
+      "license": "PD. Confirm."
+    },
+    {
+      "id": "A21",
+      "what": "IDP camps in the Kurdistan Region, 2014–2017",
+      "where": "UNHCR / IOM media libraries (with credit), or Dwin's own archive",
+      "license": "Follow the media library's terms; credit on screen."
+    },
+    {
+      "id": "A22",
+      "what": "Vector base map (Natural Earth): Palu, Hınıs, Piran (Dicle), Lice, Genç, Maden, Elazığ, Diyarbakır, Bitlis, Mardin, Aleppo, Geneva, Murat river",
+      "where": "Natural Earth (public domain) styled in the paper look",
+      "license": "PD."
+    },
+    {
+      "id": "A23",
+      "what": "Historic mosques: Diyarbakır Great Mosque, Erbil citadel, Arab and Turkish mosque domes",
+      "where": "Wikimedia Commons / stock / own",
+      "license": "Follow licence."
+    },
+    {
+      "id": "A24",
+      "what": "Covers of early Kurdish periodicals (e.g. Kurdistan 1898, Jîn 1918–19)",
+      "where": "Wikimedia Commons / Kurdish digital archives",
+      "license": "PD."
+    },
+    {
+      "id": "A25",
+      "what": "Kurdish farmers / fields, early 20th century",
+      "where": "Wikimedia Commons / Library of Congress",
+      "license": "PD."
+    },
+    {
+      "id": "A26",
+      "what": "Mountain village at night (atmosphere)",
+      "where": "Own footage or stock",
+      "license": "Stock licence."
+    },
+    {
+      "id": "A27",
+      "what": "Early Turkish military aircraft, 1920s",
+      "where": "Wikimedia Commons",
+      "license": "PD."
+    },
+    {
+      "id": "A28",
+      "what": "Diyarbakır Independence Tribunal / trial 1925 photo",
+      "where": "Wikimedia Commons",
+      "license": "PD. Confirm."
+    },
+    {
+      "id": "A29",
+      "what": "Kurdish people today (Newroz crowds, elders, children) — wide or from behind",
+      "where": "Own footage with consent, or licensed stock",
+      "license": "Consent/licence."
+    },
+    {
+      "id": "A30",
+      "what": "Design kit: parchment/paper textures, torn edges, ink strokes, pins, string, stamps, film grain, light leaks",
+      "where": "Make in-house or licensed packs",
+      "license": "Licensed."
+    },
+    {
+      "id": "A31",
+      "what": "Manuscript pages / Qur'an stand (generic, respectful close-ups)",
+      "where": "Own footage",
+      "license": "Own."
+    },
+    {
+      "id": "A32",
+      "what": "Dwin logo (transparent PNG/SVG) and end-card template",
+      "where": "Dwin brand files",
+      "license": "Own."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "claim_en": "Sheikh Said Piran lived 1865–1925 CE (1281–1344 AH).",
+      "status": "article",
+      "source": "Source article p.1–2"
+    },
+    {
+      "id": "F02",
+      "claim_en": "Born in the Palu region; one of the great Naqshbandi sheikhs; after the death of his grandfather Sheikh Ali, his father Sheikh Mahmud Fawzi Efendi left Palu for Khinis (Hınıs); mother Merve Khan.",
+      "status": "article",
+      "source": "Source article p.2"
+    },
+    {
+      "id": "F03",
+      "claim_en": "He completed his religious studies in Khinis; his social standing, intelligence and competence led the Kurdish independence society (Azadi) to establish direct relations with him.",
+      "status": "article",
+      "source": "Source article p.2"
+    },
+    {
+      "id": "F04",
+      "claim_en": "Salahuddin al-Ayyubi, of Kurdish origin, captured Jerusalem in 1187.",
+      "status": "external, well established",
+      "source": "Standard histories (e.g. Encyclopaedia Britannica, 'Saladin')"
+    },
+    {
+      "id": "F05",
+      "claim_en": "Kurds fought in Ottoman ranks in the First World War (including Gallipoli) and alongside Turks in the War of Independence (1919–1922), mobilised largely through Islamic solidarity.",
+      "status": "external, well established; phrased generally",
+      "source": "General histories of the period (e.g. McDowall, A Modern History of the Kurds)"
+    },
+    {
+      "id": "F06",
+      "claim_en": "The Treaty of Sèvres (10 Aug 1920), Articles 62–64, provided for local autonomy for Kurdish areas and a possible path to independence.",
+      "status": "external, well established",
+      "source": "Treaty of Sèvres text, Part III, Section III"
+    },
+    {
+      "id": "F07",
+      "claim_en": "The Treaty of Lausanne (24 July 1923) did not provide for Kurdish rights; the article says it denied the promises given to the Kurds and stripped Kurdish rights in Turkey.",
+      "status": "article + external date",
+      "source": "Source article p.3; treaty date"
+    },
+    {
+      "id": "F08",
+      "claim_en": "The Grand National Assembly abolished the Caliphate on 3 March 1924; historians list this among the grievances behind the revolt.",
+      "status": "external, well established",
+      "source": "Les Clés du Moyen-Orient; executedtoday.com (see Sources)"
+    },
+    {
+      "id": "F09",
+      "claim_en": "Kemalist Turkey's new constitution recognised only the Turkish nation and counted other peoples as Turks; Kurds were (later) called 'Mountain Turks'; Turkish made the official language; Kurdish, Kurdish schools, organisations and magazines banned.",
+      "status": "article (the 'Mountain Turks' term became common later; the VO says 'later')",
+      "source": "Source article p.3"
+    },
+    {
+      "id": "F10",
+      "claim_en": "Kurds were displaced to western Anatolia and Turks settled in their place; Kurdish leaders and activists arrested, exiled and killed.",
+      "status": "article",
+      "source": "Source article p.3"
+    },
+    {
+      "id": "F11",
+      "claim_en": "Best Kurdish farmland seized and given to Turks; farmers left landless and jobless; great famine; many Turkish soldiers sent to cut trade with other parts of Kurdistan; heavy taxes and levies.",
+      "status": "article",
+      "source": "Source article p.3"
+    },
+    {
+      "id": "F12",
+      "claim_en": "End of summer 1923: Yusuf Ziya, a Kurdish movement leader and former deputy for Bitlis in the Turkish parliament, went to Khinis; he and Sheikh Said agreed to launch a new revolt.",
+      "status": "article",
+      "source": "Source article p.2"
+    },
+    {
+      "id": "F13",
+      "claim_en": "Winter 1923–1924: tribal leaders and Azadi members held a broad meeting in Palu to expand the secret movement and prepare a new uprising for the independence of Kurdistan.",
+      "status": "article",
+      "source": "Source article p.2"
+    },
+    {
+      "id": "F14",
+      "claim_en": "This was done with broad help from Sheikh Mahmud Hafid and Simko Shikak; it was decided to send a memorandum on Kurdish national rights to the League of Nations.",
+      "status": "article",
+      "source": "Source article p.2"
+    },
+    {
+      "id": "F15",
+      "claim_en": "Elected head of Azadi, Sheikh Said decided on armed action but wanted all Kurdistan behind it; sent his son Ali Riza to Amed and Aleppo to learn the views of Kurdish leaders of the west, south and east; after a big meeting in Aleppo all agreed rights could not be secured without armed revolt; 21 March 1925 (Newroz) set as day one.",
+      "status": "article (+ 21 March = Newroz, external)",
+      "source": "Source article p.4"
+    },
+    {
+      "id": "F16",
+      "claim_en": "Second half of January 1925: Sheikh Said toured most areas of Kurdistan, where supporters and friends flocked to him; on 5 February 1925 he left Khinis with 100 horsemen for Piran, to the house of his brother Abdulrahim.",
+      "status": "article",
+      "source": "Source article p.4"
+    },
+    {
+      "id": "F17",
+      "claim_en": "That night a Turkish detachment under Husni Efendi and Mustafa Alim came to arrest some villagers; Sheikh Said refused; after fighting several of the detachment were killed and the rest captured.",
+      "status": "article. Other sources date the Piran clash to 8 or 13 February 1925; the VO only says 'that same night' after 5 February, as the article does.",
+      "source": "Source article p.4; Les Clés du Moyen-Orient"
+    },
+    {
+      "id": "F18",
+      "claim_en": "Sheikh Said's brother (named 'Sheikh Tayar' in the article) took Lice on 10 February, seized government money, letters and secret telegrams, and on 11 February joined the Sheikh with his horsemen.",
+      "status": "article. The article says '200 thousand horsemen'; this figure is not credible (historians estimate ~10,000 rebels in total) and is OMITTED on purpose. The brother's name should be confirmed (some sources may spell it differently).",
+      "source": "Source article p.4"
+    },
+    {
+      "id": "F19",
+      "claim_en": "These events forced Sheikh Said to start the uprising early.",
+      "status": "article",
+      "source": "Source article p.4"
+    },
+    {
+      "id": "F20",
+      "claim_en": "The revolt spread fast; martial law was declared in the east (Feb 1925); the Takrir-i Sükun emergency law was passed (4 March 1925); İsmet Pasha (İnönü) became prime minister (3 March 1925).",
+      "status": "external, well established",
+      "source": "Les Clés du Moyen-Orient; standard histories"
+    },
+    {
+      "id": "F21",
+      "claim_en": "According to a statistic of the time, Kurdish fighters in four provinces alone were nearly 600,000, against Turkish forces under 100,000.",
+      "status": "article, presented as 'a statistic of the time' and immediately qualified",
+      "source": "Source article p.5"
+    },
+    {
+      "id": "F22",
+      "claim_en": "Historians estimate about 10,000 rebel fighters at the siege of Diyarbakır in early March 1925; the Turkish army later deployed some 80,000 men and aircraft.",
+      "status": "external",
+      "source": "Les Clés du Moyen-Orient (see Sources)"
+    },
+    {
+      "id": "F23",
+      "claim_en": "Circassians, Arabs and Armenians lived in these areas; per the article they were also oppressed by Turkish rule and most took part in the revolt.",
+      "status": "article claim, attributed on screen ('according to the article')",
+      "source": "Source article p.5"
+    },
+    {
+      "id": "F24",
+      "claim_en": "Sheikh Said led the cavalry of Haji Hasan and Omar Kharo (Mistan tribe and Botan); Salih Beg Khan's force and Sheikh Shamsaddin's forces reached Maden; Sheikh Ayyub with thousands of horsemen joined Sheikh Abdulrahim's ranks to liberate Amed.",
+      "status": "article. The article also mentions a mountain ('چیای کۆچپەران'?) whose name is unclear in the scan; omitted.",
+      "source": "Source article p.5"
+    },
+    {
+      "id": "F25",
+      "claim_en": "Sheikh Said saw Amed could not be taken by force; negotiated with the Turkish government to create a chance for the Kurds inside to rise; no way to get weapons inside; long siege; from early March peshmerga attacked; at the Mardin Gate peshmerga and townspeople joined forces; Turks had fortified positions and hundreds of new weapons; heavy losses on both sides; after two or three failed attacks the siege was lifted.",
+      "status": "article (external: siege 6–11 March 1925)",
+      "source": "Source article p.5; Les Clés du Moyen-Orient"
+    },
+    {
+      "id": "F26",
+      "claim_en": "Revolt ranks fell into disorder as enemy armies came from north and south and reversed the siege; end of April, through the betrayal of Qasim Beg of the Jibran tribe, Sheikh Said, Sheikh Abdullah, Ali Ghalib, Rashid Agha and 26 others were captured on the Murat river bridge in the Genç area.",
+      "status": "article (+ 'tens of thousands of soldiers and warplanes' external). Some sources date the capture to mid-April; the VO keeps the article's 'end of April'.",
+      "source": "Source article p.6; Les Clés du Moyen-Orient; executedtoday.com"
+    },
+    {
+      "id": "F27",
+      "claim_en": "The three sayings in chapter 11 / scene S02 are attributed to Sheikh Said in the article ('some of his precious sayings').",
+      "status": "attributed quotes; label as such",
+      "source": "Source article p.7"
+    },
+    {
+      "id": "F28",
+      "claim_en": "The prison exchange with two Turkish soldiers and with İsmet Pasha, as narrated by the article.",
+      "status": "article account; quoted as narrated",
+      "source": "Source article p.6"
+    },
+    {
+      "id": "F29",
+      "claim_en": "The trial began at the end of May (ئایار) and lasted one month; besides Sheikh Said, 47 leaders and fighters were sentenced to death.",
+      "status": "article",
+      "source": "Source article p.6"
+    },
+    {
+      "id": "F30",
+      "claim_en": "They were hanged in Amed (Diyarbakır) on 29 June 1925.",
+      "status": "article + external (29 June 1925 is the widely cited date; one French source gives 4 September)",
+      "source": "Source article p.6; executedtoday.com"
+    },
+    {
+      "id": "F31",
+      "claim_en": "After the revolt, several hundred villages were razed/burned and families deported.",
+      "status": "external",
+      "source": "Les Clés du Moyen-Orient"
+    },
+    {
+      "id": "F32",
+      "claim_en": "Said Nursi, a Kurdish scholar who did not join the revolt, was exiled to western Anatolia in its aftermath (1925–26).",
+      "status": "external, well established",
+      "source": "Standard biographies of Said Nursi"
+    },
+    {
+      "id": "F33",
+      "claim_en": "Framing: the Kurds' grievance was with a policy of denial, not with the Turkish or Arab peoples.",
+      "status": "Dwin framing (narration), consistent with the article's causes; not a factual claim",
+      "source": "Editorial"
+    },
+    {
+      "id": "F34",
+      "claim_en": "The Kurdistan Region hosted ~1.4 million people by Aug 2014 (KRG–UN) and more than 1.8 million displaced people and refugees by early 2017 (KRG).",
+      "status": "external",
+      "source": "KRG–UN joint statement, 30 Aug 2014 (ReliefWeb); Iraq Business News, 1 Feb 2017"
+    },
+    {
+      "id": "F35",
+      "claim_en": "Qur'an 49:13: «وَجَعَلْنَاكُمْ شُعُوبًا وَقَبَائِلَ لِتَعَارَفُوا».",
+      "status": "Qur'an text",
+      "source": "Surat al-Hujurat 49:13"
+    },
+    {
+      "id": "F36",
+      "claim_en": "Dwin's position: condemnation of those who mislead people with propaganda that erases a people's history and turns Muslims against each other.",
+      "status": "OPINION — only in the labelled position card",
+      "source": "Editorial"
+    },
+    {
+      "id": "F37",
+      "claim_en": "Sheikh Said was buried in an unmarked grave.",
+      "status": "external",
+      "source": "Les Clés du Moyen-Orient"
+    }
+  ],
+  "post_caption": {
+    "ckb": "شێخ سەعیدی پیران (1865–1925): زانایەکی نەقشبەندی کە بۆ گەلەکەی هەستایەوە، و لە 29ی حوزەیرانی 1925 لە ئامەد لەسێدارە درا.\n«من داوای لێخۆشبوون تەنها لە خودا دەکەم.»\nلە سەلاحەدینەوە تا شێخ سەعید، کورد هەمیشە لەگەڵ ئوممەت بووە.\nسەرچاوە: سەرچاوە مێژووییەکان.\nدوین - دەنگی کورد، بە ناسنامە و باوەڕمانەوە\n#دوین #شێخ_سەعیدی_پیران #مێژووی_کورد #کوردستان #ئوممەتی_ئیسلامی",
+    "kmr": "Şêx Seîdê Pîran (1865–1925): zanayekî Nexşebendî ku ji bo gelê xwe rabû, û di 29ê Hezîrana 1925an de li Amedê hate darvekirin.\n«Ez lêborînê tenê ji Xwedê dixwazim.»\nJi Selahedîn heta Şêx Seîd, Kurd her tim bi ummetê re bûn.\nÇavkanî: çavkaniyên dîrokî.\nDwîn - Dengê Kurdan, bi nasname û baweriya me\n#Dwin #ŞêxSeîdêPîran #DîrokaKurd #Kurdistan #Ummet",
+    "ar": "الشيخ سعيد بيران (1865–1925): عالمٌ نقشبنديّ نهض من أجل شعبه، وأُعدم في آمد يوم 29 حزيران 1925.\n«لا أطلب العفو إلا من الله.»\nمن صلاح الدين إلى الشيخ سعيد، كان الكرد دائمًا مع الأمة.\nالمصدر: مصادر تاريخية.\nدوين - صوت الكرد، بهويتنا وإيماننا\n#دوين #الشيخ_سعيد_بيران #تاريخ_الكرد #كردستان #الأمة_الإسلامية"
+  },
+  "images": [
+    {
+      "file": "assets/images/Sheikh_Said_Archival_Sepia_Portrait.jpg",
+      "type": "archival",
+      "size": "1554×1728",
+      "scenes": [
+        "S02",
+        "S03",
+        "S06",
+        "S18",
+        "S43",
+        "S49",
+        "S53"
+      ],
+      "note": ""
+    },
+    {
+      "file": "assets/images/Sheikh_Said_Seated_Between_Two_Men_1925.jpg",
+      "type": "archival",
+      "size": "2490×3004",
+      "scenes": [
+        "S40",
+        "S42",
+        "S44"
+      ],
+      "note": ""
+    },
+    {
+      "file": "assets/images/Sheikh_Said_Group_Photo.jpg",
+      "type": "archival",
+      "size": "1522×1506",
+      "scenes": [
+        "S20"
+      ],
+      "note": ""
+    },
+    {
+      "file": "assets/images/Sheikh_Said_Walking_Beside_a_Wall.jpg",
+      "type": "colourised",
+      "size": "1392×762",
+      "scenes": [
+        "S39"
+      ],
+      "note": ""
+    },
+    {
+      "file": "assets/images/Sheikh_Said_Colourised_Portrait.jpg",
+      "type": "colourised",
+      "size": "1900×2808",
+      "scenes": [
+        "S48"
+      ],
+      "note": ""
+    },
+    {
+      "file": "assets/images/Sheikh_Said_Painted_Cover_Portrait.jpg",
+      "type": "painting",
+      "size": "2244×2420",
+      "scenes": [
+        "S47"
+      ],
+      "note": ""
+    },
+    {
+      "file": "assets/images/Sheikh_Said_Painting_on_Horseback.jpg",
+      "type": "painting",
+      "size": "1316×1242",
+      "scenes": [
+        "S24",
+        "S33"
+      ],
+      "note": ""
+    },
+    {
+      "file": "assets/images/Yusuf_Ziya_Bey_Portrait.jpg",
+      "type": "archival",
+      "size": "1363×2048",
+      "scenes": [
+        "S19"
+      ],
+      "note": "Enlarged to 2048 px without AI (archival photo: no invented detail)."
+    },
+    {
+      "file": "assets/images/Sheikh_Mahmud_Hafid_Portrait.jpg",
+      "type": "archival",
+      "size": "1262×2048",
+      "scenes": [
+        "S21"
+      ],
+      "note": "Enlarged to 2048 px without AI (archival photo: no invented detail)."
+    },
+    {
+      "file": "assets/images/Simko_Shikak_Portrait.jpg",
+      "type": "colourised",
+      "size": "1718×2396",
+      "scenes": [
+        "S21"
+      ],
+      "note": "Colourised: label it as colourised."
+    },
+    {
+      "file": "assets/images/Ismet_Pasha_Inonu_1920s_Portrait.jpg",
+      "type": "archival",
+      "size": "1484×2048",
+      "scenes": [
+        "S30",
+        "S42"
+      ],
+      "note": "Enlarged to 2048 px without AI (archival photo: no invented detail)."
+    },
+    {
+      "file": "assets/images/Said_Nursi_Portrait.jpg",
+      "type": "painting",
+      "size": "962×1274",
+      "scenes": [
+        "S46"
+      ],
+      "note": ""
+    },
+    {
+      "file": "assets/images/Ottoman_Soldiers_at_Gallipoli_1915.jpg",
+      "type": "colourised",
+      "size": "1334×662",
+      "scenes": [
+        "S09"
+      ],
+      "note": "A third-party 'NF' logo was cropped out of the bottom-left corner."
+    },
+    {
+      "file": "assets/images/S01_Diyarbakir_Basalt_Walls_Dawn.jpg",
+      "type": "ai",
+      "size": "2048×2048",
+      "scenes": [
+        "S01",
+        "S35",
+        "S37",
+        "S45"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S04_Palu_Valley_Murat_River.jpg",
+      "type": "ai",
+      "size": "2048×2040",
+      "scenes": [
+        "S04",
+        "S05"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S06_Khinis_Plateau_Winter.jpg",
+      "type": "ai",
+      "size": "2048×2048",
+      "scenes": [
+        "S06"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S06_Sheikh_Said_in_Khinis.jpg",
+      "type": "ai",
+      "size": "1835×2048",
+      "scenes": [
+        "S06"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S08_Salahuddin_al-Ayyubi.jpg",
+      "type": "ai",
+      "size": "1863×2048",
+      "scenes": [
+        "S08",
+        "S49"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S22_Ali_Riza.jpg",
+      "type": "ai",
+      "size": "1863×2048",
+      "scenes": [
+        "S22"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S24_Sheikh_Said_on_Tour.jpg",
+      "type": "ai",
+      "size": "1835×2048",
+      "scenes": [
+        "S24"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S25_Leaving_Khinis_with_100_Riders.jpg",
+      "type": "ai",
+      "size": "1835×2048",
+      "scenes": [
+        "S25"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S25_Snowy_Plateau_Village.jpg",
+      "type": "ai",
+      "size": "1523×2048",
+      "scenes": [
+        "S25"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S25-S26_Sheikh_Abdulrahims_House.jpg",
+      "type": "ai",
+      "size": "1857×2048",
+      "scenes": [
+        "S25",
+        "S26"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S26_Husni_Efendi_Mustafa_Alim_Detachment.jpg",
+      "type": "ai",
+      "size": "1857×2048",
+      "scenes": [
+        "S26"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S27_The_Piran_Night.jpg",
+      "type": "ai",
+      "size": "1829×2048",
+      "scenes": [
+        "S27"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S28_Sheikh_Tayar_Takes_Lice.jpg",
+      "type": "ai",
+      "size": "1819×2048",
+      "scenes": [
+        "S28"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S28_1920s_Desk_Telegrams_Letters_Coins.jpg",
+      "type": "ai",
+      "size": "1531×2048",
+      "scenes": [
+        "S28"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN; the English words 'TELEGRAM' and 'TELEGRAPH' were blurred out."
+    },
+    {
+      "file": "assets/images/S33-S34_The_Commanders.jpg",
+      "type": "ai",
+      "size": "2048×1383",
+      "scenes": [
+        "S33",
+        "S34"
+      ],
+      "note": "The baked-in English name cards were cropped off (one name was garbled); names come from the on-screen text. Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S35_Sheikh_Said_before_Amed.jpg",
+      "type": "ai",
+      "size": "1829×2048",
+      "scenes": [
+        "S35"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S36_The_Mardin_Gate.jpg",
+      "type": "ai",
+      "size": "1819×2048",
+      "scenes": [
+        "S36"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S38_1920s_Propeller_Warplane.jpg",
+      "type": "ai",
+      "size": "1519×2048",
+      "scenes": [
+        "S38"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S39_Qasim_Beg_Jibrans_Betrayal.jpg",
+      "type": "ai",
+      "size": "1813×2048",
+      "scenes": [
+        "S39"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S41-S43_Sheikh_Said_in_Prison.jpg",
+      "type": "ai",
+      "size": "1863×2048",
+      "scenes": [
+        "S41",
+        "S43"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S46_The_Aftermath.jpg",
+      "type": "ai",
+      "size": "1813×2048",
+      "scenes": [
+        "S46"
+      ],
+      "note": "Upscaled 4× with Real-ESRGAN to 2048 px."
+    },
+    {
+      "file": "assets/images/S23_March_1925_Calendar_21_Circled_ckb.jpg",
+      "type": "graphic",
+      "size": "3840×2160",
+      "scenes": [
+        "S23"
+      ],
+      "lang": "ckb",
+      "note": "Redrawn graphic with the real 1925 dates (1 March = Sunday, 21 March = Saturday), 21 circled, Newroz note."
+    },
+    {
+      "file": "assets/images/S29_March_1925_Calendar_crossed_out_ckb.jpg",
+      "type": "graphic",
+      "size": "3840×2160",
+      "scenes": [
+        "S29"
+      ],
+      "lang": "ckb",
+      "note": "Same calendar with 21 crossed out (the plan overtaken by events)."
+    },
+    {
+      "file": "assets/images/S23_March_1925_Calendar_21_Circled_kmr.jpg",
+      "type": "graphic",
+      "size": "3840×2160",
+      "scenes": [
+        "S23"
+      ],
+      "lang": "kmr",
+      "note": "Redrawn graphic with the real 1925 dates (1 March = Sunday, 21 March = Saturday), 21 circled, Newroz note."
+    },
+    {
+      "file": "assets/images/S29_March_1925_Calendar_crossed_out_kmr.jpg",
+      "type": "graphic",
+      "size": "3840×2160",
+      "scenes": [
+        "S29"
+      ],
+      "lang": "kmr",
+      "note": "Same calendar with 21 crossed out (the plan overtaken by events)."
+    },
+    {
+      "file": "assets/images/S23_March_1925_Calendar_21_Circled_ar.jpg",
+      "type": "graphic",
+      "size": "3840×2160",
+      "scenes": [
+        "S23"
+      ],
+      "lang": "ar",
+      "note": "Redrawn graphic with the real 1925 dates (1 March = Sunday, 21 March = Saturday), 21 circled, Newroz note."
+    },
+    {
+      "file": "assets/images/S29_March_1925_Calendar_crossed_out_ar.jpg",
+      "type": "graphic",
+      "size": "3840×2160",
+      "scenes": [
+        "S29"
+      ],
+      "lang": "ar",
+      "note": "Same calendar with 21 crossed out (the plan overtaken by events)."
+    }
+  ]
+}

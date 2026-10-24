@@ -1,0 +1,1508 @@
+{
+  "lang": "kmr",
+  "language": "Kurdish Kurmanji",
+  "direction": "ltr",
+  "total_seconds": 731.3,
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "vertical_cutdown": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "brand": {
+    "colors": {
+      "gold": "#C9A45C",
+      "green": "#0F2A1F",
+      "cream": "#F5EEDC",
+      "text_dark": "#0F2A1F",
+      "text_light": "#FFFFFF"
+    },
+    "font": {
+      "name": "Montserrat",
+      "weight": "Bold",
+      "fallback": "Noto Sans Bold",
+      "must_render": "ê î û ç ş Ê Î Û Ç Ş"
+    },
+    "channel": "Dwîn - Kurmancî"
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "name_en": "Cold open",
+      "title": null,
+      "music": "Low drone, a single tembûr/oud note, wind. Dark and still."
+    },
+    {
+      "id": 2,
+      "name_en": "The scholar of Palu",
+      "title": "Zanayê Palûyê",
+      "music": "Warm strings + ney, gentle, 70 BPM."
+    },
+    {
+      "id": 3,
+      "name_en": "Kurds and the ummah",
+      "title": "Kurd û ummet",
+      "music": "Majestic: low strings, daf on the downbeat, rising."
+    },
+    {
+      "id": 4,
+      "name_en": "The broken promise",
+      "title": "Soza şikestî",
+      "music": "Tension: ticking pulse, low brass, dissonant strings, 90 BPM."
+    },
+    {
+      "id": 5,
+      "name_en": "The secret plan",
+      "title": "Plana veşartî",
+      "music": "Investigative pulse, muted percussion, building."
+    },
+    {
+      "id": 6,
+      "name_en": "Piran: the spark",
+      "title": "Pîran: çirûsk",
+      "music": "Drums enter; urgent; hard hits on the clash."
+    },
+    {
+      "id": 7,
+      "name_en": "The siege of Amed",
+      "title": "Dorpêça Amedê",
+      "music": "Full epic: daf + taiko + strings; peak at the Mardin Gate; falls away when the siege is lifted."
+    },
+    {
+      "id": 8,
+      "name_en": "Betrayal",
+      "title": "Xiyanet",
+      "music": "Music collapses to a single sustained low note; heartbeat-like pulse."
+    },
+    {
+      "id": 9,
+      "name_en": "In prison",
+      "title": "Di zindanê de",
+      "music": "Near silence. Solo tembûr or ney. Prison room tone."
+    },
+    {
+      "id": 10,
+      "name_en": "The last journey",
+      "title": "Koça dawî",
+      "music": "Slow, mournful strings; no percussion."
+    },
+    {
+      "id": 11,
+      "name_en": "Words that remain",
+      "title": "Gotinên wî yên bi qîmet",
+      "music": "Same theme as chapter 2, slower, with a soft choir pad (no lyrics)."
+    },
+    {
+      "id": 12,
+      "name_en": "One ummah",
+      "title": "Yek ummet",
+      "music": "Hopeful: warm strings + piano + light daf, rising to the closing."
+    },
+    {
+      "id": 13,
+      "name_en": "Dwin's position and close",
+      "title": null,
+      "music": "Firm low strings for the position; final theme resolves; hard stop on the end card."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "chapter": 1,
+      "chapter_card": false,
+      "start": 0.0,
+      "end": 6.9,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "Amed, Diyarbekir. Sibeha 29ê Hezîrana 1925an. Şêxekî riwspî ber bi sêdarê ve tê birin.",
+      "on_screen": [
+        "Amed · 29ê Hezîrana 1925an"
+      ],
+      "tag": null,
+      "visual": [
+        "Black screen, wind. Fade up on the black basalt walls of Diyarbakır at dawn (archival or own footage), blue-grey grade.",
+        "Slow 2.5D parallax push-in. The date types on, typewriter style, lower left (lower right for RTL).",
+        "No hanging imagery, no rope, no bodies: the gallows is only implied by sound and words."
+      ],
+      "assets": [
+        "A07"
+      ],
+      "sfx": "Wind, distant birds, one slow wooden creak at the end of the line.",
+      "facts": [
+        "F30"
+      ]
+    },
+    {
+      "id": "S02",
+      "chapter": 1,
+      "chapter_card": false,
+      "start": 6.9,
+      "end": 31.4,
+      "kind": "quote",
+      "voice": "quote",
+      "narration": "Di yek ji gotinên wî yên navdar de dibêje: «Va jiyan ber bi dawiyê ve diçe, û ez qet poşman nînim ji tiştê ku min di riya Xwedê de kiriye. Em dilxweş in, ji ber ku kur û keçên me ji ber me li ber dijminan şerm nakin.»",
+      "on_screen": [
+        "«Ez qet poşman nînim",
+        "ji tiştê ku min di riya Xwedê de kiriye»"
+      ],
+      "tag": "Gotineke ku jê re tê girêdan",
+      "visual": [
+        "Quote card (Vox pull-quote): parchment paper, the line types on word by word in large serif-style type; key words get a gold hand-drawn underline.",
+        "Behind it, at 20% opacity, the archival portrait of Sheikh Said slowly fades in."
+      ],
+      "assets": [
+        "A01",
+        "A30"
+      ],
+      "sfx": "Typewriter keys per word (soft), paper rustle.",
+      "facts": [
+        "F27"
+      ]
+    },
+    {
+      "id": "S03",
+      "chapter": 1,
+      "chapter_card": false,
+      "start": 31.4,
+      "end": 41.3,
+      "kind": "title",
+      "voice": "narrator",
+      "narration": "Ev çîroka Şêx Seîdê Pîran e: zanayekî olî ku ji bo gelê xwe rabû, û bedela wê bi canê xwe da.",
+      "on_screen": [
+        "Şêx Seîdê Pîran",
+        "1865 – 1925",
+        "Bawerî, gelek û sozeke şikestî"
+      ],
+      "tag": null,
+      "visual": [
+        "Main title: the archival portrait cut out with torn-paper edges on a parchment background; name in large type, years under it, subtitle in gold.",
+        "Paper pieces slide in with a slight overshoot; light leak sweeps across."
+      ],
+      "assets": [
+        "A01",
+        "A30"
+      ],
+      "sfx": "Deep boom + reverse swell into the title; paper slap.",
+      "facts": [
+        "F01"
+      ]
+    },
+    {
+      "id": "S04",
+      "chapter": 2,
+      "chapter_card": true,
+      "start": 43.3,
+      "end": 53.2,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "Ew di sala 1865an de, ango 1281ê koçî, li herêma Palûyê hat dinyayê, û bû yek ji şêxên mezin ên Nexşebendî.",
+      "on_screen": [
+        "1865 · 1281 koçî",
+        "Palû"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card first (chapter title in large type on paper, number '1' in gold).",
+        "Animated map: zoom from the wider region down to Palu on the Murat river; a gold pin drops; the label writes itself on.",
+        "Cut to a landscape of the Palu valley (own/stock footage) with a slow pan."
+      ],
+      "assets": [
+        "A22",
+        "A09"
+      ],
+      "sfx": "Map whoosh, pin 'pop', pen scribble for the label.",
+      "facts": [
+        "F01",
+        "F02"
+      ]
+    },
+    {
+      "id": "S05",
+      "chapter": 2,
+      "chapter_card": false,
+      "start": 53.2,
+      "end": 65.3,
+      "kind": "tree",
+      "voice": "narrator",
+      "narration": "Piştî mirina bapîrê wî, Şêx Elî, bavê wî, Şêx Mehmûd Fewzî Efendî, Palû terk kir û çû bajarê Xinûsê. Navê diya wî jî Merve Xan bû.",
+      "on_screen": [
+        "Şêx Elî · bapîr",
+        "Şêx Mehmûd Fewzî Efendî · bav",
+        "Merve Xan · dayik"
+      ],
+      "tag": null,
+      "visual": [
+        "Family tree drawn in ink on paper: three name cards connected by hand-drawn lines (no invented faces: use name cards only).",
+        "Then the map: an animated dotted line travels from Palu to Khinis (Hınıs)."
+      ],
+      "assets": [
+        "A22",
+        "A30"
+      ],
+      "sfx": "Pen drawing lines; soft whoosh on the route.",
+      "facts": [
+        "F02"
+      ]
+    },
+    {
+      "id": "S06",
+      "chapter": 2,
+      "chapter_card": false,
+      "start": 65.3,
+      "end": 76.5,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "Li Xinûsê xwendina xwe ya olî temam kir. Cihê wî yê civakî wek şêx, jîrî û jêhatîbûna wî, bala komeleyeke kurdî ya veşartî kişand.",
+      "on_screen": [
+        "Zana · Şêx · Rêber"
+      ],
+      "tag": null,
+      "visual": [
+        "Archival portrait of Sheikh Said (turban, white beard) in 2.5D parallax; old manuscript pages and a Qur'an stand (generic, own footage) slide behind him as paper cut-outs.",
+        "The three words appear one by one, each with a gold highlighter stroke."
+      ],
+      "assets": [
+        "A01",
+        "A31"
+      ],
+      "sfx": "Page turns; soft highlighter squeak per word.",
+      "facts": [
+        "F03"
+      ]
+    },
+    {
+      "id": "S07",
+      "chapter": 3,
+      "chapter_card": true,
+      "start": 78.5,
+      "end": 89.3,
+      "kind": "montage",
+      "voice": "narrator",
+      "narration": "Ji bo ku em biryara wî fêm bikin, divê em hîn bêtir vegerin paş. Bi sedsalan, Kurd di dilê cîhana îslamî de bûn.",
+      "on_screen": [
+        "Kurd û ummeta îslamî"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card. Then a fast Vox 'rewind' effect: the calendar flips back through years on screen (1925 → 1187), paper-tear transition.",
+        "Montage of historic mosques and madrasas of Kurdistan and the region (e.g. Diyarbakır Great Mosque, Erbil citadel), slow pans."
+      ],
+      "assets": [
+        "A23",
+        "A07"
+      ],
+      "sfx": "Rewind whoosh with clock ticks; then a daf hit.",
+      "facts": [
+        "F04"
+      ]
+    },
+    {
+      "id": "S08",
+      "chapter": 3,
+      "chapter_card": false,
+      "start": 89.3,
+      "end": 95.3,
+      "kind": "montage",
+      "voice": "narrator",
+      "narration": "Kurdek bû, Selahedînê Eyûbî, ku di sala 1187an de Qudsê azad kir.",
+      "on_screen": [
+        "Selahedînê Eyûbî",
+        "Quds · 1187"
+      ],
+      "tag": null,
+      "visual": [
+        "The Salahuddin statue in Damascus (photo) and the Dome of the Rock / Al-Aqsa (photo), cut out on paper; gold circle drawn around the name.",
+        "A thin animated line on a small inset map connects Tikrit (his birthplace) to Jerusalem."
+      ],
+      "assets": [
+        "A10"
+      ],
+      "sfx": "Daf hit on 'Jerusalem'; low strings swell.",
+      "facts": [
+        "F04"
+      ]
+    },
+    {
+      "id": "S09",
+      "chapter": 3,
+      "chapter_card": false,
+      "start": 95.3,
+      "end": 107.4,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "Di Şerê Cîhanê yê Yekem de jî, Kurdan mil bi milê Tirkan şer kir, ji Çanakkaleyê heta Şerê Serxwebûnê, wek bira di yek ummeta misilman de.",
+      "on_screen": [
+        "Çanakkale · 1915",
+        "Şerê Serxwebûnê · 1919–1922"
+      ],
+      "tag": null,
+      "visual": [
+        "Archival public-domain photos of Ottoman soldiers at Gallipoli 1915, sepia, Ken Burns move; two photos slide together as if 'side by side'.",
+        "A simple animated timeline bar along the bottom: 1915 → 1919 → 1922, with gold ticks."
+      ],
+      "assets": [
+        "A11"
+      ],
+      "sfx": "Distant marching drums (soft), paper slide.",
+      "facts": [
+        "F05"
+      ]
+    },
+    {
+      "id": "S10",
+      "chapter": 3,
+      "chapter_card": false,
+      "start": 107.4,
+      "end": 116.0,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "Di sala 1920an de, Peymana Sêvrê heta soza xweseriya herêmî û rêyeke ber bi serxwebûnê ve da Kurdan.",
+      "on_screen": [
+        "Sêvr · 1920",
+        "Madeyên 62–64"
+      ],
+      "tag": null,
+      "visual": [
+        "The historic Treaty of Sèvres map (public domain): the Kurdish area fills in with a soft gold tint; Articles 62–64 of the treaty text appear as a scanned document with highlighter strokes."
+      ],
+      "assets": [
+        "A12"
+      ],
+      "sfx": "Map unfold rustle; highlighter squeak.",
+      "facts": [
+        "F06"
+      ]
+    },
+    {
+      "id": "S11",
+      "chapter": 4,
+      "chapter_card": true,
+      "start": 118.0,
+      "end": 126.6,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "Lê di sala 1923an de, Peymana Lozanê ew soz veşart, û pê re mafên gelê kurd li Tirkiyeyê.",
+      "on_screen": [
+        "Lozan · 24ê Tîrmeha 1923an"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card. Archival photo of the Lausanne Conference delegates (public domain).",
+        "The gold Kurdish tint from S10's map drains away; the Sèvres map tears in two (paper-tear effect)."
+      ],
+      "assets": [
+        "A13",
+        "A12"
+      ],
+      "sfx": "Paper tear on 'buried'; low brass note.",
+      "facts": [
+        "F07"
+      ]
+    },
+    {
+      "id": "S12",
+      "chapter": 4,
+      "chapter_card": false,
+      "start": 126.6,
+      "end": 136.1,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "Di Adara 1924an de, Enqereyê Xîlafet betal kir, ew girêka dawî ya ku misilmanên herêmê bi hev ve girê dida.",
+      "on_screen": [
+        "3ê Adara 1924an",
+        "Betalkirina Xîlafetê"
+      ],
+      "tag": null,
+      "visual": [
+        "A 1924 newspaper front page (public domain scan) announcing the abolition, pushed in; the headline is circled in red ink.",
+        "A string/thread graphic connecting cities snaps."
+      ],
+      "assets": [
+        "A14"
+      ],
+      "sfx": "Thread snap; newspaper rustle.",
+      "facts": [
+        "F08"
+      ]
+    },
+    {
+      "id": "S13",
+      "chapter": 4,
+      "chapter_card": false,
+      "start": 136.1,
+      "end": 146.9,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "Destûra nû tenê yek netewe nas kir: Tirk. Hemû gelên din wek Tirk hatin hesibandin, û paşê heta navê Kurdan kirin «Tirkên Çiyayî».",
+      "on_screen": [
+        "Yek netewe",
+        "«Tirkên Çiyayî»"
+      ],
+      "tag": null,
+      "visual": [
+        "Kinetic typography: many small labels (Kurd, Arab, Circassian, Laz...) on paper; a big rubber stamp comes down and they all turn into one word. Then the phrase 'Mountain Turks' in quotation marks, crossed out by hand in red."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "Rubber stamp thud; marker strike-through.",
+      "facts": [
+        "F09"
+      ]
+    },
+    {
+      "id": "S14",
+      "chapter": 4,
+      "chapter_card": false,
+      "start": 146.9,
+      "end": 155.1,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "Zimanê tirkî bû tenê zimanê fermî. Zimanê kurdî hate qedexekirin, ligel hemû dibistan, rêxistin û kovarên kurdî.",
+      "on_screen": [
+        "Zimanê kurdî: qedexe",
+        "Dibistan · Rêxistin · Kovar"
+      ],
+      "tag": null,
+      "visual": [
+        "Archival Kurdish periodicals of the era (e.g. covers of early Kurdish magazines, public domain scans) slide in, then each is closed with a padlock icon drawn in ink.",
+        "A school door (own/stock footage) closes in shadow."
+      ],
+      "assets": [
+        "A24"
+      ],
+      "sfx": "Three padlock clicks, one per item.",
+      "facts": [
+        "F09"
+      ]
+    },
+    {
+      "id": "S15",
+      "chapter": 4,
+      "chapter_card": false,
+      "start": 155.1,
+      "end": 168.9,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "Kurd ji erdê bav û kalên xwe ber bi rojavayê Anatolyayê ve hatin koçberkirin, û Tirk li şûna wan hatin bicihkirin. Rêber û têkoşerên kurd hatin girtin, sirgûnkirin û kuştin.",
+      "on_screen": [
+        "Koçberkirin · Girtin · Sirgûn · Kuştin"
+      ],
+      "tag": null,
+      "visual": [
+        "Map: many small arrows flow from the east to western Anatolia while other arrows flow in; dots representing villages dim.",
+        "Then four words stamp on, one by one, in red ink."
+      ],
+      "assets": [
+        "A22"
+      ],
+      "sfx": "Low rumble under the arrows; four stamp thuds.",
+      "facts": [
+        "F10"
+      ]
+    },
+    {
+      "id": "S16",
+      "chapter": 4,
+      "chapter_card": false,
+      "start": 168.9,
+      "end": 182.3,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "Erdên çandiniyê yên herî baş ên Kurdan hatin desteserkirin û ji Tirkan re hatin dayîn. Cotkarên kurd bê erd û bê kar man, û xelayeke mezin li Kurdistanê derket.",
+      "on_screen": [
+        "Erd hate desteserkirin",
+        "Xela"
+      ],
+      "tag": null,
+      "visual": [
+        "Archival photos of Kurdish farmers / wheat fields of the era (public domain), desaturated; a hand-drawn boundary line cuts the field and the colour drains from one side."
+      ],
+      "assets": [
+        "A25"
+      ],
+      "sfx": "Wind over fields; empty bowl/wooden sound, sparse.",
+      "facts": [
+        "F11"
+      ]
+    },
+    {
+      "id": "S17",
+      "chapter": 4,
+      "chapter_card": false,
+      "start": 182.3,
+      "end": 197.0,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "Hejmareke mezin a leşkerên tirk şandin Kurdistanê, da ku têkiliyên bazirganî yên vê parçeyê bi parçeyên din ên Kurdistanê re qut bikin, û bac û xercên giran jî danîn ser gelê wê.",
+      "on_screen": [
+        "Bazirganî hate qutkirin",
+        "Bacên giran"
+      ],
+      "tag": null,
+      "visual": [
+        "Map: trade routes drawn as dotted gold lines between parts of Kurdistan get cut by red barrier marks; a tax ledger (generic, illustrative) stamps over the bottom of the frame."
+      ],
+      "assets": [
+        "A22"
+      ],
+      "sfx": "Scissor snips on each route; ledger stamp.",
+      "facts": [
+        "F11"
+      ]
+    },
+    {
+      "id": "S18",
+      "chapter": 5,
+      "chapter_card": true,
+      "start": 199.0,
+      "end": 207.6,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "Berxwedan bi dizî hate birêxistinkirin, ji aliyê Civata Serxwebûnê, Azadî. Civatê têkiliyeke rasterast bi Şêx Seîd re danî.",
+      "on_screen": [
+        "Civata Serxwebûnê (Azadî)"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card. A dark 'case board': pinned paper notes and string (Vox investigation style). The society's name is typed on a card and pinned; a red string runs to Sheikh Said's portrait."
+      ],
+      "assets": [
+        "A01",
+        "A30"
+      ],
+      "sfx": "Pin pushes into cork; string pull.",
+      "facts": [
+        "F03",
+        "F12"
+      ]
+    },
+    {
+      "id": "S19",
+      "chapter": 5,
+      "chapter_card": false,
+      "start": 207.6,
+      "end": 223.2,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "Di dawiya havîna 1923an de, Yûsif Ziya, rêberekî tevgera kurd û nûnerê berê yê Bedlîsê di parlamentoya Tirkiyeyê de, çû Xinûsê. Ew û Şêx Seîd li hev kirin ku serhildaneke nû dest pê bikin.",
+      "on_screen": [
+        "Havîna 1923an",
+        "Yûsif Ziya → Xinûs"
+      ],
+      "tag": null,
+      "visual": [
+        "Map: an animated route from Bitlis to Khinis; a name card for Yusuf Ziya pins onto the case board next to Sheikh Said; the two cards are joined with a gold string (agreement)."
+      ],
+      "assets": [
+        "A22",
+        "A30"
+      ],
+      "sfx": "Footsteps-on-gravel texture under the route; handshake-like soft thump.",
+      "facts": [
+        "F12"
+      ]
+    },
+    {
+      "id": "S20",
+      "chapter": 5,
+      "chapter_card": false,
+      "start": 223.2,
+      "end": 237.0,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "Di zivistana 1923–1924an de, serokên eşîran û endamên Civatê li herêma Palûyê civîneke fireh li dar xistin, ji bo berfirehkirina tevgera veşartî û amadekariya serhildaneke nû ji bo serxwebûna Kurdistanê.",
+      "on_screen": [
+        "Zivistana 1923–1924",
+        "Civîna Palûyê"
+      ],
+      "tag": null,
+      "visual": [
+        "The archival group photo of Sheikh Said with companions (from the article, PDF page 5) in 2.5D parallax, snow particles drifting; a lamp-light flicker grade."
+      ],
+      "assets": [
+        "A03"
+      ],
+      "sfx": "Winter wind; low murmur of a room; a fire crackle.",
+      "facts": [
+        "F13"
+      ]
+    },
+    {
+      "id": "S21",
+      "chapter": 5,
+      "chapter_card": false,
+      "start": 237.0,
+      "end": 251.7,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "Ev kar bi alîkariyeke fireh a Şêx Mehmûdê Hefîd û Simkoyê Şikak hate kirin, û biryar hate dayîn ku bîranînameyek li ser mafên neteweyî yên Kurdan ji Komela Miletan re bê şandin.",
+      "on_screen": [
+        "Şêx Mehmûdê Hefîd · Simkoyê Şikak",
+        "Bîranîname ji Komela Miletan re"
+      ],
+      "tag": null,
+      "visual": [
+        "Two archival portraits (public domain) of Sheikh Mahmud Hafid and Simko Shikak pin onto the case board.",
+        "Then an envelope stamps and flies across a map toward Geneva; archival photo of the League of Nations building."
+      ],
+      "assets": [
+        "A18",
+        "A16"
+      ],
+      "sfx": "Envelope whoosh; wax-seal thud.",
+      "facts": [
+        "F14"
+      ]
+    },
+    {
+      "id": "S22",
+      "chapter": 5,
+      "chapter_card": false,
+      "start": 251.7,
+      "end": 269.9,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "Piştî ku Şêx Seîd bû serokê Civatê, biryara tevgera çekdarî da, lê dixwest biryar mohra hemû Kurdistanê li ser be. Loma kurê xwe, Elî Riza, şand Amed û Helebê, da ku nêrînên rêberên kurd ên rojava, başûr û rojhilat bizane.",
+      "on_screen": [
+        "Elî Riza",
+        "Amed · Heleb"
+      ],
+      "tag": null,
+      "visual": [
+        "Map: from Khinis, two animated routes go to Amed and Aleppo; compass labels (west, south, east) light up in turn.",
+        "Archival photo of Aleppo citadel (public domain) slides in at the end of the route."
+      ],
+      "assets": [
+        "A22",
+        "A17"
+      ],
+      "sfx": "Horse trot (soft) under the routes; map pin pops.",
+      "facts": [
+        "F15"
+      ]
+    },
+    {
+      "id": "S23",
+      "chapter": 5,
+      "chapter_card": false,
+      "start": 269.9,
+      "end": 284.6,
+      "kind": "title",
+      "voice": "narrator",
+      "narration": "Piştî civîneke mezin li Helebê, hemû gihîştin wê baweriyê ku mafê neteweyî yê Kurdan bêyî serhildaneke çekdarî nayê misogerkirin. Roja 21ê Adara 1925an, roja Newrozê, wek roja yekem a serhildanê hate diyarkirin.",
+      "on_screen": [
+        "21ê Adara 1925an",
+        "Roja yekem"
+      ],
+      "tag": null,
+      "visual": [
+        "A paper wall calendar for March 1925; '21' is circled in gold ink; a small flame graphic (Newroz) flickers beside it."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "Pen circle; soft fire crackle.",
+      "facts": [
+        "F15"
+      ]
+    },
+    {
+      "id": "S24",
+      "chapter": 5,
+      "chapter_card": false,
+      "start": 284.6,
+      "end": 297.1,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "Di nîvê duyem ê Çileya 1925an de, Şêx Seîd li piraniya herêmên Kurdistanê geriya, û li her herêmê, alîgir û dostan bi kom berê xwe didan wî.",
+      "on_screen": [
+        "Çileya 1925an",
+        "Gera Kurdistanê"
+      ],
+      "tag": null,
+      "visual": [
+        "Map: a gold route loops through many towns; at each stop small dots multiply around the pin (supporters gathering).",
+        "Short insert: the painted image of the Sheikh on horseback with riders (from the article, PDF page 7), labelled as an illustration."
+      ],
+      "assets": [
+        "A22",
+        "A06"
+      ],
+      "sfx": "Horse hooves in snow; crowd murmur rising at each stop.",
+      "facts": [
+        "F16"
+      ]
+    },
+    {
+      "id": "S25",
+      "chapter": 5,
+      "chapter_card": false,
+      "start": 297.1,
+      "end": 308.3,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "Di 5ê Sibata 1925an de, bi sed siwaran ve ji Xinûsê derket, ber bi gundê Pîranê ve, ber bi mala birayê xwe, Şêx Ebdurrehîm.",
+      "on_screen": [
+        "5ê Sibata 1925an",
+        "100 siwar → Pîran"
+      ],
+      "tag": null,
+      "visual": [
+        "Map: one route Khinis → Piran; a counter '100' ticks up beside a small horse icon.",
+        "Winter landscape of the region (own/stock footage), riders silhouetted far away (no faces)."
+      ],
+      "assets": [
+        "A22",
+        "A09"
+      ],
+      "sfx": "Gallop of a group of horses, snow crunch, wind.",
+      "facts": [
+        "F16"
+      ]
+    },
+    {
+      "id": "S26",
+      "chapter": 6,
+      "chapter_card": true,
+      "start": 310.3,
+      "end": 319.4,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "Hema wê şevê, mefrezeyeke artêşa tirk bi serokatiya Husnî Efendî û Mistefa Alîm hat, da ku çend gundiyan bigire.",
+      "on_screen": [
+        "Husnî Efendî · Mistefa Alîm"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card. Night village (illustrative, own footage of a mountain village at night) with lantern light; two typed name cards slide in."
+      ],
+      "assets": [
+        "A26"
+      ],
+      "sfx": "Night insects, dogs barking far away, boots on gravel.",
+      "facts": [
+        "F17"
+      ]
+    },
+    {
+      "id": "S27",
+      "chapter": 6,
+      "chapter_card": false,
+      "start": 319.4,
+      "end": 332.4,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "Şêx Seîd qebûl nekir ku kes bê girtin. Herdu alî ketin sengeran. Piştî şer û teqê, çend leşkerên mefrezeyê hatin kuştin û yên din jî dîl hatin girtin.",
+      "on_screen": [
+        "Qebûl nekir kes bê girtin"
+      ],
+      "tag": null,
+      "visual": [
+        "Abstract, non-graphic: muzzle flashes as quick light flickers on dark paper; ink splatter animates across the frame; no bodies, no blood."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "A few distant rifle shots (low in the mix), then sudden silence.",
+      "facts": [
+        "F17"
+      ]
+    },
+    {
+      "id": "S28",
+      "chapter": 6,
+      "chapter_card": false,
+      "start": 332.4,
+      "end": 355.4,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "Ev bûyer bû sedem ku serhildan zûtir ji wextê xwe dest pê bike. Gava Şêx Tayer, birayê Şêx Seîd, ev nûçe bihîst, di 10ê Sibatê de bajarokê Licê girt, û dest danî ser pere, name û telgrafên veşartî yên rejîmê. Di 11ê Sibatê de, ew û siwarên xwe çûn ba Şêx.",
+      "on_screen": [
+        "10ê Sibatê · Licê",
+        "Pere · Name · Telgrafên veşartî"
+      ],
+      "tag": null,
+      "visual": [
+        "Map: a gold flame icon ignites at Piran, then Lice lights up.",
+        "A stack of period telegrams (illustrative props) with a 'SECRET' style stamp in Ottoman-Turkish script (no readable fake text), pushed in."
+      ],
+      "assets": [
+        "A22",
+        "A30"
+      ],
+      "sfx": "Match strike; telegraph clicks; galloping horses.",
+      "facts": [
+        "F18",
+        "F19"
+      ]
+    },
+    {
+      "id": "S29",
+      "chapter": 6,
+      "chapter_card": false,
+      "start": 355.4,
+      "end": 363.6,
+      "kind": "title",
+      "voice": "narrator",
+      "narration": "Bûyer ji planê bileztir bûn, û Şêx Seîd neçar ma ku bi pêşwext biryara destpêkirina serhildanê bide.",
+      "on_screen": [
+        "Destpêka pêşwext"
+      ],
+      "tag": null,
+      "visual": [
+        "The March 1925 calendar from S23: the circle on '21' is scribbled out and the pages rip back to February."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "Pages ripping; drum hit.",
+      "facts": [
+        "F19"
+      ]
+    },
+    {
+      "id": "S30",
+      "chapter": 6,
+      "chapter_card": false,
+      "start": 363.6,
+      "end": 371.8,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "Serhildan bi lez belav bû. Enqereyê îdareya leşkerî ragihand, qanûneke taybet derxist, û Îsmet Paşa bû serokwezîr.",
+      "on_screen": [
+        "Îdareya leşkerî",
+        "Îsmet Paşa · serokwezîr"
+      ],
+      "tag": null,
+      "visual": [
+        "Archival 1925 newspaper front pages about the revolt (public domain scans) fan out; an archival portrait of İsmet Pasha (public domain) pins on."
+      ],
+      "assets": [
+        "A15",
+        "A19"
+      ],
+      "sfx": "Newspaper flips; telegraph clicks.",
+      "facts": [
+        "F20"
+      ]
+    },
+    {
+      "id": "S31",
+      "chapter": 7,
+      "chapter_card": true,
+      "start": 373.8,
+      "end": 393.3,
+      "kind": "data",
+      "voice": "narrator",
+      "narration": "Li gorî statîstîkeke wê demê, hejmara pêşmergeyên kurd tenê li çar wilayetan nêzîkî 600 hezar kes bû, li hember hêzên tirk ên ku ji 100 hezarî kêmtir bûn. Lê dîroknasên îro hejmarên gelek kêmtir didin: nêzîkî 10 hezar şervan li ber sûrên Amedê.",
+      "on_screen": [
+        "Statîstîka wê demê:",
+        "600 hezar li hember 100 hezar",
+        "Dîroknasên îro: nêzîkî 10 hezar"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card. Vox-style data graphic: two bars on paper (600,000 vs 100,000) labelled 'statistic of the time'; then a third, much smaller bar (≈10,000) slides in, labelled 'historians today'. Keep bar lengths to scale."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "Bars 'grow' with a rising tone; a soft 'correction' tick for the third bar.",
+      "facts": [
+        "F21",
+        "F22"
+      ]
+    },
+    {
+      "id": "S32",
+      "chapter": 7,
+      "chapter_card": false,
+      "start": 393.3,
+      "end": 406.7,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "Li van herêman Çerkez, Ereb û Ermen jî dijiyan. Li gorî gotarê, ew jî di bin desthilatdariya tirk de bindest û zordîtî bûn, loma piraniya wan beşdarî serhildanê bûn.",
+      "on_screen": [
+        "Çerkez · Ereb · Ermen"
+      ],
+      "tag": "Li gorî gotarê",
+      "visual": [
+        "Map of the four provinces with three soft colour dots for the communities; the 'according to the article' tag stays visible the whole scene."
+      ],
+      "assets": [
+        "A22"
+      ],
+      "sfx": "Soft map tones.",
+      "facts": [
+        "F23"
+      ]
+    },
+    {
+      "id": "S33",
+      "chapter": 7,
+      "chapter_card": false,
+      "start": 406.7,
+      "end": 416.2,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "Şêx Seîd bi xwe serokatiya siwarên pêşmerge yên Hecî Hesen û Emerê Xaro dikir, ji eşîra Mistan û ji Botanê.",
+      "on_screen": [
+        "Hecî Hesen · Emerê Xaro",
+        "Mistan · Botan"
+      ],
+      "tag": null,
+      "visual": [
+        "The painted image of Sheikh Said on a white horse leading riders (from the article, PDF page 7), labelled 'illustration'; 2.5D parallax with dust particles."
+      ],
+      "assets": [
+        "A06"
+      ],
+      "sfx": "Cavalry gallop, rising; daf rolls.",
+      "facts": [
+        "F24"
+      ]
+    },
+    {
+      "id": "S34",
+      "chapter": 7,
+      "chapter_card": false,
+      "start": 416.2,
+      "end": 431.3,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "Hêza Salih Begê Xan û hêzên Şêx Şemsedîn gihîştin herêma Madenê, û Şêx Eyûb bi hezaran siwarên pêşmerge ve tevlî refên Şêx Ebdurrehîm, birayê Şêx Seîd, bû, ber bi rizgarkirina bajarê Amedê ve.",
+      "on_screen": [
+        "Maden",
+        "Ber bi Amedê"
+      ],
+      "tag": null,
+      "visual": [
+        "Map: several gold arrows converge on Amed (Diyarbakır) from Maden and the north; commander name cards pop up along the arrows."
+      ],
+      "assets": [
+        "A22"
+      ],
+      "sfx": "Rising percussion; arrows whoosh.",
+      "facts": [
+        "F24"
+      ]
+    },
+    {
+      "id": "S35",
+      "chapter": 7,
+      "chapter_card": false,
+      "start": 431.3,
+      "end": 452.5,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "Lê Şêx Seîd hîs kir ku hêzên wî nikarin Amedê bi zorê rizgar bikin. Loma li rêyeke din geriya: bi hukûmeta tirk re ket danûstandinê, da ku derfeteke guncav ji bo serhildana Kurdên nav bajêr biafirîne. Lê tu rê tunebû ku çek bigihîjin destê xelkê nav bajêr.",
+      "on_screen": [
+        "Sûrên Amedê"
+      ],
+      "tag": null,
+      "visual": [
+        "The black basalt walls of Diyarbakır (photo/footage), slow lateral dolly; a dotted line tries to cross the wall and stops with a red X."
+      ],
+      "assets": [
+        "A07"
+      ],
+      "sfx": "Wind on stone; a single low drum.",
+      "facts": [
+        "F25"
+      ]
+    },
+    {
+      "id": "S36",
+      "chapter": 7,
+      "chapter_card": false,
+      "start": 452.5,
+      "end": 470.7,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "Dorpêç dirêj kişand, û artêşa dijmin a nav bajêr qebûl nekir ku dev ji berxwedanê berde. Ji destpêka Adarê ve, pêşmergeyan êrîş dest pê kir. Li Deriyê Mêrdînê, komeke pêşmergeyan û xelkê bajêr bûn yek û êrîşî artêşa dijmin kirin.",
+      "on_screen": [
+        "Adara 1925an",
+        "Deriyê Mêrdînê"
+      ],
+      "tag": null,
+      "visual": [
+        "Photo of the Mardin Gate (Mardinkapı) of Diyarbakır's walls; city-plan graphic with the gate highlighted and arrows pushing toward it."
+      ],
+      "assets": [
+        "A07",
+        "A22"
+      ],
+      "sfx": "Battle bed far in the background (muffled), war cries far away, daf peak.",
+      "facts": [
+        "F25"
+      ]
+    },
+    {
+      "id": "S37",
+      "chapter": 7,
+      "chapter_card": false,
+      "start": 470.7,
+      "end": 488.9,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "Lê Tirkan sengerên xwe qayîm kiribûn, û bi sedan çekên nû di destê wan de bûn. Piştî şerekî giran û kuştina gelek kesan ji herdu aliyan, û têkçûna du sê êrîşên pêşmergeyan, biryara dawî hate dayîn: dorpêça bajêr bê rakirin.",
+      "on_screen": [
+        "Dorpêç hate rakirin"
+      ],
+      "tag": null,
+      "visual": [
+        "The arrows from S34/S36 stop at the walls, flicker, and retract; colour drains to monochrome."
+      ],
+      "assets": [
+        "A22",
+        "A07"
+      ],
+      "sfx": "Music falls away; one long low note; wind.",
+      "facts": [
+        "F25"
+      ]
+    },
+    {
+      "id": "S38",
+      "chapter": 8,
+      "chapter_card": true,
+      "start": 490.9,
+      "end": 507.4,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "Refên serhildanê roj bi roj ber bi tevlîheviyê û belavbûnê ve diçûn, bi taybetî gava artêşa dijmin ji bakur û başûr ve, bi deh hezaran leşker û balafirên şer ve, êrîş kir û dorpêç berevajî kir.",
+      "on_screen": [
+        "Ji bakur û başûr",
+        "Balafirên şer"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card. Map: thick dark arrows sweep in from north and south and encircle the gold area, which shrinks.",
+        "Archival photo of early Turkish military aircraft (public domain) passes across the frame."
+      ],
+      "assets": [
+        "A22",
+        "A27"
+      ],
+      "sfx": "Propeller-plane drone passing; low rumble.",
+      "facts": [
+        "F26"
+      ]
+    },
+    {
+      "id": "S39",
+      "chapter": 8,
+      "chapter_card": false,
+      "start": 507.4,
+      "end": 523.4,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "Di dawiya Nîsanê de, bi xiyaneta serokê eşîra Cibran, Qasim Begê Cibran, Şêx Seîd, Şêx Ebdullah, Elî Xalib, Reşîd Axa û 26 şoreşgerên din li ser pira Çemê Miradê li herêma Gencê dîl hatin girtin.",
+      "on_screen": [
+        "Nîsana 1925an · Pira Çemê Miradê",
+        "Xiyaneta Qasim Begê Cibran"
+      ],
+      "tag": null,
+      "visual": [
+        "Photo/footage of the Murat River and a stone bridge (own/stock), cold grade, slow push-in. The word 'betrayal' writes on in red ink and the paper behind it cracks.",
+        "Then the colourised photo of Sheikh Said walking with men beside a stone wall (A04), labelled 'colourised', slow push-in."
+      ],
+      "assets": [
+        "A08",
+        "A04"
+      ],
+      "sfx": "River water; a single heavy chain sound at the end.",
+      "facts": [
+        "F26"
+      ]
+    },
+    {
+      "id": "S40",
+      "chapter": 9,
+      "chapter_card": true,
+      "start": 525.4,
+      "end": 538.4,
+      "kind": "quote",
+      "voice": "narrator",
+      "narration": "Di zindanê de, du leşkerên tirk çûn ba wî û jê re gotin: «Şêx, niha Îsmet Paşa tê, tu jî lêborînê jê bixwaze û tu dê bê berdan.»",
+      "on_screen": [
+        "«Lêborînê bixwaze»"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card. The archival photo of Sheikh Said seated between two men in uniform (from the article, PDF page 6), slow push-in; heavy vignette, prison-window light shaft drawn across."
+      ],
+      "assets": [
+        "A02"
+      ],
+      "sfx": "Prison room tone; a metal door far away.",
+      "facts": [
+        "F28"
+      ]
+    },
+    {
+      "id": "S41",
+      "chapter": 9,
+      "chapter_card": false,
+      "start": 538.4,
+      "end": 563.9,
+      "kind": "quote",
+      "voice": "quote",
+      "narration": "Şêx bersiv da: «Ez lêborînê tenê ji Xwedê dixwazim, û tiştekî din na. Min tu karekî xelet nekiriye ku lêborînê jê re bixwazim. Ji Îsmet re jî bibêjin: eger ez ji vê zindanê derkevim, ez ê dîsa dest bi têkoşînê bikim û carek din ji bo gelê xwe şer bikim.»",
+      "on_screen": [
+        "«Ez lêborînê",
+        "tenê ji Xwedê dixwazim»"
+      ],
+      "tag": "Li gorî gotarê",
+      "visual": [
+        "Pull-quote on parchment, typed on word by word; a gold underline under 'God alone'."
+      ],
+      "assets": [
+        "A30",
+        "A02"
+      ],
+      "sfx": "Typewriter, soft; solo ney.",
+      "facts": [
+        "F28"
+      ]
+    },
+    {
+      "id": "S42",
+      "chapter": 9,
+      "chapter_card": false,
+      "start": 563.9,
+      "end": 575.6,
+      "kind": "quote",
+      "voice": "narrator",
+      "narration": "Gotinên Şêx gihîştin Îsmet Paşa, û Paşa bi xwe hat zindanê: «Lêborînê bixwaze û poşmaniya xwe bîne ziman, bê guman ez ê te azad bikim.»",
+      "on_screen": [
+        "Îsmet Paşa"
+      ],
+      "tag": null,
+      "visual": [
+        "Archival portrait of İsmet Pasha (public domain) slides in from one side; the Sheikh's portrait from the other; they face each other across a vertical paper fold."
+      ],
+      "assets": [
+        "A19",
+        "A02"
+      ],
+      "sfx": "Footsteps in a corridor; door unlock.",
+      "facts": [
+        "F28"
+      ]
+    },
+    {
+      "id": "S43",
+      "chapter": 9,
+      "chapter_card": false,
+      "start": 575.6,
+      "end": 598.1,
+      "kind": "quote",
+      "voice": "quote",
+      "narration": "Şêx got: «Ez Kurd im, xwîna kurd di laşê min de ye, heta bimirim ez ê Kurd bim. Tu wextê xwe badihewa derbas dikî, û ez qet ji bo saetekê azadiyê hewaya xiyanetê hilnamijim. Min bikujin, ez ji we re ne bi kêr im!»",
+      "on_screen": [
+        "«Ez Kurd im...",
+        "heta bimirim ez ê Kurd bim»"
+      ],
+      "tag": "Li gorî gotarê",
+      "visual": [
+        "Full-frame pull-quote in large type; the portrait behind it brightens slightly on 'I am a Kurd'. Hold 1.5 s of silence after the last word."
+      ],
+      "assets": [
+        "A30",
+        "A01"
+      ],
+      "sfx": "Silence except room tone; one deep heartbeat-like drum after the last word.",
+      "facts": [
+        "F28"
+      ]
+    },
+    {
+      "id": "S44",
+      "chapter": 10,
+      "chapter_card": true,
+      "start": 600.1,
+      "end": 614.4,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "Dadgehkirina Şêx Seîd û hevalên wî di dawiya Gulanê de dest pê kir û mehekê dewam kir. Ji bilî Şêx Seîd, biryara darvekirina 47 rêber û têkoşerên din jî hate dayîn.",
+      "on_screen": [
+        "Dadgeh · Gulana 1925an",
+        "Şêx Seîd + 47"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card. Archival photo of the Diyarbakır Independence Tribunal / the trial (public domain) in monochrome; 48 small gold marks appear in a grid, one by one, quickly."
+      ],
+      "assets": [
+        "A28"
+      ],
+      "sfx": "Gavel knock (single); soft tick per mark, accelerating.",
+      "facts": [
+        "F29"
+      ]
+    },
+    {
+      "id": "S45",
+      "chapter": 10,
+      "chapter_card": false,
+      "start": 614.4,
+      "end": 619.1,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "Di 29ê Hezîrana 1925an de, li Amedê hatin darvekirin.",
+      "on_screen": [
+        "29ê Hezîrana 1925an · Amed"
+      ],
+      "tag": null,
+      "visual": [
+        "Return to the dawn shot of Diyarbakır's walls from S01 (bookend). The 48 gold marks from S44 fade to grey. No execution imagery."
+      ],
+      "assets": [
+        "A07"
+      ],
+      "sfx": "Wind; the same wooden creak as S01; then silence.",
+      "facts": [
+        "F30"
+      ]
+    },
+    {
+      "id": "S46",
+      "chapter": 10,
+      "chapter_card": false,
+      "start": 619.1,
+      "end": 629.5,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "Piştî wî, bi sedan gund hatin şewitandin û malbat hatin koçberkirin. Heta zanayê kurd, Seîdê Nûrsî, ku beşdarî serhildanê nebûbû, hate sirgûnkirin.",
+      "on_screen": [
+        "Bi sedan gund hatin şewitandin",
+        "Seîdê Nûrsî · sirgûn"
+      ],
+      "tag": null,
+      "visual": [
+        "Map: many village dots turn to grey ash marks; archival portrait of Said Nursi (public domain) with a dotted exile route heading west."
+      ],
+      "assets": [
+        "A22",
+        "A20"
+      ],
+      "sfx": "Low fire crackle (distant), wind.",
+      "facts": [
+        "F31",
+        "F32"
+      ]
+    },
+    {
+      "id": "S47",
+      "chapter": 11,
+      "chapter_card": true,
+      "start": 631.5,
+      "end": 648.1,
+      "kind": "quote",
+      "voice": "quote",
+      "narration": "Di gotinên wî yên bi qîmet de tê gotin: «Zorê li wan kesan nekin ku welat naxwazin; ji ber ku welat şeref e, û kes nikare bi zorê şerefê bide kesê bêşeref.»",
+      "on_screen": [
+        "«Welat şeref e»"
+      ],
+      "tag": "Gotineke ku jê re tê girêdan",
+      "visual": [
+        "Chapter card. Large pull-quote on parchment over the painted cover portrait (from the article, PDF page 1), labelled 'illustration'."
+      ],
+      "assets": [
+        "A05",
+        "A30"
+      ],
+      "sfx": "Theme returns softly; typewriter.",
+      "facts": [
+        "F27"
+      ]
+    },
+    {
+      "id": "S48",
+      "chapter": 11,
+      "chapter_card": false,
+      "start": 648.1,
+      "end": 661.3,
+      "kind": "quote",
+      "voice": "quote",
+      "narration": "Û: «Heta eger rojek bê û hûn Kurd, Kurdbûna xwe ji bîr bikin, bawer bin ku dijmin qet ji bîr nake ku hûn Kurd in.»",
+      "on_screen": [
+        "«Dijmin qet ji bîr nake",
+        "ku hûn Kurd in»"
+      ],
+      "tag": "Gotineke ku jê re tê girêdan",
+      "visual": [
+        "Pull-quote; behind it, a slow montage of Kurdish faces of today (own footage, consented, or crowds at Newroz shot from behind/wide)."
+      ],
+      "assets": [
+        "A29",
+        "A30"
+      ],
+      "sfx": "Theme continues.",
+      "facts": [
+        "F27"
+      ]
+    },
+    {
+      "id": "S49",
+      "chapter": 12,
+      "chapter_card": true,
+      "start": 663.3,
+      "end": 680.2,
+      "kind": "montage",
+      "voice": "narrator",
+      "narration": "Ji Selahedîn heta Şêx Seîd, Kurd her tim bi ummetê re bûn, ne li dijî wê. Pirsgirêka Kurdan qet ne bi gelê tirk an ereb re bû, lê bi siyasetekê re bû ku navê miletekî înkar dikir.",
+      "on_screen": [
+        "Bi ummetê re, ne li dijî wê"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card. Split-screen collage: Salahuddin (left) and Sheikh Said (right) as paper cut-outs, joined by a gold line; then Kurdish, Arab and Turkish mosque domes (photos) side by side."
+      ],
+      "assets": [
+        "A10",
+        "A01",
+        "A23"
+      ],
+      "sfx": "Warm swell; daf.",
+      "facts": [
+        "F04",
+        "F33"
+      ]
+    },
+    {
+      "id": "S50",
+      "chapter": 12,
+      "chapter_card": false,
+      "start": 680.2,
+      "end": 693.6,
+      "kind": "data",
+      "voice": "narrator",
+      "narration": "Îro jî wisa ye: ji sala 2014an ve, gava DAIŞê Iraq û Sûriye dagirtin, Herêma Kurdistanê deriyên xwe vekirin. Heta sala 2017an, zêdetirî 1.8 milyon koçber û penaber hewandibûn.",
+      "on_screen": [
+        "2014–2017",
+        "Zêdetirî 1.8 milyon koçber û penaber"
+      ],
+      "tag": null,
+      "visual": [
+        "Footage/photos of IDP camps in the Kurdistan Region (licensed, e.g. UNHCR/IOM media with credit, or Dwin's own archive); an animated counter climbs to 1.8 million."
+      ],
+      "assets": [
+        "A21"
+      ],
+      "sfx": "Counter ticks; children's voices far away (ambient, from the footage).",
+      "facts": [
+        "F34"
+      ]
+    },
+    {
+      "id": "S51",
+      "chapter": 12,
+      "chapter_card": false,
+      "start": 693.6,
+      "end": 710.1,
+      "kind": "quote",
+      "voice": "narrator",
+      "narration": "Quran dibêje: «وَجَعَلْنَاكُمْ شُعُوبًا وَقَبَائِلَ لِتَعَارَفُوا», ango: Me hûn kirin gel û eşîr da ku hûn hev nas bikin. Misilman ziman, ax û navê birayê xwe înkar nake. Naskirin ne parçekirin e; ew wateya biratiyê ye.",
+      "on_screen": [
+        "«وَجَعَلْنَاكُمْ شُعُوبًا وَقَبَائِلَ لِتَعَارَفُوا»",
+        "Hucurat: 13",
+        "Naskirin ne parçekirin e"
+      ],
+      "tag": null,
+      "visual": [
+        "The verse in elegant Arabic calligraphy (Naskh or Thuluth font, not hand-faked) on parchment, gold; reference beneath. Then the last line types on.",
+        "Set the verse as its own right-to-left text block (dir=rtl) in every language version, including Kurmanji, so the « » marks and harakat stay in the right place.",
+        "Use a respectful, still frame; no music hits under the verse."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "Music drops under the verse; returns after.",
+      "facts": [
+        "F35"
+      ]
+    },
+    {
+      "id": "S52",
+      "chapter": 13,
+      "chapter_card": false,
+      "start": 710.1,
+      "end": 721.8,
+      "kind": "position",
+      "voice": "narrator",
+      "narration": "Helwesta Dwînê: Em hemû kesên ku bi berdewamî xelkê dixapînin şermezar dikin, bi propagandayeke ku dîroka gelekî jê dibe û misilman li dijî misilman radike.",
+      "on_screen": [
+        "Em hemû kesên ku",
+        "bi propagandayê xelkê dixapînin",
+        "şermezar dikin"
+      ],
+      "tag": "Helwesta Dwînê",
+      "visual": [
+        "Dwin position card: full-frame dark green, cream text, gold 'Dwin's position' tag. No people, no flags, no named targets."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "Firm low strings; one deep hit at the end.",
+      "facts": [
+        "F36"
+      ]
+    },
+    {
+      "id": "S53",
+      "chapter": 13,
+      "chapter_card": false,
+      "start": 721.8,
+      "end": 728.3,
+      "kind": "title",
+      "voice": "narrator",
+      "narration": "Şêx Seîd di gorek nenas de hate veşartin. Lê çîroka wî nehate veşartin.",
+      "on_screen": [
+        "Şêx Seîdê Pîran",
+        "1865 – 1925"
+      ],
+      "tag": null,
+      "visual": [
+        "Bookend to S03: the torn-paper portrait returns; the paper pieces settle; warm light rises; slow push-in to his eyes."
+      ],
+      "assets": [
+        "A01",
+        "A30"
+      ],
+      "sfx": "Final theme chord; reverb tail.",
+      "facts": [
+        "F37"
+      ]
+    },
+    {
+      "id": "S54",
+      "chapter": 13,
+      "chapter_card": false,
+      "start": 728.3,
+      "end": 731.3,
+      "kind": "end",
+      "voice": "none",
+      "narration": "",
+      "on_screen": [
+        "Dwîn - Kurmancî",
+        "Dengê Kurdan, bi nasname û baweriya me"
+      ],
+      "tag": null,
+      "visual": [
+        "Dwin end card: logo animates in (scale 96% → 100%, 0.4 s) on dark green with the gold shield; channel name and tagline under it. No sources slide (sources go in the post description only)."
+      ],
+      "assets": [
+        "A32"
+      ],
+      "sfx": "Dwin sound logo, or the last chord's tail.",
+      "facts": []
+    }
+  ],
+  "post_description": "Şêx Seîdê Pîran (1865–1925): zanayekî Nexşebendî ku ji bo gelê xwe rabû, û di 29ê Hezîrana 1925an de li Amedê hate darvekirin.\n«Ez lêborînê tenê ji Xwedê dixwazim.»\nJi Selahedîn heta Şêx Seîd, Kurd her tim bi ummetê re bûn.\nÇavkanî: çavkaniyên dîrokî.\nDwîn - Dengê Kurdan, bi nasname û baweriya me\n#Dwin #ŞêxSeîdêPîran #DîrokaKurd #Kurdistan #Ummet"
+}

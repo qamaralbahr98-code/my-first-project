@@ -1,0 +1,1508 @@
+{
+  "lang": "ckb",
+  "language": "Kurdish Sorani",
+  "direction": "rtl",
+  "total_seconds": 659.4,
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "vertical_cutdown": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "brand": {
+    "colors": {
+      "gold": "#C9A45C",
+      "green": "#0F2A1F",
+      "cream": "#F5EEDC",
+      "text_dark": "#0F2A1F",
+      "text_light": "#FFFFFF"
+    },
+    "font": {
+      "name": "Speda",
+      "weight": "Bold",
+      "fallback": "Noto Sans Arabic Bold",
+      "must_render": "ڕ ڵ ۆ ێ ە ڤ گ چ پ ژ"
+    },
+    "channel": "Dween - دوین"
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "name_en": "Cold open",
+      "title": null,
+      "music": "Low drone, a single tembûr/oud note, wind. Dark and still."
+    },
+    {
+      "id": 2,
+      "name_en": "The scholar of Palu",
+      "title": "زانای پالۆ",
+      "music": "Warm strings + ney, gentle, 70 BPM."
+    },
+    {
+      "id": 3,
+      "name_en": "Kurds and the ummah",
+      "title": "کورد و ئوممەت",
+      "music": "Majestic: low strings, daf on the downbeat, rising."
+    },
+    {
+      "id": 4,
+      "name_en": "The broken promise",
+      "title": "بەڵێنی شکاو",
+      "music": "Tension: ticking pulse, low brass, dissonant strings, 90 BPM."
+    },
+    {
+      "id": 5,
+      "name_en": "The secret plan",
+      "title": "پلانی نهێنی",
+      "music": "Investigative pulse, muted percussion, building."
+    },
+    {
+      "id": 6,
+      "name_en": "Piran: the spark",
+      "title": "پیران: پریشکەکە",
+      "music": "Drums enter; urgent; hard hits on the clash."
+    },
+    {
+      "id": 7,
+      "name_en": "The siege of Amed",
+      "title": "گەمارۆی ئامەد",
+      "music": "Full epic: daf + taiko + strings; peak at the Mardin Gate; falls away when the siege is lifted."
+    },
+    {
+      "id": 8,
+      "name_en": "Betrayal",
+      "title": "خیانەت",
+      "music": "Music collapses to a single sustained low note; heartbeat-like pulse."
+    },
+    {
+      "id": 9,
+      "name_en": "In prison",
+      "title": "لە زینداندا",
+      "music": "Near silence. Solo tembûr or ney. Prison room tone."
+    },
+    {
+      "id": 10,
+      "name_en": "The last journey",
+      "title": "کۆچی دوایی",
+      "music": "Slow, mournful strings; no percussion."
+    },
+    {
+      "id": 11,
+      "name_en": "Words that remain",
+      "title": "وتە بەپێزەکانی",
+      "music": "Same theme as chapter 2, slower, with a soft choir pad (no lyrics)."
+    },
+    {
+      "id": 12,
+      "name_en": "One ummah",
+      "title": "یەک ئوممەت",
+      "music": "Hopeful: warm strings + piano + light daf, rising to the closing."
+    },
+    {
+      "id": 13,
+      "name_en": "Dwin's position and close",
+      "title": null,
+      "music": "Firm low strings for the position; final theme resolves; hard stop on the end card."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "chapter": 1,
+      "chapter_card": false,
+      "start": 0.0,
+      "end": 6.3,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "ئامەد، دیاربەکر. بەرەبەیانی 29ی حوزەیرانی 1925. شێخێکی ڕیش سپی بەرەو سێدارە دەبرێت.",
+      "on_screen": [
+        "ئامەد · 29ی حوزەیرانی 1925"
+      ],
+      "tag": null,
+      "visual": [
+        "Black screen, wind. Fade up on the black basalt walls of Diyarbakır at dawn (archival or own footage), blue-grey grade.",
+        "Slow 2.5D parallax push-in. The date types on, typewriter style, lower left (lower right for RTL).",
+        "No hanging imagery, no rope, no bodies: the gallows is only implied by sound and words."
+      ],
+      "assets": [
+        "A07"
+      ],
+      "sfx": "Wind, distant birds, one slow wooden creak at the end of the line.",
+      "facts": [
+        "F30"
+      ]
+    },
+    {
+      "id": "S02",
+      "chapter": 1,
+      "chapter_card": false,
+      "start": 6.3,
+      "end": 24.1,
+      "kind": "quote",
+      "voice": "quote",
+      "narration": "لە یەکێک لە وتە بەناوبانگەکانیدا دەڵێت: «وا ژیان خەریکە کۆتایی دێت و هەرگیز پەشیمان نیم لەوەی لە پێناوی خوادا کردوومە. ئێمە دڵمان خۆشە، چونکە کوڕ و کچەکانمان لەبەر ئێمە شەرم دایانناگرێ لەبەردەم دوژمناندا.»",
+      "on_screen": [
+        "«هەرگیز پەشیمان نیم",
+        "لەوەی لە پێناوی خوادا کردوومە»"
+      ],
+      "tag": "وتەیەکی دراوەتە پاڵی",
+      "visual": [
+        "Quote card (Vox pull-quote): parchment paper, the line types on word by word in large serif-style type; key words get a gold hand-drawn underline.",
+        "Behind it, at 20% opacity, the archival portrait of Sheikh Said slowly fades in."
+      ],
+      "assets": [
+        "A01",
+        "A30"
+      ],
+      "sfx": "Typewriter keys per word (soft), paper rustle.",
+      "facts": [
+        "F27"
+      ]
+    },
+    {
+      "id": "S03",
+      "chapter": 1,
+      "chapter_card": false,
+      "start": 24.1,
+      "end": 32.6,
+      "kind": "title",
+      "voice": "narrator",
+      "narration": "ئەمە چیرۆکی شێخ سەعیدی پیرانە: زانایەکی ئایینی کە بۆ گەلەکەی هەستایەوە، و باجەکەی بە گیانی خۆی دا.",
+      "on_screen": [
+        "شێخ سەعیدی پیران",
+        "1865 – 1925",
+        "ئیمان، گەلێک، و بەڵێنێکی شکاو"
+      ],
+      "tag": null,
+      "visual": [
+        "Main title: the archival portrait cut out with torn-paper edges on a parchment background; name in large type, years under it, subtitle in gold.",
+        "Paper pieces slide in with a slight overshoot; light leak sweeps across."
+      ],
+      "assets": [
+        "A01",
+        "A30"
+      ],
+      "sfx": "Deep boom + reverse swell into the title; paper slap.",
+      "facts": [
+        "F01"
+      ]
+    },
+    {
+      "id": "S04",
+      "chapter": 2,
+      "chapter_card": true,
+      "start": 34.6,
+      "end": 44.0,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "ساڵی 1865ی زایینی، بەرامبەر 1281ی کۆچی، لە ناوچەی پالۆ لەدایک بوو، و بوو بە یەکێک لە شێخە بەرزەکانی نەقشبەندی.",
+      "on_screen": [
+        "1865ی زایینی · 1281ی کۆچی",
+        "پالۆ"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card first (chapter title in large type on paper, number '1' in gold).",
+        "Animated map: zoom from the wider region down to Palu on the Murat river; a gold pin drops; the label writes itself on.",
+        "Cut to a landscape of the Palu valley (own/stock footage) with a slow pan."
+      ],
+      "assets": [
+        "A22",
+        "A09"
+      ],
+      "sfx": "Map whoosh, pin 'pop', pen scribble for the label.",
+      "facts": [
+        "F01",
+        "F02"
+      ]
+    },
+    {
+      "id": "S05",
+      "chapter": 2,
+      "chapter_card": false,
+      "start": 44.0,
+      "end": 54.8,
+      "kind": "tree",
+      "voice": "narrator",
+      "narration": "دوای مردنی باپیرەی، شێخ عەلی، باوکی، شێخ مەحموود فەوزی ئەفەندی، پالۆی بەجێهێشت و ڕووی کردە شاری خنس. دایکیشی ناوی مەرڤە خان بوو.",
+      "on_screen": [
+        "شێخ عەلی · باپیرە",
+        "شێخ مەحموود فەوزی ئەفەندی · باوک",
+        "مەرڤە خان · دایک"
+      ],
+      "tag": null,
+      "visual": [
+        "Family tree drawn in ink on paper: three name cards connected by hand-drawn lines (no invented faces: use name cards only).",
+        "Then the map: an animated dotted line travels from Palu to Khinis (Hınıs)."
+      ],
+      "assets": [
+        "A22",
+        "A30"
+      ],
+      "sfx": "Pen drawing lines; soft whoosh on the route.",
+      "facts": [
+        "F02"
+      ]
+    },
+    {
+      "id": "S06",
+      "chapter": 2,
+      "chapter_card": false,
+      "start": 54.8,
+      "end": 63.8,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "لە خنس خوێندنی ئایینی تەواو کرد. پێگەی کۆمەڵایەتیی وەک شێخ، زیرەکی و لێهاتوویی، سەرنجی کۆمەڵەیەکی نهێنیی کوردی ڕاکێشا.",
+      "on_screen": [
+        "زانا · شێخ · سەرکردە"
+      ],
+      "tag": null,
+      "visual": [
+        "Archival portrait of Sheikh Said (turban, white beard) in 2.5D parallax; old manuscript pages and a Qur'an stand (generic, own footage) slide behind him as paper cut-outs.",
+        "The three words appear one by one, each with a gold highlighter stroke."
+      ],
+      "assets": [
+        "A01",
+        "A31"
+      ],
+      "sfx": "Page turns; soft highlighter squeak per word.",
+      "facts": [
+        "F03"
+      ]
+    },
+    {
+      "id": "S07",
+      "chapter": 3,
+      "chapter_card": true,
+      "start": 65.8,
+      "end": 74.3,
+      "kind": "montage",
+      "voice": "narrator",
+      "narration": "بۆ تێگەیشتن لە بڕیارەکەی، دەبێت زیاتر بگەڕێینەوە دواوە. بۆ چەندین سەدە، کورد لە دڵی جیهانی ئیسلامیدا بووە.",
+      "on_screen": [
+        "کورد و ئوممەتی ئیسلامی"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card. Then a fast Vox 'rewind' effect: the calendar flips back through years on screen (1925 → 1187), paper-tear transition.",
+        "Montage of historic mosques and madrasas of Kurdistan and the region (e.g. Diyarbakır Great Mosque, Erbil citadel), slow pans."
+      ],
+      "assets": [
+        "A23",
+        "A07"
+      ],
+      "sfx": "Rewind whoosh with clock ticks; then a daf hit.",
+      "facts": [
+        "F04"
+      ]
+    },
+    {
+      "id": "S08",
+      "chapter": 3,
+      "chapter_card": false,
+      "start": 74.3,
+      "end": 80.1,
+      "kind": "montage",
+      "voice": "narrator",
+      "narration": "کوردێک بوو، سەلاحەدینی ئەیووبی، کە لە ساڵی 1187دا قودسی ئازاد کرد.",
+      "on_screen": [
+        "سەلاحەدینی ئەیووبی",
+        "قودس · 1187"
+      ],
+      "tag": null,
+      "visual": [
+        "The Salahuddin statue in Damascus (photo) and the Dome of the Rock / Al-Aqsa (photo), cut out on paper; gold circle drawn around the name.",
+        "A thin animated line on a small inset map connects Tikrit (his birthplace) to Jerusalem."
+      ],
+      "assets": [
+        "A10"
+      ],
+      "sfx": "Daf hit on 'Jerusalem'; low strings swell.",
+      "facts": [
+        "F04"
+      ]
+    },
+    {
+      "id": "S09",
+      "chapter": 3,
+      "chapter_card": false,
+      "start": 80.1,
+      "end": 90.4,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "لە جەنگی یەکەمی جیهانیشدا، کورد شان بە شانی تورک جەنگا، لە چاناقەڵاوە تا جەنگی سەربەخۆیی، وەک برا لە یەک ئوممەتی موسوڵماندا.",
+      "on_screen": [
+        "چاناقەڵا · 1915",
+        "جەنگی سەربەخۆیی · 1919–1922"
+      ],
+      "tag": null,
+      "visual": [
+        "Archival public-domain photos of Ottoman soldiers at Gallipoli 1915, sepia, Ken Burns move; two photos slide together as if 'side by side'.",
+        "A simple animated timeline bar along the bottom: 1915 → 1919 → 1922, with gold ticks."
+      ],
+      "assets": [
+        "A11"
+      ],
+      "sfx": "Distant marching drums (soft), paper slide.",
+      "facts": [
+        "F05"
+      ]
+    },
+    {
+      "id": "S10",
+      "chapter": 3,
+      "chapter_card": false,
+      "start": 90.4,
+      "end": 98.5,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "لە ساڵی 1920دا، پەیماننامەی سیڤەر تەنانەت بەڵێنی ئۆتۆنۆمیی ناوچەیی و ڕێگەیەک بەرەو سەربەخۆیی بە کورد دا.",
+      "on_screen": [
+        "سیڤەر · 1920",
+        "ماددەکانی 62–64"
+      ],
+      "tag": null,
+      "visual": [
+        "The historic Treaty of Sèvres map (public domain): the Kurdish area fills in with a soft gold tint; Articles 62–64 of the treaty text appear as a scanned document with highlighter strokes."
+      ],
+      "assets": [
+        "A12"
+      ],
+      "sfx": "Map unfold rustle; highlighter squeak.",
+      "facts": [
+        "F06"
+      ]
+    },
+    {
+      "id": "S11",
+      "chapter": 4,
+      "chapter_card": true,
+      "start": 100.5,
+      "end": 108.6,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "بەڵام لە ساڵی 1923دا، پەیمانی لۆزان ئەو بەڵێنەی ناشت، و لەگەڵیدا مافەکانی گەلی کورد لە تورکیا.",
+      "on_screen": [
+        "لۆزان · 24ی تەممووزی 1923"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card. Archival photo of the Lausanne Conference delegates (public domain).",
+        "The gold Kurdish tint from S10's map drains away; the Sèvres map tears in two (paper-tear effect)."
+      ],
+      "assets": [
+        "A13",
+        "A12"
+      ],
+      "sfx": "Paper tear on 'buried'; low brass note.",
+      "facts": [
+        "F07"
+      ]
+    },
+    {
+      "id": "S12",
+      "chapter": 4,
+      "chapter_card": false,
+      "start": 108.6,
+      "end": 115.3,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "لە ئازاری 1924دا، ئەنقەرە خیلافەتی هەڵوەشاندەوە، دوایین پەیوەندی کە موسوڵمانانی ناوچەکەی پێکەوە دەبەستەوە.",
+      "on_screen": [
+        "3ی ئازاری 1924",
+        "هەڵوەشاندنەوەی خیلافەت"
+      ],
+      "tag": null,
+      "visual": [
+        "A 1924 newspaper front page (public domain scan) announcing the abolition, pushed in; the headline is circled in red ink.",
+        "A string/thread graphic connecting cities snaps."
+      ],
+      "assets": [
+        "A14"
+      ],
+      "sfx": "Thread snap; newspaper rustle.",
+      "facts": [
+        "F08"
+      ]
+    },
+    {
+      "id": "S13",
+      "chapter": 4,
+      "chapter_card": false,
+      "start": 115.3,
+      "end": 127.0,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "دەستووری نوێ تەنها دانی بە یەک نەتەوەدا نا: تورک. نەتەوەکانی تر هەموو بە تورک دانران، و دواتر تەنانەت ناویان لە کورد نا «تورکی چیایی».",
+      "on_screen": [
+        "یەک نەتەوە",
+        "«تورکی چیایی»"
+      ],
+      "tag": null,
+      "visual": [
+        "Kinetic typography: many small labels (Kurd, Arab, Circassian, Laz...) on paper; a big rubber stamp comes down and they all turn into one word. Then the phrase 'Mountain Turks' in quotation marks, crossed out by hand in red."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "Rubber stamp thud; marker strike-through.",
+      "facts": [
+        "F09"
+      ]
+    },
+    {
+      "id": "S14",
+      "chapter": 4,
+      "chapter_card": false,
+      "start": 127.0,
+      "end": 136.4,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "زمانی تورکی کرا بە تاکە زمانی فەرمی. زمانی کوردی قەدەغە کرا، لەگەڵ هەموو قوتابخانە و ڕێکخراو و گۆڤارێکی کوردی.",
+      "on_screen": [
+        "زمانی کوردی: قەدەغە",
+        "قوتابخانە · ڕێکخراو · گۆڤار"
+      ],
+      "tag": null,
+      "visual": [
+        "Archival Kurdish periodicals of the era (e.g. covers of early Kurdish magazines, public domain scans) slide in, then each is closed with a padlock icon drawn in ink.",
+        "A school door (own/stock footage) closes in shadow."
+      ],
+      "assets": [
+        "A24"
+      ],
+      "sfx": "Three padlock clicks, one per item.",
+      "facts": [
+        "F09"
+      ]
+    },
+    {
+      "id": "S15",
+      "chapter": 4,
+      "chapter_card": false,
+      "start": 136.4,
+      "end": 148.1,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "کورد لە زەوی باب و باپیرانیان ڕاگوێزران بۆ ڕۆژئاوای ئەنادۆڵ، و تورک لە شوێنیان نیشتەجێ کران. سەرکردە و تێکۆشەرانی کورد گیران، دوورخرانەوە و کوژران.",
+      "on_screen": [
+        "ڕاگواستن · گرتن · دوورخستنەوە · کوشتن"
+      ],
+      "tag": null,
+      "visual": [
+        "Map: many small arrows flow from the east to western Anatolia while other arrows flow in; dots representing villages dim.",
+        "Then four words stamp on, one by one, in red ink."
+      ],
+      "assets": [
+        "A22"
+      ],
+      "sfx": "Low rumble under the arrows; four stamp thuds.",
+      "facts": [
+        "F10"
+      ]
+    },
+    {
+      "id": "S16",
+      "chapter": 4,
+      "chapter_card": false,
+      "start": 148.1,
+      "end": 159.4,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "باشترین زەوییە کشتوکاڵییەکانی کورد داگیر کران و درانە تورک. جووتیارانی کورد بێ زەوی و بێکار مانەوە، و گرانییەکی گەورە لە کوردستان پەیدا بوو.",
+      "on_screen": [
+        "زەوی داگیرکرا",
+        "گرانی"
+      ],
+      "tag": null,
+      "visual": [
+        "Archival photos of Kurdish farmers / wheat fields of the era (public domain), desaturated; a hand-drawn boundary line cuts the field and the colour drains from one side."
+      ],
+      "assets": [
+        "A25"
+      ],
+      "sfx": "Wind over fields; empty bowl/wooden sound, sparse.",
+      "facts": [
+        "F11"
+      ]
+    },
+    {
+      "id": "S17",
+      "chapter": 4,
+      "chapter_card": false,
+      "start": 159.4,
+      "end": 172.0,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "ژمارەیەکی زۆر سەربازی تورک ڕەوانەی کوردستان کران، بۆ ئەوەی پەیوەندیی بازرگانیی ئەم پارچەیە لەگەڵ پارچەکانی تری کوردستان بپچڕێنن، و باج و سەرانەیەکی قورسیش خرایە سەر خەڵکەکەی.",
+      "on_screen": [
+        "بازرگانی پچڕێنرا",
+        "باجی قورس"
+      ],
+      "tag": null,
+      "visual": [
+        "Map: trade routes drawn as dotted gold lines between parts of Kurdistan get cut by red barrier marks; a tax ledger (generic, illustrative) stamps over the bottom of the frame."
+      ],
+      "assets": [
+        "A22"
+      ],
+      "sfx": "Scissor snips on each route; ledger stamp.",
+      "facts": [
+        "F11"
+      ]
+    },
+    {
+      "id": "S18",
+      "chapter": 5,
+      "chapter_card": true,
+      "start": 174.0,
+      "end": 181.6,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "بەرگری بە نهێنی ڕێکخرا، لەلایەن کۆمەڵەی سەرخۆبوون، ئازادی. کۆمەڵەکە پەیوەندییەکی ڕاستەوخۆی لەگەڵ شێخ سەعید دامەزراند.",
+      "on_screen": [
+        "کۆمەڵەی سەرخۆبوون (ئازادی)"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card. A dark 'case board': pinned paper notes and string (Vox investigation style). The society's name is typed on a card and pinned; a red string runs to Sheikh Said's portrait."
+      ],
+      "assets": [
+        "A01",
+        "A30"
+      ],
+      "sfx": "Pin pushes into cork; string pull.",
+      "facts": [
+        "F03",
+        "F12"
+      ]
+    },
+    {
+      "id": "S19",
+      "chapter": 5,
+      "chapter_card": false,
+      "start": 181.6,
+      "end": 194.7,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "لە کۆتایی هاوینی 1923دا، یووسف زیا، سەرکردەیەکی بزووتنەوەی کورد و نوێنەری پێشووی بەتلیس لە پەرلەمانی تورکیا، چوو بۆ خنس. لەگەڵ شێخ سەعید ڕێککەوتن کە شۆڕشێکی نوێ هەڵبگیرسێنن.",
+      "on_screen": [
+        "هاوینی 1923",
+        "یووسف زیا بۆ خنس"
+      ],
+      "tag": null,
+      "visual": [
+        "Map: an animated route from Bitlis to Khinis; a name card for Yusuf Ziya pins onto the case board next to Sheikh Said; the two cards are joined with a gold string (agreement)."
+      ],
+      "assets": [
+        "A22",
+        "A30"
+      ],
+      "sfx": "Footsteps-on-gravel texture under the route; handshake-like soft thump.",
+      "facts": [
+        "F12"
+      ]
+    },
+    {
+      "id": "S20",
+      "chapter": 5,
+      "chapter_card": false,
+      "start": 194.7,
+      "end": 208.2,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "لە زستانی 1923 تا 1924، سەرۆک هۆزەکان و ئەندامانی کۆمەڵەکە لە ناوچەی پالۆ کۆبوونەوەیەکی فراوانیان بەست، بۆ فراوانکردنی بزووتنەوە نهێنییەکە و خۆئامادەکردن بۆ ڕاپەڕینێکی نوێ بۆ سەربەخۆیی کوردستان.",
+      "on_screen": [
+        "زستانی 1923–1924",
+        "کۆبوونەوەی پالۆ"
+      ],
+      "tag": null,
+      "visual": [
+        "The archival group photo of Sheikh Said with companions (from the article, PDF page 5) in 2.5D parallax, snow particles drifting; a lamp-light flicker grade."
+      ],
+      "assets": [
+        "A03"
+      ],
+      "sfx": "Winter wind; low murmur of a room; a fire crackle.",
+      "facts": [
+        "F13"
+      ]
+    },
+    {
+      "id": "S21",
+      "chapter": 5,
+      "chapter_card": false,
+      "start": 208.2,
+      "end": 219.9,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "ئەم کارە یارمەتییەکی بەرفراوانی شێخ مەحموودی حەفید و سمکۆی شکاکی لەگەڵ بوو، و بڕیار درا یادداشتێک دەربارەی مافە نەتەوەییەکانی کورد بۆ کۆمەڵەی نەتەوەکان بنێردرێت.",
+      "on_screen": [
+        "شێخ مەحموودی حەفید · سمکۆی شکاک",
+        "یادداشت بۆ کۆمەڵەی نەتەوەکان"
+      ],
+      "tag": null,
+      "visual": [
+        "Two archival portraits (public domain) of Sheikh Mahmud Hafid and Simko Shikak pin onto the case board.",
+        "Then an envelope stamps and flies across a map toward Geneva; archival photo of the League of Nations building."
+      ],
+      "assets": [
+        "A18",
+        "A16"
+      ],
+      "sfx": "Envelope whoosh; wax-seal thud.",
+      "facts": [
+        "F14"
+      ]
+    },
+    {
+      "id": "S22",
+      "chapter": 5,
+      "chapter_card": false,
+      "start": 219.9,
+      "end": 238.0,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "دوای ئەوەی شێخ سەعید کرا بە سەرۆکی کۆمەڵەکە، بڕیاری بزووتنەوەی چەکداری دا، بەڵام دەیویست بڕیارەکە مۆرکی هەموو کوردستانی پێوە بێت. بۆیە کوڕەکەی، عەلی ڕەزا، نارد بۆ ئامەد و حەلەب، بۆ زانینی ڕای سەرکردە کوردەکانی ڕۆژئاوا، باشوور و ڕۆژهەڵات.",
+      "on_screen": [
+        "عەلی ڕەزا",
+        "ئامەد · حەلەب"
+      ],
+      "tag": null,
+      "visual": [
+        "Map: from Khinis, two animated routes go to Amed and Aleppo; compass labels (west, south, east) light up in turn.",
+        "Archival photo of Aleppo citadel (public domain) slides in at the end of the route."
+      ],
+      "assets": [
+        "A22",
+        "A17"
+      ],
+      "sfx": "Horse trot (soft) under the routes; map pin pops.",
+      "facts": [
+        "F15"
+      ]
+    },
+    {
+      "id": "S23",
+      "chapter": 5,
+      "chapter_card": false,
+      "start": 238.0,
+      "end": 252.0,
+      "kind": "title",
+      "voice": "narrator",
+      "narration": "دوای کۆبوونەوەیەکی گەورە لە حەلەب، هەموو گەیشتنە ئەو باوەڕەی کە مافی نەتەوەیی کورد بەبێ شۆڕشێکی چەکدارانە مسۆگەر ناکرێت. ڕۆژی 21ی ئازاری 1925، ڕۆژی نەورۆز، کرا بە یەکەم ڕۆژی ڕاپەڕین.",
+      "on_screen": [
+        "21ی ئازاری 1925",
+        "ڕۆژی یەکەم"
+      ],
+      "tag": null,
+      "visual": [
+        "A paper wall calendar for March 1925; '21' is circled in gold ink; a small flame graphic (Newroz) flickers beside it."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "Pen circle; soft fire crackle.",
+      "facts": [
+        "F15"
+      ]
+    },
+    {
+      "id": "S24",
+      "chapter": 5,
+      "chapter_card": false,
+      "start": 252.0,
+      "end": 264.2,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "لە نیوەی دووەمی کانوونی دووەمی 1925دا، شێخ سەعید گەشتێکی بە زۆربەی ناوچەکانی کوردستاندا کرد، و لە هەر ناوچەیەک، لایەنگر و دۆست بە کۆمەڵ ڕوویان تێدەکرد.",
+      "on_screen": [
+        "کانوونی دووەمی 1925",
+        "گەشت بە کوردستاندا"
+      ],
+      "tag": null,
+      "visual": [
+        "Map: a gold route loops through many towns; at each stop small dots multiply around the pin (supporters gathering).",
+        "Short insert: the painted image of the Sheikh on horseback with riders (from the article, PDF page 7), labelled as an illustration."
+      ],
+      "assets": [
+        "A22",
+        "A06"
+      ],
+      "sfx": "Horse hooves in snow; crowd murmur rising at each stop.",
+      "facts": [
+        "F16"
+      ]
+    },
+    {
+      "id": "S25",
+      "chapter": 5,
+      "chapter_card": false,
+      "start": 264.2,
+      "end": 272.7,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "لە 5ی شوباتی 1925دا، لەگەڵ سەد سوارە خنسی بەجێهێشت، بەرەو گوندی پیران، بۆ ماڵی براکەی، شێخ عەبدولڕەحیم.",
+      "on_screen": [
+        "5ی شوباتی 1925",
+        "100 سوارە بەرەو پیران"
+      ],
+      "tag": null,
+      "visual": [
+        "Map: one route Khinis → Piran; a counter '100' ticks up beside a small horse icon.",
+        "Winter landscape of the region (own/stock footage), riders silhouetted far away (no faces)."
+      ],
+      "assets": [
+        "A22",
+        "A09"
+      ],
+      "sfx": "Gallop of a group of horses, snow crunch, wind.",
+      "facts": [
+        "F16"
+      ]
+    },
+    {
+      "id": "S26",
+      "chapter": 6,
+      "chapter_card": true,
+      "start": 274.7,
+      "end": 284.6,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "هەر لەو شەوەدا، مەفرەزەیەکی سوپای تورک بە سەرۆکایەتیی حوسنی ئەفەندی و مستەفا عالیم گەیشتن، بۆ گرتنی چەند کەسێک لە گوندنشینەکان.",
+      "on_screen": [
+        "حوسنی ئەفەندی · مستەفا عالیم"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card. Night village (illustrative, own footage of a mountain village at night) with lantern light; two typed name cards slide in."
+      ],
+      "assets": [
+        "A26"
+      ],
+      "sfx": "Night insects, dogs barking far away, boots on gravel.",
+      "facts": [
+        "F17"
+      ]
+    },
+    {
+      "id": "S27",
+      "chapter": 6,
+      "chapter_card": false,
+      "start": 284.6,
+      "end": 296.3,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "شێخ سەعید ڕازی نەبوو کەس بگیرێت. هەردوولا سەنگەریان گرت. دوای شەڕ و تەقەکردن، چەند کەسێک لە مەفرەزەکە کوژران و ئەوانی تریش بە دیل گیران.",
+      "on_screen": [
+        "ڕازی نەبوو کەس بگیرێت"
+      ],
+      "tag": null,
+      "visual": [
+        "Abstract, non-graphic: muzzle flashes as quick light flickers on dark paper; ink splatter animates across the frame; no bodies, no blood."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "A few distant rifle shots (low in the mix), then sudden silence.",
+      "facts": [
+        "F17"
+      ]
+    },
+    {
+      "id": "S28",
+      "chapter": 6,
+      "chapter_card": false,
+      "start": 296.3,
+      "end": 318.0,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "ئەم ڕووداوە لەپڕ بووە هۆی ئەوەی شۆڕش زووتر لە کاتی خۆی دەست پێبکات. کاتێک شێخ تایەری برای شێخ سەعید هەواڵەکەی بیست، لە 10ی شوباتدا شارۆچکەی لیجەی گرت، و دەستی بەسەر پارە و نامە و تەلەگرافە نهێنییەکانی ڕژێمدا گرت. ڕۆژی 11ی شوبات، لەگەڵ سوارەکانی چوونە خزمەت شێخ.",
+      "on_screen": [
+        "10ی شوبات · لیجە",
+        "پارە · نامە · تەلەگرافی نهێنی"
+      ],
+      "tag": null,
+      "visual": [
+        "Map: a gold flame icon ignites at Piran, then Lice lights up.",
+        "A stack of period telegrams (illustrative props) with a 'SECRET' style stamp in Ottoman-Turkish script (no readable fake text), pushed in."
+      ],
+      "assets": [
+        "A22",
+        "A30"
+      ],
+      "sfx": "Match strike; telegraph clicks; galloping horses.",
+      "facts": [
+        "F18",
+        "F19"
+      ]
+    },
+    {
+      "id": "S29",
+      "chapter": 6,
+      "chapter_card": false,
+      "start": 318.0,
+      "end": 325.6,
+      "kind": "title",
+      "voice": "narrator",
+      "narration": "ڕووداوەکان لە پلانەکە خێراتر بوون، و شێخ سەعید ناچار بوو پێشوەخت بڕیاری دەستپێکردنی ڕاپەڕینەکە بدات.",
+      "on_screen": [
+        "دەستپێکردنی پێشوەخت"
+      ],
+      "tag": null,
+      "visual": [
+        "The March 1925 calendar from S23: the circle on '21' is scribbled out and the pages rip back to February."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "Pages ripping; drum hit.",
+      "facts": [
+        "F19"
+      ]
+    },
+    {
+      "id": "S30",
+      "chapter": 6,
+      "chapter_card": false,
+      "start": 325.6,
+      "end": 335.0,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "شۆڕشەکە بە خێرایی بڵاو بووەوە. ئەنقەرە حوکمی سەربازی ڕاگەیاند، یاسایەکی تایبەتی دەرکرد، و عیسمەت پاشا بوو بە سەرۆک وەزیران.",
+      "on_screen": [
+        "حوکمی سەربازی",
+        "عیسمەت پاشا · سەرۆک وەزیران"
+      ],
+      "tag": null,
+      "visual": [
+        "Archival 1925 newspaper front pages about the revolt (public domain scans) fan out; an archival portrait of İsmet Pasha (public domain) pins on."
+      ],
+      "assets": [
+        "A15",
+        "A19"
+      ],
+      "sfx": "Newspaper flips; telegraph clicks.",
+      "facts": [
+        "F20"
+      ]
+    },
+    {
+      "id": "S31",
+      "chapter": 7,
+      "chapter_card": true,
+      "start": 337.0,
+      "end": 355.5,
+      "kind": "data",
+      "voice": "narrator",
+      "narration": "بەپێی ئامارێکی ئەو کاتە، ژمارەی پێشمەرگە کوردەکان تەنها لە چوار ویلایەتدا نزیکەی 600 هەزار کەس بوو، بەرامبەر هێزی تورک کە لە 100 هەزار کەمتر بوو. بەڵام مێژوونووسانی ئەمڕۆ ژمارەی زۆر کەمتر دەخەنەڕوو: نزیکەی 10 هەزار جەنگاوەر لەبەردەم شووراکانی ئامەد.",
+      "on_screen": [
+        "ئامارێکی ئەو کاتە:",
+        "600 هەزار بەرامبەر 100 هەزار",
+        "مێژوونووسانی ئەمڕۆ: نزیکەی 10 هەزار"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card. Vox-style data graphic: two bars on paper (600,000 vs 100,000) labelled 'statistic of the time'; then a third, much smaller bar (≈10,000) slides in, labelled 'historians today'. Keep bar lengths to scale."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "Bars 'grow' with a rising tone; a soft 'correction' tick for the third bar.",
+      "facts": [
+        "F21",
+        "F22"
+      ]
+    },
+    {
+      "id": "S32",
+      "chapter": 7,
+      "chapter_card": false,
+      "start": 355.5,
+      "end": 367.2,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "لەم ناوچانەدا چەرکەس و عەرەب و ئەرمەنیش دەژیان. بەپێی وتارەکە، ئەوانیش لە ژێر دەسەڵاتی تورکدا چەوساوە و زوڵملێکراو بوون، بۆیە زۆربەیان بەشداری شۆڕشەکەیان کرد.",
+      "on_screen": [
+        "چەرکەس · عەرەب · ئەرمەن"
+      ],
+      "tag": "بەپێی وتارەکە",
+      "visual": [
+        "Map of the four provinces with three soft colour dots for the communities; the 'according to the article' tag stays visible the whole scene."
+      ],
+      "assets": [
+        "A22"
+      ],
+      "sfx": "Soft map tones.",
+      "facts": [
+        "F23"
+      ]
+    },
+    {
+      "id": "S33",
+      "chapter": 7,
+      "chapter_card": false,
+      "start": 367.2,
+      "end": 375.7,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "شێخ سەعید خۆی سەرکردایەتیی سوارە پێشمەرگەکانی حاجی حەسەن و عەمەری خارۆی دەکرد، لە هۆزی مەستان و بۆتان.",
+      "on_screen": [
+        "حاجی حەسەن · عەمەری خارۆ",
+        "مەستان · بۆتان"
+      ],
+      "tag": null,
+      "visual": [
+        "The painted image of Sheikh Said on a white horse leading riders (from the article, PDF page 7), labelled 'illustration'; 2.5D parallax with dust particles."
+      ],
+      "assets": [
+        "A06"
+      ],
+      "sfx": "Cavalry gallop, rising; daf rolls.",
+      "facts": [
+        "F24"
+      ]
+    },
+    {
+      "id": "S34",
+      "chapter": 7,
+      "chapter_card": false,
+      "start": 375.7,
+      "end": 390.1,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "هێزی ساڵح بەگی خان و هێزەکانی شێخ شەمسەدین گەیشتنە ناوچەی مادن، و شێخ ئەیووب لەگەڵ هەزاران سوارەی پێشمەرگە چووە ناو ڕیزەکانی شێخ عەبدولڕەحیم، برای شێخ سەعید، بەرەو ڕزگارکردنی شاری ئامەد.",
+      "on_screen": [
+        "مادن",
+        "بەرەو ئامەد"
+      ],
+      "tag": null,
+      "visual": [
+        "Map: several gold arrows converge on Amed (Diyarbakır) from Maden and the north; commander name cards pop up along the arrows."
+      ],
+      "assets": [
+        "A22"
+      ],
+      "sfx": "Rising percussion; arrows whoosh.",
+      "facts": [
+        "F24"
+      ]
+    },
+    {
+      "id": "S35",
+      "chapter": 7,
+      "chapter_card": false,
+      "start": 390.1,
+      "end": 410.9,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "بەڵام شێخ سەعید هەستی کرد کە هێزەکانی ناتوانن ئامەد بە زەبری هێز ڕزگار بکەن. بۆیە بیری لە ڕێگایەکی تر کردەوە: کەوتە گفتوگۆ لەگەڵ حکومەتی تورک، تا بوارێکی لەبار بۆ ڕاپەڕینی کوردەکانی ناو شارەکە بڕەخسێنێت. بەڵام هیچ ڕێگایەک نەبوو چەک بگاتە دەست خەڵکی ناو شار.",
+      "on_screen": [
+        "شووراکانی ئامەد"
+      ],
+      "tag": null,
+      "visual": [
+        "The black basalt walls of Diyarbakır (photo/footage), slow lateral dolly; a dotted line tries to cross the wall and stops with a red X."
+      ],
+      "assets": [
+        "A07"
+      ],
+      "sfx": "Wind on stone; a single low drum.",
+      "facts": [
+        "F25"
+      ]
+    },
+    {
+      "id": "S36",
+      "chapter": 7,
+      "chapter_card": false,
+      "start": 410.9,
+      "end": 428.1,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "گەمارۆکە درێژەی کێشا، و سوپای دوژمن لەناو شاردا ڕازی نەبوو دەست لە بەرگری هەڵبگرێت. لە سەرەتای مانگی ئازارەوە، پێشمەرگە هێرشی دەستپێکرد. لە دەرگای ماردینەوە، کەرتێکی پێشمەرگە و خەڵکی شار یەکیان گرتەوە و پەلاماری سوپای دوژمنیان دا.",
+      "on_screen": [
+        "ئازاری 1925",
+        "دەرگای ماردین"
+      ],
+      "tag": null,
+      "visual": [
+        "Photo of the Mardin Gate (Mardinkapı) of Diyarbakır's walls; city-plan graphic with the gate highlighted and arrows pushing toward it."
+      ],
+      "assets": [
+        "A07",
+        "A22"
+      ],
+      "sfx": "Battle bed far in the background (muffled), war cries far away, daf peak.",
+      "facts": [
+        "F25"
+      ]
+    },
+    {
+      "id": "S37",
+      "chapter": 7,
+      "chapter_card": false,
+      "start": 428.1,
+      "end": 443.9,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "بەڵام تورکەکان سەنگەرەکانیان پتەو کردبوو، و سەدان چەکی نوێیان لەبەردەستدا بوو. دوای شەڕێکی قورس و کوژرانی ژمارەیەکی زۆر لە هەردوولا، و شکستی دوو سێ هێرشی پێشمەرگە، بڕیاری کۆتایی درا: وازهێنان لە گەمارۆی شارەکە.",
+      "on_screen": [
+        "گەمارۆ هەڵگیرا"
+      ],
+      "tag": null,
+      "visual": [
+        "The arrows from S34/S36 stop at the walls, flicker, and retract; colour drains to monochrome."
+      ],
+      "assets": [
+        "A22",
+        "A07"
+      ],
+      "sfx": "Music falls away; one long low note; wind.",
+      "facts": [
+        "F25"
+      ]
+    },
+    {
+      "id": "S38",
+      "chapter": 8,
+      "chapter_card": true,
+      "start": 445.9,
+      "end": 460.8,
+      "kind": "map",
+      "voice": "narrator",
+      "narration": "ڕیزەکانی شۆڕش ڕۆژ بە ڕۆژ بەرەو شپرزەیی و پەرشوبڵاوی دەچوون، بەتایبەتی کاتێک سوپای دوژمن لە باکوور و باشوورەوە، بە دەیان هەزار سەرباز و فڕۆکەی جەنگییەوە، هێرشی هێنا و گەمارۆکەی پێچەوانە کردەوە.",
+      "on_screen": [
+        "لە باکوور و باشوورەوە",
+        "فڕۆکەی جەنگی"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card. Map: thick dark arrows sweep in from north and south and encircle the gold area, which shrinks.",
+        "Archival photo of early Turkish military aircraft (public domain) passes across the frame."
+      ],
+      "assets": [
+        "A22",
+        "A27"
+      ],
+      "sfx": "Propeller-plane drone passing; low rumble.",
+      "facts": [
+        "F26"
+      ]
+    },
+    {
+      "id": "S39",
+      "chapter": 8,
+      "chapter_card": false,
+      "start": 460.8,
+      "end": 477.1,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "لە کۆتایی مانگی نیساندا، بەهۆی خیانەتی سەرۆکی هۆزی جبران، قاسم بەگی جبرانەوە، شێخ سەعید، شێخ عەبدوڵڵا، عەلی غالب، ڕەشید ئاغا و 26 شۆڕشگێڕی تر، لەسەر پردی چەمی مووراد لە ناوچەی گەنج بە دیل گیران.",
+      "on_screen": [
+        "نیسانی 1925 · پردی چەمی مووراد",
+        "خیانەتی قاسم بەگی جبران"
+      ],
+      "tag": null,
+      "visual": [
+        "Photo/footage of the Murat River and a stone bridge (own/stock), cold grade, slow push-in. The word 'betrayal' writes on in red ink and the paper behind it cracks.",
+        "Then the colourised photo of Sheikh Said walking with men beside a stone wall (A04), labelled 'colourised', slow push-in."
+      ],
+      "assets": [
+        "A08",
+        "A04"
+      ],
+      "sfx": "River water; a single heavy chain sound at the end.",
+      "facts": [
+        "F26"
+      ]
+    },
+    {
+      "id": "S40",
+      "chapter": 9,
+      "chapter_card": true,
+      "start": 479.1,
+      "end": 490.4,
+      "kind": "quote",
+      "voice": "narrator",
+      "narration": "لە زینداندا، دوو سەربازی تورک چوونە لای و پێیان گوت: «شێخ، ئێستا عیسمەت پاشا دێت، تۆش داوای لێخۆشبوونی لێ بکە و ئازاد دەکرێیت.»",
+      "on_screen": [
+        "«داوای لێخۆشبوون بکە»"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card. The archival photo of Sheikh Said seated between two men in uniform (from the article, PDF page 6), slow push-in; heavy vignette, prison-window light shaft drawn across."
+      ],
+      "assets": [
+        "A02"
+      ],
+      "sfx": "Prison room tone; a metal door far away.",
+      "facts": [
+        "F28"
+      ]
+    },
+    {
+      "id": "S41",
+      "chapter": 9,
+      "chapter_card": false,
+      "start": 490.4,
+      "end": 513.4,
+      "kind": "quote",
+      "voice": "quote",
+      "narration": "شێخ لە وەڵامدا گوتی: «من داوای لێخۆشبوون تەنها لە خودا دەکەم و هیچی تر. من هیچ کارێکی هەڵەم نەکردووە کە داوای لێخۆشبوونی لەسەر بکەم. بە عیسمەتیش بڵێن: گەر لەم زیندانە دەرچم، دووبارە دەست دەکەمەوە بە خەبات و لە پێناو گەلەکەمدا جارێکی تر دەجەنگم.»",
+      "on_screen": [
+        "«داوای لێخۆشبوون",
+        "تەنها لە خودا دەکەم»"
+      ],
+      "tag": "بەپێی وتارەکە",
+      "visual": [
+        "Pull-quote on parchment, typed on word by word; a gold underline under 'God alone'."
+      ],
+      "assets": [
+        "A30",
+        "A02"
+      ],
+      "sfx": "Typewriter, soft; solo ney.",
+      "facts": [
+        "F28"
+      ]
+    },
+    {
+      "id": "S42",
+      "chapter": 9,
+      "chapter_card": false,
+      "start": 513.4,
+      "end": 525.1,
+      "kind": "quote",
+      "voice": "narrator",
+      "narration": "قسەکانی شێخ گەیشتنە عیسمەت پاشا، و پاشا خۆی هات بۆ زیندان: «داوای لێخۆشبوون بکە و دان بە پەشیمانیدا بنێ، بێ دوو دڵی ئازادت دەکەم.»",
+      "on_screen": [
+        "عیسمەت پاشا"
+      ],
+      "tag": null,
+      "visual": [
+        "Archival portrait of İsmet Pasha (public domain) slides in from one side; the Sheikh's portrait from the other; they face each other across a vertical paper fold."
+      ],
+      "assets": [
+        "A19",
+        "A02"
+      ],
+      "sfx": "Footsteps in a corridor; door unlock.",
+      "facts": [
+        "F28"
+      ]
+    },
+    {
+      "id": "S43",
+      "chapter": 9,
+      "chapter_card": false,
+      "start": 525.1,
+      "end": 542.9,
+      "kind": "quote",
+      "voice": "quote",
+      "narration": "شێخ گوتی: «من کوردم، خوێنی کوردم لە لەشدایە، تا دەمرم هەر کورد دەبم. تۆ کاتی خۆت بەهەدەر دەدەی، و من هەرگیز بۆ ساتێکی ئازادی هەوای خیانەت هەڵنامژم. بمکوژن، من سوودم بە ئێوە ناگەیەنم!»",
+      "on_screen": [
+        "«من کوردم...",
+        "تا دەمرم هەر کورد دەبم»"
+      ],
+      "tag": "بەپێی وتارەکە",
+      "visual": [
+        "Full-frame pull-quote in large type; the portrait behind it brightens slightly on 'I am a Kurd'. Hold 1.5 s of silence after the last word."
+      ],
+      "assets": [
+        "A30",
+        "A01"
+      ],
+      "sfx": "Silence except room tone; one deep heartbeat-like drum after the last word.",
+      "facts": [
+        "F28"
+      ]
+    },
+    {
+      "id": "S44",
+      "chapter": 10,
+      "chapter_card": true,
+      "start": 544.9,
+      "end": 558.0,
+      "kind": "doc",
+      "voice": "narrator",
+      "narration": "دادگاییکردنی شێخ سەعید و هاوڕێکانی لە کۆتایی مانگی ئایارەوە دەستیپێکرد و ماوەی مانگێکی خایاند. جگە لە شێخ سەعید، بڕیاری لەسێدارەدانی 47 کەس لە سەرکردە و تێکۆشەرەکانیش درا.",
+      "on_screen": [
+        "دادگا · ئایاری 1925",
+        "شێخ سەعید + 47"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card. Archival photo of the Diyarbakır Independence Tribunal / the trial (public domain) in monochrome; 48 small gold marks appear in a grid, one by one, quickly."
+      ],
+      "assets": [
+        "A28"
+      ],
+      "sfx": "Gavel knock (single); soft tick per mark, accelerating.",
+      "facts": [
+        "F29"
+      ]
+    },
+    {
+      "id": "S45",
+      "chapter": 10,
+      "chapter_card": false,
+      "start": 558.0,
+      "end": 562.4,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "لە 29ی حوزەیرانی 1925دا، لە ئامەد لەسێدارە دران.",
+      "on_screen": [
+        "29ی حوزەیرانی 1925 · ئامەد"
+      ],
+      "tag": null,
+      "visual": [
+        "Return to the dawn shot of Diyarbakır's walls from S01 (bookend). The 48 gold marks from S44 fade to grey. No execution imagery."
+      ],
+      "assets": [
+        "A07"
+      ],
+      "sfx": "Wind; the same wooden creak as S01; then silence.",
+      "facts": [
+        "F30"
+      ]
+    },
+    {
+      "id": "S46",
+      "chapter": 10,
+      "chapter_card": false,
+      "start": 562.4,
+      "end": 571.4,
+      "kind": "photo",
+      "voice": "narrator",
+      "narration": "دوای ئەو، سەدان گوند سووتێنران و خێزانەکان ڕاگوێزران. تەنانەت زانای کورد، سەعیدی نوورسی، کە بەشداری شۆڕشەکەی نەکردبوو، دوورخرایەوە.",
+      "on_screen": [
+        "سەدان گوند سووتێنران",
+        "سەعیدی نوورسی · دوورخرایەوە"
+      ],
+      "tag": null,
+      "visual": [
+        "Map: many village dots turn to grey ash marks; archival portrait of Said Nursi (public domain) with a dotted exile route heading west."
+      ],
+      "assets": [
+        "A22",
+        "A20"
+      ],
+      "sfx": "Low fire crackle (distant), wind.",
+      "facts": [
+        "F31",
+        "F32"
+      ]
+    },
+    {
+      "id": "S47",
+      "chapter": 11,
+      "chapter_card": true,
+      "start": 573.4,
+      "end": 586.1,
+      "kind": "quote",
+      "voice": "quote",
+      "narration": "لە وتە بەپێزەکانیدا دەڵێت: «زۆر لەو کەسانە مەکەن کە نیشتمانیان ناوێ، ئاخر نیشتمان شەرەفە، کەس ناتوانێ بە زۆر شەرەف بدات بە کەسی بێشەرەف.»",
+      "on_screen": [
+        "«نیشتمان شەرەفە»"
+      ],
+      "tag": "وتەیەکی دراوەتە پاڵی",
+      "visual": [
+        "Chapter card. Large pull-quote on parchment over the painted cover portrait (from the article, PDF page 1), labelled 'illustration'."
+      ],
+      "assets": [
+        "A05",
+        "A30"
+      ],
+      "sfx": "Theme returns softly; typewriter.",
+      "facts": [
+        "F27"
+      ]
+    },
+    {
+      "id": "S48",
+      "chapter": 11,
+      "chapter_card": false,
+      "start": 586.1,
+      "end": 596.7,
+      "kind": "quote",
+      "voice": "quote",
+      "narration": "هەروەها: «تەنانەت ئەگەر ڕۆژێک هات و ئێوەی کورد، کوردبوونی خۆتان لەبیرکرد، دڵنیابن دوژمن هەرگیز لەبیری ناکات کە ئێوە کوردن.»",
+      "on_screen": [
+        "«دوژمن هەرگیز لەبیری ناکات",
+        "کە ئێوە کوردن»"
+      ],
+      "tag": "وتەیەکی دراوەتە پاڵی",
+      "visual": [
+        "Pull-quote; behind it, a slow montage of Kurdish faces of today (own footage, consented, or crowds at Newroz shot from behind/wide)."
+      ],
+      "assets": [
+        "A29",
+        "A30"
+      ],
+      "sfx": "Theme continues.",
+      "facts": [
+        "F27"
+      ]
+    },
+    {
+      "id": "S49",
+      "chapter": 12,
+      "chapter_card": true,
+      "start": 598.7,
+      "end": 612.7,
+      "kind": "montage",
+      "voice": "narrator",
+      "narration": "لە سەلاحەدینەوە تا شێخ سەعید، کورد هەمیشە لەگەڵ ئوممەت بووە، نەک دژی. کێشەی کورد هەرگیز لەگەڵ گەلی تورک یان عەرەب نەبووە، بەڵکو لەگەڵ سیاسەتێک بوو کە ناوی نەتەوەیەکی ڕەتدەکردەوە.",
+      "on_screen": [
+        "لەگەڵ ئوممەت، نەک دژی"
+      ],
+      "tag": null,
+      "visual": [
+        "Chapter card. Split-screen collage: Salahuddin (left) and Sheikh Said (right) as paper cut-outs, joined by a gold line; then Kurdish, Arab and Turkish mosque domes (photos) side by side."
+      ],
+      "assets": [
+        "A10",
+        "A01",
+        "A23"
+      ],
+      "sfx": "Warm swell; daf.",
+      "facts": [
+        "F04",
+        "F33"
+      ]
+    },
+    {
+      "id": "S50",
+      "chapter": 12,
+      "chapter_card": false,
+      "start": 612.7,
+      "end": 626.7,
+      "kind": "data",
+      "voice": "narrator",
+      "narration": "ئەمڕۆش هەر وایە: لە ساڵی 2014ەوە، کاتێک داعش عێراق و سووریای گرتەوە، هەرێمی کوردستان دەرگاکانی کردەوە. تا ساڵی 2017، زیاتر لە 1.8 ملیۆن ئاوارە و پەنابەری لە خۆ گرتبوو.",
+      "on_screen": [
+        "2014–2017",
+        "زیاتر لە 1.8 ملیۆن ئاوارە و پەنابەر"
+      ],
+      "tag": null,
+      "visual": [
+        "Footage/photos of IDP camps in the Kurdistan Region (licensed, e.g. UNHCR/IOM media with credit, or Dwin's own archive); an animated counter climbs to 1.8 million."
+      ],
+      "assets": [
+        "A21"
+      ],
+      "sfx": "Counter ticks; children's voices far away (ambient, from the footage).",
+      "facts": [
+        "F34"
+      ]
+    },
+    {
+      "id": "S51",
+      "chapter": 12,
+      "chapter_card": false,
+      "start": 626.7,
+      "end": 640.7,
+      "kind": "quote",
+      "voice": "narrator",
+      "narration": "قورئان دەفەرموێت: «وَجَعَلْنَاكُمْ شُعُوبًا وَقَبَائِلَ لِتَعَارَفُوا»، واتە: ئێوەمان کردە گەل و هۆز تا یەکتر بناسن. موسوڵمان زمان و خاک و ناوی براکەی ڕەتناکاتەوە. دانپێدانان دابەشکردن نییە؛ ئەوە ماناکەی برایەتییە.",
+      "on_screen": [
+        "«وَجَعَلْنَاكُمْ شُعُوبًا وَقَبَائِلَ لِتَعَارَفُوا»",
+        "الحجرات: 13",
+        "دانپێدانان دابەشکردن نییە"
+      ],
+      "tag": null,
+      "visual": [
+        "The verse in elegant Arabic calligraphy (Naskh or Thuluth font, not hand-faked) on parchment, gold; reference beneath. Then the last line types on.",
+        "Set the verse as its own right-to-left text block (dir=rtl) in every language version, including Kurmanji, so the « » marks and harakat stay in the right place.",
+        "Use a respectful, still frame; no music hits under the verse."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "Music drops under the verse; returns after.",
+      "facts": [
+        "F35"
+      ]
+    },
+    {
+      "id": "S52",
+      "chapter": 13,
+      "chapter_card": false,
+      "start": 640.7,
+      "end": 651.5,
+      "kind": "position",
+      "voice": "narrator",
+      "narration": "هەڵوێستی دوین: ئیدانەی هەموو ئەوانە دەکەین کە بەردەوام خەڵک چەواشە دەکەن، بە پڕوپاگەندەیەک کە مێژووی گەلێک دەسڕێتەوە و موسوڵمان دژی موسوڵمان هاندەدات.",
+      "on_screen": [
+        "ئیدانەی هەموو ئەوانە دەکەین",
+        "کە بە پڕوپاگەندە خەڵک چەواشە دەکەن",
+        "و موسوڵمان دژی موسوڵمان هاندەدەن"
+      ],
+      "tag": "هەڵوێستی دوین",
+      "visual": [
+        "Dwin position card: full-frame dark green, cream text, gold 'Dwin's position' tag. No people, no flags, no named targets."
+      ],
+      "assets": [
+        "A30"
+      ],
+      "sfx": "Firm low strings; one deep hit at the end.",
+      "facts": [
+        "F36"
+      ]
+    },
+    {
+      "id": "S53",
+      "chapter": 13,
+      "chapter_card": false,
+      "start": 651.5,
+      "end": 656.4,
+      "kind": "title",
+      "voice": "narrator",
+      "narration": "شێخ سەعید لە گۆڕێکی نەناسراودا نێژرا. بەڵام چیرۆکەکەی نەنێژرا.",
+      "on_screen": [
+        "شێخ سەعیدی پیران",
+        "1865 – 1925"
+      ],
+      "tag": null,
+      "visual": [
+        "Bookend to S03: the torn-paper portrait returns; the paper pieces settle; warm light rises; slow push-in to his eyes."
+      ],
+      "assets": [
+        "A01",
+        "A30"
+      ],
+      "sfx": "Final theme chord; reverb tail.",
+      "facts": [
+        "F37"
+      ]
+    },
+    {
+      "id": "S54",
+      "chapter": 13,
+      "chapter_card": false,
+      "start": 656.4,
+      "end": 659.4,
+      "kind": "end",
+      "voice": "none",
+      "narration": "",
+      "on_screen": [
+        "Dween - دوین",
+        "دەنگی کورد، بە ناسنامە و باوەڕمانەوە"
+      ],
+      "tag": null,
+      "visual": [
+        "Dwin end card: logo animates in (scale 96% → 100%, 0.4 s) on dark green with the gold shield; channel name and tagline under it. No sources slide (sources go in the post description only)."
+      ],
+      "assets": [
+        "A32"
+      ],
+      "sfx": "Dwin sound logo, or the last chord's tail.",
+      "facts": []
+    }
+  ],
+  "post_description": "شێخ سەعیدی پیران (1865–1925): زانایەکی نەقشبەندی کە بۆ گەلەکەی هەستایەوە، و لە 29ی حوزەیرانی 1925 لە ئامەد لەسێدارە درا.\n«من داوای لێخۆشبوون تەنها لە خودا دەکەم.»\nلە سەلاحەدینەوە تا شێخ سەعید، کورد هەمیشە لەگەڵ ئوممەت بووە.\nسەرچاوە: سەرچاوە مێژووییەکان.\nدوین - دەنگی کورد، بە ناسنامە و باوەڕمانەوە\n#دوین #شێخ_سەعیدی_پیران #مێژووی_کورد #کوردستان #ئوممەتی_ئیسلامی"
+}
