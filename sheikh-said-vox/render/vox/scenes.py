@@ -28,6 +28,27 @@ EXTRA = {
         commanders=["صالح بك خان", "الشيخ شمس الدين", "الشيخ أيوب"],
         cal_focus=(0.711, 0.688),
     ),
+    # Kurdish spellings are taken from the project's own Kurdish narration (script/master.json) wherever the name
+    # occurs there; the rest (Tikrit, Istanbul, Van, Mosul, Erbil, Laz) are listed for the user to check.
+    # A place set to None is not labelled.
+    "ckb": dict(
+        places=dict(amed="ئامەد", palu="پالۆ", khinis="خنس", piran="پیران", lice="لیجە", bitlis="بەتلیس",
+                    aleppo="حەلەب", jerusalem="قودس", geneva=None, tikrit="تکریت", istanbul="ئەستەنبوڵ",
+                    van="وان", mosul="مووسڵ", erbil="هەولێر"),
+        peoples=["کورد", "عەرەب", "چەرکەس", "لاز"],
+        compass=["ڕۆژئاوا", "باشوور", "ڕۆژهەڵات"],
+        commanders=["ساڵح بەگی خان", "شێخ شەمسەدین", "شێخ ئەیووب"],
+        cal_focus=(0.711, 0.698),
+    ),
+    "kmr": dict(
+        places=dict(amed="Amed", palu="Palû", khinis="Xinûs", piran="Pîran", lice="Licê", bitlis="Bedlîs",
+                    aleppo="Heleb", jerusalem="Quds", geneva=None, tikrit="Tikrît", istanbul="Stenbol",
+                    van="Wan", mosul="Mûsil", erbil="Hewlêr"),
+        peoples=["Kurd", "Ereb", "Çerkez", "Laz"],
+        compass=["Rojava", "Başûr", "Rojhilat"],
+        commanders=["Salih Begê Xan", "Şêx Şemsedîn", "Şêx Eyûb"],
+        cal_focus=(0.641, 0.619),
+    ),
 }
 
 ARCHIVAL_SEPIA = "Sheikh_Said_Archival_Sepia_Portrait.jpg"
@@ -97,7 +118,12 @@ def S03(c, t):
               scale=(1.0, 1.035))
     x = W - 160
     lines = c.ost
-    big = c.get("name", lambda: kit.line_img(c.L.key, c.L.dir, lines[0], 120, INK, 3)[0])
+    def _name():
+        im = kit.line_img(c.L.key, c.L.dir, lines[0], 120, INK, 3)[0]
+        if im.width > 700:                                       # keep clear of the portrait
+            im = im.resize((700, int(im.height * 700 / im.width)), Image.LANCZOS)
+        return im
+    big = c.get("name", _name)
     k = kit.back_out((t - 0.35) / 0.6, 1.2)
     if k > 0:
         paste(f, big, c.mx(x) - (big.width if c.L.rtl else 0) + (1 - k) * 120 * (1 if c.L.rtl else -1), 300)
@@ -122,7 +148,7 @@ def S04(c, t):
         return f
 
     def close(tl, d):
-        f, cam, v = map_shot(c, "close", (40.4, 38.7, 4.8), tl, d, (1.0, 1.12), (0.45, 0.5), (0.4, 0.5))
+        f, cam, v = map_shot(c, "close", (40.4, 38.5, 4.8), tl, d, (1.0, 1.12), (0.45, 0.5), (0.4, 0.45))
         ax, ay = cam.pt(*v.place("amed"))
         city_dot(ImageDraw.Draw(f, "RGBA"), ax, ay, 8)
         map_label(c, f, EXTRA[c.lang]["places"]["amed"], ax, ay, tl, 0.2, size=38)
@@ -735,8 +761,9 @@ def S22(c, t):
         for p in (k_, am, al):
             city_dot(dd, *p, 9)
         map_label(c, f, P["khinis"], k_[0], k_[1], tl, 0.1, 38)
-        cutout_on(c, f, "ali", "S22_Ali_Riza.jpg", tl, d, 370, 370, h=480, torn=True, seed=22, enter=0.2,
-                  enter_from="left")
+        # map overlays stay where the geography is (not mirrored for left-to-right languages)
+        cutout_on(c, f, "ali", "S22_Ali_Riza.jpg", tl, d, c.mx(W - 380), 760, h=460, torn=True, seed=22, enter=0.2,
+                  enter_from="bottom")
         r1 = d * 0.2
         route(f, kit.curve(k_, am, 0.12, 60), clamp01((tl - r1) / (d * 0.2)))
         if tl > r1 + d * 0.2:
@@ -747,7 +774,7 @@ def S22(c, t):
             kit.map_pin(f, al[0], al[1], tl - r2 - d * 0.2)
             map_label(c, f, P["aleppo"], al[0], al[1] - 50, tl, r2 + d * 0.22, 38)
         comp = EXTRA[c.lang]["compass"]
-        spots = [(c.mx(170), 720), (W / 2, H - 260), (c.mx(W - 170), 560)]
+        spots = [(170, 720), (W / 2 - 120, H - 260), (W - 170, 430)]    # west, south, east on the map
         for i, (wd, (x, y)) in enumerate(zip(comp, spots)):
             t0 = d * (0.72 + i * 0.07)
             if tl > t0:
@@ -798,7 +825,7 @@ def _tour_map(c, t, D):
     path = []
     for a, b in zip(pts, pts[1:]):
         path += kit.curve(a, b, 0.1, 20)
-    p = clamp01((t - 0.3) / (c.D * 0.75))
+    p = clamp01((t - 0.3) / (D * 0.85))
     route(f, path, p, r=4.5, gap=15)
     dd = ImageDraw.Draw(f, "RGBA")
     rng = np.random.default_rng(24)
@@ -814,10 +841,9 @@ def _tour_map(c, t, D):
     for n in ("khinis", "amed"):
         x, y = cam.pt(*v.place(n))
         map_label(c, f, P[n], x, y, t, 0.4, 36)
-    if t > c.D * 0.5:
-        cutout_on(c, f, "ride", "Sheikh_Said_Painting_on_Horseback.jpg", t - c.D * 0.5, c.D * 0.5, 430, 690, w=560,
+    if t > D * 0.5:
+        cutout_on(c, f, "ride", "Sheikh_Said_Painting_on_Horseback.jpg", t - D * 0.5, D * 0.5, c.mx(430), 690, w=560,
                   torn=True, seed=24, enter=0.0, enter_from="bottom")
-    ost_strips(c, f, c.ost, t, c.a0 + 0.2, size=56)
     return f
 
 
@@ -1115,7 +1141,7 @@ def S34(c, t):
             paste(f, card, mx_ - card.width / 2, my_ - card.height - 14, clamp01((t - t0 - 0.3) / 0.3))
     tb = c.D * 0.6
     arrow(f, kit.curve(md, (am[0] - 20, am[1] - 26), -0.08, 40), clamp01((t - tb) / 1.3), RED, 16, 44, 250)
-    ost_strips(c, f, [c.ost[1]], t, tb + 0.3, size=64)
+    ost_strips(c, f, [c.ost[1]], t, tb + 0.3, y=H - 340, size=64)
     return f
 
 
@@ -1421,7 +1447,7 @@ def S46(c, t):
         if tl > 0.6 + d * 0.7:
             kit.map_pin(f, b[0], b[1], tl - 0.6 - d * 0.7)
         map_label(c, f, P["van"], a[0], a[1], tl, 0.3, 38)
-        cutout_on(c, f, "n", "Said_Nursi_Portrait.jpg", tl, d, W - 380, 560, h=640, torn=True, seed=46, enter=0.0,
+        cutout_on(c, f, "n", "Said_Nursi_Portrait.jpg", tl, d, c.mx(W - 380), 560, h=640, torn=True, seed=46, enter=0.0,
                   enter_from="right")
         ost_strips(c, f, [c.ost[1]], tl, 0.4, y=150, x=W - 760, size=54)
         return f
@@ -1544,7 +1570,12 @@ def S53(c, t):
     warm = clamp01(t / c.D)
     glow = c.get("wg", lambda: _radial(1400, (255, 200, 130)))
     paste(f, glow, ex - 700, 560 - 700, 0.25 * warm)
-    big = c.get("nm", lambda: kit.line_img(c.L.key, c.L.dir, c.ost[0], 112, INK, 3)[0])
+    def _name():
+        im = kit.line_img(c.L.key, c.L.dir, c.ost[0], 112, INK, 3)[0]
+        if im.width > 600:
+            im = im.resize((600, int(im.height * 600 / im.width)), Image.LANCZOS)
+        return im
+    big = c.get("nm", _name)
     paste(f, big, c.mx(W - 160) - (big.width if c.L.rtl else 0), 340, clamp01((t - 0.5) / 0.6))
     yrs = c.get("yr", lambda: kit.line_img(c.L.key, c.L.dir, c.ost[1], 76, GOLD, 2)[0])
     paste(f, yrs, c.mx(W - 160) - (yrs.width if c.L.rtl else 0), 540, clamp01((t - 0.9) / 0.6))

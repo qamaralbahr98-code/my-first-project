@@ -205,6 +205,8 @@ def map_shot(c, key, view_args, t, D, z=(1.0, 1.0), c0=(0.5, 0.5), c1=(0.5, 0.5)
 
 def map_label(c, frame, text, x, y, t, t0, size=34, colour=INK, anchor="above"):
     """Place name with a paper halo, written on in reading direction."""
+    if not text:
+        return
     def build():
         halo, _ = kit.line_img(c.L.key, c.L.dir, text, size, PAPER, 6)
         fg, _ = kit.line_img(c.L.key, c.L.dir, text, size, tuple(colour), 1)

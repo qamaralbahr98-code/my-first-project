@@ -109,7 +109,10 @@ class Film:
         key = ("_sub", tuple(cue["lines"]))
         im = self.cache.get(key)
         if im is None:
-            imgs = [kit.line_img(self.L.key, self.L.dir, s, 40, CREAM, 0)[0] for s in cue["lines"]]
+            imgs = [kit.mixed_line_img(self.L.key, self.L.dir, s, 40, CREAM, 0)
+                    if (self.L.key != "ar" and any(kit.needs_alt_font(w, self.L.dir) for w in s.split()))
+                    else kit.line_img(self.L.key, self.L.dir, s, 40, CREAM, 0)[0]
+                    for s in cue["lines"]]
             lh = int(40 * 1.5 * self.L.k)
             w = max(i.width for i in imgs) + 44
             h = lh * len(imgs) + 22

@@ -82,7 +82,21 @@ def text_width(L, text, size, stroke=0, fnt=None, direction=None):
 
 
 def is_latin(s):
-    return all(ord(c) < 0x0590 for c in s)
+    return not any(is_rtl_char(c) for c in s)
+
+
+def is_rtl_char(c):
+    o = ord(c)
+    return 0x0590 <= o <= 0x08FF or 0xFB1D <= o <= 0xFDFF or 0xFE70 <= o <= 0xFEFF
+
+
+def text_dir(text, default):
+    """Arabic-script letters -> rtl; Latin letters -> ltr; digits and punctuation only -> the language's direction."""
+    if any(is_rtl_char(c) for c in text):
+        return "rtl"
+    if any(c.isalpha() for c in text):
+        return "ltr"
+    return default
 
 
 @lru_cache(maxsize=2048)
@@ -91,7 +105,7 @@ def line_img(lkey, ldir, text, size, colour, stroke=1, fontname=None):
     L = Lang(lkey, ldir)
     fnt = font(fontname, int(size * L.k)) if fontname else L.f(size)
     # Arabic-script text always runs right to left (also the Qur'an verse in the Kurmanji version)
-    direction = "ltr" if is_latin(text) else "rtl"
+    direction = text_dir(text, L.dir)
     lang = L.raqm if direction == L.dir else ("ar" if direction == "rtl" else "en")
     tw = int(math.ceil(_probe.textlength(text, font=fnt, direction=direction, language=lang))) + 2 * stroke + 12
     hh = int(round(size * (2.5 if fontname == QURAN_FONT else 1.75)))
@@ -111,6 +125,63 @@ def line_img(lkey, ldir, text, size, colour, stroke=1, fontname=None):
             ranges.append((6 + stroke + a0, 6 + stroke + a1))
         acc += ww + space
     return img, tuple(ranges)
+
+
+HARAKAT = set(chr(c) for c in list(range(0x064B, 0x0660)) + [0x0670])
+
+
+def needs_alt_font(word, ldir):
+    """Words the language font cannot draw: Arabic script inside a Latin line, or fully vowelled Arabic (Qur'an)
+    inside a Sorani line (Speda has no harakat)."""
+    if ldir == "ltr":
+        return any(is_rtl_char(c) for c in word)
+    return any(c in HARAKAT for c in word)
+
+
+def mixed_line_img(lkey, ldir, text, size, colour, stroke=0, alt_font="Aljazeera.ttf"):
+    """One line whose words need two fonts. Consecutive words of one kind are shaped together; the runs are laid out
+    in the line's reading direction."""
+    words = []
+    for w in text.split(" "):
+        if ldir == "ltr" and needs_alt_font(w, ldir):
+            # keep Latin punctuation (« » , .) with the Latin text, so quote marks are not mirrored
+            i, j = 0, len(w)
+            while i < j and not is_rtl_char(w[i]):
+                i += 1
+            while j > i and not is_rtl_char(w[j - 1]):
+                j -= 1
+            if i:
+                words.append(w[:i] + "\u2060")
+            words.append(w[i:j])
+            if j < len(w):
+                words.append("\u2060" + w[j:])
+        else:
+            words.append(w)
+    runs = []
+    for w in words:
+        k = needs_alt_font(w, ldir)
+        if runs and runs[-1][1] == k:
+            runs[-1][0].append(w)
+        else:
+            runs.append(([w], k))
+    imgs = []
+    for ws, k in runs:
+        chunk = " ".join(ws).replace("\u2060 ", "").replace(" \u2060", "").replace("\u2060", "")
+        if k:
+            im = line_img("ar", "rtl", chunk, int(size * 0.95), colour, stroke, alt_font)[0]
+        else:
+            im = line_img(lkey, ldir, chunk, size, colour, stroke)[0]
+        imgs.append(im)
+    space = int(size * 0.28)
+    w = sum(i.width for i in imgs) + space * (len(imgs) - 1)
+    h = max(i.height for i in imgs)
+    out = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    order = imgs if ldir == "ltr" else imgs[::-1]
+    x = 0
+    for im in order:
+        out.alpha_composite(im, (x, (h - im.height) // 2))
+        x += im.width + space
+    return out
 
 
 def reveal_words(img, ranges, n_visible_float):
