@@ -755,7 +755,7 @@ def load_parts(lang):
     return out
 
 
-def build(lang):
+def build(lang, music_cached=False):
     tl = json.loads((PROJ / "build" / lang / "timeline.json").read_text(encoding="utf-8"))
     scenes = tl["scenes"]
     total = scenes[-1]["start"] + scenes[-1]["dur"]
@@ -808,7 +808,9 @@ def build(lang):
         13: {"pos_end": rel(13, "S52", D("S52")), "final": rel(13, "S53", 0.0)},
     }
     gain = {1: 1.0, 2: 0.9, 3: 0.95, 4: 0.9, 5: 0.9, 6: 1.0, 7: 1.0, 8: 0.9, 9: 0.9, 10: 0.95, 11: 0.9, 12: 0.95, 13: 1.0}
-    for ch, (a, b) in chapters.items():
+    if music_cached:
+        music = None
+    for ch, (a, b) in ([] if music_cached else chapters.items()):
         dur = b - a + (0.0 if ch == 13 else 1.2)
         st = chapter_music(ch, dur, cues[ch])
         st = verb(st, IR_HALL, 0.3)
@@ -1042,11 +1044,29 @@ def build(lang):
     for k, nt in enumerate(("D", "A", "D'")):
         fx(pluck(f(nt, -1), 2.0, 0.4), "S54", 0.3 + k * 0.25, 0.2, -0.2, 0.3)
 
-    # ---- mix: music ducked under the voice
-    n = voice.n
-    v = voice.x[0].astype(np.float64)
-    e = np.sqrt(lp(v ** 2, 6))
-    e = np.clip(e / (np.percentile(e[e > 1e-4], 60) if np.any(e > 1e-4) else 1), 0, 1)
+    out = PROJ / "build" / lang / "audio"
+    out.mkdir(parents=True, exist_ok=True)
+    np.save(out / "stem_voice.npy", voice.x)
+    np.save(out / "stem_sfx.npy", sfx.x)
+    if music is not None:
+        np.save(out / "stem_music.npy", music.x * np.float32(0.42))
+    mix(lang)
+
+
+MUSIC_DB = {1: 9.0, 2: 7.0, 3: 7.0, 4: 5.5, 5: 10.0, 6: 7.0, 7: 6.0, 8: 7.0, 9: 7.0, 10: 11.0, 11: 7.0, 12: 9.5, 13: 7.5}
+
+
+def mix(lang):
+    """Music ducked under the voice, SFX lightly ducked, soft limiter -> mix.wav (loudness pass happens in finish)."""
+    out = PROJ / "build" / lang / "audio"
+    tl = json.loads((PROJ / "build" / lang / "timeline.json").read_text(encoding="utf-8"))
+    total = tl["scenes"][-1]["start"] + tl["scenes"][-1]["dur"]
+    end = int(total * SR)
+    vx = np.load(out / "stem_voice.npy")[:, :end]
+    v = vx[0].astype(np.float64)
+    e = np.sqrt(np.maximum(lp(v ** 2, 6), 0.0))
+    ref = np.percentile(e[e > 1e-4], 60) if np.any(e > 1e-4) else 1.0
+    e = np.clip(e / ref, 0, 1)
     att, rel_ = np.exp(-1 / (0.05 * SR / 64)), np.exp(-1 / (0.6 * SR / 64))
     es = e[::64]
     g = np.zeros_like(es)
@@ -1054,28 +1074,39 @@ def build(lang):
     for i, x in enumerate(es):
         acc = att * acc + (1 - att) * x if x > acc else rel_ * acc + (1 - rel_) * x
         g[i] = acc
-    g = np.interp(np.arange(n), np.arange(len(g)) * 64, g)
-    duck_m = 1 - 0.62 * g
-    duck_s = 1 - 0.30 * g
-
+    g = np.interp(np.arange(end), np.arange(len(g)) * 64, g).astype(np.float32)
     vpk = float(np.percentile(np.abs(v[np.abs(v) > 1e-3]), 99.5))
     del v, e
-    duck_m = duck_m.astype(np.float32)
-    duck_s = duck_s.astype(np.float32)
-    mix = voice.x * (0.5 / vpk)
-    mix += music.x * duck_m * 0.42
-    mix += sfx.x * duck_s * 0.8
-    end = int(total * SR)
-    mix = mix[:, :end]
+    m = vx * np.float32(0.5 / vpk)
+    del vx
+    mus = np.load(out / "stem_music.npy")[:, :end]
+    # music bus level per chapter (dB): sits ~17 dB under the voice while it speaks, comes up in the gaps
+    bounds = {}
+    for sc in tl["scenes"]:
+        c = bounds.setdefault(sc["chapter"], [sc["start"], sc["start"] + sc["dur"]])
+        c[1] = sc["start"] + sc["dur"]
+    pts_t, pts_g = [], []
+    for ch_, (a, b) in sorted(bounds.items()):
+        gdb = MUSIC_DB.get(ch_, 7.0)
+        pts_t += [a + 0.5, b - 0.5]
+        pts_g += [gdb, gdb]
+    lvl = np.interp(np.arange(mus.shape[1]) / SR, pts_t, pts_g)
+    lvl = (10 ** (lvl / 20)).astype(np.float32)
+    m[:, :mus.shape[1]] += mus * lvl * (1 - 0.55 * g[:mus.shape[1]])
+    del mus
+    fx = np.load(out / "stem_sfx.npy")[:, :end]
+    m[:, :fx.shape[1]] += fx * np.float32(0.8) * (1 - 0.30 * g[:fx.shape[1]])
+    del fx
     fo = int(0.8 * SR)
-    mix[:, -fo:] *= np.linspace(1, 0, fo)
-    mix = np.tanh(mix * 1.1) / 1.1
-    out = PROJ / "build" / lang / "audio"
-    out.mkdir(parents=True, exist_ok=True)
-    wavfile.write(out / "mix.wav", SR, mix.T.astype(np.float32))
-    wavfile.write(out / "music.wav", SR, (music.x[:, :end] * 0.42).T.astype(np.float32))
+    m[:, -fo:] *= np.linspace(1, 0, fo, dtype=np.float32)
+    m = np.tanh(m * np.float32(1.1)) / np.float32(1.1)
+    assert np.isfinite(m).all()
+    wavfile.write(out / "mix.wav", SR, m.T.astype(np.float32))
     print("wrote", out / "mix.wav", f"{total:.1f}s")
 
 
 if __name__ == "__main__":
-    build(sys.argv[1])
+    if "--mix" in sys.argv:
+        mix(sys.argv[1])
+    else:
+        build(sys.argv[1], music_cached="--reuse-music" in sys.argv)
