@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+build/
+output/*.mp4
+output/*.m4a

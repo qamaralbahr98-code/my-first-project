@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1600" viewBox="0 0 1200 800">
+<rect width="1200" height="800" fill="#0d3554"/>
+<path d="M0 0 H1200 V800 H0 Z" fill="#0d3554"/>
+<path d="M0 0 H1200 V145 C1080 160 1040 205 1000 250 C960 295 940 330 890 360 C840 390 810 425 770 450 C730 480 690 500 650 520 C600 545 560 560 520 575 C480 590 450 620 420 650 C390 680 360 730 340 800 H0 Z" fill="#d8c79a"/>
+<path d="M0 800 V0 H1200 V145 C1080 160 1040 205 1000 250 C960 295 940 330 890 360 C840 390 810 425 770 450 C730 480 690 500 650 520 C600 545 560 560 520 575 C480 590 450 620 420 650 C390 680 360 730 340 800" fill="none" stroke="#f4e9ca" stroke-width="5"/>
+<path d="M340 800 C360 730 390 680 420 650 C450 620 480 590 520 575 C560 560 600 545 650 520 C690 500 730 480 770 450 C810 425 840 390 890 360 C940 330 960 295 1000 250 C1040 205 1080 160 1200 145" fill="none" stroke="#2c7fa3" stroke-width="8"/>
+<g fill="#ffffff" font-family="Arial,sans-serif">
+<text x="80" y="90" font-size="34" font-weight="bold">UAE COAST &amp; STRAIT OF HORMUZ</text>
+<text x="95" y="145" font-size="23" opacity=".85">Schematic locator map — not for navigation</text>
+<text x="170" y="310" font-size="25" fill="#0d2137">Umm Al Quwain</text>
+<text x="340" y="390" font-size="25" fill="#0d2137">Ajman</text>
+<text x="470" y="455" font-size="25" fill="#0d2137">Sharjah</text>
+<text x="600" y="520" font-size="23" fill="#0d2137">Al Hamriyah</text>
+<text x="825" y="340" font-size="25" fill="#0d2137">Ras Al Khaimah</text>
+<text x="810" y="650" font-size="30" font-weight="bold">Gulf of Oman</text>
+<text x="875" y="220" font-size="27" font-weight="bold">Strait of Hormuz</text>
+</g>
+<g fill="#a33b2e" stroke="#fff" stroke-width="4">
+<circle cx="270" cy="335" r="9"/><circle cx="400" cy="410" r="9"/><circle cx="535" cy="470" r="9"/><circle cx="660" cy="515" r="9"/><circle cx="905" cy="330" r="9"/>
+</g>
+<path d="M1070 620 l0 -75 l-18 26 l18 -10 l18 10 l-18 -26" fill="#fff"/>
+<text x="1060" y="655" fill="#fff" font-family="Arial,sans-serif" font-size="24">N</text>
+</svg>
