@@ -13,12 +13,12 @@ Di yek ji gotinên wî
 yên navdar de dibêje:
 
 4
-00:00:13,675 --> 00:00:19,326
+00:00:13,668 --> 00:00:18,850
 «Va jiyan ber bi dawiyê ve diçe, û ez
 qet poşman nînim ji tiştê ku min di riya
 
 5
-00:00:19,366 --> 00:00:26,036
+00:00:18,890 --> 00:00:25,036
 Xwedê de kiriye. Em dilxweş in, ji ber
 ku kur û keçên me ji ber me şerm nakin.»
 
@@ -498,22 +498,22 @@ lêborînê jê bixwaze û tu dê bê berdan.»
 Şêx bersiv da:
 
 106
-00:08:21,428 --> 00:08:25,731
+00:08:20,266 --> 00:08:24,216
 «Ez lêborînê tenê ji Xwedê
 dixwazim, û tiştekî din na.
 
 107
-00:08:25,771 --> 00:08:29,766
+00:08:24,256 --> 00:08:27,922
 Min tu karekî xelet nekiriye
 ku lêborînê jê re bixwazim.
 
 108
-00:08:29,806 --> 00:08:34,947
+00:08:27,962 --> 00:08:32,681
 Ji Îsmet re jî bibêjin: eger ez ji vê
 zindanê derkevim, ez ê dîsa dest bi
 
 109
-00:08:34,987 --> 00:08:38,116
+00:08:32,721 --> 00:08:37,117
 têkoşînê bikim û carek din
 ji bo gelê xwe şer bikim.»
 
@@ -528,21 +528,21 @@ Paşa, û Paşa bi xwe hat zindanê:
 ziman, bê guman ez ê te azad bikim.»
 
 112
-00:08:48,090 --> 00:08:49,275
+00:08:48,090 --> 00:08:49,268
 Şêx got:
 
 113
-00:08:49,315 --> 00:08:55,773
+00:08:49,308 --> 00:08:55,235
 «Ez Kurd im, xwîna kurd di laşê min
 de ye, heta bimirim ez ê Kurd bim.
 
 114
-00:08:55,813 --> 00:09:00,911
+00:08:55,275 --> 00:08:59,955
 Tu wextê xwe badihewa derbas dikî, û
 ez qet ji bo saetekê azadiyê hewaya
 
 115
-00:09:00,951 --> 00:09:05,583
+00:08:59,995 --> 00:09:04,273
 xiyanetê hilnamijim. Min bikujin,
 ez ji we re ne bi kêr im!»
 
@@ -580,12 +580,12 @@ serhildanê nebûbû, hate sirgûnkirin.
 Di gotinên wî yên bi qîmet de tê gotin:
 
 123
-00:09:48,969 --> 00:09:51,871
+00:09:46,292 --> 00:09:48,954
 «Zorê li wan kesan
 nekin ku welat naxwazin;
 
 124
-00:09:51,911 --> 00:09:57,650
+00:09:48,994 --> 00:09:54,665
 ji ber ku welat şeref e, û kes nikare
 bi zorê şerefê bide kesê bêşeref.»
 
