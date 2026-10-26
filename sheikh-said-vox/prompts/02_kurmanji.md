@@ -4,7 +4,7 @@
 > Timed data: `script/scenes.kmr.json` · Narration: `vo/kmr_narration.txt` · Subtitles: `subtitles/kmr.srt` · Assets: `assets/ASSETS.md`
 
 **Title (on-screen language):** Şêx Seîdê Pîran: bawerî, gelek û sozeke şikestî
-**Estimated length:** 12:11.3 (731.3 s), 54 scenes, 13 chapters. Final length follows the recorded narration.
+**Estimated length:** 11:56.6 (716.6 s), 53 scenes, 13 chapters. Final length follows the recorded narration.
 **Source:** Sorani article 'شێخ سەعیدی پیران (1865–1925)' (7 pages), checked against external historical sources; sources are listed in `facts/fact_check.md`.
 
 ## 1. Role and goal
@@ -118,12 +118,12 @@ Amed · 29ê Hezîrana 1925an
 - Sound: Wind, distant birds, one slow wooden creak at the end of the line.
 - Fact check: F30
 
-### S02 · 00:06.9–00:31.4 (24.5 s) · quote · **quote voice**
+### S02 · 00:06.9–00:29.9 (23.0 s) · quote · **quote voice**
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
 ```text
-Di yek ji gotinên wî yên navdar de dibêje: «Va jiyan ber bi dawiyê ve diçe, û ez qet poşman nînim ji tiştê ku min di riya Xwedê de kiriye. Em dilxweş in, ji ber ku kur û keçên me ji ber me li ber dijminan şerm nakin.»
+Di yek ji gotinên wî yên navdar de dibêje: «Va jiyan ber bi dawiyê ve diçe, û ez qet poşman nînim ji tiştê ku min di riya Xwedê de kiriye. Em dilxweş in, ji ber ku kur û keçên me ji ber me şerm nakin.»
 ```
 **On-screen text** — 2 line(s), copy exactly:
 
@@ -132,7 +132,7 @@ Di yek ji gotinên wî yên navdar de dibêje: «Va jiyan ber bi dawiyê ve diç
 ji tiştê ku min di riya Xwedê de kiriye»
 ```
 - Tag on screen: **Gotineke ku jê re tê girêdan**
-- Meaning (English, editor only): In one of his best-known sayings, he says: 'Life is coming to an end, and I never regret what I have done for the sake of God. We are content, because our sons and daughters will not be ashamed of us before our enemies.'
+- Meaning (English, editor only): In one of his best-known sayings, he says: 'Life is coming to an end, and I never regret what I have done for the sake of God. We are content, because our sons and daughters will not be ashamed of us.'
 - Visual 1: Quote card (Vox pull-quote): parchment paper, the line types on word by word in large serif-style type; key words get a gold hand-drawn underline.
 - Visual 2: Behind it, at 20% opacity, the archival portrait of Sheikh Said slowly fades in.
 - Assets: A01, A30 (see `assets/ASSETS.md`)
@@ -140,7 +140,7 @@ ji tiştê ku min di riya Xwedê de kiriye»
 - Sound: Typewriter keys per word (soft), paper rustle.
 - Fact check: F27
 
-### S03 · 00:31.4–00:41.3 (9.9 s) · title
+### S03 · 00:29.9–00:39.8 (9.9 s) · title
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -169,7 +169,7 @@ Bawerî, gelek û sozeke şikestî
 
 *Music:* Warm strings + ney, gentle, 70 BPM.
 
-### S04 · 00:43.3–00:53.2 (9.9 s) · map
+### S04 · 00:41.8–00:51.7 (9.9 s) · map
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -191,7 +191,7 @@ Palû
 - Sound: Map whoosh, pin 'pop', pen scribble for the label.
 - Fact check: F01, F02
 
-### S05 · 00:53.2–01:05.3 (12.1 s) · tree
+### S05 · 00:51.7–01:03.8 (12.1 s) · tree
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -213,7 +213,7 @@ Merve Xan · dayik
 - Sound: Pen drawing lines; soft whoosh on the route.
 - Fact check: F02
 
-### S06 · 01:05.3–01:16.5 (11.2 s) · photo
+### S06 · 01:03.8–01:15.0 (11.2 s) · photo
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -242,7 +242,7 @@ Zana · Şêx · Rêber
 
 *Music:* Majestic: low strings, daf on the downbeat, rising.
 
-### S07 · 01:18.5–01:29.3 (10.8 s) · montage
+### S07 · 01:17.0–01:27.8 (10.8 s) · montage
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -261,7 +261,7 @@ Kurd û ummeta îslamî
 - Sound: Rewind whoosh with clock ticks; then a daf hit.
 - Fact check: F04
 
-### S08 · 01:29.3–01:35.3 (6.0 s) · montage
+### S08 · 01:27.8–01:33.8 (6.0 s) · montage
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -282,7 +282,7 @@ Quds · 1187
 - Sound: Daf hit on 'Jerusalem'; low strings swell.
 - Fact check: F04
 
-### S09 · 01:35.3–01:47.4 (12.1 s) · photo
+### S09 · 01:33.8–01:45.9 (12.1 s) · photo
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -303,7 +303,7 @@ Di Şerê Cîhanê yê Yekem de jî, Kurdan mil bi milê Tirkan şer kir, ji Ça
 - Sound: Distant marching drums (soft), paper slide.
 - Fact check: F05
 
-### S10 · 01:47.4–01:56.0 (8.6 s) · map
+### S10 · 01:45.9–01:54.5 (8.6 s) · map
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -329,7 +329,7 @@ Madeyên 62–64
 
 *Music:* Tension: ticking pulse, low brass, dissonant strings, 90 BPM.
 
-### S11 · 01:58.0–02:06.6 (8.6 s) · doc
+### S11 · 01:56.5–02:05.1 (8.6 s) · doc
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -348,7 +348,7 @@ Lozan · 24ê Tîrmeha 1923an
 - Sound: Paper tear on 'buried'; low brass note.
 - Fact check: F07
 
-### S12 · 02:06.6–02:16.1 (9.5 s) · doc
+### S12 · 02:05.1–02:14.6 (9.5 s) · doc
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -368,7 +368,7 @@ Betalkirina Xîlafetê
 - Sound: Thread snap; newspaper rustle.
 - Fact check: F08
 
-### S13 · 02:16.1–02:26.9 (10.8 s) · doc
+### S13 · 02:14.6–02:25.4 (10.8 s) · doc
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -387,7 +387,7 @@ Yek netewe
 - Sound: Rubber stamp thud; marker strike-through.
 - Fact check: F09
 
-### S14 · 02:26.9–02:35.1 (8.2 s) · doc
+### S14 · 02:25.4–02:33.6 (8.2 s) · doc
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -407,7 +407,7 @@ Dibistan · Rêxistin · Kovar
 - Sound: Three padlock clicks, one per item.
 - Fact check: F09
 
-### S15 · 02:35.1–02:48.9 (13.8 s) · map
+### S15 · 02:33.6–02:47.4 (13.8 s) · map
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -426,7 +426,7 @@ Koçberkirin · Girtin · Sirgûn · Kuştin
 - Sound: Low rumble under the arrows; four stamp thuds.
 - Fact check: F10
 
-### S16 · 02:48.9–03:02.3 (13.4 s) · photo
+### S16 · 02:47.4–03:00.8 (13.4 s) · photo
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -445,7 +445,7 @@ Xela
 - Sound: Wind over fields; empty bowl/wooden sound, sparse.
 - Fact check: F11
 
-### S17 · 03:02.3–03:17.0 (14.7 s) · map
+### S17 · 03:00.8–03:15.5 (14.7 s) · map
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -471,7 +471,7 @@ Bacên giran
 
 *Music:* Investigative pulse, muted percussion, building.
 
-### S18 · 03:19.0–03:27.6 (8.6 s) · doc
+### S18 · 03:17.5–03:26.1 (8.6 s) · doc
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -490,7 +490,7 @@ Civata Serxwebûnê (Azadî)
 - Sound: Pin pushes into cork; string pull.
 - Fact check: F03, F12
 
-### S19 · 03:27.6–03:43.2 (15.6 s) · map
+### S19 · 03:26.1–03:41.7 (15.6 s) · map
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -510,7 +510,7 @@ Yûsif Ziya → Xinûs
 - Sound: Footsteps-on-gravel texture under the route; handshake-like soft thump.
 - Fact check: F12
 
-### S20 · 03:43.2–03:57.0 (13.8 s) · photo
+### S20 · 03:41.7–03:55.5 (13.8 s) · photo
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -530,7 +530,7 @@ Civîna Palûyê
 - Sound: Winter wind; low murmur of a room; a fire crackle.
 - Fact check: F13
 
-### S21 · 03:57.0–04:11.7 (14.7 s) · doc
+### S21 · 03:55.5–04:10.2 (14.7 s) · doc
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -552,7 +552,7 @@ Bîranîname ji Komela Miletan re
 - Sound: Envelope whoosh; wax-seal thud.
 - Fact check: F14
 
-### S22 · 04:11.7–04:29.9 (18.2 s) · map
+### S22 · 04:10.2–04:28.4 (18.2 s) · map
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -573,7 +573,7 @@ Amed · Heleb
 - Sound: Horse trot (soft) under the routes; map pin pops.
 - Fact check: F15
 
-### S23 · 04:29.9–04:44.6 (14.7 s) · title
+### S23 · 04:28.4–04:43.1 (14.7 s) · title
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -593,7 +593,7 @@ Roja yekem
 - Sound: Pen circle; soft fire crackle.
 - Fact check: F15
 
-### S24 · 04:44.6–04:57.1 (12.5 s) · map
+### S24 · 04:43.1–04:55.6 (12.5 s) · map
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -615,7 +615,7 @@ Gera Kurdistanê
 - Sound: Horse hooves in snow; crowd murmur rising at each stop.
 - Fact check: F16
 
-### S25 · 04:57.1–05:08.3 (11.2 s) · map
+### S25 · 04:55.6–05:06.8 (11.2 s) · map
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -645,7 +645,7 @@ Di 5ê Sibata 1925an de, bi sed siwaran ve ji Xinûsê derket, ber bi gundê Pî
 
 *Music:* Drums enter; urgent; hard hits on the clash.
 
-### S26 · 05:10.3–05:19.4 (9.1 s) · doc
+### S26 · 05:08.8–05:17.9 (9.1 s) · doc
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -665,7 +665,7 @@ Husnî Efendî · Mistefa Alîm
 - Sound: Night insects, dogs barking far away, boots on gravel.
 - Fact check: F17
 
-### S27 · 05:19.4–05:32.4 (13.0 s) · doc
+### S27 · 05:17.9–05:30.9 (13.0 s) · doc
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -684,7 +684,7 @@ Qebûl nekir kes bê girtin
 - Sound: A few distant rifle shots (low in the mix), then sudden silence.
 - Fact check: F17
 
-### S28 · 05:32.4–05:55.4 (23.0 s) · map
+### S28 · 05:30.9–05:53.9 (23.0 s) · map
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -706,7 +706,7 @@ Pere · Name · Telgrafên veşartî
 - Sound: Match strike; telegraph clicks; galloping horses.
 - Fact check: F18, F19
 
-### S29 · 05:55.4–06:03.6 (8.2 s) · title
+### S29 · 05:53.9–06:02.1 (8.2 s) · title
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -725,7 +725,7 @@ Destpêka pêşwext
 - Sound: Pages ripping; drum hit.
 - Fact check: F19
 
-### S30 · 06:03.6–06:11.8 (8.2 s) · doc
+### S30 · 06:02.1–06:10.3 (8.2 s) · doc
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -752,7 +752,7 @@ Serhildan bi lez belav bû. Enqereyê îdareya leşkerî ragihand, qanûneke tay
 
 *Music:* Full epic: daf + taiko + strings; peak at the Mardin Gate; falls away when the siege is lifted.
 
-### S31 · 06:13.8–06:33.3 (19.5 s) · data
+### S31 · 06:12.3–06:31.8 (19.5 s) · data
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -772,7 +772,7 @@ Dîroknasên îro: nêzîkî 10 hezar
 - Sound: Bars 'grow' with a rising tone; a soft 'correction' tick for the third bar.
 - Fact check: F21, F22
 
-### S32 · 06:33.3–06:46.7 (13.4 s) · map
+### S32 · 06:31.8–06:45.2 (13.4 s) · map
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -791,7 +791,7 @@ Li van herêman Çerkez, Ereb û Ermen jî dijiyan. Li gorî gotarê, ew jî di 
 - Sound: Soft map tones.
 - Fact check: F23
 
-### S33 · 06:46.7–06:56.2 (9.5 s) · photo
+### S33 · 06:45.2–06:54.7 (9.5 s) · photo
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -812,7 +812,7 @@ Mistan · Botan
 - Sound: Cavalry gallop, rising; daf rolls.
 - Fact check: F24
 
-### S34 · 06:56.2–07:11.3 (15.1 s) · map
+### S34 · 06:54.7–07:09.8 (15.1 s) · map
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -832,7 +832,7 @@ Ber bi Amedê
 - Sound: Rising percussion; arrows whoosh.
 - Fact check: F24
 
-### S35 · 07:11.3–07:32.5 (21.2 s) · photo
+### S35 · 07:09.8–07:31.0 (21.2 s) · photo
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -852,12 +852,12 @@ Sûrên Amedê
 - Sound: Wind on stone; a single low drum.
 - Fact check: F25
 
-### S36 · 07:32.5–07:50.7 (18.2 s) · photo
+### S36 · 07:31.0–07:49.2 (18.2 s) · photo
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
 ```text
-Dorpêç dirêj kişand, û artêşa dijmin a nav bajêr qebûl nekir ku dev ji berxwedanê berde. Ji destpêka Adarê ve, pêşmergeyan êrîş dest pê kir. Li Deriyê Mêrdînê, komeke pêşmergeyan û xelkê bajêr bûn yek û êrîşî artêşa dijmin kirin.
+Dorpêç dirêj kişand, û artêşa hikûmetê ya nav bajêr qebûl nekir ku dev ji berxwedanê berde. Ji destpêka Adarê ve, pêşmergeyan êrîş dest pê kir. Li Deriyê Mêrdînê, komeke pêşmergeyan û xelkê bajêr bûn yek û êrîşî artêşa hikûmetê kirin.
 ```
 **On-screen text** — 2 line(s), copy exactly:
 
@@ -865,14 +865,14 @@ Dorpêç dirêj kişand, û artêşa dijmin a nav bajêr qebûl nekir ku dev ji 
 Adara 1925an
 Deriyê Mêrdînê
 ```
-- Meaning (English, editor only): The siege dragged on, and the garrison refused to give up. From the beginning of March, the peshmerga attacked. At the Mardin Gate, a peshmerga unit and people of the city joined forces and charged the enemy.
+- Meaning (English, editor only): The siege dragged on, and the government army inside the city refused to give up. From the beginning of March, the peshmerga attacked. At the Mardin Gate, a peshmerga unit and people of the city joined forces and charged the government army.
 - Visual 1: Photo of the Mardin Gate (Mardinkapı) of Diyarbakır's walls; city-plan graphic with the gate highlighted and arrows pushing toward it.
 - Assets: A07, A22 (see `assets/ASSETS.md`)
 - Image: `assets/images/S36_The_Mardin_Gate.jpg` (ai; on-screen label **Wêneya hunerî**) — Upscaled 4× with Real-ESRGAN to 2048 px.
 - Sound: Battle bed far in the background (muffled), war cries far away, daf peak.
 - Fact check: F25
 
-### S37 · 07:50.7–08:08.9 (18.2 s) · photo
+### S37 · 07:49.2–08:07.4 (18.2 s) · photo
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -898,12 +898,12 @@ Dorpêç hate rakirin
 
 *Music:* Music collapses to a single sustained low note; heartbeat-like pulse.
 
-### S38 · 08:10.9–08:27.4 (16.5 s) · map
+### S38 · 08:09.4–08:25.9 (16.5 s) · map
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
 ```text
-Refên serhildanê roj bi roj ber bi tevlîheviyê û belavbûnê ve diçûn, bi taybetî gava artêşa dijmin ji bakur û başûr ve, bi deh hezaran leşker û balafirên şer ve, êrîş kir û dorpêç berevajî kir.
+Refên serhildanê roj bi roj ber bi tevlîheviyê û belavbûnê ve diçûn, bi taybetî gava artêşa hikûmetê ji bakur û başûr ve, bi deh hezaran leşker û balafirên şer ve, êrîş kir û dorpêç berevajî kir.
 ```
 **On-screen text** — 2 line(s), copy exactly:
 
@@ -911,7 +911,7 @@ Refên serhildanê roj bi roj ber bi tevlîheviyê û belavbûnê ve diçûn, bi
 Ji bakur û başûr
 Balafirên şer
 ```
-- Meaning (English, editor only): Day after day, the ranks of the revolt fell into disorder, especially when enemy armies came from the north and the south, with tens of thousands of soldiers and warplanes, and turned the siege around.
+- Meaning (English, editor only): Day after day, the ranks of the revolt fell into disorder, especially when the government army came from the north and the south, with tens of thousands of soldiers and warplanes, and turned the siege around.
 - Visual 1: Chapter card. Map: thick dark arrows sweep in from north and south and encircle the gold area, which shrinks.
 - Visual 2: Archival photo of early Turkish military aircraft (public domain) passes across the frame.
 - Assets: A22, A27 (see `assets/ASSETS.md`)
@@ -919,7 +919,7 @@ Balafirên şer
 - Sound: Propeller-plane drone passing; low rumble.
 - Fact check: F26
 
-### S39 · 08:27.4–08:43.4 (16.0 s) · photo
+### S39 · 08:25.9–08:41.9 (16.0 s) · photo
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -948,7 +948,7 @@ Xiyaneta Qasim Begê Cibran
 
 *Music:* Near silence. Solo tembûr or ney. Prison room tone.
 
-### S40 · 08:45.4–08:58.4 (13.0 s) · quote
+### S40 · 08:43.9–08:56.9 (13.0 s) · quote
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -967,7 +967,7 @@ Di zindanê de, du leşkerên tirk çûn ba wî û jê re gotin: «Şêx, niha �
 - Sound: Prison room tone; a metal door far away.
 - Fact check: F28
 
-### S41 · 08:58.4–09:23.9 (25.5 s) · quote · **quote voice**
+### S41 · 08:56.9–09:22.4 (25.5 s) · quote · **quote voice**
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -988,7 +988,7 @@ tenê ji Xwedê dixwazim»
 - Sound: Typewriter, soft; solo ney.
 - Fact check: F28
 
-### S42 · 09:23.9–09:35.6 (11.7 s) · quote
+### S42 · 09:22.4–09:34.1 (11.7 s) · quote
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -1008,7 +1008,7 @@ Gotinên Şêx gihîştin Îsmet Paşa, û Paşa bi xwe hat zindanê: «Lêborî
 - Sound: Footsteps in a corridor; door unlock.
 - Fact check: F28
 
-### S43 · 09:35.6–09:58.1 (22.5 s) · quote · **quote voice**
+### S43 · 09:34.1–09:56.6 (22.5 s) · quote · **quote voice**
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -1037,7 +1037,7 @@ heta bimirim ez ê Kurd bim»
 
 *Music:* Slow, mournful strings; no percussion.
 
-### S44 · 10:00.1–10:14.4 (14.3 s) · doc
+### S44 · 09:58.6–10:12.9 (14.3 s) · doc
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -1057,7 +1057,7 @@ Dadgeh · Gulana 1925an
 - Sound: Gavel knock (single); soft tick per mark, accelerating.
 - Fact check: F29
 
-### S45 · 10:14.4–10:19.1 (4.7 s) · photo
+### S45 · 10:12.9–10:17.6 (4.7 s) · photo
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -1076,7 +1076,7 @@ Di 29ê Hezîrana 1925an de, li Amedê hatin darvekirin.
 - Sound: Wind; the same wooden creak as S01; then silence.
 - Fact check: F30
 
-### S46 · 10:19.1–10:29.5 (10.4 s) · photo
+### S46 · 10:17.6–10:28.0 (10.4 s) · photo
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -1104,7 +1104,7 @@ Seîdê Nûrsî · sirgûn
 
 *Music:* Same theme as chapter 2, slower, with a soft choir pad (no lyrics).
 
-### S47 · 10:31.5–10:48.1 (16.6 s) · quote · **quote voice**
+### S47 · 10:30.0–10:46.6 (16.6 s) · quote · **quote voice**
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -1124,27 +1124,6 @@ Di gotinên wî yên bi qîmet de tê gotin: «Zorê li wan kesan nekin ku welat
 - Sound: Theme returns softly; typewriter.
 - Fact check: F27
 
-### S48 · 10:48.1–11:01.3 (13.2 s) · quote · **quote voice**
-
-**Narration (Kurdish Kurmanji)** — read exactly:
-
-```text
-Û: «Heta eger rojek bê û hûn Kurd, Kurdbûna xwe ji bîr bikin, bawer bin ku dijmin qet ji bîr nake ku hûn Kurd in.»
-```
-**On-screen text** — 2 line(s), copy exactly:
-
-```text
-«Dijmin qet ji bîr nake
-ku hûn Kurd in»
-```
-- Tag on screen: **Gotineke ku jê re tê girêdan**
-- Meaning (English, editor only): And: 'Even if a day comes when you Kurds forget that you are Kurds, be sure the enemy will never forget that you are Kurds.'
-- Visual 1: Pull-quote; behind it, a slow montage of Kurdish faces of today (own footage, consented, or crowds at Newroz shot from behind/wide).
-- Assets: A29, A30 (see `assets/ASSETS.md`)
-- Image: `assets/images/Sheikh_Said_Colourised_Portrait.jpg` (colourised; on-screen label **Wêneya rengkirî**)
-- Sound: Theme continues.
-- Fact check: F27
-
 
 ---
 
@@ -1152,7 +1131,7 @@ ku hûn Kurd in»
 
 *Music:* Hopeful: warm strings + piano + light daf, rising to the closing.
 
-### S49 · 11:03.3–11:20.2 (16.9 s) · montage
+### S49 · 10:48.6–11:05.5 (16.9 s) · montage
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -1172,7 +1151,7 @@ Bi ummetê re, ne li dijî wê
 - Sound: Warm swell; daf.
 - Fact check: F04, F33
 
-### S50 · 11:20.2–11:33.6 (13.4 s) · data
+### S50 · 11:05.5–11:18.9 (13.4 s) · data
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -1191,7 +1170,7 @@ Zêdetirî 1.8 milyon koçber û penaber
 - Sound: Counter ticks; children's voices far away (ambient, from the footage).
 - Fact check: F34
 
-### S51 · 11:33.6–11:50.1 (16.5 s) · quote
+### S51 · 11:18.9–11:35.4 (16.5 s) · quote
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -1220,7 +1199,7 @@ Naskirin ne parçekirin e
 
 *Music:* Firm low strings for the position; final theme resolves; hard stop on the end card.
 
-### S52 · 11:50.1–12:01.8 (11.7 s) · position
+### S52 · 11:35.4–11:47.1 (11.7 s) · position
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -1241,7 +1220,7 @@ bi propagandayê xelkê dixapînin
 - Sound: Firm low strings; one deep hit at the end.
 - Fact check: F36
 
-### S53 · 12:01.8–12:08.3 (6.5 s) · title
+### S53 · 11:47.1–11:53.6 (6.5 s) · title
 
 **Narration (Kurdish Kurmanji)** — read exactly:
 
@@ -1261,7 +1240,7 @@ bi propagandayê xelkê dixapînin
 - Sound: Final theme chord; reverb tail.
 - Fact check: F37
 
-### S54 · 12:08.3–12:11.3 (3.0 s) · end
+### S54 · 11:53.6–11:56.6 (3.0 s) · end
 
 **On-screen text** — 2 line(s), copy exactly:
 

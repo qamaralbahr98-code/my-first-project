@@ -74,6 +74,8 @@ def timeline(lang):
     titled = {c["id"] for c in M["chapters"] if c["title"]}
     t, out, prev = 0.0, [], None
     for s in M["scenes"]:
+        if s.get("cut"):          # cut from the video; kept in master.json for the record
+            continue
         card = s["chapter"] != prev and s["chapter"] in titled
         if card: t += CHAPTER_CARD
         d = duration(s, lang)

@@ -4,7 +4,7 @@
 > Timed data: `script/scenes.ar.json` · Narration: `vo/ar_narration.txt` · Subtitles: `subtitles/ar.srt` · Assets: `assets/ASSETS.md`
 
 **Title (on-screen language):** الشيخ سعيد بيران: إيمان، وشعب، ووعدٌ مكسور
-**Estimated length:** 10:15.5 (615.5 s), 54 scenes, 13 chapters. Final length follows the recorded narration.
+**Estimated length:** 10:03.9 (603.9 s), 53 scenes, 13 chapters. Final length follows the recorded narration.
 **Source:** Sorani article 'شێخ سەعیدی پیران (1865–1925)' (7 pages), checked against external historical sources; sources are listed in `facts/fact_check.md`.
 
 ## 1. Role and goal
@@ -118,12 +118,12 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Wind, distant birds, one slow wooden creak at the end of the line.
 - Fact check: F30
 
-### S02 · 00:08.4–00:26.0 (17.6 s) · quote · **quote voice**
+### S02 · 00:08.4–00:24.9 (16.5 s) · quote · **quote voice**
 
 **Narration (Arabic)** — read exactly:
 
 ```text
-يقول في واحدٍ من أشهر أقواله: «ها هي الحياة توشك على نهايتها، ولستُ نادمًا أبدًا على ما فعلتُه في سبيل الله. نحن مطمئنّون، لأنّ أبناءنا وبناتنا لن يخجلوا بنا أمام الأعداء.»
+يقول في واحدٍ من أشهر أقواله: «ها هي الحياة توشك على نهايتها، ولستُ نادمًا أبدًا على ما فعلتُه في سبيل الله. نحن مطمئنّون، لأنّ أبناءنا وبناتنا لن يخجلوا بنا.»
 ```
 **On-screen text** — 2 line(s), copy exactly:
 
@@ -132,7 +132,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 على ما فعلتُه في سبيل الله»
 ```
 - Tag on screen: **قولٌ منسوب إليه**
-- Meaning (English, editor only): In one of his best-known sayings, he says: 'Life is coming to an end, and I never regret what I have done for the sake of God. We are content, because our sons and daughters will not be ashamed of us before our enemies.'
+- Meaning (English, editor only): In one of his best-known sayings, he says: 'Life is coming to an end, and I never regret what I have done for the sake of God. We are content, because our sons and daughters will not be ashamed of us.'
 - Visual 1: Quote card (Vox pull-quote): parchment paper, the line types on word by word in large serif-style type; key words get a gold hand-drawn underline.
 - Visual 2: Behind it, at 20% opacity, the archival portrait of Sheikh Said slowly fades in.
 - Assets: A01, A30 (see `assets/ASSETS.md`)
@@ -140,7 +140,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Typewriter keys per word (soft), paper rustle.
 - Fact check: F27
 
-### S03 · 00:26.0–00:33.9 (7.9 s) · title
+### S03 · 00:24.9–00:32.8 (7.9 s) · title
 
 **Narration (Arabic)** — read exactly:
 
@@ -169,7 +169,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Warm strings + ney, gentle, 70 BPM.
 
-### S04 · 00:35.9–00:44.8 (8.9 s) · map
+### S04 · 00:34.8–00:43.7 (8.9 s) · map
 
 **Narration (Arabic)** — read exactly:
 
@@ -191,7 +191,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Map whoosh, pin 'pop', pen scribble for the label.
 - Fact check: F01, F02
 
-### S05 · 00:44.8–00:56.1 (11.3 s) · tree
+### S05 · 00:43.7–00:55.0 (11.3 s) · tree
 
 **Narration (Arabic)** — read exactly:
 
@@ -213,7 +213,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Pen drawing lines; soft whoosh on the route.
 - Fact check: F02
 
-### S06 · 00:56.1–01:04.0 (7.9 s) · photo
+### S06 · 00:55.0–01:02.9 (7.9 s) · photo
 
 **Narration (Arabic)** — read exactly:
 
@@ -242,7 +242,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Majestic: low strings, daf on the downbeat, rising.
 
-### S07 · 01:06.0–01:15.4 (9.4 s) · montage
+### S07 · 01:04.9–01:14.3 (9.4 s) · montage
 
 **Narration (Arabic)** — read exactly:
 
@@ -261,7 +261,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Rewind whoosh with clock ticks; then a daf hit.
 - Fact check: F04
 
-### S08 · 01:15.4–01:21.0 (5.6 s) · montage
+### S08 · 01:14.3–01:19.9 (5.6 s) · montage
 
 **Narration (Arabic)** — read exactly:
 
@@ -282,7 +282,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Daf hit on 'Jerusalem'; low strings swell.
 - Fact check: F04
 
-### S09 · 01:21.0–01:32.3 (11.3 s) · photo
+### S09 · 01:19.9–01:31.2 (11.3 s) · photo
 
 **Narration (Arabic)** — read exactly:
 
@@ -303,7 +303,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Distant marching drums (soft), paper slide.
 - Fact check: F05
 
-### S10 · 01:32.3–01:39.3 (7.0 s) · map
+### S10 · 01:31.2–01:38.2 (7.0 s) · map
 
 **Narration (Arabic)** — read exactly:
 
@@ -329,7 +329,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Tension: ticking pulse, low brass, dissonant strings, 90 BPM.
 
-### S11 · 01:41.3–01:49.7 (8.4 s) · doc
+### S11 · 01:40.2–01:48.6 (8.4 s) · doc
 
 **Narration (Arabic)** — read exactly:
 
@@ -348,7 +348,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Paper tear on 'buried'; low brass note.
 - Fact check: F07
 
-### S12 · 01:49.7–01:56.2 (6.5 s) · doc
+### S12 · 01:48.6–01:55.1 (6.5 s) · doc
 
 **Narration (Arabic)** — read exactly:
 
@@ -368,7 +368,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Thread snap; newspaper rustle.
 - Fact check: F08
 
-### S13 · 01:56.2–02:05.1 (8.9 s) · doc
+### S13 · 01:55.1–02:04.0 (8.9 s) · doc
 
 **Narration (Arabic)** — read exactly:
 
@@ -387,7 +387,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Rubber stamp thud; marker strike-through.
 - Fact check: F09
 
-### S14 · 02:05.1–02:12.6 (7.5 s) · doc
+### S14 · 02:04.0–02:11.5 (7.5 s) · doc
 
 **Narration (Arabic)** — read exactly:
 
@@ -407,7 +407,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Three padlock clicks, one per item.
 - Fact check: F09
 
-### S15 · 02:12.6–02:22.0 (9.4 s) · map
+### S15 · 02:11.5–02:20.9 (9.4 s) · map
 
 **Narration (Arabic)** — read exactly:
 
@@ -426,7 +426,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Low rumble under the arrows; four stamp thuds.
 - Fact check: F10
 
-### S16 · 02:22.0–02:31.4 (9.4 s) · photo
+### S16 · 02:20.9–02:30.3 (9.4 s) · photo
 
 **Narration (Arabic)** — read exactly:
 
@@ -445,7 +445,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Wind over fields; empty bowl/wooden sound, sparse.
 - Fact check: F11
 
-### S17 · 02:31.4–02:42.7 (11.3 s) · map
+### S17 · 02:30.3–02:41.6 (11.3 s) · map
 
 **Narration (Arabic)** — read exactly:
 
@@ -471,7 +471,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Investigative pulse, muted percussion, building.
 
-### S18 · 02:44.7–02:53.1 (8.4 s) · doc
+### S18 · 02:43.6–02:52.0 (8.4 s) · doc
 
 **Narration (Arabic)** — read exactly:
 
@@ -490,7 +490,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Pin pushes into cork; string pull.
 - Fact check: F03, F12
 
-### S19 · 02:53.1–03:07.2 (14.1 s) · map
+### S19 · 02:52.0–03:06.1 (14.1 s) · map
 
 **Narration (Arabic)** — read exactly:
 
@@ -510,7 +510,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Footsteps-on-gravel texture under the route; handshake-like soft thump.
 - Fact check: F12
 
-### S20 · 03:07.2–03:19.0 (11.8 s) · photo
+### S20 · 03:06.1–03:17.9 (11.8 s) · photo
 
 **Narration (Arabic)** — read exactly:
 
@@ -530,7 +530,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Winter wind; low murmur of a room; a fire crackle.
 - Fact check: F13
 
-### S21 · 03:19.0–03:30.3 (11.3 s) · doc
+### S21 · 03:17.9–03:29.2 (11.3 s) · doc
 
 **Narration (Arabic)** — read exactly:
 
@@ -552,7 +552,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Envelope whoosh; wax-seal thud.
 - Fact check: F14
 
-### S22 · 03:30.3–03:46.8 (16.5 s) · map
+### S22 · 03:29.2–03:45.7 (16.5 s) · map
 
 **Narration (Arabic)** — read exactly:
 
@@ -573,7 +573,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Horse trot (soft) under the routes; map pin pops.
 - Fact check: F15
 
-### S23 · 03:46.8–04:00.5 (13.7 s) · title
+### S23 · 03:45.7–03:59.4 (13.7 s) · title
 
 **Narration (Arabic)** — read exactly:
 
@@ -593,7 +593,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Pen circle; soft fire crackle.
 - Fact check: F15
 
-### S24 · 04:00.5–04:12.3 (11.8 s) · map
+### S24 · 03:59.4–04:11.2 (11.8 s) · map
 
 **Narration (Arabic)** — read exactly:
 
@@ -615,7 +615,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Horse hooves in snow; crowd murmur rising at each stop.
 - Fact check: F16
 
-### S25 · 04:12.3–04:22.1 (9.8 s) · map
+### S25 · 04:11.2–04:21.0 (9.8 s) · map
 
 **Narration (Arabic)** — read exactly:
 
@@ -645,7 +645,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Drums enter; urgent; hard hits on the clash.
 
-### S26 · 04:24.1–04:33.5 (9.4 s) · doc
+### S26 · 04:23.0–04:32.4 (9.4 s) · doc
 
 **Narration (Arabic)** — read exactly:
 
@@ -665,7 +665,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Night insects, dogs barking far away, boots on gravel.
 - Fact check: F17
 
-### S27 · 04:33.5–04:43.3 (9.8 s) · doc
+### S27 · 04:32.4–04:42.2 (9.8 s) · doc
 
 **Narration (Arabic)** — read exactly:
 
@@ -684,7 +684,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: A few distant rifle shots (low in the mix), then sudden silence.
 - Fact check: F17
 
-### S28 · 04:43.3–05:00.3 (17.0 s) · map
+### S28 · 04:42.2–04:59.2 (17.0 s) · map
 
 **Narration (Arabic)** — read exactly:
 
@@ -706,7 +706,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Match strike; telegraph clicks; galloping horses.
 - Fact check: F18, F19
 
-### S29 · 05:00.3–05:06.3 (6.0 s) · title
+### S29 · 04:59.2–05:05.2 (6.0 s) · title
 
 **Narration (Arabic)** — read exactly:
 
@@ -725,7 +725,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Pages ripping; drum hit.
 - Fact check: F19
 
-### S30 · 05:06.3–05:14.2 (7.9 s) · doc
+### S30 · 05:05.2–05:13.1 (7.9 s) · doc
 
 **Narration (Arabic)** — read exactly:
 
@@ -752,7 +752,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Full epic: daf + taiko + strings; peak at the Mardin Gate; falls away when the siege is lifted.
 
-### S31 · 05:16.2–05:35.1 (18.9 s) · data
+### S31 · 05:15.1–05:34.0 (18.9 s) · data
 
 **Narration (Arabic)** — read exactly:
 
@@ -772,7 +772,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Bars 'grow' with a rising tone; a soft 'correction' tick for the third bar.
 - Fact check: F21, F22
 
-### S32 · 05:35.1–05:46.4 (11.3 s) · map
+### S32 · 05:34.0–05:45.3 (11.3 s) · map
 
 **Narration (Arabic)** — read exactly:
 
@@ -791,7 +791,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Soft map tones.
 - Fact check: F23
 
-### S33 · 05:46.4–05:54.3 (7.9 s) · photo
+### S33 · 05:45.3–05:53.2 (7.9 s) · photo
 
 **Narration (Arabic)** — read exactly:
 
@@ -812,7 +812,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Cavalry gallop, rising; daf rolls.
 - Fact check: F24
 
-### S34 · 05:54.3–06:09.4 (15.1 s) · map
+### S34 · 05:53.2–06:08.3 (15.1 s) · map
 
 **Narration (Arabic)** — read exactly:
 
@@ -832,7 +832,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Rising percussion; arrows whoosh.
 - Fact check: F24
 
-### S35 · 06:09.4–06:28.3 (18.9 s) · photo
+### S35 · 06:08.3–06:27.2 (18.9 s) · photo
 
 **Narration (Arabic)** — read exactly:
 
@@ -852,12 +852,12 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Wind on stone; a single low drum.
 - Fact check: F25
 
-### S36 · 06:28.3–06:42.9 (14.6 s) · photo
+### S36 · 06:27.2–06:41.8 (14.6 s) · photo
 
 **Narration (Arabic)** — read exactly:
 
 ```text
-طال الحصار، ورفض جيش العدوّ داخل المدينة التخلّي عن المقاومة. ومع مطلع آذار، بدأ هجوم البيشمركة. وعند باب ماردين، اتحدت مجموعةٌ من البيشمركة مع أهالي المدينة وهاجموا جيش العدوّ.
+طال الحصار، ورفض الجيش الحكومي داخل المدينة التخلّي عن المقاومة. ومع مطلع آذار، بدأ هجوم البيشمركة. وعند باب ماردين، اتحدت مجموعةٌ من البيشمركة مع أهالي المدينة وهاجموا الجيش الحكومي.
 ```
 **On-screen text** — 2 line(s), copy exactly:
 
@@ -865,14 +865,14 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 آذار 1925
 باب ماردين
 ```
-- Meaning (English, editor only): The siege dragged on, and the garrison refused to give up. From the beginning of March, the peshmerga attacked. At the Mardin Gate, a peshmerga unit and people of the city joined forces and charged the enemy.
+- Meaning (English, editor only): The siege dragged on, and the government army inside the city refused to give up. From the beginning of March, the peshmerga attacked. At the Mardin Gate, a peshmerga unit and people of the city joined forces and charged the government army.
 - Visual 1: Photo of the Mardin Gate (Mardinkapı) of Diyarbakır's walls; city-plan graphic with the gate highlighted and arrows pushing toward it.
 - Assets: A07, A22 (see `assets/ASSETS.md`)
 - Image: `assets/images/S36_The_Mardin_Gate.jpg` (ai; on-screen label **رسم فنّي**) — Upscaled 4× with Real-ESRGAN to 2048 px.
 - Sound: Battle bed far in the background (muffled), war cries far away, daf peak.
 - Fact check: F25
 
-### S37 · 06:42.9–06:58.5 (15.6 s) · photo
+### S37 · 06:41.8–06:57.4 (15.6 s) · photo
 
 **Narration (Arabic)** — read exactly:
 
@@ -898,12 +898,12 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Music collapses to a single sustained low note; heartbeat-like pulse.
 
-### S38 · 07:00.5–07:12.3 (11.8 s) · map
+### S38 · 06:59.4–07:11.2 (11.8 s) · map
 
 **Narration (Arabic)** — read exactly:
 
 ```text
-أخذت صفوف الثورة تتفكّك يومًا بعد يوم، خاصةً حين زحف جيش العدوّ من الشمال والجنوب، بعشرات الآلاف من الجنود والطائرات الحربية، وقلب الحصار.
+أخذت صفوف الثورة تتفكّك يومًا بعد يوم، خاصةً حين زحف الجيش الحكومي من الشمال والجنوب، بعشرات الآلاف من الجنود والطائرات الحربية، وقلب الحصار.
 ```
 **On-screen text** — 2 line(s), copy exactly:
 
@@ -911,7 +911,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 من الشمال والجنوب
 طائرات حربية
 ```
-- Meaning (English, editor only): Day after day, the ranks of the revolt fell into disorder, especially when enemy armies came from the north and the south, with tens of thousands of soldiers and warplanes, and turned the siege around.
+- Meaning (English, editor only): Day after day, the ranks of the revolt fell into disorder, especially when the government army came from the north and the south, with tens of thousands of soldiers and warplanes, and turned the siege around.
 - Visual 1: Chapter card. Map: thick dark arrows sweep in from north and south and encircle the gold area, which shrinks.
 - Visual 2: Archival photo of early Turkish military aircraft (public domain) passes across the frame.
 - Assets: A22, A27 (see `assets/ASSETS.md`)
@@ -919,7 +919,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Propeller-plane drone passing; low rumble.
 - Fact check: F26
 
-### S39 · 07:12.3–07:27.9 (15.6 s) · photo
+### S39 · 07:11.2–07:26.8 (15.6 s) · photo
 
 **Narration (Arabic)** — read exactly:
 
@@ -948,7 +948,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Near silence. Solo tembûr or ney. Prison room tone.
 
-### S40 · 07:29.9–07:39.3 (9.4 s) · quote
+### S40 · 07:28.8–07:38.2 (9.4 s) · quote
 
 **Narration (Arabic)** — read exactly:
 
@@ -967,7 +967,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Prison room tone; a metal door far away.
 - Fact check: F28
 
-### S41 · 07:39.3–07:58.5 (19.2 s) · quote · **quote voice**
+### S41 · 07:38.2–07:57.4 (19.2 s) · quote · **quote voice**
 
 **Narration (Arabic)** — read exactly:
 
@@ -988,7 +988,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Typewriter, soft; solo ney.
 - Fact check: F28
 
-### S42 · 07:58.5–08:07.9 (9.4 s) · quote
+### S42 · 07:57.4–08:06.8 (9.4 s) · quote
 
 **Narration (Arabic)** — read exactly:
 
@@ -1008,7 +1008,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Footsteps in a corridor; door unlock.
 - Fact check: F28
 
-### S43 · 08:07.9–08:24.9 (17.0 s) · quote · **quote voice**
+### S43 · 08:06.8–08:23.8 (17.0 s) · quote · **quote voice**
 
 **Narration (Arabic)** — read exactly:
 
@@ -1037,7 +1037,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Slow, mournful strings; no percussion.
 
-### S44 · 08:26.9–08:38.2 (11.3 s) · doc
+### S44 · 08:25.8–08:37.1 (11.3 s) · doc
 
 **Narration (Arabic)** — read exactly:
 
@@ -1057,7 +1057,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Gavel knock (single); soft tick per mark, accelerating.
 - Fact check: F29
 
-### S45 · 08:38.2–08:42.8 (4.6 s) · photo
+### S45 · 08:37.1–08:41.7 (4.6 s) · photo
 
 **Narration (Arabic)** — read exactly:
 
@@ -1076,7 +1076,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Wind; the same wooden creak as S01; then silence.
 - Fact check: F30
 
-### S46 · 08:42.8–08:52.2 (9.4 s) · photo
+### S46 · 08:41.7–08:51.1 (9.4 s) · photo
 
 **Narration (Arabic)** — read exactly:
 
@@ -1104,7 +1104,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Same theme as chapter 2, slower, with a soft choir pad (no lyrics).
 
-### S47 · 08:54.2–09:06.9 (12.7 s) · quote · **quote voice**
+### S47 · 08:53.1–09:05.8 (12.7 s) · quote · **quote voice**
 
 **Narration (Arabic)** — read exactly:
 
@@ -1124,27 +1124,6 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Theme returns softly; typewriter.
 - Fact check: F27
 
-### S48 · 09:06.9–09:17.4 (10.5 s) · quote · **quote voice**
-
-**Narration (Arabic)** — read exactly:
-
-```text
-وأيضًا: «حتى لو جاء يومٌ نسيتم فيه أيها الكرد كرديّتكم، فثقوا أن العدوّ لن ينسى أبدًا أنكم كرد.»
-```
-**On-screen text** — 2 line(s), copy exactly:
-
-```text
-«العدوّ لن ينسى أبدًا
-أنكم كرد»
-```
-- Tag on screen: **قولٌ منسوب إليه**
-- Meaning (English, editor only): And: 'Even if a day comes when you Kurds forget that you are Kurds, be sure the enemy will never forget that you are Kurds.'
-- Visual 1: Pull-quote; behind it, a slow montage of Kurdish faces of today (own footage, consented, or crowds at Newroz shot from behind/wide).
-- Assets: A29, A30 (see `assets/ASSETS.md`)
-- Image: `assets/images/Sheikh_Said_Colourised_Portrait.jpg` (colourised; on-screen label **صورة ملوّنة**)
-- Sound: Theme continues.
-- Fact check: F27
-
 
 ---
 
@@ -1152,7 +1131,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Hopeful: warm strings + piano + light daf, rising to the closing.
 
-### S49 · 09:19.4–09:34.0 (14.6 s) · montage
+### S49 · 09:07.8–09:22.4 (14.6 s) · montage
 
 **Narration (Arabic)** — read exactly:
 
@@ -1172,7 +1151,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Warm swell; daf.
 - Fact check: F04, F33
 
-### S50 · 09:34.0–09:47.2 (13.2 s) · data
+### S50 · 09:22.4–09:35.6 (13.2 s) · data
 
 **Narration (Arabic)** — read exactly:
 
@@ -1191,7 +1170,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Counter ticks; children's voices far away (ambient, from the footage).
 - Fact check: F34
 
-### S51 · 09:47.2–09:58.5 (11.3 s) · quote
+### S51 · 09:35.6–09:46.9 (11.3 s) · quote
 
 **Narration (Arabic)** — read exactly:
 
@@ -1220,7 +1199,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Firm low strings for the position; final theme resolves; hard stop on the end card.
 
-### S52 · 09:58.5–10:06.9 (8.4 s) · position
+### S52 · 09:46.9–09:55.3 (8.4 s) · position
 
 **Narration (Arabic)** — read exactly:
 
@@ -1241,7 +1220,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Firm low strings; one deep hit at the end.
 - Fact check: F36
 
-### S53 · 10:06.9–10:12.5 (5.6 s) · title
+### S53 · 09:55.3–10:00.9 (5.6 s) · title
 
 **Narration (Arabic)** — read exactly:
 
@@ -1261,7 +1240,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Final theme chord; reverb tail.
 - Fact check: F37
 
-### S54 · 10:12.5–10:15.5 (3.0 s) · end
+### S54 · 10:00.9–10:03.9 (3.0 s) · end
 
 **On-screen text** — 2 line(s), copy exactly:
 

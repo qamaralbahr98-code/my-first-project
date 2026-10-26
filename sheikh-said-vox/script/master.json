@@ -218,11 +218,11 @@
       "chapter": 1,
       "kind": "quote",
       "voice": "quote",
-      "vo_en": "In one of his best-known sayings, he says: 'Life is coming to an end, and I never regret what I have done for the sake of God. We are content, because our sons and daughters will not be ashamed of us before our enemies.'",
+      "vo_en": "In one of his best-known sayings, he says: 'Life is coming to an end, and I never regret what I have done for the sake of God. We are content, because our sons and daughters will not be ashamed of us.'",
       "vo": {
-        "ckb": "لە یەکێک لە وتە بەناوبانگەکانیدا دەڵێت: «وا ژیان خەریکە کۆتایی دێت و هەرگیز پەشیمان نیم لەوەی لە پێناوی خوادا کردوومە. ئێمە دڵمان خۆشە، چونکە کوڕ و کچەکانمان لەبەر ئێمە شەرم دایانناگرێ لەبەردەم دوژمناندا.»",
-        "kmr": "Di yek ji gotinên wî yên navdar de dibêje: «Va jiyan ber bi dawiyê ve diçe, û ez qet poşman nînim ji tiştê ku min di riya Xwedê de kiriye. Em dilxweş in, ji ber ku kur û keçên me ji ber me li ber dijminan şerm nakin.»",
-        "ar": "يقول في واحدٍ من أشهر أقواله: «ها هي الحياة توشك على نهايتها، ولستُ نادمًا أبدًا على ما فعلتُه في سبيل الله. نحن مطمئنّون، لأنّ أبناءنا وبناتنا لن يخجلوا بنا أمام الأعداء.»"
+        "ckb": "لە یەکێک لە وتە بەناوبانگەکانیدا دەڵێت: «وا ژیان خەریکە کۆتایی دێت و هەرگیز پەشیمان نیم لەوەی لە پێناوی خوادا کردوومە. ئێمە دڵمان خۆشە، چونکە کوڕ و کچەکانمان لەبەر ئێمە شەرم دایانناگرێ.»",
+        "kmr": "Di yek ji gotinên wî yên navdar de dibêje: «Va jiyan ber bi dawiyê ve diçe, û ez qet poşman nînim ji tiştê ku min di riya Xwedê de kiriye. Em dilxweş in, ji ber ku kur û keçên me ji ber me şerm nakin.»",
+        "ar": "يقول في واحدٍ من أشهر أقواله: «ها هي الحياة توشك على نهايتها، ولستُ نادمًا أبدًا على ما فعلتُه في سبيل الله. نحن مطمئنّون، لأنّ أبناءنا وبناتنا لن يخجلوا بنا.»"
       },
       "ost": {
         "ckb": [
@@ -1554,11 +1554,11 @@
       "chapter": 7,
       "kind": "photo",
       "voice": "narrator",
-      "vo_en": "The siege dragged on, and the garrison refused to give up. From the beginning of March, the peshmerga attacked. At the Mardin Gate, a peshmerga unit and people of the city joined forces and charged the enemy.",
+      "vo_en": "The siege dragged on, and the government army inside the city refused to give up. From the beginning of March, the peshmerga attacked. At the Mardin Gate, a peshmerga unit and people of the city joined forces and charged the government army.",
       "vo": {
-        "ckb": "گەمارۆکە درێژەی کێشا، و سوپای دوژمن لەناو شاردا ڕازی نەبوو دەست لە بەرگری هەڵبگرێت. لە سەرەتای مانگی ئازارەوە، پێشمەرگە هێرشی دەستپێکرد. لە دەرگای ماردینەوە، کەرتێکی پێشمەرگە و خەڵکی شار یەکیان گرتەوە و پەلاماری سوپای دوژمنیان دا.",
-        "kmr": "Dorpêç dirêj kişand, û artêşa dijmin a nav bajêr qebûl nekir ku dev ji berxwedanê berde. Ji destpêka Adarê ve, pêşmergeyan êrîş dest pê kir. Li Deriyê Mêrdînê, komeke pêşmergeyan û xelkê bajêr bûn yek û êrîşî artêşa dijmin kirin.",
-        "ar": "طال الحصار، ورفض جيش العدوّ داخل المدينة التخلّي عن المقاومة. ومع مطلع آذار، بدأ هجوم البيشمركة. وعند باب ماردين، اتحدت مجموعةٌ من البيشمركة مع أهالي المدينة وهاجموا جيش العدوّ."
+        "ckb": "گەمارۆکە درێژەی کێشا، و سوپای حکومەت لەناو شاردا ڕازی نەبوو دەست لە بەرگری هەڵبگرێت. لە سەرەتای مانگی ئازارەوە، پێشمەرگە هێرشی دەستپێکرد. لە دەرگای ماردینەوە، کەرتێکی پێشمەرگە و خەڵکی شار یەکیان گرتەوە و پەلاماری سوپای حکومەتیان دا.",
+        "kmr": "Dorpêç dirêj kişand, û artêşa hikûmetê ya nav bajêr qebûl nekir ku dev ji berxwedanê berde. Ji destpêka Adarê ve, pêşmergeyan êrîş dest pê kir. Li Deriyê Mêrdînê, komeke pêşmergeyan û xelkê bajêr bûn yek û êrîşî artêşa hikûmetê kirin.",
+        "ar": "طال الحصار، ورفض الجيش الحكومي داخل المدينة التخلّي عن المقاومة. ومع مطلع آذار، بدأ هجوم البيشمركة. وعند باب ماردين، اتحدت مجموعةٌ من البيشمركة مع أهالي المدينة وهاجموا الجيش الحكومي."
       },
       "ost": {
         "ckb": [
@@ -1631,11 +1631,11 @@
       "chapter": 8,
       "kind": "map",
       "voice": "narrator",
-      "vo_en": "Day after day, the ranks of the revolt fell into disorder, especially when enemy armies came from the north and the south, with tens of thousands of soldiers and warplanes, and turned the siege around.",
+      "vo_en": "Day after day, the ranks of the revolt fell into disorder, especially when the government army came from the north and the south, with tens of thousands of soldiers and warplanes, and turned the siege around.",
       "vo": {
-        "ckb": "ڕیزەکانی شۆڕش ڕۆژ بە ڕۆژ بەرەو شپرزەیی و پەرشوبڵاوی دەچوون، بەتایبەتی کاتێک سوپای دوژمن لە باکوور و باشوورەوە، بە دەیان هەزار سەرباز و فڕۆکەی جەنگییەوە، هێرشی هێنا و گەمارۆکەی پێچەوانە کردەوە.",
-        "kmr": "Refên serhildanê roj bi roj ber bi tevlîheviyê û belavbûnê ve diçûn, bi taybetî gava artêşa dijmin ji bakur û başûr ve, bi deh hezaran leşker û balafirên şer ve, êrîş kir û dorpêç berevajî kir.",
-        "ar": "أخذت صفوف الثورة تتفكّك يومًا بعد يوم، خاصةً حين زحف جيش العدوّ من الشمال والجنوب، بعشرات الآلاف من الجنود والطائرات الحربية، وقلب الحصار."
+        "ckb": "ڕیزەکانی شۆڕش ڕۆژ بە ڕۆژ بەرەو شپرزەیی و پەرشوبڵاوی دەچوون، بەتایبەتی کاتێک سوپای حکومەت لە باکوور و باشوورەوە، بە دەیان هەزار سەرباز و فڕۆکەی جەنگییەوە، هێرشی هێنا و گەمارۆکەی پێچەوانە کردەوە.",
+        "kmr": "Refên serhildanê roj bi roj ber bi tevlîheviyê û belavbûnê ve diçûn, bi taybetî gava artêşa hikûmetê ji bakur û başûr ve, bi deh hezaran leşker û balafirên şer ve, êrîş kir û dorpêç berevajî kir.",
+        "ar": "أخذت صفوف الثورة تتفكّك يومًا بعد يوم، خاصةً حين زحف الجيش الحكومي من الشمال والجنوب، بعشرات الآلاف من الجنود والطائرات الحربية، وقلب الحصار."
       },
       "ost": {
         "ckb": [
@@ -2060,7 +2060,9 @@
       ],
       "images": [
         "assets/images/Sheikh_Said_Colourised_Portrait.jpg"
-      ]
+      ],
+      "cut": true,
+      "cut_note": "Cut on the user's request (26 Oct 2026): the quote's key line used the word 'enemy'. Not narrated or shown; kept here for the record."
     },
     {
       "id": "S49",

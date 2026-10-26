@@ -34,12 +34,13 @@ def build(lang):
     for g in plan["segments"]:
         segs_by_scene.setdefault(g["scene"], []).append(g)
     chapters = {c["id"]: c for c in m["chapters"]}
+    live = [s for s in m["scenes"] if not s.get("cut")]      # cut scenes stay in master.json, not in the film
     first_in_chapter = {}
-    for s in m["scenes"]:
+    for s in live:
         first_in_chapter.setdefault(s["chapter"], s["id"])
 
     scenes, t = [], 0.0
-    for s in m["scenes"]:
+    for s in live:
         sid = s["id"]
         card = CARD if (first_in_chapter[s["chapter"]] == sid and chapters[s["chapter"]].get("title")) else 0.0
         pre, post = PRE, POST

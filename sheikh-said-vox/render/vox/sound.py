@@ -1029,6 +1029,8 @@ def build(lang, music_cached=False):
     fx(wind(D("S46"), 500), "S46", 0, 0.08, -0.2, 0)
     # S47/S48 typewriter on the pull-quote
     for sid, a_, b_ in (("S47", 0.3, 0.45), ("S48", 0.5, 0.92)):
+        if sid not in S:
+            continue
         qs, qd = A(sid)
         nw = sum(len(x.split()) for x in S[sid]["ost"])
         for k in range(nw):

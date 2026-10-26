@@ -1,11 +1,11 @@
 # Kurdish Kurmanji narration — Sheikh Said Piran (Dwin)
-# Estimated 12:11.3. [Q] = quote voice. Read exactly as written.
+# Estimated 11:56.6. [Q] = quote voice. Read exactly as written.
 
 ## S01 
 Amed, Diyarbekir. Sibeha 29ê Hezîrana 1925an. Şêxekî riwspî ber bi sêdarê ve tê birin.
 
 ## S02 [Q] 
-Di yek ji gotinên wî yên navdar de dibêje: «Va jiyan ber bi dawiyê ve diçe, û ez qet poşman nînim ji tiştê ku min di riya Xwedê de kiriye. Em dilxweş in, ji ber ku kur û keçên me ji ber me li ber dijminan şerm nakin.»
+Di yek ji gotinên wî yên navdar de dibêje: «Va jiyan ber bi dawiyê ve diçe, û ez qet poşman nînim ji tiştê ku min di riya Xwedê de kiriye. Em dilxweş in, ji ber ku kur û keçên me ji ber me şerm nakin.»
 
 ## S03 
 Ev çîroka Şêx Seîdê Pîran e: zanayekî olî ku ji bo gelê xwe rabû, û bedela wê bi canê xwe da.
@@ -107,13 +107,13 @@ Hêza Salih Begê Xan û hêzên Şêx Şemsedîn gihîştin herêma Madenê, û
 Lê Şêx Seîd hîs kir ku hêzên wî nikarin Amedê bi zorê rizgar bikin. Loma li rêyeke din geriya: bi hukûmeta tirk re ket danûstandinê, da ku derfeteke guncav ji bo serhildana Kurdên nav bajêr biafirîne. Lê tu rê tunebû ku çek bigihîjin destê xelkê nav bajêr.
 
 ## S36 
-Dorpêç dirêj kişand, û artêşa dijmin a nav bajêr qebûl nekir ku dev ji berxwedanê berde. Ji destpêka Adarê ve, pêşmergeyan êrîş dest pê kir. Li Deriyê Mêrdînê, komeke pêşmergeyan û xelkê bajêr bûn yek û êrîşî artêşa dijmin kirin.
+Dorpêç dirêj kişand, û artêşa hikûmetê ya nav bajêr qebûl nekir ku dev ji berxwedanê berde. Ji destpêka Adarê ve, pêşmergeyan êrîş dest pê kir. Li Deriyê Mêrdînê, komeke pêşmergeyan û xelkê bajêr bûn yek û êrîşî artêşa hikûmetê kirin.
 
 ## S37 
 Lê Tirkan sengerên xwe qayîm kiribûn, û bi sedan çekên nû di destê wan de bûn. Piştî şerekî giran û kuştina gelek kesan ji herdu aliyan, û têkçûna du sê êrîşên pêşmergeyan, biryara dawî hate dayîn: dorpêça bajêr bê rakirin.
 
 ## S38 
-Refên serhildanê roj bi roj ber bi tevlîheviyê û belavbûnê ve diçûn, bi taybetî gava artêşa dijmin ji bakur û başûr ve, bi deh hezaran leşker û balafirên şer ve, êrîş kir û dorpêç berevajî kir.
+Refên serhildanê roj bi roj ber bi tevlîheviyê û belavbûnê ve diçûn, bi taybetî gava artêşa hikûmetê ji bakur û başûr ve, bi deh hezaran leşker û balafirên şer ve, êrîş kir û dorpêç berevajî kir.
 
 ## S39 
 Di dawiya Nîsanê de, bi xiyaneta serokê eşîra Cibran, Qasim Begê Cibran, Şêx Seîd, Şêx Ebdullah, Elî Xalib, Reşîd Axa û 26 şoreşgerên din li ser pira Çemê Miradê li herêma Gencê dîl hatin girtin.
@@ -141,9 +141,6 @@ Piştî wî, bi sedan gund hatin şewitandin û malbat hatin koçberkirin. Heta 
 
 ## S47 [Q] 
 Di gotinên wî yên bi qîmet de tê gotin: «Zorê li wan kesan nekin ku welat naxwazin; ji ber ku welat şeref e, û kes nikare bi zorê şerefê bide kesê bêşeref.»
-
-## S48 [Q] 
-Û: «Heta eger rojek bê û hûn Kurd, Kurdbûna xwe ji bîr bikin, bawer bin ku dijmin qet ji bîr nake ku hûn Kurd in.»
 
 ## S49 
 Ji Selahedîn heta Şêx Seîd, Kurd her tim bi ummetê re bûn, ne li dijî wê. Pirsgirêka Kurdan qet ne bi gelê tirk an ereb re bû, lê bi siyasetekê re bû ku navê miletekî înkar dikir.

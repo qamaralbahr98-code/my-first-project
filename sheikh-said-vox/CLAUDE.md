@@ -1,7 +1,7 @@
 # CLAUDE.md — Dwin Vox documentary: Sheikh Said Piran
 
 ## Source of truth
-- `script/master.json`: chapters, 54 scenes (narration `vo` and on-screen text `ost` in `ckb`, `kmr`, `ar`), visuals, sound, assets, facts, post descriptions.
+- `script/master.json`: chapters, 54 scenes (S48 is marked `cut`: kept for the record, not in the film) (narration `vo` and on-screen text `ost` in `ckb`, `kmr`, `ar`), visuals, sound, assets, facts, post descriptions.
 - `script/brand.json`: colours, fonts, channel names, taglines.
 - Generated (never edit by hand): `prompts/`, `vo/`, `subtitles/`, `script/scenes.*.json`, `assets/ASSETS.md`, `facts/fact_check.md`. Run `python3 tools/build.py` after any change; it must finish without `ERROR` lines.
 

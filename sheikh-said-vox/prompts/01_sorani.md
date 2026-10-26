@@ -4,7 +4,7 @@
 > Timed data: `script/scenes.ckb.json` · Narration: `vo/ckb_narration.txt` · Subtitles: `subtitles/ckb.srt` · Assets: `assets/ASSETS.md`
 
 **Title (on-screen language):** شێخ سەعیدی پیران: ئیمان، گەلێک، و بەڵێنێکی شکاو
-**Estimated length:** 10:59.4 (659.4 s), 54 scenes, 13 chapters. Final length follows the recorded narration.
+**Estimated length:** 10:47.8 (647.8 s), 53 scenes, 13 chapters. Final length follows the recorded narration.
 **Source:** Sorani article 'شێخ سەعیدی پیران (1865–1925)' (7 pages), checked against external historical sources; sources are listed in `facts/fact_check.md`.
 
 ## 1. Role and goal
@@ -118,12 +118,12 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Wind, distant birds, one slow wooden creak at the end of the line.
 - Fact check: F30
 
-### S02 · 00:06.3–00:24.1 (17.8 s) · quote · **quote voice**
+### S02 · 00:06.3–00:23.1 (16.8 s) · quote · **quote voice**
 
 **Narration (Kurdish Sorani)** — read exactly:
 
 ```text
-لە یەکێک لە وتە بەناوبانگەکانیدا دەڵێت: «وا ژیان خەریکە کۆتایی دێت و هەرگیز پەشیمان نیم لەوەی لە پێناوی خوادا کردوومە. ئێمە دڵمان خۆشە، چونکە کوڕ و کچەکانمان لەبەر ئێمە شەرم دایانناگرێ لەبەردەم دوژمناندا.»
+لە یەکێک لە وتە بەناوبانگەکانیدا دەڵێت: «وا ژیان خەریکە کۆتایی دێت و هەرگیز پەشیمان نیم لەوەی لە پێناوی خوادا کردوومە. ئێمە دڵمان خۆشە، چونکە کوڕ و کچەکانمان لەبەر ئێمە شەرم دایانناگرێ.»
 ```
 **On-screen text** — 2 line(s), copy exactly:
 
@@ -132,7 +132,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 لەوەی لە پێناوی خوادا کردوومە»
 ```
 - Tag on screen: **وتەیەکی دراوەتە پاڵی**
-- Meaning (English, editor only): In one of his best-known sayings, he says: 'Life is coming to an end, and I never regret what I have done for the sake of God. We are content, because our sons and daughters will not be ashamed of us before our enemies.'
+- Meaning (English, editor only): In one of his best-known sayings, he says: 'Life is coming to an end, and I never regret what I have done for the sake of God. We are content, because our sons and daughters will not be ashamed of us.'
 - Visual 1: Quote card (Vox pull-quote): parchment paper, the line types on word by word in large serif-style type; key words get a gold hand-drawn underline.
 - Visual 2: Behind it, at 20% opacity, the archival portrait of Sheikh Said slowly fades in.
 - Assets: A01, A30 (see `assets/ASSETS.md`)
@@ -140,7 +140,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Typewriter keys per word (soft), paper rustle.
 - Fact check: F27
 
-### S03 · 00:24.1–00:32.6 (8.5 s) · title
+### S03 · 00:23.1–00:31.6 (8.5 s) · title
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -169,7 +169,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Warm strings + ney, gentle, 70 BPM.
 
-### S04 · 00:34.6–00:44.0 (9.4 s) · map
+### S04 · 00:33.6–00:43.0 (9.4 s) · map
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -191,7 +191,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Map whoosh, pin 'pop', pen scribble for the label.
 - Fact check: F01, F02
 
-### S05 · 00:44.0–00:54.8 (10.8 s) · tree
+### S05 · 00:43.0–00:53.8 (10.8 s) · tree
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -213,7 +213,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Pen drawing lines; soft whoosh on the route.
 - Fact check: F02
 
-### S06 · 00:54.8–01:03.8 (9.0 s) · photo
+### S06 · 00:53.8–01:02.8 (9.0 s) · photo
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -242,7 +242,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Majestic: low strings, daf on the downbeat, rising.
 
-### S07 · 01:05.8–01:14.3 (8.5 s) · montage
+### S07 · 01:04.8–01:13.3 (8.5 s) · montage
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -261,7 +261,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Rewind whoosh with clock ticks; then a daf hit.
 - Fact check: F04
 
-### S08 · 01:14.3–01:20.1 (5.8 s) · montage
+### S08 · 01:13.3–01:19.1 (5.8 s) · montage
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -282,7 +282,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Daf hit on 'Jerusalem'; low strings swell.
 - Fact check: F04
 
-### S09 · 01:20.1–01:30.4 (10.3 s) · photo
+### S09 · 01:19.1–01:29.4 (10.3 s) · photo
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -303,7 +303,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Distant marching drums (soft), paper slide.
 - Fact check: F05
 
-### S10 · 01:30.4–01:38.5 (8.1 s) · map
+### S10 · 01:29.4–01:37.5 (8.1 s) · map
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -329,7 +329,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Tension: ticking pulse, low brass, dissonant strings, 90 BPM.
 
-### S11 · 01:40.5–01:48.6 (8.1 s) · doc
+### S11 · 01:39.5–01:47.6 (8.1 s) · doc
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -348,7 +348,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Paper tear on 'buried'; low brass note.
 - Fact check: F07
 
-### S12 · 01:48.6–01:55.3 (6.7 s) · doc
+### S12 · 01:47.6–01:54.3 (6.7 s) · doc
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -368,7 +368,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Thread snap; newspaper rustle.
 - Fact check: F08
 
-### S13 · 01:55.3–02:07.0 (11.7 s) · doc
+### S13 · 01:54.3–02:06.0 (11.7 s) · doc
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -387,7 +387,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Rubber stamp thud; marker strike-through.
 - Fact check: F09
 
-### S14 · 02:07.0–02:16.4 (9.4 s) · doc
+### S14 · 02:06.0–02:15.4 (9.4 s) · doc
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -407,7 +407,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Three padlock clicks, one per item.
 - Fact check: F09
 
-### S15 · 02:16.4–02:28.1 (11.7 s) · map
+### S15 · 02:15.4–02:27.1 (11.7 s) · map
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -426,7 +426,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Low rumble under the arrows; four stamp thuds.
 - Fact check: F10
 
-### S16 · 02:28.1–02:39.4 (11.3 s) · photo
+### S16 · 02:27.1–02:38.4 (11.3 s) · photo
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -445,7 +445,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Wind over fields; empty bowl/wooden sound, sparse.
 - Fact check: F11
 
-### S17 · 02:39.4–02:52.0 (12.6 s) · map
+### S17 · 02:38.4–02:51.0 (12.6 s) · map
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -471,7 +471,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Investigative pulse, muted percussion, building.
 
-### S18 · 02:54.0–03:01.6 (7.6 s) · doc
+### S18 · 02:53.0–03:00.6 (7.6 s) · doc
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -490,7 +490,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Pin pushes into cork; string pull.
 - Fact check: F03, F12
 
-### S19 · 03:01.6–03:14.7 (13.1 s) · map
+### S19 · 03:00.6–03:13.7 (13.1 s) · map
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -510,7 +510,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Footsteps-on-gravel texture under the route; handshake-like soft thump.
 - Fact check: F12
 
-### S20 · 03:14.7–03:28.2 (13.5 s) · photo
+### S20 · 03:13.7–03:27.2 (13.5 s) · photo
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -530,7 +530,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Winter wind; low murmur of a room; a fire crackle.
 - Fact check: F13
 
-### S21 · 03:28.2–03:39.9 (11.7 s) · doc
+### S21 · 03:27.2–03:38.9 (11.7 s) · doc
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -552,7 +552,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Envelope whoosh; wax-seal thud.
 - Fact check: F14
 
-### S22 · 03:39.9–03:58.0 (18.1 s) · map
+### S22 · 03:38.9–03:57.0 (18.1 s) · map
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -573,7 +573,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Horse trot (soft) under the routes; map pin pops.
 - Fact check: F15
 
-### S23 · 03:58.0–04:12.0 (14.0 s) · title
+### S23 · 03:57.0–04:11.0 (14.0 s) · title
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -593,7 +593,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Pen circle; soft fire crackle.
 - Fact check: F15
 
-### S24 · 04:12.0–04:24.2 (12.2 s) · map
+### S24 · 04:11.0–04:23.2 (12.2 s) · map
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -615,7 +615,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Horse hooves in snow; crowd murmur rising at each stop.
 - Fact check: F16
 
-### S25 · 04:24.2–04:32.7 (8.5 s) · map
+### S25 · 04:23.2–04:31.7 (8.5 s) · map
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -645,7 +645,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Drums enter; urgent; hard hits on the clash.
 
-### S26 · 04:34.7–04:44.6 (9.9 s) · doc
+### S26 · 04:33.7–04:43.6 (9.9 s) · doc
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -665,7 +665,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Night insects, dogs barking far away, boots on gravel.
 - Fact check: F17
 
-### S27 · 04:44.6–04:56.3 (11.7 s) · doc
+### S27 · 04:43.6–04:55.3 (11.7 s) · doc
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -684,7 +684,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: A few distant rifle shots (low in the mix), then sudden silence.
 - Fact check: F17
 
-### S28 · 04:56.3–05:18.0 (21.7 s) · map
+### S28 · 04:55.3–05:17.0 (21.7 s) · map
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -706,7 +706,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Match strike; telegraph clicks; galloping horses.
 - Fact check: F18, F19
 
-### S29 · 05:18.0–05:25.6 (7.6 s) · title
+### S29 · 05:17.0–05:24.6 (7.6 s) · title
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -725,7 +725,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Pages ripping; drum hit.
 - Fact check: F19
 
-### S30 · 05:25.6–05:35.0 (9.4 s) · doc
+### S30 · 05:24.6–05:34.0 (9.4 s) · doc
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -752,7 +752,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Full epic: daf + taiko + strings; peak at the Mardin Gate; falls away when the siege is lifted.
 
-### S31 · 05:37.0–05:55.5 (18.5 s) · data
+### S31 · 05:36.0–05:54.5 (18.5 s) · data
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -772,7 +772,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Bars 'grow' with a rising tone; a soft 'correction' tick for the third bar.
 - Fact check: F21, F22
 
-### S32 · 05:55.5–06:07.2 (11.7 s) · map
+### S32 · 05:54.5–06:06.2 (11.7 s) · map
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -791,7 +791,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Soft map tones.
 - Fact check: F23
 
-### S33 · 06:07.2–06:15.7 (8.5 s) · photo
+### S33 · 06:06.2–06:14.7 (8.5 s) · photo
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -812,7 +812,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Cavalry gallop, rising; daf rolls.
 - Fact check: F24
 
-### S34 · 06:15.7–06:30.1 (14.4 s) · map
+### S34 · 06:14.7–06:29.1 (14.4 s) · map
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -832,7 +832,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Rising percussion; arrows whoosh.
 - Fact check: F24
 
-### S35 · 06:30.1–06:50.9 (20.8 s) · photo
+### S35 · 06:29.1–06:49.9 (20.8 s) · photo
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -852,12 +852,12 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Wind on stone; a single low drum.
 - Fact check: F25
 
-### S36 · 06:50.9–07:08.1 (17.2 s) · photo
+### S36 · 06:49.9–07:07.1 (17.2 s) · photo
 
 **Narration (Kurdish Sorani)** — read exactly:
 
 ```text
-گەمارۆکە درێژەی کێشا، و سوپای دوژمن لەناو شاردا ڕازی نەبوو دەست لە بەرگری هەڵبگرێت. لە سەرەتای مانگی ئازارەوە، پێشمەرگە هێرشی دەستپێکرد. لە دەرگای ماردینەوە، کەرتێکی پێشمەرگە و خەڵکی شار یەکیان گرتەوە و پەلاماری سوپای دوژمنیان دا.
+گەمارۆکە درێژەی کێشا، و سوپای حکومەت لەناو شاردا ڕازی نەبوو دەست لە بەرگری هەڵبگرێت. لە سەرەتای مانگی ئازارەوە، پێشمەرگە هێرشی دەستپێکرد. لە دەرگای ماردینەوە، کەرتێکی پێشمەرگە و خەڵکی شار یەکیان گرتەوە و پەلاماری سوپای حکومەتیان دا.
 ```
 **On-screen text** — 2 line(s), copy exactly:
 
@@ -865,14 +865,14 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 ئازاری 1925
 دەرگای ماردین
 ```
-- Meaning (English, editor only): The siege dragged on, and the garrison refused to give up. From the beginning of March, the peshmerga attacked. At the Mardin Gate, a peshmerga unit and people of the city joined forces and charged the enemy.
+- Meaning (English, editor only): The siege dragged on, and the government army inside the city refused to give up. From the beginning of March, the peshmerga attacked. At the Mardin Gate, a peshmerga unit and people of the city joined forces and charged the government army.
 - Visual 1: Photo of the Mardin Gate (Mardinkapı) of Diyarbakır's walls; city-plan graphic with the gate highlighted and arrows pushing toward it.
 - Assets: A07, A22 (see `assets/ASSETS.md`)
 - Image: `assets/images/S36_The_Mardin_Gate.jpg` (ai; on-screen label **وێنەی هونەری**) — Upscaled 4× with Real-ESRGAN to 2048 px.
 - Sound: Battle bed far in the background (muffled), war cries far away, daf peak.
 - Fact check: F25
 
-### S37 · 07:08.1–07:23.9 (15.8 s) · photo
+### S37 · 07:07.1–07:22.9 (15.8 s) · photo
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -898,12 +898,12 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Music collapses to a single sustained low note; heartbeat-like pulse.
 
-### S38 · 07:25.9–07:40.8 (14.9 s) · map
+### S38 · 07:24.9–07:39.8 (14.9 s) · map
 
 **Narration (Kurdish Sorani)** — read exactly:
 
 ```text
-ڕیزەکانی شۆڕش ڕۆژ بە ڕۆژ بەرەو شپرزەیی و پەرشوبڵاوی دەچوون، بەتایبەتی کاتێک سوپای دوژمن لە باکوور و باشوورەوە، بە دەیان هەزار سەرباز و فڕۆکەی جەنگییەوە، هێرشی هێنا و گەمارۆکەی پێچەوانە کردەوە.
+ڕیزەکانی شۆڕش ڕۆژ بە ڕۆژ بەرەو شپرزەیی و پەرشوبڵاوی دەچوون، بەتایبەتی کاتێک سوپای حکومەت لە باکوور و باشوورەوە، بە دەیان هەزار سەرباز و فڕۆکەی جەنگییەوە، هێرشی هێنا و گەمارۆکەی پێچەوانە کردەوە.
 ```
 **On-screen text** — 2 line(s), copy exactly:
 
@@ -911,7 +911,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 لە باکوور و باشوورەوە
 فڕۆکەی جەنگی
 ```
-- Meaning (English, editor only): Day after day, the ranks of the revolt fell into disorder, especially when enemy armies came from the north and the south, with tens of thousands of soldiers and warplanes, and turned the siege around.
+- Meaning (English, editor only): Day after day, the ranks of the revolt fell into disorder, especially when the government army came from the north and the south, with tens of thousands of soldiers and warplanes, and turned the siege around.
 - Visual 1: Chapter card. Map: thick dark arrows sweep in from north and south and encircle the gold area, which shrinks.
 - Visual 2: Archival photo of early Turkish military aircraft (public domain) passes across the frame.
 - Assets: A22, A27 (see `assets/ASSETS.md`)
@@ -919,7 +919,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Propeller-plane drone passing; low rumble.
 - Fact check: F26
 
-### S39 · 07:40.8–07:57.1 (16.3 s) · photo
+### S39 · 07:39.8–07:56.1 (16.3 s) · photo
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -948,7 +948,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Near silence. Solo tembûr or ney. Prison room tone.
 
-### S40 · 07:59.1–08:10.4 (11.3 s) · quote
+### S40 · 07:58.1–08:09.4 (11.3 s) · quote
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -967,7 +967,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Prison room tone; a metal door far away.
 - Fact check: F28
 
-### S41 · 08:10.4–08:33.4 (23.0 s) · quote · **quote voice**
+### S41 · 08:09.4–08:32.4 (23.0 s) · quote · **quote voice**
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -988,7 +988,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Typewriter, soft; solo ney.
 - Fact check: F28
 
-### S42 · 08:33.4–08:45.1 (11.7 s) · quote
+### S42 · 08:32.4–08:44.1 (11.7 s) · quote
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -1008,7 +1008,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Footsteps in a corridor; door unlock.
 - Fact check: F28
 
-### S43 · 08:45.1–09:02.9 (17.8 s) · quote · **quote voice**
+### S43 · 08:44.1–09:01.9 (17.8 s) · quote · **quote voice**
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -1037,7 +1037,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Slow, mournful strings; no percussion.
 
-### S44 · 09:04.9–09:18.0 (13.1 s) · doc
+### S44 · 09:03.9–09:17.0 (13.1 s) · doc
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -1057,7 +1057,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Gavel knock (single); soft tick per mark, accelerating.
 - Fact check: F29
 
-### S45 · 09:18.0–09:22.4 (4.4 s) · photo
+### S45 · 09:17.0–09:21.4 (4.4 s) · photo
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -1076,7 +1076,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Wind; the same wooden creak as S01; then silence.
 - Fact check: F30
 
-### S46 · 09:22.4–09:31.4 (9.0 s) · photo
+### S46 · 09:21.4–09:30.4 (9.0 s) · photo
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -1104,7 +1104,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Same theme as chapter 2, slower, with a soft choir pad (no lyrics).
 
-### S47 · 09:33.4–09:46.1 (12.7 s) · quote · **quote voice**
+### S47 · 09:32.4–09:45.1 (12.7 s) · quote · **quote voice**
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -1124,27 +1124,6 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Theme returns softly; typewriter.
 - Fact check: F27
 
-### S48 · 09:46.1–09:56.7 (10.6 s) · quote · **quote voice**
-
-**Narration (Kurdish Sorani)** — read exactly:
-
-```text
-هەروەها: «تەنانەت ئەگەر ڕۆژێک هات و ئێوەی کورد، کوردبوونی خۆتان لەبیرکرد، دڵنیابن دوژمن هەرگیز لەبیری ناکات کە ئێوە کوردن.»
-```
-**On-screen text** — 2 line(s), copy exactly:
-
-```text
-«دوژمن هەرگیز لەبیری ناکات
-کە ئێوە کوردن»
-```
-- Tag on screen: **وتەیەکی دراوەتە پاڵی**
-- Meaning (English, editor only): And: 'Even if a day comes when you Kurds forget that you are Kurds, be sure the enemy will never forget that you are Kurds.'
-- Visual 1: Pull-quote; behind it, a slow montage of Kurdish faces of today (own footage, consented, or crowds at Newroz shot from behind/wide).
-- Assets: A29, A30 (see `assets/ASSETS.md`)
-- Image: `assets/images/Sheikh_Said_Colourised_Portrait.jpg` (colourised; on-screen label **وێنەی ڕەنگکراو**)
-- Sound: Theme continues.
-- Fact check: F27
-
 
 ---
 
@@ -1152,7 +1131,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Hopeful: warm strings + piano + light daf, rising to the closing.
 
-### S49 · 09:58.7–10:12.7 (14.0 s) · montage
+### S49 · 09:47.1–10:01.1 (14.0 s) · montage
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -1172,7 +1151,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Warm swell; daf.
 - Fact check: F04, F33
 
-### S50 · 10:12.7–10:26.7 (14.0 s) · data
+### S50 · 10:01.1–10:15.1 (14.0 s) · data
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -1191,7 +1170,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Counter ticks; children's voices far away (ambient, from the footage).
 - Fact check: F34
 
-### S51 · 10:26.7–10:40.7 (14.0 s) · quote
+### S51 · 10:15.1–10:29.1 (14.0 s) · quote
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -1220,7 +1199,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 
 *Music:* Firm low strings for the position; final theme resolves; hard stop on the end card.
 
-### S52 · 10:40.7–10:51.5 (10.8 s) · position
+### S52 · 10:29.1–10:39.9 (10.8 s) · position
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -1241,7 +1220,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Firm low strings; one deep hit at the end.
 - Fact check: F36
 
-### S53 · 10:51.5–10:56.4 (4.9 s) · title
+### S53 · 10:39.9–10:44.8 (4.9 s) · title
 
 **Narration (Kurdish Sorani)** — read exactly:
 
@@ -1261,7 +1240,7 @@ Timings are estimates from the narration length; re-time to the recorded voice. 
 - Sound: Final theme chord; reverb tail.
 - Fact check: F37
 
-### S54 · 10:56.4–10:59.4 (3.0 s) · end
+### S54 · 10:44.8–10:47.8 (3.0 s) · end
 
 **On-screen text** — 2 line(s), copy exactly:
 

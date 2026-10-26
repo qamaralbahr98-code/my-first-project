@@ -48,6 +48,11 @@ def segments(lang):
     return segs
 
 
+# Retakes recorded after the first pass; their parts replace the ones in the original batches.
+# 26 Oct 2026: "enemy army" -> "government army" (S36, S38); the S02 quote ends before "before our enemies".
+RETAKES = [("f01", "narrator", ["S36", "S38"]), ("f02", "quote", ["S02q"])]
+
+
 def plan(lang):
     segs = segments(lang)
     batches = []
@@ -62,6 +67,11 @@ def plan(lang):
                             prompt="[slowly] [deep voice] " + PAUSE.join(g["text"] for g in part)))
     covered = [s for b in batches for s in b["segs"]]
     assert sorted(covered) == sorted(g["id"] for g in segs), "every segment must be in exactly one batch"
+    by_id = {g["id"]: g for g in segs}
+    for name, voice, ids in RETAKES:
+        text = PAUSE.join(by_id[i]["text"] for i in ids)
+        batches.append(dict(name=name, voice=voice, segs=ids, retake=True,
+                            prompt=("[slowly] [deep voice] " + text) if voice == "quote" else text))
     return dict(lang=lang, segments=segs, batches=batches)
 
 
