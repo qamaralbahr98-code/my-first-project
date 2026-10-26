@@ -61,7 +61,7 @@ def measure(path):
 def loudnorm(src, dst, target=-14.0, max_tp=-1.2):
     """Two-pass loudnorm to -14 LUFS (to a WAV), then gain + peak limiter, encoded to AAC and measured again;
     gain and limiter ceiling are adjusted until the encoded file is within 0.2 LU of -14 and its true peak is at or
-    under max_tp (AAC can overshoot a few transients by 1-2 dB)."""
+    under max_tp. 256 kbit/s: at 192 kbit/s the native AAC encoder can overshoot a transient by several dB."""
     a = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(src), "-af",
                         "loudnorm=I=-14:TP=-2:LRA=11:print_format=json", "-f", "null", "-"],
                        capture_output=True, text=True).stderr
@@ -75,7 +75,7 @@ def loudnorm(src, dst, target=-14.0, max_tp=-1.2):
     for k in range(6):
         af = f"volume={gain:.2f}dB,alimiter=limit={10 ** (ceiling / 20):.4f}:attack=1:release=50:level=disabled"
         subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(mid), "-af", af, "-ar", "48000", "-c:a", "aac",
-                        "-b:a", "192k", str(dst)], check=True)
+                        "-b:a", "256k", str(dst)], check=True)
         i, tp = measure(dst)
         print(f"gain {gain:+.2f} dB, ceiling {ceiling:.1f} dBFS -> {i:.2f} LUFS, {tp:.2f} dBTP")
         ok_i, ok_tp = abs(i - target) <= 0.2, tp <= max_tp

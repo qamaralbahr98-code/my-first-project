@@ -13,662 +13,645 @@ Di yek ji gotinên wî
 yên navdar de dibêje:
 
 4
-00:00:13,760 --> 00:00:19,411
+00:00:13,675 --> 00:00:19,326
 «Va jiyan ber bi dawiyê ve diçe, û ez
 qet poşman nînim ji tiştê ku min di riya
 
 5
-00:00:19,451 --> 00:00:24,804
-Xwedê de kiriye. Em dilxweş in, ji
-ber ku kur û keçên me ji ber me li ber
+00:00:19,366 --> 00:00:26,036
+Xwedê de kiriye. Em dilxweş in, ji ber
+ku kur û keçên me ji ber me şerm nakin.»
 
 6
-00:00:24,844 --> 00:00:27,150
-dijminan şerm nakin.»
-
-7
-00:00:27,190 --> 00:00:33,070
+00:00:26,510 --> 00:00:32,390
 Ev çîroka Şêx Seîdê Pîran e: zanayekî
 olî ku ji bo gelê xwe rabû, û bedela wê
 
-8
-00:00:33,110 --> 00:00:34,530
+7
+00:00:32,430 --> 00:00:33,850
 bi canê xwe da.
 
-9
-00:00:37,360 --> 00:00:45,560
+8
+00:00:36,680 --> 00:00:44,880
 Ew di sala 1865an de, ango 1281ê koçî,
 li herêma Palûyê hat dinyayê, û bû yek
 
-10
-00:00:45,600 --> 00:00:48,140
+9
+00:00:44,920 --> 00:00:47,460
 ji şêxên mezin ên Nexşebendî.
 
-11
-00:00:48,837 --> 00:00:54,540
+10
+00:00:48,157 --> 00:00:53,860
 Piştî mirina bapîrê wî, Şêx Elî, bavê
 wî, Şêx Mehmûd Fewzî Efendî, Palû terk
 
-12
-00:00:54,580 --> 00:00:59,080
+11
+00:00:53,900 --> 00:00:58,400
 kir û çû bajarê Xinûsê. Navê
 diya wî jî Merve Xan bû.
 
-13
-00:00:59,777 --> 00:01:02,520
+12
+00:00:59,097 --> 00:01:01,840
 Li Xinûsê xwendina xwe ya olî temam kir.
 
-14
-00:01:02,560 --> 00:01:08,320
+13
+00:01:01,880 --> 00:01:07,640
 Cihê wî yê civakî wek şêx, jîrî û
 jêhatîbûna wî, bala komeleyeke kurdî ya
 
-15
-00:01:08,360 --> 00:01:09,940
+14
+00:01:07,680 --> 00:01:09,260
 veşartî kişand.
 
-16
-00:01:12,700 --> 00:01:17,020
+15
+00:01:12,020 --> 00:01:16,340
 Ji bo ku em biryara wî fêm bikin,
 divê em hîn bêtir vegerin paş.
 
-17
-00:01:17,060 --> 00:01:20,760
+16
+00:01:16,380 --> 00:01:20,080
 Bi sedsalan, Kurd di dilê
 cîhana îslamî de bûn.
 
-18
-00:01:21,509 --> 00:01:27,847
+17
+00:01:20,829 --> 00:01:27,167
 Kurdek bû, Selahedînê Eyûbî, ku
 di sala 1187an de Qudsê azad kir.
 
-19
-00:01:28,740 --> 00:01:33,140
+18
+00:01:28,060 --> 00:01:32,460
 Di Şerê Cîhanê yê Yekem de jî,
 Kurdan mil bi milê Tirkan şer kir, ji
 
-20
-00:01:33,180 --> 00:01:38,347
+19
+00:01:32,500 --> 00:01:37,667
 Çanakkaleyê heta Şerê Serxwebûnê,
 wek bira di yek ummeta misilman de.
 
-21
-00:01:39,240 --> 00:01:45,280
+20
+00:01:38,560 --> 00:01:44,600
 Di sala 1920an de, Peymana Sêvrê heta
 soza xweseriya herêmî û rêyeke ber bi
 
-22
-00:01:45,320 --> 00:01:47,500
+21
+00:01:44,640 --> 00:01:46,820
 serxwebûnê ve da Kurdan.
 
-23
-00:01:50,220 --> 00:01:58,040
+22
+00:01:49,540 --> 00:01:57,360
 Lê di sala 1923an de, Peymana Lozanê ew soz
 veşart, û pê re mafên gelê kurd li Tirkiyeyê.
 
-24
-00:01:58,640 --> 00:02:05,240
+23
+00:01:57,960 --> 00:02:04,560
 Di Adara 1924an de, Enqereyê Xîlafet
 betal kir, ew girêka dawî ya ku misilmanên
 
-25
-00:02:05,280 --> 00:02:07,340
+24
+00:02:04,600 --> 00:02:06,660
 herêmê bi hev ve girê dida.
 
-26
-00:02:07,980 --> 00:02:11,420
+25
+00:02:07,300 --> 00:02:10,740
 Destûra nû tenê yek
 netewe nas kir: Tirk.
 
-27
-00:02:11,460 --> 00:02:17,960
+26
+00:02:10,780 --> 00:02:17,280
 Hemû gelên din wek Tirk hatin hesibandin, û
 paşê heta navê Kurdan kirin «Tirkên Çiyayî».
 
-28
-00:02:18,680 --> 00:02:23,973
+27
+00:02:18,000 --> 00:02:23,293
 Zimanê tirkî bû tenê zimanê fermî.
 Zimanê kurdî hate qedexekirin, ligel hemû
 
-29
-00:02:24,013 --> 00:02:27,060
+28
+00:02:23,333 --> 00:02:26,380
 dibistan, rêxistin û kovarên kurdî.
 
-30
-00:02:27,769 --> 00:02:32,860
+29
+00:02:27,089 --> 00:02:32,180
 Kurd ji erdê bav û kalên xwe ber bi
 rojavayê Anatolyayê ve hatin koçberkirin, û
 
-31
-00:02:32,900 --> 00:02:37,980
+30
+00:02:32,220 --> 00:02:37,300
 Tirk li şûna wan hatin bicihkirin.
 Rêber û têkoşerên kurd hatin girtin,
 
-32
-00:02:38,020 --> 00:02:40,160
+31
+00:02:37,340 --> 00:02:39,480
 sirgûnkirin û kuştin.
 
-33
-00:02:40,760 --> 00:02:45,480
+32
+00:02:40,080 --> 00:02:44,800
 Erdên çandiniyê yên herî baş ên Kurdan
 hatin desteserkirin û ji Tirkan re hatin
 
-34
-00:02:45,520 --> 00:02:51,780
+33
+00:02:44,840 --> 00:02:51,100
 dayîn. Cotkarên kurd bê erd û bê kar man,
 û xelayeke mezin li Kurdistanê derket.
 
-35
-00:02:52,440 --> 00:02:57,160
+34
+00:02:51,760 --> 00:02:56,480
 Hejmareke mezin a leşkerên tirk şandin
 Kurdistanê, da ku têkiliyên bazirganî
 
-36
-00:02:57,200 --> 00:03:02,280
+35
+00:02:56,520 --> 00:03:01,600
 yên vê parçeyê bi parçeyên din ên Kurdistanê
 re qut bikin, û bac û xercên giran
 
-37
-00:03:02,320 --> 00:03:04,420
+36
+00:03:01,640 --> 00:03:03,740
 jî danîn ser gelê wê.
 
-38
-00:03:07,160 --> 00:03:12,520
+37
+00:03:06,480 --> 00:03:11,840
 Berxwedan bi dizî hate birêxistinkirin,
 ji aliyê Civata Serxwebûnê, Azadî.
 
-39
-00:03:12,560 --> 00:03:16,020
+38
+00:03:11,880 --> 00:03:15,340
 Civatê têkiliyeke rasterast
 bi Şêx Seîd re danî.
 
-40
-00:03:16,560 --> 00:03:22,760
+39
+00:03:15,880 --> 00:03:22,080
 Di dawiya havîna 1923an de, Yûsif Ziya,
 rêberekî tevgera kurd û nûnerê berê yê
 
-41
-00:03:22,800 --> 00:03:26,120
+40
+00:03:22,120 --> 00:03:25,440
 Bedlîsê di parlamentoya
 Tirkiyeyê de, çû Xinûsê.
 
-42
-00:03:26,160 --> 00:03:30,060
+41
+00:03:25,480 --> 00:03:29,380
 Ew û Şêx Seîd li hev kirin ku
 serhildaneke nû dest pê bikin.
 
-43
-00:03:30,640 --> 00:03:38,200
+42
+00:03:29,960 --> 00:03:37,520
 Di zivistana 1923–1924an de, serokên
 eşîran û endamên Civatê li herêma Palûyê
 
-44
-00:03:38,240 --> 00:03:42,520
+43
+00:03:37,560 --> 00:03:41,840
 civîneke fireh li dar xistin, ji
 bo berfirehkirina tevgera veşartî û
 
-45
-00:03:42,560 --> 00:03:46,620
+44
+00:03:41,880 --> 00:03:45,940
 amadekariya serhildaneke nû
 ji bo serxwebûna Kurdistanê.
 
-46
-00:03:47,220 --> 00:03:52,380
+45
+00:03:46,540 --> 00:03:51,700
 Ev kar bi alîkariyeke fireh a Şêx Mehmûdê
 Hefîd û Simkoyê Şikak hate kirin, û
 
-47
-00:03:52,420 --> 00:03:57,100
+46
+00:03:51,740 --> 00:03:56,420
 biryar hate dayîn ku bîranînameyek li
 ser mafên neteweyî yên Kurdan ji Komela
 
-48
-00:03:57,140 --> 00:03:58,960
+47
+00:03:56,460 --> 00:03:58,280
 Miletan re bê şandin.
 
-49
-00:03:59,480 --> 00:04:04,560
+48
+00:03:58,800 --> 00:04:03,880
 Piştî ku Şêx Seîd bû serokê Civatê,
 biryara tevgera çekdarî da, lê dixwest
 
-50
-00:04:04,600 --> 00:04:07,080
+49
+00:04:03,920 --> 00:04:06,400
 biryar mohra hemû Kurdistanê li ser be.
 
-51
-00:04:07,120 --> 00:04:12,480
+50
+00:04:06,440 --> 00:04:11,800
 Loma kurê xwe, Elî Riza, şand Amed û
 Helebê, da ku nêrînên rêberên kurd ên
 
-52
-00:04:12,520 --> 00:04:15,540
+51
+00:04:11,840 --> 00:04:14,860
 rojava, başûr û rojhilat bizane.
 
-53
-00:04:16,257 --> 00:04:20,960
+52
+00:04:15,577 --> 00:04:20,280
 Piştî civîneke mezin li Helebê, hemû
 gihîştin wê baweriyê ku mafê neteweyî yê
 
-54
-00:04:21,000 --> 00:04:24,640
+53
+00:04:20,320 --> 00:04:23,960
 Kurdan bêyî serhildaneke
 çekdarî nayê misogerkirin.
 
-55
-00:04:24,680 --> 00:04:31,120
+54
+00:04:24,000 --> 00:04:30,440
 Roja 21ê Adara 1925an, roja Newrozê,
 wek roja yekem a serhildanê hate
 
-56
-00:04:31,160 --> 00:04:32,340
+55
+00:04:30,480 --> 00:04:31,660
 diyarkirin.
 
-57
-00:04:32,920 --> 00:04:38,560
+56
+00:04:32,240 --> 00:04:37,880
 Di nîvê duyem ê Çileya 1925an de, Şêx
 Seîd li piraniya herêmên Kurdistanê
 
-58
-00:04:38,600 --> 00:04:43,620
+57
+00:04:37,920 --> 00:04:42,940
 geriya, û li her herêmê, alîgir û
 dostan bi kom berê xwe didan wî.
 
-59
-00:04:44,220 --> 00:04:50,660
+58
+00:04:43,540 --> 00:04:49,980
 Di 5ê Sibata 1925an de, bi sed siwaran
 ve ji Xinûsê derket, ber bi gundê Pîranê
 
-60
-00:04:50,700 --> 00:04:54,200
+59
+00:04:50,020 --> 00:04:53,520
 ve, ber bi mala birayê
 xwe, Şêx Ebdurrehîm.
 
-61
-00:04:56,880 --> 00:05:02,200
+60
+00:04:56,200 --> 00:05:01,520
 Hema wê şevê, mefrezeyeke artêşa tirk bi
 serokatiya Husnî Efendî û Mistefa Alîm
 
-62
-00:05:02,240 --> 00:05:04,940
+61
+00:05:01,560 --> 00:05:04,260
 hat, da ku çend gundiyan bigire.
 
-63
-00:05:05,600 --> 00:05:08,160
+62
+00:05:04,920 --> 00:05:07,480
 Şêx Seîd qebûl nekir ku kes bê girtin.
 
-64
-00:05:08,200 --> 00:05:12,760
+63
+00:05:07,520 --> 00:05:12,080
 Herdu alî ketin sengeran. Piştî şer
 û teqê, çend leşkerên mefrezeyê hatin
 
-65
-00:05:12,800 --> 00:05:15,540
+64
+00:05:12,120 --> 00:05:14,860
 kuştin û yên din jî dîl hatin girtin.
 
-66
-00:05:16,320 --> 00:05:20,160
+65
+00:05:15,640 --> 00:05:19,480
 Ev bûyer bû sedem ku serhildan
 zûtir ji wextê xwe dest pê bike.
 
-67
-00:05:20,200 --> 00:05:25,360
+66
+00:05:19,520 --> 00:05:24,680
 Gava Şêx Tayer, birayê Şêx Seîd, ev nûçe
 bihîst, di 10ê Sibatê de bajarokê Licê
 
-68
-00:05:25,400 --> 00:05:30,240
+67
+00:05:24,720 --> 00:05:29,560
 girt, û dest danî ser pere, name
 û telgrafên veşartî yên rejîmê.
 
-69
-00:05:30,280 --> 00:05:33,980
+68
+00:05:29,600 --> 00:05:33,300
 Di 11ê Sibatê de, ew û
 siwarên xwe çûn ba Şêx.
 
-70
-00:05:34,920 --> 00:05:39,480
+69
+00:05:34,240 --> 00:05:38,800
 Bûyer ji planê bileztir bûn, û Şêx
 Seîd neçar ma ku bi pêşwext biryara
 
-71
-00:05:39,520 --> 00:05:42,260
+70
+00:05:38,840 --> 00:05:41,580
 destpêkirina serhildanê bide.
 
-72
-00:05:42,300 --> 00:05:47,580
+71
+00:05:41,620 --> 00:05:46,900
 Serhildan bi lez belav bû. Enqereyê
 îdareya leşkerî ragihand, qanûneke taybet
 
-73
-00:05:47,620 --> 00:05:50,680
+72
+00:05:46,940 --> 00:05:50,000
 derxist, û Îsmet Paşa bû serokwezîr.
 
-74
-00:05:53,420 --> 00:05:58,420
+73
+00:05:52,740 --> 00:05:57,740
 Li gorî statîstîkeke wê demê, hejmara
 pêşmergeyên kurd tenê li çar wilayetan
 
-75
-00:05:58,460 --> 00:06:03,820
+74
+00:05:57,780 --> 00:06:03,140
 nêzîkî 600 hezar kes bû, li hember hêzên
 tirk ên ku ji 100 hezarî kêmtir bûn.
 
-76
-00:06:03,860 --> 00:06:07,140
+75
+00:06:03,180 --> 00:06:06,460
 Lê dîroknasên îro hejmarên
 gelek kêmtir didin:
 
-77
-00:06:07,180 --> 00:06:10,680
+76
+00:06:06,500 --> 00:06:10,000
 nêzîkî 10 hezar şervan
 li ber sûrên Amedê.
 
-78
-00:06:11,240 --> 00:06:14,920
+77
+00:06:10,560 --> 00:06:14,240
 Li van herêman Çerkez,
 Ereb û Ermen jî dijiyan.
 
-79
-00:06:14,960 --> 00:06:19,480
+78
+00:06:14,280 --> 00:06:18,800
 Li gorî gotarê, ew jî di bin desthilatdariya
 tirk de bindest û zordîtî bûn,
 
-80
-00:06:19,520 --> 00:06:22,900
+79
+00:06:18,840 --> 00:06:22,220
 loma piraniya wan
 beşdarî serhildanê bûn.
 
-81
-00:06:23,480 --> 00:06:28,560
+80
+00:06:22,800 --> 00:06:27,880
 Şêx Seîd bi xwe serokatiya siwarên
 pêşmerge yên Hecî Hesen û Emerê Xaro dikir,
 
-82
-00:06:28,600 --> 00:06:31,060
+81
+00:06:27,920 --> 00:06:30,380
 ji eşîra Mistan û ji Botanê.
 
-83
-00:06:31,760 --> 00:06:37,160
+82
+00:06:31,080 --> 00:06:36,480
 Hêza Salih Begê Xan û hêzên Şêx Şemsedîn
 gihîştin herêma Madenê, û Şêx Eyûb bi
 
-84
-00:06:37,200 --> 00:06:42,040
+83
+00:06:36,520 --> 00:06:41,360
 hezaran siwarên pêşmerge ve tevlî refên
 Şêx Ebdurrehîm, birayê Şêx Seîd, bû,
 
-85
-00:06:42,080 --> 00:06:44,780
+84
+00:06:41,400 --> 00:06:44,100
 ber bi rizgarkirina bajarê Amedê ve.
 
-86
-00:06:45,300 --> 00:06:49,940
+85
+00:06:44,620 --> 00:06:49,260
 Lê Şêx Seîd hîs kir ku hêzên wî
 nikarin Amedê bi zorê rizgar bikin.
 
-87
-00:06:49,980 --> 00:06:54,380
+86
+00:06:49,300 --> 00:06:53,700
 Loma li rêyeke din geriya: bi hukûmeta
 tirk re ket danûstandinê, da ku
 
-88
-00:06:54,420 --> 00:06:58,340
+87
+00:06:53,740 --> 00:06:57,660
 derfeteke guncav ji bo serhildana
 Kurdên nav bajêr biafirîne.
 
-89
-00:06:58,380 --> 00:07:02,160
+88
+00:06:57,700 --> 00:07:01,480
 Lê tu rê tunebû ku çek
 bigihîjin destê xelkê nav bajêr.
 
-90
-00:07:02,900 --> 00:07:07,620
-Dorpêç dirêj kişand, û artêşa dijmin
-a nav bajêr qebûl nekir ku dev ji
+89
+00:07:02,140 --> 00:07:06,660
+Dorpêç dirêj kişand, û artêşa hikûmetê
+ya nav bajêr qebûl nekir ku dev ji
 
-91
-00:07:07,660 --> 00:07:12,500
+90
+00:07:06,700 --> 00:07:11,460
 berxwedanê berde. Ji destpêka Adarê
 ve, pêşmergeyan êrîş dest pê kir.
 
-92
-00:07:12,540 --> 00:07:17,780
+91
+00:07:11,500 --> 00:07:16,580
 Li Deriyê Mêrdînê, komeke pêşmergeyan
 û xelkê bajêr bûn yek û êrîşî artêşa
 
-93
-00:07:17,820 --> 00:07:19,120
-dijmin kirin.
+92
+00:07:16,620 --> 00:07:17,960
+hikûmetê kirin.
 
-94
-00:07:19,680 --> 00:07:24,480
+93
+00:07:18,560 --> 00:07:23,360
 Lê Tirkan sengerên xwe qayîm kiribûn, û
 bi sedan çekên nû di destê wan de bûn.
 
-95
-00:07:24,520 --> 00:07:29,080
+94
+00:07:23,400 --> 00:07:27,960
 Piştî şerekî giran û kuştina gelek
 kesan ji herdu aliyan, û têkçûna du sê
 
-96
-00:07:29,120 --> 00:07:32,320
+95
+00:07:28,000 --> 00:07:31,200
 êrîşên pêşmergeyan,
 biryara dawî hate dayîn:
 
-97
-00:07:32,360 --> 00:07:34,860
+96
+00:07:31,240 --> 00:07:33,740
 dorpêça bajêr bê rakirin.
 
-98
-00:07:37,450 --> 00:07:42,730
+97
+00:07:36,410 --> 00:07:41,530
 Refên serhildanê roj bi roj ber bi
 tevlîheviyê û belavbûnê ve diçûn, bi taybetî
 
-99
-00:07:42,770 --> 00:07:47,890
-gava artêşa dijmin ji bakur û başûr ve,
-bi deh hezaran leşker û balafirên şer
+98
+00:07:41,570 --> 00:07:46,770
+gava artêşa hikûmetê ji bakur û başûr
+ve, bi deh hezaran leşker û balafirên şer
 
-100
-00:07:47,930 --> 00:07:51,030
+99
+00:07:46,810 --> 00:07:49,830
 ve, êrîş kir û dorpêç berevajî kir.
 
-101
-00:07:51,630 --> 00:07:56,870
+100
+00:07:50,570 --> 00:07:55,810
 Di dawiya Nîsanê de, bi xiyaneta serokê
 eşîra Cibran, Qasim Begê Cibran, Şêx
 
-102
-00:07:56,910 --> 00:08:03,590
+101
+00:07:55,850 --> 00:08:02,530
 Seîd, Şêx Ebdullah, Elî Xalib, Reşîd
 Axa û 26 şoreşgerên din li ser pira Çemê
 
-103
-00:08:03,630 --> 00:08:06,970
+102
+00:08:02,570 --> 00:08:05,910
 Miradê li herêma Gencê dîl hatin girtin.
 
-104
-00:08:09,827 --> 00:08:13,783
+103
+00:08:08,767 --> 00:08:12,723
 Di zindanê de, du leşkerên
 tirk çûn ba wî û jê re gotin:
 
-105
-00:08:13,823 --> 00:08:19,710
+104
+00:08:12,763 --> 00:08:18,650
 «Şêx, niha Îsmet Paşa tê, tu jî
 lêborînê jê bixwaze û tu dê bê berdan.»
 
-106
-00:08:19,750 --> 00:08:21,090
+105
+00:08:18,690 --> 00:08:20,030
 Şêx bersiv da:
 
-107
-00:08:22,488 --> 00:08:26,791
+106
+00:08:21,428 --> 00:08:25,731
 «Ez lêborînê tenê ji Xwedê
 dixwazim, û tiştekî din na.
 
-108
-00:08:26,831 --> 00:08:30,826
+107
+00:08:25,771 --> 00:08:29,766
 Min tu karekî xelet nekiriye
 ku lêborînê jê re bixwazim.
 
-109
-00:08:30,866 --> 00:08:36,007
+108
+00:08:29,806 --> 00:08:34,947
 Ji Îsmet re jî bibêjin: eger ez ji vê
 zindanê derkevim, ez ê dîsa dest bi
 
-110
-00:08:36,047 --> 00:08:39,176
+109
+00:08:34,987 --> 00:08:38,116
 têkoşînê bikim û carek din
 ji bo gelê xwe şer bikim.»
 
-111
-00:08:39,216 --> 00:08:43,237
+110
+00:08:38,156 --> 00:08:42,177
 Gotinên Şêx gihîştin Îsmet
 Paşa, û Paşa bi xwe hat zindanê:
 
-112
-00:08:43,277 --> 00:08:49,110
+111
+00:08:42,217 --> 00:08:48,050
 «Lêborînê bixwaze û poşmaniya xwe bîne
 ziman, bê guman ez ê te azad bikim.»
 
-113
-00:08:49,150 --> 00:08:50,335
+112
+00:08:48,090 --> 00:08:49,275
 Şêx got:
 
-114
-00:08:50,375 --> 00:08:56,833
+113
+00:08:49,315 --> 00:08:55,773
 «Ez Kurd im, xwîna kurd di laşê min
 de ye, heta bimirim ez ê Kurd bim.
 
-115
-00:08:56,873 --> 00:09:01,971
+114
+00:08:55,813 --> 00:09:00,911
 Tu wextê xwe badihewa derbas dikî, û
 ez qet ji bo saetekê azadiyê hewaya
 
-116
-00:09:02,011 --> 00:09:06,643
+115
+00:09:00,951 --> 00:09:05,583
 xiyanetê hilnamijim. Min bikujin,
 ez ji we re ne bi kêr im!»
 
-117
-00:09:11,600 --> 00:09:16,480
+116
+00:09:10,540 --> 00:09:15,420
 Dadgehkirina Şêx Seîd û hevalên wî di
 dawiya Gulanê de dest pê kir û mehekê
 
-118
-00:09:16,520 --> 00:09:22,120
+117
+00:09:15,460 --> 00:09:21,060
 dewam kir. Ji bilî Şêx Seîd, biryara
 darvekirina 47 rêber û têkoşerên din jî
 
-119
-00:09:22,160 --> 00:09:23,260
+118
+00:09:21,100 --> 00:09:22,200
 hate dayîn.
 
-120
-00:09:24,029 --> 00:09:29,140
+119
+00:09:22,969 --> 00:09:28,080
 Di 29ê Hezîrana 1925an de,
 li Amedê hatin darvekirin.
 
-121
-00:09:30,590 --> 00:09:35,270
+120
+00:09:29,530 --> 00:09:34,210
 Piştî wî, bi sedan gund hatin
 şewitandin û malbat hatin koçberkirin.
 
-122
-00:09:35,310 --> 00:09:42,330
+121
+00:09:34,250 --> 00:09:41,270
 Heta zanayê kurd, Seîdê Nûrsî, ku beşdarî
 serhildanê nebûbû, hate sirgûnkirin.
 
-123
-00:09:44,170 --> 00:09:47,267
+122
+00:09:43,110 --> 00:09:46,207
 Di gotinên wî yên bi qîmet de tê gotin:
 
-124
-00:09:50,029 --> 00:09:52,931
+123
+00:09:48,969 --> 00:09:51,871
 «Zorê li wan kesan
 nekin ku welat naxwazin;
 
-125
-00:09:52,971 --> 00:09:56,530
+124
+00:09:51,911 --> 00:09:57,650
 ji ber ku welat şeref e, û kes nikare
 bi zorê şerefê bide kesê bêşeref.»
 
-126
-00:09:56,570 --> 00:09:57,510
-Û:
-
-127
-00:10:00,912 --> 00:10:06,575
-«Heta eger rojek bê û hûn Kurd, Kurdbûna
-xwe ji bîr bikin, bawer bin ku dijmin
-
-128
-00:10:06,615 --> 00:10:08,510
-qet ji bîr nake ku hûn Kurd in.»
-
-129
-00:10:08,550 --> 00:10:14,003
+125
+00:09:57,690 --> 00:10:03,143
 Ji Selahedîn heta Şêx Seîd, Kurd her
 tim bi ummetê re bûn, ne li dijî wê.
 
-130
-00:10:14,043 --> 00:10:18,870
+126
+00:10:03,183 --> 00:10:08,010
 Pirsgirêka Kurdan qet ne bi gelê tirk
 an ereb re bû, lê bi siyasetekê re bû ku
 
-131
-00:10:18,910 --> 00:10:21,090
+127
+00:10:08,050 --> 00:10:10,230
 navê miletekî înkar dikir.
 
-132
-00:10:21,670 --> 00:10:27,550
+128
+00:10:10,810 --> 00:10:16,690
 Îro jî wisa ye: ji sala 2014an ve, gava
 DAIŞê Iraq û Sûriye dagirtin, Herêma
 
-133
-00:10:27,590 --> 00:10:33,470
+129
+00:10:16,730 --> 00:10:22,610
 Kurdistanê deriyên xwe vekirin. Heta
 sala 2017an, zêdetirî 1.8 milyon koçber û
 
-134
-00:10:33,510 --> 00:10:34,950
+130
+00:10:22,650 --> 00:10:24,090
 penaber hewandibûn.
 
-135
-00:10:35,750 --> 00:10:41,670
+131
+00:10:24,890 --> 00:10:30,810
 Quran dibêje: «وَجَعَلْنَاكُمْ شُعُوبًا
 وَقَبَائِلَ لِتَعَارَفُوا», ango:
 
-136
-00:10:41,710 --> 00:10:45,110
+132
+00:10:30,850 --> 00:10:34,250
 Me hûn kirin gel û eşîr
 da ku hûn hev nas bikin.
 
-137
-00:10:45,150 --> 00:10:48,750
+133
+00:10:34,290 --> 00:10:37,890
 Misilman ziman, ax û navê
 birayê xwe înkar nake.
 
-138
-00:10:48,790 --> 00:10:52,810
+134
+00:10:37,930 --> 00:10:41,950
 Naskirin ne parçekirin
 e; ew wateya biratiyê ye.
 
-139
-00:10:54,066 --> 00:10:58,940
+135
+00:10:43,206 --> 00:10:48,080
 Helwesta Dwînê: Em hemû kesên ku bi
 berdewamî xelkê dixapînin şermezar dikin,
 
-140
-00:10:58,980 --> 00:11:04,640
+136
+00:10:48,120 --> 00:10:53,780
 bi propagandayeke ku dîroka gelekî jê
 dibe û misilman li dijî misilman radike.
 
-141
-00:11:05,339 --> 00:11:08,190
+137
+00:10:54,479 --> 00:10:57,330
 Şêx Seîd di gorek
 nenas de hate veşartin.
 
-142
-00:11:08,230 --> 00:11:10,930
+138
+00:10:57,370 --> 00:11:00,070
 Lê çîroka wî nehate veşartin.

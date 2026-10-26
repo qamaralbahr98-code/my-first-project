@@ -19,7 +19,6 @@ POST = 0.55          # after a scene's narration
 EXTRA = {"S01": ("pre", 1.6), "S43": ("post", 3.2), "S45": ("post", 1.2), "S51": ("post", 1.0),
          "S53": ("post", 1.6), "S03": ("post", 0.6), "S37": ("post", 0.5), "S52": ("post", 0.6)}
 END_CARD = 6.0
-QUOTE_SCALE = 1 / (0.971 * 0.97)   # vo_split slows the quote voice by this factor
 
 
 def load_master():
@@ -71,11 +70,14 @@ def _batch_offsets(lang, plan):
     vo = PROJ / "build" / lang / "vo"
     offs = {}
     for b in plan["batches"]:
-        af = "asetrate=48000*0.971,aresample=48000,atempo=0.97" if b["voice"] == "quote" else None
-        x = vo_split.load(vo / f"{b['name']}_t1.mp3", af)
+        mp3 = vo / f"{b['name']}_t1.mp3"
+        af = vo_split.QUOTE_AF if b["voice"] == "quote" else None
+        x = vo_split.load(mp3, af)
+        # time scale of the processed clip against the recording (the transcript is in recording time)
+        scale = len(x) / len(vo_split.load(mp3)) if af else 1.0
         parts, _, _ = vo_split.split(x, len(b["segs"]))
         for seg, (a, e, g) in zip(b["segs"], parts):
-            offs[seg] = (b["name"], a - 0.06, b["voice"])
+            offs[seg] = (b["name"], a - 0.06, b["voice"], scale)
     return offs
 
 
@@ -145,8 +147,7 @@ def subtitles(lang, tl, maxc=40):
     for sc in tl["scenes"]:
         for a in sc["audio"]:
             words = sw.get(a["seg"], [])
-            batch, src0, voice = offs[a["seg"]]
-            scale = QUOTE_SCALE if voice == "quote" else 1.0
+            batch, src0, voice, scale = offs[a["seg"]]
             base = sc["start"] + a["start"]
             # the text shown is the script text, word for word; timings come from the aligned words
             script_words = a["text"].split()

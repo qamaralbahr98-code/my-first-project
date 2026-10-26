@@ -14,6 +14,10 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parent.parent
 SR = 48000
+# Quote voice treatment, as used in the delivered videos. The takes are 44.1 kHz, so "asetrate=48000*0.971"
+# actually raises the pitch by about one semitone and, with atempo, makes the clip ~2.5% shorter (it was meant to be
+# half a semitone lower and 6% slower). timeline.py measures the real time scale for the subtitles.
+QUOTE_AF = "asetrate=48000*0.971,aresample=48000,atempo=0.97"
 
 
 def load(path, af=None):
@@ -96,8 +100,7 @@ def main():
     for b in plan["batches"]:
         t = takes.get(b["name"], "1")
         src = vo / f"{b['name']}_t{t}.mp3"
-        # quote voice: half a semitone lower and 6% slower (pitch-preserving tempo), then reverb
-        af = "asetrate=48000*0.971,aresample=48000,atempo=0.97" if b["voice"] == "quote" else None
+        af = QUOTE_AF if b["voice"] == "quote" else None
         x = load(src, af)
         parts, cutmin, keptmax = split(x, len(b["segs"]))
         flag = "" if cutmin is None or cutmin > keptmax + 0.15 else "  <-- CHECK SPLIT"
