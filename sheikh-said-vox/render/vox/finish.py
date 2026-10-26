@@ -6,6 +6,7 @@ import json
 import re
 import shutil
 import subprocess
+from pathlib import Path
 import sys
 
 from PIL import Image, ImageDraw
@@ -48,18 +49,59 @@ def thumbnail(lang, path):
     return path
 
 
-def loudnorm(src, dst):
+def measure(path):
+    """(integrated LUFS, true peak dBTP) of the audio of a file, measured after decoding."""
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(path), "-map", "0:a", "-af", "ebur128=peak=true",
+                        "-f", "null", "-"], capture_output=True, text=True).stderr
+    i = float(re.findall(r"I:\s+(-?[\d.]+) LUFS", r)[-1])
+    tp = float(re.findall(r"True peak:\s+Peak:\s+(-?[\d.]+|-inf) dBFS", r)[-1])
+    return i, tp
+
+
+def loudnorm(src, dst, target=-14.0, max_tp=-1.2):
+    """Two-pass loudnorm to -14 LUFS (to a WAV), then gain + peak limiter, encoded to AAC and measured again;
+    gain and limiter ceiling are adjusted until the encoded file is within 0.2 LU of -14 and its true peak is at or
+    under max_tp (AAC can overshoot a few transients by 1-2 dB)."""
     a = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(src), "-af",
-                        "loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"],
+                        "loudnorm=I=-14:TP=-2:LRA=11:print_format=json", "-f", "null", "-"],
                        capture_output=True, text=True).stderr
     m = json.loads(re.search(r"\{[^{}]*\"input_i\"[^{}]*\}", a, re.S).group(0))
-    af = ("loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={input_i}:measured_TP={input_tp}:measured_LRA={input_lra}:"
-          "measured_thresh={input_thresh}:offset={target_offset}:linear=true:print_format=summary").format(**m)
-    r = subprocess.run(["ffmpeg", "-y", "-hide_banner", "-i", str(src), "-af", af, "-ar", "48000", "-c:a", "aac",
-                        "-b:a", "192k", str(dst)], capture_output=True, text=True)
-    if r.returncode:
-        raise SystemExit(r.stderr[-2000:])
-    print(r.stderr[-700:])
+    norm = ("loudnorm=I=-14:TP=-2:LRA=11:measured_I={input_i}:measured_TP={input_tp}:measured_LRA={input_lra}:"
+            "measured_thresh={input_thresh}:offset={target_offset}:linear=true:print_format=summary").format(**m)
+    mid = Path(dst).with_suffix(".norm.wav")
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(src), "-af", norm + ",aresample=48000", "-c:a", "pcm_f32le",
+                    str(mid)], check=True)
+    gain, ceiling = 0.0, -2.5
+    for k in range(6):
+        af = f"volume={gain:.2f}dB,alimiter=limit={10 ** (ceiling / 20):.4f}:attack=1:release=50:level=disabled"
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(mid), "-af", af, "-ar", "48000", "-c:a", "aac",
+                        "-b:a", "192k", str(dst)], check=True)
+        i, tp = measure(dst)
+        print(f"gain {gain:+.2f} dB, ceiling {ceiling:.1f} dBFS -> {i:.2f} LUFS, {tp:.2f} dBTP")
+        ok_i, ok_tp = abs(i - target) <= 0.2, tp <= max_tp
+        if ok_i and ok_tp:
+            break
+        if not ok_tp:
+            ceiling -= (tp - max_tp) + 0.3
+        if not ok_i:
+            gain += target - i
+    mid.unlink()
+
+
+def remux_audio(lang):
+    """Replace only the sound of a finished video (keeps the encoded picture), then re-embed the cover."""
+    b = PROJ / "build" / lang
+    aac = b / "audio" / "mix.m4a"
+    loudnorm(b / "audio" / "mix.wav", aac)
+    final = OUT / f"dwin_sheikh_said_{lang}_16x9_v01.mp4"
+    thumb = OUT / f"dwin_sheikh_said_{lang}_thumbnail.jpg"
+    tmp = b / "video" / "remux.mp4"
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(b / "video" / "muxed.mp4"), "-i", str(aac), "-map", "0:v:0",
+                    "-map", "1:a", "-c", "copy", "-shortest", "-movflags", "+faststart", str(tmp)], check=True)
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(tmp), "-i", str(thumb), "-map", "0", "-map", "1", "-c", "copy",
+                    "-c:v:1", "mjpeg", "-disposition:v:1", "attached_pic", "-movflags", "+faststart", str(final)], check=True)
+    tmp.unlink()
+    print(final, "%.2f LUFS, %.2f dBTP" % measure(final))
 
 
 def main(lang):
@@ -83,4 +125,7 @@ def main(lang):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    if "--remux-audio" in sys.argv:
+        remux_audio(sys.argv[1])
+    else:
+        main(sys.argv[1])
