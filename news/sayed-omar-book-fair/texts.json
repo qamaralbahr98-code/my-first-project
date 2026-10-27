@@ -14,10 +14,37 @@
       "ئەمە خۆخەڵەتاندنە، بەنجە، گەمەی مناڵانە.",
       "ئێمە هێندە دۆڕاو و بێ ئەرزش و کاریگەریین، بە سەد بردنەوەی ئاواش، نایەینەوە مایە..."
     ],
-    "who": "(کوردستانی عێراق)"
+    "who": "(کوردستانی عێراق)",
+    "caption": "سەید عومەر دەربارەی پێشانگای ساڵانەی کتێب و پڕفرۆشی کتێبی ئاینی:\n«ئەمە خۆخەڵەتاندنە، بەنجە، گەمەی مناڵانە.»\nئێوە چی دەڵێن؟ ڕای خۆتان لە کۆمێنتدا بنووسن.\n\nدوین - دەنگی کورد، بە ناسنامە و باوەڕمانەوە\n#دوین #پێشانگای_کتێب #کوردستان"
   },
   "_mark": false,
   "_highlight": [
     4
-  ]
+  ],
+  "ar": {
+    "name": "السيد عمر",
+    "who": "(كردستان العراق)",
+    "paras": [
+      "من أنواع التباهي الذي لا معنى له في معرض الكتاب السنوي، مسألةُ أنّ الكتب الدينية هي الأكثر مبيعًا!",
+      "يعني إن لم تكن الكتب الإسلامية هي الأكثر مبيعًا، فماذا سيكون الأكثر مبيعًا؟! كتب الفيزياء؟ بوزي؟!",
+      "الناسُ أصلًا مسلمون، وثمانون بالمئة من المعرض كتبٌ في العلوم الإسلامية، فمن الطبيعي أن يكون الأمر هكذا!",
+      "ليتهم يا أخي أغلقوا المعارض في وجوهنا، وكان لنا أربعة وزراء نافذين في السلطة!",
+      "هذا خداعٌ للنفس، وتخدير، ولعبُ أطفال.",
+      "لقد بلغنا من الهزيمة وانعدام القيمة والتأثير حدًّا لا نسترجع معه رأس مالنا، ولو حقّقنا مئة انتصارٍ كهذا..."
+    ],
+    "caption": "السيد عمر عن معرض الكتاب السنوي وتصدّر الكتب الدينية للمبيعات:\n«هذا خداعٌ للنفس، وتخدير، ولعبُ أطفال.»\nما رأيكم؟ شاركونا آراءكم في التعليقات.\n\nدوين - صوت الكرد، بهويتنا وإيماننا\n#دوين #معرض_الكتاب #كردستان"
+  },
+  "kmr": {
+    "name": "Seyîd Umer",
+    "who": "(Kurdistana Iraqê)",
+    "paras": [
+      "Yek ji xwepesindanên bêwate yên pêşangeha salane ya pirtûkan, ev pirsa pirfirotina pirtûkên olî ye!",
+      "Yanî eger pirtûkên olî yên îslamî pirfiroş nebin, wê çi pirfiroş be?! Pirtûkên fîzîkê? Bûzî?!",
+      "Ê, xelkê Xwedê misilman e, ji sedî heştê yê pêşangehê jî pirtûkên zanistên îslamî ne; bêguman wê wisa be!",
+      "Xwezî bira, pêşangeh li me bigirtana û çar wezîrên me yên xwedî desthilat hebûna!",
+      "Ev xwexapandin e, benc e, lîstika zarokan e.",
+      "Em ewqasî têkçûyî, bênirx û bêbandor in ku bi sed serkeftinên wiha jî em sermiyana xwe dernaxin..."
+    ],
+    "caption": "Seyîd Umer li ser pêşangeha salane ya pirtûkan û pirfirotina pirtûkên olî:\n«Ev xwexapandin e, benc e, lîstika zarokan e.»\nHûn çi dibêjin? Raya xwe di şîroveyan de binivîsin.\n\nDwîn - Dengê Kurdan, bi nasname û baweriya me\n#Dwin #PêşangehaPirtûkan #Kurdistan"
+  }
 }
