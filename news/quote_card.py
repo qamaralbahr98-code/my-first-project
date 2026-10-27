@@ -1,7 +1,9 @@
 """Dwin quote card (4:5, 1080x1350) with a round portrait, in Sorani, Kurmanji and Arabic.
 
     python3 news/quote_card.py news/bakkar-gaze
-reads <folder>/photo.jpg and <folder>/texts.json ({lang: {name, paras: [...]}}), writes <folder>/dwin_<lang>.jpg
+reads <folder>/photo.jpg and <folder>/texts.json ({lang: {name, who?, paras: [...]}}), writes <folder>/dwin_<lang>.jpg
+Optional keys: "who" (a smaller line under the name), "_highlight" (indexes of paragraphs set in gold), "_mark",
+"_crop", "_size"; "_langs" limits which languages are made (default: every language in the file).
 """
 import json
 import sys
@@ -64,10 +66,16 @@ def card(folder, key, texts):
     nf = font(L["font"], int(52 * k))
     d.text((W / 2, 60 + por.height + 70), T["name"], font=nf, fill=GOLD, anchor="ms", direction=L["dir"],
            language=L["lang"], stroke_width=1, stroke_fill=GOLD)
+    extra = 0
+    if T.get("who"):
+        wf = font(L["font"], int(30 * k))
+        d.text((W / 2, 60 + por.height + 118), T["who"], font=wf, fill=CREAM, anchor="ms", direction=L["dir"],
+               language=L["lang"])
+        extra = 44
 
     # quote: fit both paragraphs into the box, shrinking the size if needed
     margin = 80
-    top, bottom = 60 + por.height + 120, H - 120
+    top, bottom = 60 + por.height + 120 + extra, H - 120
     maxw = W - 2 * margin
     size = int(texts.get("_size", 42) * k)
     while True:
@@ -83,10 +91,12 @@ def card(folder, key, texts):
     if texts.get("_mark", True):
         d.text((W - margin + 10, top - 20) if rtl else (margin - 10, top - 20), "”" if rtl else "“", font=qf,
            fill=GOLD + (110,), anchor="rm" if rtl else "lm")
+    gold = set(texts.get("_highlight", []))
     for bi, b in enumerate(blocks):
+        colour = GOLD if bi in gold else CREAM
         for line in b:
-            d.text((W / 2, y), line, font=f, fill=CREAM, anchor="ms", direction=L["dir"], language=L["lang"],
-                   stroke_width=1 if size >= 34 else 0, stroke_fill=CREAM)
+            d.text((W / 2, y), line, font=f, fill=colour, anchor="ms", direction=L["dir"], language=L["lang"],
+                   stroke_width=1 if (size >= 34 or bi in gold) else 0, stroke_fill=colour)
             y += lh
         y += int(lh * 0.55)
 
@@ -103,5 +113,5 @@ def card(folder, key, texts):
 if __name__ == "__main__":
     folder = Path(sys.argv[1]).resolve()
     texts = json.loads((folder / "texts.json").read_text(encoding="utf-8"))
-    for key in ("ckb", "kmr", "ar"):
+    for key in texts.get("_langs", [k for k in ("ckb", "kmr", "ar") if k in texts]):
         print(*card(folder, key, texts))
