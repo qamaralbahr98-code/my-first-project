@@ -1,0 +1,246 @@
+{
+  "project": "series_adhan",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24
+  },
+  "brand": {
+    "background": "warm beige paper (match logo)",
+    "accents": "tan/gold + olive (match logo)",
+    "logo": {
+      "file": "assets/brand/logo_shield.png",
+      "position": "top-left",
+      "every_scene": true,
+      "status": "MISSING"
+    }
+  },
+  "languages": {
+    "ar": {
+      "dir": "rtl",
+      "font": "Aljazeera",
+      "mirror": true
+    },
+    "ckb": {
+      "dir": "rtl",
+      "font": "Speda",
+      "mirror": true
+    },
+    "kmr": {
+      "dir": "ltr",
+      "font": "Montserrat",
+      "mirror": false
+    }
+  },
+  "duration_rule": "Scene duration = length of audio/{lang}/sceneNN.mp3 (+ tail padding), measured per language. Never fixed.",
+  "timeline_note": "No dates or years in the source. Timeline is null (nothing invented). Hide the bar, or use it as a counter only if you decide to (e.g. 0-50 words); that is a design decision, not data.",
+  "scenes": [
+    {
+      "id": "scene01",
+      "type": "card",
+      "asset_filename": "assets/scene01.jpg",
+      "asset_status": "MISSING",
+      "timeline": {
+        "from": null,
+        "to": null,
+        "highlight": null
+      },
+      "transition": {
+        "type": "fade_in",
+        "frames": 12
+      },
+      "music_mood": "reflective",
+      "audio": {
+        "ar": "audio/ar/scene01.mp3",
+        "ckb": "audio/ckb/scene01.mp3",
+        "kmr": "audio/kmr/scene01.mp3"
+      },
+      "needs_source": false,
+      "source_flag": "Hook / OPINION."
+    },
+    {
+      "id": "scene02",
+      "type": "card",
+      "asset_filename": "assets/scene02.jpg",
+      "asset_status": "MISSING",
+      "timeline": {
+        "from": null,
+        "to": null,
+        "highlight": null
+      },
+      "transition": {
+        "type": "crossfade",
+        "frames": 12
+      },
+      "music_mood": "reflective",
+      "audio": {
+        "ar": "audio/ar/scene02.mp3",
+        "ckb": "audio/ckb/scene02.mp3",
+        "kmr": "audio/kmr/scene02.mp3"
+      },
+      "needs_source": false,
+      "source_flag": "Describes the source clip (TikTok @AHMED-ELKAFY, title 'a great miracle in the adhan'). Speaker identity not established; do not name him. The reactor on top is also unidentified."
+    },
+    {
+      "id": "scene03",
+      "type": "card",
+      "asset_filename": "assets/scene03.jpg",
+      "asset_status": "MISSING",
+      "timeline": {
+        "from": null,
+        "to": null,
+        "highlight": null
+      },
+      "transition": {
+        "type": "crossfade",
+        "frames": 12
+      },
+      "music_mood": "reflective",
+      "audio": {
+        "ar": "audio/ar/scene03.mp3",
+        "ckb": "audio/ckb/scene03.mp3",
+        "kmr": "audio/kmr/scene03.mp3"
+      },
+      "needs_source": true,
+      "source_flag": "FACT checked by my own count: the 15-phrase wording (takbir x4, shahada x2, shahada x2, hayya salah x2, hayya falah x2, takbir x2, la ilaha illa Allah x1) = 50 words. It does NOT hold for every school's wording (see scene07). Cite a source for the wording."
+    },
+    {
+      "id": "scene04",
+      "type": "card",
+      "asset_filename": "assets/scene04.jpg",
+      "asset_status": "MISSING",
+      "timeline": {
+        "from": null,
+        "to": null,
+        "highlight": null
+      },
+      "transition": {
+        "type": "crossfade",
+        "frames": 12
+      },
+      "music_mood": "hopeful",
+      "audio": {
+        "ar": "audio/ar/scene04.mp3",
+        "ckb": "audio/ckb/scene04.mp3",
+        "kmr": "audio/kmr/scene04.mp3"
+      },
+      "needs_source": true,
+      "source_flag": "The clip shows Surah al-Isra on screen; the 50-to-5 hadith is NOT on screen, I inferred it. Cite the Isra and Mi'raj hadith (Sahih al-Bukhari / Sahih Muslim) with exact references. Confirm the stock photo licence allows this site."
+    },
+    {
+      "id": "scene05",
+      "type": "card",
+      "asset_filename": "assets/scene05.jpg",
+      "asset_status": "MISSING",
+      "timeline": {
+        "from": null,
+        "to": null,
+        "highlight": null
+      },
+      "transition": {
+        "type": "crossfade",
+        "frames": 12
+      },
+      "music_mood": "reflective",
+      "audio": {
+        "ar": "audio/ar/scene05.mp3",
+        "ckb": "audio/ckb/scene05.mp3",
+        "kmr": "audio/kmr/scene05.mp3"
+      },
+      "needs_source": true,
+      "source_flag": "Sum checked: 2+4+4+3+4 = 17 (residence prayers). Travel prayers differ. Cite a fiqh source."
+    },
+    {
+      "id": "scene06",
+      "type": "card",
+      "asset_filename": "assets/scene06.jpg",
+      "asset_status": "MISSING",
+      "timeline": {
+        "from": null,
+        "to": null,
+        "highlight": null
+      },
+      "transition": {
+        "type": "crossfade",
+        "frames": 12
+      },
+      "music_mood": "reflective",
+      "audio": {
+        "ar": "audio/ar/scene06.mp3",
+        "ckb": "audio/ckb/scene06.mp3",
+        "kmr": "audio/kmr/scene06.mp3"
+      },
+      "needs_source": true,
+      "source_flag": "The clip's letter list is partly hidden on screen. My count gives 17 distinct letters only if taa marbuta is not counted separately (19 raw forms; 18 if hamza/ya forms are merged and taa marbuta kept). Convention-dependent: state the counting rule."
+    },
+    {
+      "id": "scene07",
+      "type": "card",
+      "asset_filename": "assets/scene07.jpg",
+      "asset_status": "MISSING",
+      "timeline": {
+        "from": null,
+        "to": null,
+        "highlight": null
+      },
+      "transition": {
+        "type": "crossfade",
+        "frames": 12
+      },
+      "music_mood": "hopeful",
+      "audio": {
+        "ar": "audio/ar/scene07.mp3",
+        "ckb": "audio/ckb/scene07.mp3",
+        "kmr": "audio/kmr/scene07.mp3"
+      },
+      "needs_source": true,
+      "source_flag": "Verified by my count: adding the repeated shahadas (tarji') gives 72 words; adding 'prayer is better than sleep' twice for Fajr gives 58. Name the schools and cite sources before publishing."
+    },
+    {
+      "id": "scene08",
+      "type": "card",
+      "asset_filename": "assets/scene08.jpg",
+      "asset_status": "MISSING",
+      "timeline": {
+        "from": null,
+        "to": null,
+        "highlight": null
+      },
+      "transition": {
+        "type": "crossfade",
+        "frames": 12
+      },
+      "music_mood": "resolve",
+      "audio": {
+        "ar": "audio/ar/scene08.mp3",
+        "ckb": "audio/ckb/scene08.mp3",
+        "kmr": "audio/kmr/scene08.mp3"
+      },
+      "needs_source": false,
+      "source_flag": "OPINION. Do not call the numbers a proof or a 'miracle'; the video does."
+    },
+    {
+      "id": "scene09",
+      "type": "card",
+      "asset_filename": "assets/scene09.jpg",
+      "asset_status": "MISSING",
+      "timeline": {
+        "from": null,
+        "to": null,
+        "highlight": null
+      },
+      "transition": {
+        "type": "fade_out",
+        "frames": 12
+      },
+      "music_mood": "resolve",
+      "audio": {
+        "ar": "audio/ar/scene09.mp3",
+        "ckb": "audio/ckb/scene09.mp3",
+        "kmr": "audio/kmr/scene09.mp3"
+      },
+      "needs_source": false,
+      "source_flag": "OPINION."
+    }
+  ]
+}

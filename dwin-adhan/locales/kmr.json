@@ -1,0 +1,61 @@
+{
+  "lang": "kmr",
+  "dir": "ltr",
+  "review_status": "DRAFT - native speaker review required",
+  "scenes": {
+    "scene01": {
+      "headline": "Di ezanê de çend peyv hene?",
+      "subtitle": "Rojê pênc caran tu ezanê dibihîsî. Ma te qet peyvên wê hejmartine?",
+      "name_tag": "",
+      "narration": "Rojê pênc caran tu ezanê dibihîsî. Ma te qet peyvên wê hejmartine?"
+    },
+    "scene02": {
+      "headline": "Were em bihejmêrin",
+      "subtitle": "Klîpek belav bûye û dibêje di ezanê de hejmarek hene ku bi nimêjê bi xwe re dikevin hev. Were em peyv bi peyv bihejmêrin.",
+      "name_tag": "",
+      "narration": "Klîpek belav bûye û dibêje di ezanê de hejmarek hene ku bi nimêjê bi xwe re dikevin hev. Were em peyv bi peyv bihejmêrin."
+    },
+    "scene03": {
+      "headline": "Pêncî peyv",
+      "subtitle": "Li gorî awayê ku di klîpê de tê nîşandan, ezan rast pêncî peyv e.",
+      "name_tag": "",
+      "narration": "Li gorî awayê ku di klîpê de tê nîşandan, ezan rast pêncî peyv e."
+    },
+    "scene04": {
+      "headline": "Şeva Îsrayê",
+      "subtitle": "Pêncî jî hejmara wan nimêjan e ku di destpêkê de di şeva Îsrayê de ferz bûn, paşê bûn pênc.",
+      "name_tag": "",
+      "narration": "Pêncî jî hejmara wan nimêjan e ku di destpêkê de di şeva Îsrayê de ferz bûn, paşê bûn pênc."
+    },
+    "scene05": {
+      "headline": "17 reket",
+      "subtitle": "Niha jî reketên nimêjên ferz ên rojane: du, çar, çar, sê, çar. Hemû bi hev re hevdeh reket in.",
+      "name_tag": "",
+      "narration": "Niha jî reketên nimêjên ferz ên rojane: du, çar, çar, sê, çar. Hemû bi hev re hevdeh reket in."
+    },
+    "scene06": {
+      "headline": "17 tîp",
+      "subtitle": "Hejmara tîpên cuda yên ezanê jî, li gorî klîpê, hevdeh tîp e.",
+      "name_tag": "",
+      "narration": "Hejmara tîpên cuda yên ezanê jî, li gorî klîpê, hevdeh tîp e."
+    },
+    "scene07": {
+      "headline": "Gelo hejmar disekine?",
+      "subtitle": "Lê haydar be: forma ezanê di nav mezhebên cuda de cuda ye, û ezana sibê hevokek zêde dike, ji ber vê hejmara peyvan diguhere. Hejmara tîpan jî li gorî awayê hejmartinê diguhere.",
+      "name_tag": "",
+      "narration": "Lê haydar be: forma ezanê di nav mezhebên cuda de cuda ye, û ezana sibê hevokek zêde dike, ji ber vê hejmara peyvan diguhere. Hejmara tîpan jî li gorî awayê hejmartinê diguhere."
+    },
+    "scene08": {
+      "headline": "Ramîn, ne delîl",
+      "subtitle": "Ji ber vê yekê hejmar ramanek bedew in, ne delîlek biryardar. Ezan bi xwe bangek e ji te re, bihejmêrî an nehejmêrî.",
+      "name_tag": "",
+      "narration": "Ji ber vê yekê hejmar ramanek bedew in, ne delîlek biryardar. Ezan bi xwe bangek e ji te re, bihejmêrî an nehejmêrî."
+    },
+    "scene09": {
+      "headline": "Cara dawî kengî bersiv da?",
+      "subtitle": "Pêncî peyv te gazî dikin… cara dawî kengî te bersiv da?",
+      "name_tag": "",
+      "narration": "Pêncî peyv te gazî dikin… cara dawî kengî te bersiv da?"
+    }
+  }
+}
