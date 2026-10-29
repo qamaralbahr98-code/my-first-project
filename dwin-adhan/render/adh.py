@@ -224,9 +224,21 @@ def phone_icon(w):
     return im
 
 
+def _adhan_card():
+    w, h = 820, 780
+    im = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    d.rounded_rectangle([0, 0, w - 1, h - 1], 40, fill=CREAM + (255,), outline=GOLD + (255,), width=8)
+    d.rounded_rectangle([26, 26, w - 27, h - 27], 28, outline=OLIVE + (160,), width=3)
+    for k, line in enumerate(("الله أكبر", "حي على الصلاة", "حي على الفلاح")):
+        tx = AR(line, 96 if k == 0 else 76, INK if k == 0 else OLIVE)
+        im.alpha_composite(tx, ((w - tx.width) // 2, 150 + k * 190))
+    return im
+
+
 def scene02(sc, lang, t):
     f = paper(2)
-    ph = cached(("phone",), lambda: phone_icon(420))
+    ph = cached(("adcard",), lambda: _adhan_card())
     k = ease_out((t - 0.2) / 0.6)
     paste(f, B.shadowed(ph, 14), W / 2 - ph.width / 2 - 42, 640 + (1 - k) * 80, k)
     # numbers floating out of the phone
@@ -379,7 +391,7 @@ VARIANTS = [(50, None), (58, "الصلاة خير من النوم ×٢"), (72, "
 def scene07(sc, lang, t):
     f = paper(7)
     ts = [frac(sc, 0.05), frac(sc, 0.35), frac(sc, 0.55)]
-    y = 600
+    y = 680
     for k, (n, label) in enumerate(VARIANTS):
         a = ease_out((t - ts[k]) / 0.5)
         if a <= 0:
