@@ -370,7 +370,7 @@ def chapter_card(c, n, t):
     f = B.dark_bg(c, 5)
     num = c.get(("chnum", n), lambda: T(c.lang, digits(c, f"0{n}" if c.lang == "kmr" else n), 200 if not c.vert else 220,
                                         SAFFRON, True))
-    title = lab("chapter", c.lang)[n]
+    title = LABELS["chapter"][n][c.lang]
     k = ease_out(t / 0.5)
     cy = c.H * 0.45
     paste(f, num, c.W / 2 - num.width / 2, cy - num.height + 30 - (1 - k) * 30, k)
