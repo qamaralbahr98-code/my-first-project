@@ -21,13 +21,18 @@ def main(lang, fmt):
     vd = b / f"video_{fmt}"
     tmp = vd / "muxed.mp4"
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(vd / "picture.mp4"), "-i", str(aac), "-map", "0:v",
-                    "-map", "1:a", "-c:v", "libx264", "-preset", "faster", "-crf", "20", "-maxrate", "9M", "-bufsize",
-                    "18M", "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", str(tmp)], check=True)
+                    "-map", "1:a", "-c:v", "libx264", "-preset", "faster", "-crf", "20", "-maxrate", "5M", "-bufsize",
+                    "10M", "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", str(tmp)], check=True)
     thumb = PROJ / "thumbnails" / f"thumb_{lang}_{fmt}.jpg"
     final = OUT / f"dwin_kurdish_narrative_{lang}_{fmt}_v01.mp4"
-    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(tmp), "-i", str(thumb), "-map", "0", "-map", "1", "-c", "copy",
-                    "-c:v:1", "mjpeg", "-disposition:v:1", "attached_pic", "-movflags", "+faststart", str(final)],
-                   check=True)
+    if thumb.exists():
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(tmp), "-i", str(thumb), "-map", "0", "-map", "1",
+                        "-c", "copy", "-c:v:1", "mjpeg", "-disposition:v:1", "attached_pic", "-movflags", "+faststart",
+                        str(final)], check=True)
+        tmp.unlink()
+    else:
+        shutil.move(tmp, final)
+    (vd / "picture.mp4").unlink(missing_ok=True)
     shutil.copy(b / f"{lang}_synced.srt", OUT / f"dwin_kurdish_narrative_{lang}.srt")
     print(final)
 
