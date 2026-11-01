@@ -10,12 +10,12 @@ Ev beş destpêka rêzeyekê ye li ser aîdbûnê… me bişopînin.
 
 Beş:
 0:00 Destpêk
-0:57 Paşxane: Çîrok ji ku dest pê kir?
-3:39 Dilê pirsgirêkê: ne yek vegotin
-4:52 Delîl: bîranîn, hevpeymanî û şaristanî
-7:21 Vegotinên dijber: kîjan rast e?
-9:36 Çi di xeterê de ye?
-10:55 Dawî: çiya çîrokan nanivîsin
+0:49 Paşxane: Çîrok ji ku dest pê kir?
+3:32 Dilê pirsgirêkê: ne yek vegotin
+4:43 Delîl: bîranîn, hevpeymanî û şaristanî
+7:15 Vegotinên dijber: kîjan rast e?
+9:27 Çi di xeterê de ye?
+10:45 Dawî: çiya çîrokan nanivîsin
 
 Çavkanî:
 - Main source: «السردية الكردية في الدول الأربع والعالم الإسلامي والعالم» — analytical study, 1st edition, 2026
