@@ -21,8 +21,8 @@ def main(lang, fmt):
     vd = b / f"video_{fmt}"
     tmp = vd / "muxed.mp4"
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(vd / "picture.mp4"), "-i", str(aac), "-map", "0:v",
-                    "-map", "1:a", "-c:v", "libx264", "-preset", "faster", "-crf", "20", "-profile:v", "high", "-maxrate", "4.5M", "-bufsize",
-                    "9M", "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", str(tmp)], check=True)
+                    "-map", "1:a", "-c:v", "libx264", "-preset", "faster", "-crf", "21", "-profile:v", "high", "-maxrate", "3.3M", "-bufsize",
+                    "6.6M", "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", str(tmp)], check=True)
     thumb = PROJ / "thumbnails" / f"cover_{lang}_{fmt}.jpg"
     final = OUT / f"dwin_sheikh_othman_{lang}_{fmt}_v01.mp4"
     if thumb.exists():
