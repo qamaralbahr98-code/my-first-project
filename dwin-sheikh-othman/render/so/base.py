@@ -6,6 +6,7 @@ Ken Burns with grain and vignette. Reuses the Vox kit of the Sheikh Said project
 import math
 import subprocess
 import sys
+import re
 from functools import lru_cache
 from pathlib import Path
 
@@ -128,23 +129,30 @@ class Ctx:
 
 
 # ------------------------------------------------------------------ text
-# v2: ONE font with full Arabic + Sorani coverage for every text layer (checked with fontTools: پ ە ێ ۆ ڵ ڕ ﷺ
-# harakat ﴿ ﴾ « » all present). "Dween Noto Arabic" = Noto Sans Arabic + the Latin letters and punctuation of
-# Noto Sans (same design family) merged with fontTools, so ( ) [ ] / | – — · % stay inside the shaped run and
-# HarfBuzz/FriBidi mirror and order them correctly. Only ← ≈ ◐ ✓ ✗ still come from DejaVu.
-FONT = {"ar": "DweenNotoArabic-Bold.ttf", "ckb": "DweenNotoArabic-Bold.ttf", "kmr": "Montserrat-Bold.ttf"}
-FONT_REGULAR = {"ar": "DweenNotoArabic-Regular.ttf", "ckb": "DweenNotoArabic-Regular.ttf"}
-FALLBACK = ["NotoSans-Bold.ttf", "DejaVuSans-Bold.ttf"]
-SIZE_ADJ = {"ar": 0.82, "ckb": 0.95, "kmr": 1.0}      # Noto Sans Arabic draws larger than the old brand fonts
+# v2 (author's choice): Aljazeera for every Arabic text layer, Speda for every Sorani text layer, as in v1.
+# What broke letters in v1 was CHARACTER-level fallback inside a word (a letter from another font cannot join
+# its neighbours). v2 falls back per WORD instead, so a word is always shaped by one font with HarfBuzz/raqm:
+#   * Arabic version: the Kurdish names (پاوە, پريسي سەرو ...) use letters Aljazeera lacks -> the whole word in
+#     Speda (the Sorani brand font);
+#   * Sorani version: Arabic words with harakat (the Qur'an verse of R10) -> the whole word in Aljazeera;
+#   * ﷺ is in neither brand font -> that one token from Dween Noto Arabic (Noto Sans Arabic + Noto punctuation);
+#   * symbols (✓ ✗ ◐ ← ≈) from Montserrat / DejaVu, as in v1.
+FONT = {"ar": "Aljazeera.ttf", "ckb": "Speda.ttf", "kmr": "Montserrat-Bold.ttf"}
+FONT_REGULAR = FONT
+FONT_HOME = {"Aljazeera.ttf": "ar", "Speda.ttf": "ckb"}
+WORD_ALT = {"ar": ["Speda.ttf", "DweenNotoArabic-Bold.ttf"], "ckb": ["Aljazeera.ttf", "DweenNotoArabic-Bold.ttf"]}
+NOTO_REL = {"ar": 0.82, "ckb": 0.95}                   # Noto draws larger than the brand fonts at the same size
+FALLBACK = ["Montserrat-Bold.ttf", "DejaVuSans-Bold.ttf"]
+SIZE_ADJ = {"ar": 1.0, "ckb": 1.0, "kmr": 1.0}
 
 
 def font_name(lang, bold=True):
     if lang == "kmr":
         return "Montserrat-Bold.ttf" if bold else "Montserrat-Regular.ttf"
-    return FONT[lang] if bold else FONT_REGULAR[lang]
+    return FONT[lang]
 
 
-@lru_cache(maxsize=8)
+@lru_cache(maxsize=16)
 def _cmap(name):
     from fontTools.ttLib import TTFont
     return set(TTFont(str(REPO / "fonts" / name)).getBestCmap())
@@ -159,22 +167,45 @@ def _font_for(ch, primary):
     return primary
 
 
+def _arabic(ch):
+    o = ord(ch)
+    return 0x0600 <= o <= 0x06FF or 0x0750 <= o <= 0x077F or 0xFB50 <= o <= 0xFDFF or 0xFE70 <= o <= 0xFEFF
+
+
+def _word_font(lang, word, primary):
+    """One font for the whole word when the primary font lacks one of its letters (None: per-character)."""
+    cm = _cmap(primary)
+    if all(ord(ch) in cm for ch in word) or lang == "kmr" or not any(_arabic(ch) for ch in word):
+        return None
+    for f in WORD_ALT[lang]:
+        if all(ord(ch) in _cmap(f) for ch in word):
+            return f
+    return None
+
+
 @lru_cache(maxsize=6000)
 def T(lang, text, size, colour, bold=True, stroke=0):
-    """One shaped line. Characters the language font lacks (✓ ✗ ◐ ← ≈ …) come from Montserrat / DejaVu."""
+    """One shaped line in the language's brand font; see the note above for the per-word fallback."""
     fname = font_name(lang, bold)
     ldir = "rtl" if RTL[lang] else "ltr"
     if lang != "kmr":
         text = text.replace("٬", "،")
     runs = []
-    for ch in text:
-        f = _font_for(ch, fname)
-        if ch == " " and runs:
-            f = runs[-1][1]
-        if runs and runs[-1][1] == f:
-            runs[-1][0].append(ch)
+    for tok in re.split(r"( +|[\ufd3e\ufd3f])", text):
+        if not tok:
+            continue
+        if tok in ("\ufd3e", "\ufd3f"):               # Qur'an brackets: the brand fonts draw them as [ ]
+            wf = "DweenNotoArabic-Bold.ttf" if lang != "kmr" else None
         else:
-            runs.append(([ch], f))
+            wf = None if tok.startswith(" ") else _word_font(lang, tok, fname)
+        for ch in tok:
+            f = wf or _font_for(ch, fname)
+            if ch == " " and runs:
+                f = runs[-1][1]
+            if runs and runs[-1][1] == f:
+                runs[-1][0].append(ch)
+            else:
+                runs.append(([ch], f))
     size = int(round(size * SIZE_ADJ[lang]))
     if len(runs) == 1 and runs[0][1] == fname:
         return kit.line_img(lang, ldir, text, size, tuple(colour), stroke, fname)[0]
@@ -188,6 +219,10 @@ def T(lang, text, size, colour, bold=True, stroke=0):
             continue
         if f == fname:
             im = kit.line_img(lang, ldir, s.strip(), size, tuple(colour), stroke, f)[0]
+        elif f in FONT_HOME:                              # the other brand font, for a whole word
+            im = kit.line_img(FONT_HOME[f], "rtl", s.strip(), size, tuple(colour), stroke, f)[0]
+        elif f.startswith("DweenNoto"):
+            im = kit.line_img(lang, "rtl", s.strip(), int(round(size * NOTO_REL[lang])), tuple(colour), stroke, f)[0]
         else:
             sz = size * (0.86 if lang == "kmr" else 0.92)
             im = kit.line_img("kmr", "ltr", s.strip(), int(sz / 0.86), tuple(colour), stroke, f)[0]

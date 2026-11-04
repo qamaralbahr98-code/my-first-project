@@ -101,18 +101,9 @@ class Film:
             key = ("_", "src", sc["source"])
             im = self.cache.get(key)
             if im is None:
-                # label in the language font, the (Latin) title as ONE left-to-right run, so its brackets and
-                # comma keep their order inside the right-to-left line
-                lab = B.T(self.lang, f"{B.SRC_WORD[self.lang]}:", 24, CREAM, False)
-                s = int(round(24 * B.SIZE_ADJ[self.lang]))
-                src = kit.line_img("kmr", "ltr", sc["source"], int(s * 0.92 / 0.86), tuple(CREAM), 0,
-                                   "NotoSans-Regular.ttf")[0]
-                parts = [src, lab] if B.RTL[self.lang] else [lab, src]
-                h = max(p.height for p in parts)
-                txt = Image.new("RGBA", (parts[0].width + parts[1].width - 6, h), (0, 0, 0, 0))
-                txt.alpha_composite(parts[0], (0, (h - parts[0].height) // 2))
-                txt.alpha_composite(parts[1], (parts[0].width - 6, (h - parts[1].height) // 2))
-                txt = B.fit_w(txt, self.W - 260)
+                # the brand fonts carry Latin too, so the whole line is ONE shaped run (bidi-correct brackets)
+                full = f"{B.SRC_WORD[self.lang]}: {sc['source']}"
+                txt = B.fit_w(B.T(self.lang, full, 24, CREAM, False), self.W - 260)
                 im = B._pill(txt.width + 20, int(txt.height * 0.82), (0, 0, 0, 150))
                 im.alpha_composite(txt, (10, int(im.height / 2 - txt.height / 2)))
                 self.cache[key] = im
