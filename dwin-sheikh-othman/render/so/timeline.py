@@ -16,12 +16,20 @@ import numpy as np
 PROJ = Path(__file__).resolve().parents[2]
 
 PRE, POST = 0.25, 0.40
+LEAD = 0.06
+
+
+def quiet_before(wav, t0, t1):
+    """Quietest 10 ms point of the pause between two words (where the S34 silence is inserted)."""
+    sys.path.insert(0, str(PROJ / "render"))
+    from splice import load, quietest
+    return round(quietest(load(wav), t0, t1 + 0.02), 3)
 CHAPTERS = {"S05": 2, "S16": 3, "S19": 4, "S27": 5, "S31": 6, "S33": 7}
 CHAPTER_PRE = 1.6
 FUNERAL_OPEN = 7.0                        # S33: first 7 s of R01 at full level
-EXTRA = {"S01": ("pre", 0.9), "S04": ("post", 1.3), "S15": ("post", 1.0), "S18": ("post", 0.7), "S32": ("post", 0.7),
-         "S35": ("post", 0.8)}
-END_CARD = 4.0
+EXTRA = {"S01": ("pre", 0.9), "S04": ("post", 1.1), "S15": ("post", 0.8), "S18": ("post", 0.7), "S32": ("post", 0.6),
+         "S35": ("post", 0.6)}
+END_CARD = 3.5
 R10_RANGE = {"ar": (0.0, 43.1), "ckb": (0.0, 43.1)}
 LIMIT = 14 * 60 - 1                       # 14:00 is the hard maximum
 S34_SPLIT = {"ar": "ووصيةُ", "ckb": "ئامۆژگاریی"}
@@ -119,8 +127,15 @@ def snap_cues(cues, name, win=1.2):
 def build(lang, r10=None):
     sj = json.loads((PROJ / "build" / "script.json").read_text(encoding="utf-8"))
     vo = PROJ / "build" / lang / "vo"
-    parts = json.loads((vo / "parts.json").read_text())
-    sw = json.loads((vo / "words.json").read_text(encoding="utf-8"))
+    # v2: narration parts after the fix pass, word times from the local forced aligner, caption text after edits
+    pdir = vo / "parts_v2" if (vo / "parts_v2").exists() else vo / "parts"
+    sw = json.loads((vo / ("aligned_v2.json" if (vo / "aligned_v2.json").exists() else "aligned.json")).read_text(encoding="utf-8"))
+    caps = json.loads((vo / "captions_v2.json").read_text(encoding="utf-8")) if (vo / "captions_v2.json").exists() else {}
+
+    def wav_dur(path):
+        from scipy.io import wavfile
+        sr, x = wavfile.read(str(path))
+        return len(x) / sr
     titles = chapter_titles(lang)
     r10 = r10 or R10_RANGE[lang]
     scenes, t = [], 0.0
@@ -137,17 +152,17 @@ def build(lang, r10=None):
                 pre = v
             else:
                 post = v
-        d = parts[sid]["dur"]
-        script = s[lang]["n"].split()
+        d = round(wav_dur(pdir / f"{sid}.wav"), 3)
+        script = caps.get(sid, s[lang]["n"]).split()
         rec = sw[sid]
-        if len(script) == len(rec):
-            words = [dict(text=x, s=round(pre + w["start"], 3), e=round(pre + w["end"], 3)) for x, w in zip(script, rec)]
-        else:
-            words = expand_align(script, rec, pre, lang) or align(script, rec, pre)
+        assert len(script) == len(rec), (lang, sid, len(script), len(rec))
+        # the highlight starts at the word onset, a little early (60 ms) and never late
+        words = [dict(text=x, s=round(pre + max(0.0, w["start"] - LEAD), 3), e=round(pre + w["end"], 3))
+                 for x, w in zip(script, rec)]
         audio = [dict(seg=sid, start=pre, dur=d, src=0.0)]
         if sid == "S34":                                   # 1 s of silence before the last sentence
             k = next(i for i, w in enumerate(words) if w["text"].startswith(S34_SPLIT[lang]))
-            cut = (rec[k]["start"] if len(script) == len(rec) else words[k]["s"] - pre) - 0.05
+            cut = quiet_before(pdir / f"{sid}.wav", rec[k - 1]["end"], rec[k]["start"])
             audio = [dict(seg=sid, start=pre, dur=cut, src=0.0), dict(seg=sid, start=pre + cut + 1.0, dur=d - cut, src=cut)]
             for w in words[k:]:
                 w["s"] = round(w["s"] + 1.0, 3)

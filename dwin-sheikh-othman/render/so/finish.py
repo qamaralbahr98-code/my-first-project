@@ -24,7 +24,7 @@ def main(lang, fmt):
                     "-map", "1:a", "-c:v", "libx264", "-preset", "faster", "-crf", "21", "-profile:v", "high", "-maxrate", "3.3M", "-bufsize",
                     "6.6M", "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", str(tmp)], check=True)
     thumb = PROJ / "thumbnails" / f"cover_{lang}_{fmt}.jpg"
-    final = OUT / f"dwin_sheikh_othman_{lang}_{fmt}_v01.mp4"
+    final = OUT / f"dwin_sheikh_othman_{lang}_{fmt}_v02.mp4"
     if thumb.exists():
         subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(tmp), "-i", str(thumb), "-map", "0", "-map", "1",
                         "-c", "copy", "-c:v:1", "mjpeg", "-disposition:v:1", "attached_pic", "-movflags", "+faststart",
@@ -33,7 +33,7 @@ def main(lang, fmt):
     else:
         shutil.move(tmp, final)
     (vd / "picture.mp4").unlink(missing_ok=True)
-    shutil.copy(b / f"{lang}_synced.srt", OUT / f"dwin_sheikh_othman_{lang}.srt")
+    shutil.copy(b / f"{lang}_synced.srt", OUT / f"dwin_sheikh_othman_{lang}_v02.srt")
     print(final)
 
 

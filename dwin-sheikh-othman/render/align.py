@@ -127,20 +127,28 @@ def align(wav_path, tokens, lang):
     return [dict(text=r["text"], start=round(r["start"], 3), end=round(r["end"], 3)) for r in res]
 
 
-def main(lang, segs=None):
+def main(lang, segs=None, v2=False):
     sj = {s["id"]: s for s in json.loads((ROOT / "build" / "script.json").read_text(encoding="utf-8"))["scenes"]}
     vo = ROOT / "build" / lang / "vo"
-    out = vo / "aligned.json"
-    done = json.loads(out.read_text(encoding="utf-8")) if out.exists() else {}
+    caps = {}
+    if v2:
+        caps = json.loads((vo / "captions_v2.json").read_text(encoding="utf-8"))
+        segs = segs or list(caps)
+        out = vo / "aligned_v2.json"
+        done = json.loads((vo / "aligned.json").read_text(encoding="utf-8"))
+    else:
+        out = vo / "aligned.json"
+        done = json.loads(out.read_text(encoding="utf-8")) if out.exists() else {}
     for sid in segs or list(sj):
-        wav = vo / "parts" / f"{sid}.wav"
+        wav = vo / ("parts_v2" if v2 else "parts") / f"{sid}.wav"
         if not wav.exists():
             continue
-        text = sj[sid][lang].get("tts_caption", sj[sid][lang]["n"])
+        text = caps.get(sid, sj[sid][lang]["n"])
         done[sid] = align(wav, text.split(), lang)
         print(lang, sid, len(done[sid]), "words", flush=True)
         out.write_text(json.dumps(done, ensure_ascii=False), encoding="utf-8")
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2:] or None)
+    args = [a for a in sys.argv[2:] if a != "--v2"]
+    main(sys.argv[1], args or None, "--v2" in sys.argv)

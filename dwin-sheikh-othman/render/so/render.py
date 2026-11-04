@@ -77,9 +77,9 @@ class Film:
 
     # -------------------------------------------------------------- overlays
     def logo(self, f):
-        w = 60
+        w = 108                                   # v2: 1.8x the v1 size (60 px), from the high-res brand PNG
         x, y = (40, 160) if self.vert else (40, 40)
-        h = int(w * 1.54)
+        h = int(w * 1.64)
         reg = float(np.asarray(f.crop((x, y, x + w, y + h)).convert("L")).mean())
         dk = clamp01((150 - reg) / 50)
         if dk < 1:
@@ -177,10 +177,7 @@ class Film:
             hi = -1
         else:
             words = [w["text"] for w in cue["words"]]
-        if cue.get("quran"):
-            ims = [kit.line_img("ar", "rtl", w, int(size * 1.05), CREAM, 0, kit.QURAN_FONT)[0] for w in words]
-        else:
-            ims = [B.T(self.lang, w, size, SAFFRON if j == hi else CREAM, True) for j, w in enumerate(words)]
+        ims = [B.T(self.lang, w, size, SAFFRON if j == hi else CREAM, True) for j, w in enumerate(words)]
         sp = size * 0.3
         maxw = self.W - (200 if not self.vert else 200)
         lines, cur, cw = [], [], 0

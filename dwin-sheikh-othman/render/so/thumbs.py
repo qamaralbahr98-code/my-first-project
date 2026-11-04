@@ -91,7 +91,7 @@ def make(lang, fmt, alt=False):
     img = f.convert("RGB")
     if fmt == "16x9":
         img = img.resize((1280, 720), Image.LANCZOS)
-    path = out / f"thumb_{lang}_{fmt}{'_alt' if alt else ''}.png"
+    path = out / f"thumb_{lang}_{fmt}{'_alt' if alt else ''}_v02.png"
     img.save(path, optimize=True)
     if path.stat().st_size > 2_000_000:
         img.save(path.with_suffix(".jpg"), quality=90)

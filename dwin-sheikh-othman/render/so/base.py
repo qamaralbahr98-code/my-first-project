@@ -128,14 +128,18 @@ class Ctx:
 
 
 # ------------------------------------------------------------------ text
-FONT = {"ar": "Aljazeera.ttf", "ckb": "Speda.ttf", "kmr": "Montserrat-Bold.ttf"}
-FALLBACK = ["Montserrat-Bold.ttf", "DejaVuSans-Bold.ttf"]
+# v2: ONE font with full Arabic + Sorani coverage for every text layer (checked with fontTools: پ ە ێ ۆ ڵ ڕ ﷺ
+# harakat ﴿ ﴾ « » all present). Latin (the source line) and symbols (← ≈ ◐ ✓ ✗) come from Noto Sans / DejaVu.
+FONT = {"ar": "NotoSansArabic-Bold.ttf", "ckb": "NotoSansArabic-Bold.ttf", "kmr": "Montserrat-Bold.ttf"}
+FONT_REGULAR = {"ar": "NotoSansArabic-Regular.ttf", "ckb": "NotoSansArabic-Regular.ttf"}
+FALLBACK = ["NotoSans-Bold.ttf", "DejaVuSans-Bold.ttf"]
+SIZE_ADJ = {"ar": 0.82, "ckb": 0.95, "kmr": 1.0}      # Noto Sans Arabic draws larger than the old brand fonts
 
 
 def font_name(lang, bold=True):
     if lang == "kmr":
         return "Montserrat-Bold.ttf" if bold else "Montserrat-Regular.ttf"
-    return FONT[lang]
+    return FONT[lang] if bold else FONT_REGULAR[lang]
 
 
 @lru_cache(maxsize=8)
@@ -169,6 +173,7 @@ def T(lang, text, size, colour, bold=True, stroke=0):
             runs[-1][0].append(ch)
         else:
             runs.append(([ch], f))
+    size = int(round(size * SIZE_ADJ[lang]))
     if len(runs) == 1 and runs[0][1] == fname:
         return kit.line_img(lang, ldir, text, size, tuple(colour), stroke, fname)[0]
     sp = size * 0.26

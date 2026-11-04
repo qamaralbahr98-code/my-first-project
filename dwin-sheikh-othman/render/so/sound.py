@@ -72,7 +72,8 @@ def build(lang):
     for s in scenes:
         for a in s["audio"]:
             if a["seg"] not in parts:
-                parts[a["seg"]] = load(PROJ / "build" / lang / "vo" / "parts" / f"{a['seg']}.wav")[0]
+                pdir = PROJ / "build" / lang / "vo" / ("parts_v2" if (PROJ / "build" / lang / "vo" / "parts_v2").exists() else "parts")
+                parts[a["seg"]] = load(pdir / f"{a['seg']}.wav")[0]
             x = parts[a["seg"]]
             i0, i1 = int(a.get("src", 0) * SR), int((a.get("src", 0) + a["dur"]) * SR)
             voice.put(fades(x[i0:i1], 0.01, 0.03), s["start"] + a["start"], 1.0, 0.0)

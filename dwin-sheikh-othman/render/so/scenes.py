@@ -25,6 +25,8 @@ R09B = "R09_uprising_1991.jpg#0.20,0.31,0.39,0.52"              # one face, no w
 P09 = "P09_mulla_ali_abdulaziz.jpg#0.22,0.0,1.0,1.0"            # desk flag cut off
 P20 = "P20_irfan_ali_abdulaziz.jpg#0.50,0.0,1.0,1.0"            # background removed by the matte below
 P19 = "P19_salahaddin_bahaaddin.jpg#0.08,0.06,1.0,1.0"
+P16 = "P16_ahmad_jibril_meeting_1989.jpg"                         # v2: the author's 1989 photo
+P22 = "P22_with_masoud_barzani_jalal_talabani.jpg"               # v2: the author's photo with both leaders
 R01_CROP = "760:378:78:0"                                       # funeral clip without 'IMK TV' and the caption band
 
 PLACES = {
@@ -39,7 +41,7 @@ NAMES = {
     "nasiriyah": ("الناصرية", "ناسرییە"), "samawah": ("السماوة", "سەماوە"), "sanandaj": ("سنندج", "سنە"),
     "ankara": ("أنقرة", "ئەنقەرە"), "damascus": ("دمشق", "دیمەشق"), "riyadh": ("الرياض", "ڕیاز"),
     "tehran": ("طهران", "تاران"), "erbil": ("أربيل", "هەولێر"), "pawe": ("پاوە", "پاوە"), "marivan": ("مريوان", "مەریوان"),
-    "london": ("لندن", "لەندەن"), "qushtapa": ("قوش تبه", "قوشتەپە"), "border": ("الحدود الإيرانية", "سنووری ئێران"),
+    "london": ("لندن", "لەندەن"), "qushtapa": ("قوشتبة", "قوشتەپە"), "border": ("الحدود الإيرانية", "سنووری ئێران"),
     "palestine": ("فلسطين", "فەلەستین"), "kurdistan": ("كردستان", "کوردستان"),
 }
 
@@ -177,7 +179,7 @@ def show_ost(c, f, text, t, t0, cy=None, size=None, fg=INK, bg=CREAM, out=None, 
     if k <= 0:
         return None
     a = clamp01(k * 1.6) * (1.0 if out is None else clamp01((out - t) / 0.35))
-    cy = cy if cy is not None else (c.top + 40 if not c.vert else 360)
+    cy = cy if cy is not None else (c.top + 40 if not c.vert else 410)
     x = c.cx if x is None else x
     paste(f, im, x - im.width / 2, cy - im.height / 2 + (1 - k) * 26, a)
     return (x - im.width / 2, cy - im.height / 2, x + im.width / 2, cy + im.height / 2)
@@ -821,7 +823,7 @@ def s05(c, t):
     t_pin = c.at("قرية", "گوندی", default=c.frac(0.15))
     px, py = xy("pris")
     kit.map_pin(f, px, py, t - t_pin, RED, 1.2)
-    show_ost(c, f, ost(c), t, c.a0 + 0.2, cy=c.top + 10 if not c.vert else 380)
+    show_ost(c, f, ost(c), t, c.a0 + 0.2, cy=c.top + 10 if not c.vert else 420)
     t_ph = c.at("بيت", "ماڵێکی", default=c.frac(0.3))
     card = pcard(c, "R02_halabja_pris_village.jpg", w=640 if not c.vert else 760, rot=-2)
     show(c, f, card, c.W * 0.28 if not c.vert else c.cx, c.H * 0.58 if not c.vert else 1040, t, t_ph, "left")
@@ -833,7 +835,7 @@ def s06(c, t):
     f = crossfade(c, t, [(0.0, lambda tt: m2(c, tt)),
                          (t_st, lambda tt: cover(c, tt, "A03_students_books_from_behind.jpg", (1.0, 1.05), (0.5, 0.5),
                                                  D=c.D - t_st, t0=t_st, vf=(0.5, 0.5)))])
-    show_ost(c, f, ost(c), t, c.a0 + 0.1, cy=c.top + 10 if not c.vert else 380, fg=INK, bg=GOLD)
+    show_ost(c, f, ost(c), t, c.a0 + 0.1, cy=c.top + 10 if not c.vert else 430, fg=INK, bg=GOLD)
     # small icons: four books -> the ijaza
     t_ic = c.at("كتابًا", "کتێب", default=c.frac(0.55))
     s = 96 if not c.vert else 100
@@ -948,7 +950,7 @@ def s10(c, t):
         b = show(c, f, card, px, py, t, ta, "left")
         if b:
             ntag(c, f, lab, t, ta + 0.4, (b[0] + b[2]) / 2, b[3] - 36, size=24 if c.vert else 26)
-    show_ost(c, f, ost(c), t, c.a0 + 0.1, cy=c.top + 10 if not c.vert else 380)
+    show_ost(c, f, ost(c), t, c.a0 + 0.1, cy=c.top + 10 if not c.vert else 420)
     return B.grain(f, t, 5)
 
 
@@ -982,10 +984,10 @@ def s11(c, t):
         city(c, f, nx, ny, nm(c, "nasiriyah"), t, t_exile + 0.6, RED, below=True)
         arrow(c, f, (hx, hy), (nx, ny), t, t_exile - 0.2, 1.3, RED, 7, 0.22)
         _bars(c, f, t, t_map + 0.3, (t_end - t_map) * 0.9, 0.35)
-        show_ost(c, f, ost(c), t, t_map, cy=c.top + 10 if not c.vert else 380, size=48 if not c.vert else 44)
+        show_ost(c, f, ost(c), t, t_map, cy=c.top + 10 if not c.vert else 430, size=48 if not c.vert else 44)
         return B.grain(f, t, 5)
     f = cover(c, t, "A07_prison_window_shadow.jpg", (1.0, 1.05), (0.55, 0.5), D=c.D - t_end, t0=t_end, vf=(0.6, 0.5))
-    show_ost(c, f, ost(c), t, t_end, cy=c.top + 10 if not c.vert else 380, size=48 if not c.vert else 44)
+    show_ost(c, f, ost(c), t, t_end, cy=c.top + 10 if not c.vert else 430, size=48 if not c.vert else 44)
     return f
 
 
@@ -1024,7 +1026,7 @@ def s13(c, t):
     f = crossfade(c, t, shots, 0.7)
     head, rest = parts(ost(c), "|")[0], parts(ost(c), "|")[-1]
     items = parts(rest, "·")
-    show_ost(c, f, head + " |", t, 0.2, cy=c.top + 10 if not c.vert else 380, fg=INK, bg=GOLD)
+    show_ost(c, f, head + " |", t, 0.2, cy=c.top + 10 if not c.vert else 430, fg=INK, bg=GOLD)
     times = [t_jail, t_hs, t_taf]
     for i, it in enumerate(items):
         ta = times[i] if i < len(times) else c.frac(0.3 * i)
@@ -1045,7 +1047,7 @@ def s14(c, t):
     t_hl = c.at("«الحركة", "«بزووتنەوەی", default=c.frac(0.8)) - 0.3
     if t < t_map:
         f = m3(c, t, D=t_map + 0.6)
-        show_ost(c, f, ost(c).split("|")[0].strip(), t, c.a0, cy=c.top + 10 if not c.vert else 380, fg=INK, bg=GOLD)
+        show_ost(c, f, ost(c).split("|")[0].strip(), t, c.a0, cy=c.top + 10 if not c.vert else 430, fg=INK, bg=GOLD)
         return f
     f, xy, cam, v = map_frame(c, t, "local", (1.0, 1.08), (0.5, 0.5), D=c.D - t_map, t0=t_map)
     hx, hy = xy("halabja")
@@ -1096,7 +1098,7 @@ def s16(c, t):
     card = pcard(c, "P01a_sheikh_portrait.jpg", h=380 if not c.vert else 400, prep=warm)
     show(c, f, card, (p1[0] + p2[0]) / 2, (p1[1] + p2[1]) / 2, t, 0.8, "bottom")
     a, b = (parts(ost(c), "·") + [""])[:2]
-    show_ost(c, f, a, t, c.a0, cy=c.top - 10 if not c.vert else 360)
+    show_ost(c, f, a, t, c.a0, cy=c.top - 10 if not c.vert else 410)
     t2 = c.at("انتمائه", "پێوەبەستبوونی", default=c.frac(0.7))
     show_ost(c, f, b, t, t2, cy=c.cap_top - 70 if not c.vert else 1290, fg=INK, bg=GOLD)
     return f
@@ -1180,7 +1182,7 @@ def s19(c, t):
         show(c, f, a, c.W * 0.42 if not c.vert else c.cx, c.H * 0.42 if not c.vert else 640, t, 0.3, "left")
         b = pcard(c, R09B, h=330 if not c.vert else 380, prep=sepia, rot=3)
         show(c, f, b, c.W * 0.80 if not c.vert else c.cx + 170, c.H * 0.56 if not c.vert else 1020, t, 1.2, "right")
-        show_ost(c, f, parts(ost(c), "·")[0], t, c.a0, cy=c.top - 10 if not c.vert else 360, fg=INK, bg=GOLD)
+        show_ost(c, f, parts(ost(c), "·")[0], t, c.a0, cy=c.top - 10 if not c.vert else 410, fg=INK, bg=GOLD)
         return B.grain(f, t, 6)
     if t < t_el:
         f, xy, cam, v = map_frame(c, t, "krg", (1.0, 1.06), (0.5, 0.5), D=t_el - t_neg, t0=t_neg)
@@ -1196,7 +1198,7 @@ def s19(c, t):
             img, vv = gmap(c, "krg")
             x, y = cam.pt(*vv.xy(la, lo))
             kit.map_pin(f, x, y, t - (t_pins + 0.35 * i), GREEN, 0.9)
-        show_ost(c, f, ost(c), t, t_neg + 0.2, cy=c.top - 10 if not c.vert else 360)
+        show_ost(c, f, ost(c), t, t_neg + 0.2, cy=c.top - 10 if not c.vert else 410)
         return B.grain(f, t, 5)
     f = cover(c, t, "R05_election_1992.jpg", (1.0, 1.05), (0.5, 0.45), D=c.D - t_el, t0=t_el, dark=0.95, vf=(0.12, 0.55))
     return f
@@ -1226,32 +1228,39 @@ def s21(c, t):
         im = c.get(("s21c", txt), lambda: T(c.lang, txt, 150 if not c.vert else 120, RED, True))
         paste(f, im, c.cx - im.width / 2, c.H * 0.42 - im.height / 2 if not c.vert else 640, clamp01((t_pe + 0.4 - t) / 0.4))
         return B.grain(f, t, 5)
-    hh = 420 if not c.vert else 300
-    pos = [(c.W * 0.66, c.H * 0.44), (c.W * 0.40, c.H * 0.44)] if not c.vert else [(c.cx, 520), (c.cx - 190, 900)]
-    for i, (nmf, lab) in enumerate((("P01a_sheikh_portrait.jpg", c.lab("الشيخ عثمان", "مامۆستا عوسمان")),
-                                    ("P11_jalal_talabani.jpg", c.lab("جلال الطالباني", "جەلال تاڵەبانی")))):
-        card = pcard(c, nmf, h=hh, prep=warm if i == 0 else None, rot=(-1.5, 1.5)[i])
-        bx = show(c, f, card, pos[i][0], pos[i][1], t, t_pe + 0.2 + 0.5 * i, "right" if i == 0 else "left")
-        if bx:
-            ntag(c, f, lab, t, t_pe + 0.7 + 0.5 * i, (bx[0] + bx[2]) / 2, bx[3] - 40)
-    t_host = c.at("مسعود", "مەسعود", default=c.frac(0.55))
-    card = pcard(c, "P12_masoud_barzani.jpg", h=260 if not c.vert else 300, rot=2)
-    hp = (c.W * 0.14, c.H * 0.40) if not c.vert else (c.cx + 190, 900)
-    bx = show(c, f, card, hp[0], hp[1], t, t_host - 0.3, "left")
+    # the real photo with Masoud Barzani and Jalal Talabani (attached by the author) on the mediation line
+    pw, ph = (1060, 612) if not c.vert else (1000, 577)
+    cy = c.H * 0.41 if not c.vert else 640
+    bx = photo_frame(c, f, P22, pw, ph, c.cx, cy, t, t_pe + 0.1, D=c.D - t_pe)
     if bx:
-        ntag(c, f, c.lab("مسعود البارزاني", "مەسعود بارزانی"), t, t_host + 0.2, (bx[0] + bx[2]) / 2, bx[3] - 36,
-             size=24 if not c.vert else 26)
+        ntag(c, f, c.lab("مع مسعود بارزاني وجلال طالباني", "لەگەڵ مەسعود بارزانی و جەلال تاڵەبانی"), t, t_pe + 0.6,
+             c.cx, bx[3] + 10, size=30 if not c.vert else 30, out=t_ram if not c.vert else None)
     ka = ease_out((t - t_ram) / 0.5)
     if ka > 0:
         cr = c.get(("cres",), lambda: icon("crescent", 110, GOLD))
         pp = c.get(("paper",), lambda: icon("paper", 120, INK))
-        y = c.H * 0.76 if not c.vert else 1200
+        y = c.H * 0.79 if not c.vert else 1220
         st = ost_card(c, b, 46 if not c.vert else 42, None, INK, CREAM, -1)
         x = c.cx + st.width / 2 + 20
         paste(f, cr, x, y - 55, ka)
         paste(f, st, c.cx - st.width / 2, y - st.height / 2, ka)
         paste(f, pp, c.cx - st.width / 2 - 140, y - 60, ease_out((t - t_ram - 0.8) / 0.5))
     return B.grain(f, t, 5)
+
+
+def photo_frame(c, f, name, w, h, cx, cy, t, t0, D=None, z=(1.0, 1.04)):
+    """A real photo in a cream frame with a slow Ken Burns move inside (the frame keeps every face in view)."""
+    if t < t0:
+        return None
+    im = B.photo_box(c, name, w, h, t - t0, D or c.D, z)
+    fr = Image.new("RGBA", (w + 12, h + 12), CREAM + (255,))
+    fr.alpha_composite(im, (6, 6))
+    k = ease_out((t - t0) / 0.6)
+    out = B.shadowed(fr, 12, (6, 10), 120)
+    pad = 36
+    x, y = cx - fr.width / 2, cy - fr.height / 2
+    paste(f, out, x - pad, y - pad + (1 - k) * 30, k)
+    return (x, y, x + fr.width, y + fr.height)
 
 
 def _flashes(c, f, t, t0, n=5):
@@ -1314,7 +1323,7 @@ def s22b(c, t):
         px, py = xy("palestine")
         city(c, f, kx, ky, nm(c, "kurdistan"), t, 1.0, GREEN, glow=False)
         city(c, f, px, py, nm(c, "palestine"), t, 1.3, GREEN, below=True)
-        show_ost(c, f, a, t, c.at("شعبان", "گەلی", default=c.frac(0.1)) - 0.2, cy=c.top - 10 if not c.vert else 360,
+        show_ost(c, f, a, t, c.at("شعبان", "گەلی", default=c.frac(0.1)) - 0.2, cy=c.top - 10 if not c.vert else 410,
                  fg=INK, bg=GOLD)
         if t > t_sal:
             card = name_card(c, c.lab("صلاح الدين الأيوبي", "سەلاحەدینی ئەیووبی"))
@@ -1325,22 +1334,19 @@ def s22b(c, t):
     f = glow_bg(c, t, 22, (60, 66, 58))
     labels = [x.strip() for x in re.split(r"\s*·\s*", c.sc.get("labels", "")) if x.strip()]
     labels = [re.sub(r"^\d+\s+", "", x) for x in labels]
-    n = len(labels)
-    show_ost(c, f, b, t, t_89, cy=c.top - 10 if not c.vert else 360, fg=INK, bg=GOLD)
-    for i, lab in enumerate(labels):
-        ta = t_89 + 0.5 + 0.45 * i
-        if not c.vert:
-            w = 400
-            x = c.W - 100 - w / 2 - i * (w + 26)
-            y = c.H * 0.52
-        else:
-            w = 660
-            x = c.cx
-            y = 560 + i * 190
-        card = name_card(c, lab, w, size=36 if not c.vert else 50)
-        k = ease_out((t - ta) / 0.5)
-        if k > 0:
-            paste(f, card, x - card.width / 2 + (1 - k) * 120, y - card.height / 2, k)
+    show_ost(c, f, b, t, t_89, cy=c.top - 10 if not c.vert else 410, fg=INK, bg=GOLD)
+    # the real 1989 photo (not mirrored), slow Ken Burns; name tags in the order of the original caption, right to left
+    pw, ph = (900, 614) if not c.vert else (1000, 683)
+    cy = c.H * 0.50 if not c.vert else 830
+    bx = photo_frame(c, f, P16, pw, ph, c.cx, cy, t, t_89 + 0.2, D=c.D - t_89, z=(1.0, 1.035))
+    if bx:
+        ntag(c, f, c.lab("لقاء مع أحمد جبريل", "دیدار لەگەڵ ئەحمەد جیبریل"), t, t_89 + 0.6, bx[2] - 20, bx[1] + 18,
+             "right", size=28, fill=(28, 30, 34), fg=CREAM)
+        xs = [0.80, 0.62, 0.43, 0.22]                     # where each person stands in the photo, right to left
+        for i, lab in enumerate(labels[:4]):
+            lx = bx[0] + 6 + (bx[2] - bx[0] - 12) * xs[i]
+            ly = bx[3] - (70 if i % 2 == 0 else 122)
+            ntag(c, f, lab, t, t_89 + 1.0 + 0.45 * i, lx, ly, size=22 if not c.vert else 22)
     return f
 
 
@@ -1569,7 +1575,7 @@ def _s31_wide(c, t):
           (c.lab("الجماعة الإسلامية ← جماعة العدل (2001/2021)", "کۆمەڵی ئیسلامی ← کۆمەڵی دادگەری (2001/2021)"), t3)]
     top, labs = tree(c, f, t, (root[0], root[1] - rc.height / 2 + 20), br, t0=c.a0 + 0.3,
                      height=0.34 if not c.vert else None)
-    show_ost(c, f, ost(c), t, c.a0 + 0.2, cy=c.top - 30 if not c.vert else 340, size=46 if not c.vert else 42)
+    show_ost(c, f, ost(c), t, c.a0 + 0.2, cy=c.top - 30 if not c.vert else 390, size=46 if not c.vert else 42)
     # extra people photos (ASSETS.md A2), small cut-outs with a name label next to their branch
     people = [(P20, c.lab("عرفان علي عبد العزيز", "عیرفان عەلی عەبدولعەزیز"), 0, t1 + 0.5, True),
               ("P10_mulla_siddiq_abdulaziz.jpg", c.lab("الملا صديق عبد العزيز", "مەلا سدیق عەبدولعەزیز"), 1, t2 + 0.5, False),
@@ -1608,7 +1614,7 @@ def s31(c, t):
     c.illustration()
     show(c, f, rc, root[0], root[1], t, c.a0, "bottom")
     ntag(c, f, nm(c, "halabja"), t, c.a0 + 0.4, root[0], root[1] + rc.height / 2 - 70, fill=(28, 30, 34), fg=CREAM)
-    show_ost(c, f, ost(c), t, c.a0 + 0.2, cy=360, size=42)
+    show_ost(c, f, ost(c), t, c.a0 + 0.2, cy=410, size=42)
     t1 = c.at("الأم", "دایک", default=c.frac(0.4))
     t2 = c.at("الوحدة", "یەکگرتنی", default=c.frac(0.5))
     t3 = c.at("والجماعة", "کۆمەڵی", default=c.frac(0.62))
@@ -1697,7 +1703,7 @@ def s31b(c, t):
         kit.ink_line(ImageDraw.Draw(lay), kit.resample([(x, y) for x, y in pts], 6), clamp01(cr * 1.5), INK, 4)
         out.alpha_composite(lay)
         f = out
-    show_ost(c, f, ost(c), t, t_cr + 0.4, cy=c.top - 20 if not c.vert else 360, size=48 if not c.vert else 42, fg=INK, bg=GOLD)
+    show_ost(c, f, ost(c), t, t_cr + 0.4, cy=c.top - 20 if not c.vert else 410, size=48 if not c.vert else 42, fg=INK, bg=GOLD)
     return B.grain(f, t, 5)
 
 
