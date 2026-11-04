@@ -5,6 +5,7 @@ On-screen text is the scene's `t` block from the prompts; labels are names/place
 Group photos (P01b-P01g, P13, P17) are only shown full; P01a is the only cut-out of the sheikh.
 """
 import math
+import itertools
 import re
 
 import numpy as np
@@ -552,9 +553,10 @@ def behind(c, t, name, title, t0, size, ty, prep=warm, bgfn=None, dark=0.85, z=(
     tx = c.cx
     maxw = c.tw + 80
     if side and not c.vert:
-        tx, maxw = c.W * 0.645, int(c.W * 0.62)
+        # v2: the wider Noto glyphs ran behind his head and hid letters; keep the title in the free side
+        tx, maxw = c.W * 0.655, 940
+    ti = c.get(("bh", title, size, maxw), lambda: _title_img(c, title, size, GOLD if gold else CREAM, maxw))
     if k > 0:
-        ti = c.get(("bh", title, size, maxw), lambda: wrap_img(c, title, size, GOLD if gold else CREAM, maxw))
         paste(f, ti, tx - ti.width / 2, ty - ti.height / 2 + (1 - k) * 36, k)
     lay = c.get(("bhlay", name, prep.__name__ if prep else None), lambda: _person(c, name, prep))
     cam_p = B.Cam(im.width, im.height, u, z[0], z[1], foc, (foc[0] + shift[0], foc[1] - 0.012 + shift[1]), (c.W, c.H))
@@ -567,11 +569,41 @@ def behind(c, t, name, title, t0, size, ty, prep=warm, bgfn=None, dark=0.85, z=(
     if sub:
         st = c.get(("bhsub", sub), lambda: B.shadowed(T(c.lang, sub, 58 if not c.vert else 52, GOLD, True), 8, (0, 4), 160))
         a = ease((t - (sub_t0 if sub_t0 is not None else t0 + 0.6)) / 0.6)
+        tb = ti.getbbox() or (0, 0, ti.width, ti.height)
+        sb = c.get(("bhsubbb", sub), lambda: st.split()[3].point(lambda v: 255 if v > 100 else 0).getbbox())
         if not c.vert:
-            paste(f, st, c.W * 0.64 - st.width / 2, ty + 230 - st.height / 2, a)
+            sy = ty + 230
+            gap = (sy - st.height / 2 + sb[1]) - (ty - ti.height / 2 + tb[3])
+            sy += max(0.0, 20 - gap)                       # keep the years clear of the name
+            paste(f, st, tx - st.width / 2, sy - st.height / 2, a)
         else:
-            paste(f, st, c.cx - st.width / 2, 300 - st.height / 2, a)
+            sy = 300
+            gap = (ty - ti.height / 2 + tb[1]) - (sy - st.height / 2 + sb[3])
+            sy -= max(0.0, 30 - gap)                       # the years sit above the name in 9:16
+            paste(f, st, c.cx - st.width / 2, sy - st.height / 2, a)
     return B.grain(B.vignette(f, 0.45), t, 6)
+
+
+def _title_img(c, title, size, colour, maxw):
+    """Giant title: one line if it fits at >= 86% size, else the most balanced split (no orphan word)."""
+    words = title.split()
+    n = len(B.text_lines(c.lang, title, size, maxw))
+    if n == 2:
+        w1 = T(c.lang, title, size, colour).width
+        if w1 * 0.86 <= maxw:
+            s = int(size * maxw / w1)
+            return B.stack([T(c.lang, title, s, colour)], 0.12, "center")
+    best = None
+    if 1 < n <= len(words):
+        for cuts in itertools.combinations(range(1, len(words)), n - 1):
+            idx = (0,) + cuts + (len(words),)
+            lines = [" ".join(words[idx[i]:idx[i + 1]]) for i in range(n)]
+            ws = [T(c.lang, x, size, colour).width for x in lines]
+            if max(ws) <= maxw and (best is None or max(ws) < best[0]):
+                best = (max(ws), lines)
+    if best is None:
+        return wrap_img(c, title, size, colour, maxw)
+    return B.stack([T(c.lang, x, size, colour) for x in best[1]], 0.12, "center")
 
 
 def _person(c, name, prep):
@@ -1507,10 +1539,12 @@ def s28b(c, t):
     f, yb = verdict(c, t, bg, t_v=c.sc.get("verdict_t"))
     if t_c1 <= t < t_c2:
         card = name_card(c, c.lab("ليث شبيلات", "لەیس شوبەیلات"), sub=c.lab("سياسي إسلامي، الأردن",
-                                                                           "سیاسەتمەداری ئیسلامی، ئوردن"))
+                                                                           "سیاسەتمەداری ئیسلامی، ئوردن"),
+                         w=460 if not c.vert else None, size=54 if not c.vert else None)
         k = ease_out((t - t_c1) / 0.5)
-        x = c.W * 0.80 if not c.vert else c.cx
-        y = c.H * 0.70 if not c.vert else 1090
+        # v2: right-aligned to the safe margin and a little lower, clear of the (wider) verdict stamp
+        x = c.W - 64 - card.width / 2 if not c.vert else c.cx
+        y = c.H * 0.72 if not c.vert else 1090
         paste(f, card, x - card.width / 2, y - card.height / 2 + (1 - k) * 30, k)
         ntag(c, f, c.lab("طهران 1989", "تاران 1989"), t, t_c1 + 0.5, x, y + card.height / 2 - 10, fill=(28, 30, 34),
              fg=CREAM)

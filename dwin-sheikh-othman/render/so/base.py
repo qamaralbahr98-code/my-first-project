@@ -129,9 +129,11 @@ class Ctx:
 
 # ------------------------------------------------------------------ text
 # v2: ONE font with full Arabic + Sorani coverage for every text layer (checked with fontTools: پ ە ێ ۆ ڵ ڕ ﷺ
-# harakat ﴿ ﴾ « » all present). Latin (the source line) and symbols (← ≈ ◐ ✓ ✗) come from Noto Sans / DejaVu.
-FONT = {"ar": "NotoSansArabic-Bold.ttf", "ckb": "NotoSansArabic-Bold.ttf", "kmr": "Montserrat-Bold.ttf"}
-FONT_REGULAR = {"ar": "NotoSansArabic-Regular.ttf", "ckb": "NotoSansArabic-Regular.ttf"}
+# harakat ﴿ ﴾ « » all present). "Dween Noto Arabic" = Noto Sans Arabic + the Latin letters and punctuation of
+# Noto Sans (same design family) merged with fontTools, so ( ) [ ] / | – — · % stay inside the shaped run and
+# HarfBuzz/FriBidi mirror and order them correctly. Only ← ≈ ◐ ✓ ✗ still come from DejaVu.
+FONT = {"ar": "DweenNotoArabic-Bold.ttf", "ckb": "DweenNotoArabic-Bold.ttf", "kmr": "Montserrat-Bold.ttf"}
+FONT_REGULAR = {"ar": "DweenNotoArabic-Regular.ttf", "ckb": "DweenNotoArabic-Regular.ttf"}
 FALLBACK = ["NotoSans-Bold.ttf", "DejaVuSans-Bold.ttf"]
 SIZE_ADJ = {"ar": 0.82, "ckb": 0.95, "kmr": 1.0}      # Noto Sans Arabic draws larger than the old brand fonts
 
@@ -501,7 +503,12 @@ def card(w, h, fill=CREAM, radius=10, border=None):
 
 def text_lines(lang, text, size, maxw, colour=INK, bold=True):
     """Greedy wrap into lines no wider than maxw; returns list of images."""
-    words = text.split(" ")
+    words = []
+    for w in text.split(" "):
+        if words and words[-1].lstrip("«(") in ("عبد", "أبو", "بن"):      # never break inside a name
+            words[-1] += " " + w
+        else:
+            words.append(w)
     lines, cur = [], []
     for w in words:
         trial = " ".join(cur + [w])
