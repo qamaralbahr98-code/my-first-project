@@ -265,6 +265,8 @@ VIEWS = {   # lon_c, lat_c, lon_span (16:9); 9:16 uses span * 0.62
     "region": (40.5, 34.0, 26.0),
     "pal": (40.0, 34.6, 16.0),
     "krg": (44.6, 36.0, 6.2),
+    "krg_q": (41.9, 36.0, 6.2),     # v2, S28b 16:9: Qushtapa sits right of the verdict cards, not under them
+    "krg_qv": (44.6, 36.55, 6.2),   # v2, S28b 9:16: Qushtapa sits below them
 }
 
 
@@ -292,7 +294,7 @@ def map_frame(c, t, key, z=(1.0, 1.0), f0=(0.5, 0.5), f1=None, D=None, t0=0.0):
     return f, xy, cam, v
 
 
-def city(c, f, x, y, label, t, t0, colour=RED, below=False, size=None, glow=False):
+def city(c, f, x, y, label, t, t0, colour=RED, below=False, size=None, glow=False, side=None):
     if t < t0:
         return
     k = ease_out((t - t0) / 0.4)
@@ -304,6 +306,10 @@ def city(c, f, x, y, label, t, t0, colour=RED, below=False, size=None, glow=Fals
     d.ellipse([x - r * k, y - r * k, x + r * k, y + r * k], fill=tuple(colour) + (255,), outline=CREAM + (255,), width=3)
     size = size or (30 if c.vert else 28)
     im = c.get(("cityl", label, size), lambda: B.pill(c.lang, label, size, (28, 30, 34), CREAM))
+    if side in ("left", "right"):                          # v2: beside the dot, for crowded clusters
+        xx = x - r - 10 - im.width if side == "left" else x + r + 10
+        paste(f, im, xx, y - im.height / 2, k)
+        return
     yy = y + 16 if below else y - im.height - 14
     paste(f, im, x - im.width / 2, yy, k)
 
@@ -1532,7 +1538,7 @@ def s28b(c, t):
     if t < t_c2:
         bg = B.darken(B.paper_bg(c, t, c.D, 28, tone=(70, 66, 60)), 0.6)
     elif t < t_dr:
-        bg, xy, cam, v = map_frame(c, t, "krg", (1.0, 1.05), (0.45, 0.5), D=t_dr - t_c2, t0=t_c2)
+        bg, xy, cam, v = map_frame(c, t, "krg_qv" if c.vert else "krg_q", (1.0, 1.05), (0.45, 0.5), D=t_dr - t_c2, t0=t_c2)
         bg = B.darken(bg, 0.85)
     else:
         bg = crit_bg(c, t, "A19_empty_archive_drawer.jpg", 0.55, (0.4, 0.55))
@@ -1564,7 +1570,7 @@ def s28b(c, t):
         if t > t_wait:
             txt = c.lab(f"{h} ساعة", f"{h} کاتژمێر")
             im = c.get(("hrs", h), lambda: B.pill(c.lang, txt, 46, GOLD, INK))
-            paste(f, im, c.cx - im.width / 2, c.H * 0.80 if not c.vert else 1200)
+            paste(f, im, c.cx - im.width / 2, c.H * 0.80 if not c.vert else 1235)
     return f
 
 
@@ -1777,7 +1783,10 @@ def _cities(c, t, t0):
         if ta < t0:
             ta = t0 + 0.5 * i
         x, y = xy(k)
-        city(c, f, x, y, nm(c, k), t, ta, GOLD, below=k in ("pawe", "marivan", "damascus"), glow=True)
+        # v2: Halabja, Pawe, Marivan and Sanandaj sit within a few pixels of each other at this scale, so each
+        # label goes to its own side (Halabja left, Sanandaj right, Marivan above, Pawe below) instead of colliding
+        side = {"halabja": "left", "sanandaj": "right"}.get(k)
+        city(c, f, x, y, nm(c, k), t, ta, GOLD, below=k in ("pawe", "damascus"), glow=True, side=side)
     ta = c.at("ولندن", "لەندەن", default=t0 + 4)
     # London is far off the map: a gold badge on the reading-end edge, with an arrow toward it
     if t > ta:
