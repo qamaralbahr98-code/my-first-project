@@ -740,7 +740,8 @@ def verdict(c, t, bg, t_v=None, cy=None):
     kv = clamp01((t - t_v) / 0.3)
     if kv > 0 and mark:
         colr = RED if mark == "✗" else GOLD
-        st = c.get(("vstamp", mark), lambda: B.fit_w(_stamp(c, mark, verd, colr), c.tw + 20))
+        # v2: capped in 16:9 so the long Sorani S28 verdict leaves room for the photo card beside it
+        st = c.get(("vstamp", mark), lambda: B.fit_w(_stamp(c, mark, verd, colr), c.tw + 20 if c.vert else 960))
         s = 1 + 0.7 * (1 - back_out(kv, 2.0))
         im = st.resize((int(st.width * s), int(st.height * s)), Image.BILINEAR)
         paste(f, im, c.cx - im.width / 2, cy + strip.height / 2 + 10 + st.height / 2 - im.height / 2, clamp01(kv * 3))
@@ -1523,8 +1524,10 @@ def s28(c, t):
         ntag(c, f, c.lab("نظام صدام", "ڕژێمی سەددام"), t, t_sd + 0.3, (bx[0] + bx[2]) / 2, bx[3] - 32, size=24,
              fill=(40, 40, 40), fg=CREAM, out=t_sd + 2.3)
     t_tw = c.at("توحيدي", "تەوحیدی", default=c.frac(0.9)) - 0.6
-    card = pcard(c, "P15_abdulqadir_tawhidi.jpg", h=300 if not c.vert else 300, rot=2)
-    bx = show(c, f, card, c.W * 0.84 if not c.vert else c.cx, c.H * 0.66 if not c.vert else 1130, t, t_tw, "right")
+    card = pcard(c, "P15_abdulqadir_tawhidi.jpg", h=250 if not c.vert else 300, rot=2)
+    # v2: right-aligned to the safe margin so it never covers the (wider, Sorani) verdict strip
+    bx = show(c, f, card, c.W - 70 - card.width / 2 if not c.vert else c.cx, c.H * 0.66 if not c.vert else 1130, t, t_tw,
+              "right")
     if bx:
         ntag(c, f, c.lab("عبد القادر توحيدي | 1984", "عەبدولقادر تەوحیدی | 1984"), t, t_tw + 0.4, (bx[0] + bx[2]) / 2,
              bx[3] - 36)
