@@ -3,6 +3,7 @@
     python3 render/qa_v2.py <lang> <fmt>      -> build/qa/<lang>_<fmt>/  (frames, sheets, report.json)
 """
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -106,8 +107,9 @@ def grabs(lang, vert):
 
 
 def main(lang, fmt_):
-    vid = ROOT / "output" / f"dwin_sheikh_othman_{lang}_{fmt_}_v02.mp4"
-    out = ROOT / "build" / "qa" / f"{lang}_{fmt_}"
+    ver = os.environ.get("DWIN_VER", "v02")
+    vid = ROOT / "output" / f"dwin_sheikh_othman_{lang}_{fmt_}_{ver}.mp4"
+    out = ROOT / "build" / "qa" / (f"{lang}_{fmt_}" + ("" if ver == "v02" else f"_{ver}"))
     out.mkdir(parents=True, exist_ok=True)
     rep = {}
     p = probe(vid)
