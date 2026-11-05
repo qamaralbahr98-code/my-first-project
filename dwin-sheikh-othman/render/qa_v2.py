@@ -72,7 +72,7 @@ def grabs(lang, vert):
     s = sc["S05"]
     g.append(("S05 year tag + Pris-i Saru", s["start"] + word_time(s, ["سەرو"]) + 0.3))
     s = sc["S22b"]
-    g.append(("S22b ‘ﷺ’ in subtitle", s["start"] + word_time(s, ["ﷺ"]) + 0.15))
+    g.append(("S22b salawat sign in subtitle", s["start"] + word_time(s, ["ﷺ"]) + 0.15))
     s = sc["S33"]
     g.append(("S33 Pawe in subtitle", s["start"] + word_time(s, ["پاوە"]) + 0.15))
     g.append(("S33 Sanandaj in subtitle", s["start"] + word_time(s, ["سنندج", "وسنندج", "سنە"]) + 0.15))
