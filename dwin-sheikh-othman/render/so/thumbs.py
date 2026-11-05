@@ -12,7 +12,7 @@ from .base import CREAM, GOLD, INK, PROJ, T, kit, paste
 
 TITLE = {"ar": "عالِمُ الحُجرة", "ckb": "زانای حوجرە"}
 ALT = {"ar": "لم أرَ دولارًا في بيتي", "ckb": "دۆلارم لە ماڵەکەمدا نەبینی"}
-FRONT = {"ar": ["عالم الحجرة", "ورجل الجبهة"]}           # v03 thumbnail, the author's own wording
+FRONT = {"ar": ["عالم الحجرة", "ورجل الجبهة"], "ckb": ["زانای حوجرە", "و پیاوی سەنگەر"]}           # v03 thumbnail, the author's own wording
 NAME = {"ar": "الملا عثمان عبد العزيز", "ckb": "مامۆستا مەلا عوسمان عەبدولعەزیز"}
 PORTRAIT = "P01a_sheikh_portrait.jpg"
 
@@ -55,19 +55,20 @@ def make(lang, fmt, alt=False, front=False):
         ph = int(H * 1.02)
         p = p.resize((int(p.width * ph / p.height), ph), Image.LANCZOS)
         px, py = int(W * 0.30 - p.width / 2), H - ph + 20
+        fcx = W * (0.70 if front and lang == "ckb" else 0.675)    # the longer Sorani line stays clear of his shoulder
         if front:
-            ti = shadow(lines_img(lang, FRONT[lang], 172))
-            tx, ty = W * 0.675 - ti.width / 2, H * 0.40 - ti.height / 2
+            ti = shadow(lines_img(lang, FRONT[lang], 150 if lang == "ckb" else 172))
+            tx, ty = fcx - ti.width / 2, H * 0.40 - ti.height / 2
         else:
             ti = shadow(text(lang, title, 200 if not alt else (132 if lang == "ar" else 112), CREAM, int(W * 0.56)))
             tx, ty = W * (0.675 if not alt else 0.70) - ti.width / 2, H * 0.47 - ti.height / 2
         paste(f, ti, tx, ty)
         f.alpha_composite(p, (px, py))                         # person over the letters (text behind him)
         tag = B.pill(lang, NAME[lang], 56, GOLD, INK)
-        tgx, tgy = W * 0.675 - tag.width / 2, ty + ti.height - 10
+        tgx, tgy = fcx - tag.width / 2, ty + ti.height - 10
         paste(f, shadow(tag, 8, 120), tgx - 24, tgy - 24)
         yr = T(lang, "1922–1999", 46, GOLD, False)
-        paste(f, yr, W * 0.675 - yr.width / 2, tgy + tag.height + 22)
+        paste(f, yr, fcx - yr.width / 2, tgy + tag.height + 22)
         lg = kit.logo(lang, True, 120, 1.0)
         paste(f, lg, 40, 36)
     else:
@@ -115,8 +116,9 @@ def make(lang, fmt, alt=False, front=False):
 if __name__ == "__main__":
     import sys
     if "--front" in sys.argv:
-        for fmt in ("16x9", "9x16"):
-            make("ar", fmt, front=True)
+        for lang in [a for a in sys.argv[1:] if a in FRONT] or list(FRONT):
+            for fmt in ("16x9", "9x16"):
+                make(lang, fmt, front=True)
         sys.exit()
     langs = sys.argv[1:] or ["ar", "ckb"]
     for lang in langs:
