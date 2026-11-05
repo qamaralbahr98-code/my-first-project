@@ -2,6 +2,7 @@
 
   python3 -m ky.finish ar 16x9
 """
+import os
 import shutil
 import subprocess
 import sys
@@ -10,6 +11,7 @@ from .base import PROJ
 from vox.finish import loudnorm
 
 OUT = PROJ / "output"
+VER = os.environ.get("DWIN_VER", "v02")      # never overwrite an earlier version
 
 
 def main(lang, fmt):
@@ -24,7 +26,7 @@ def main(lang, fmt):
                     "-map", "1:a", "-c:v", "libx264", "-preset", "faster", "-crf", "21", "-profile:v", "high", "-maxrate", "3.3M", "-bufsize",
                     "6.6M", "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", str(tmp)], check=True)
     thumb = PROJ / "thumbnails" / f"cover_{lang}_{fmt}.jpg"
-    final = OUT / f"dwin_sheikh_othman_{lang}_{fmt}_v02.mp4"
+    final = OUT / f"dwin_sheikh_othman_{lang}_{fmt}_{VER}.mp4"
     if thumb.exists():
         subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(tmp), "-i", str(thumb), "-map", "0", "-map", "1",
                         "-c", "copy", "-c:v:1", "mjpeg", "-disposition:v:1", "attached_pic", "-movflags", "+faststart",
@@ -33,7 +35,7 @@ def main(lang, fmt):
     else:
         shutil.move(tmp, final)
     (vd / "picture.mp4").unlink(missing_ok=True)
-    shutil.copy(b / f"{lang}_synced.srt", OUT / f"dwin_sheikh_othman_{lang}_v02.srt")
+    shutil.copy(b / f"{lang}_synced.srt", OUT / f"dwin_sheikh_othman_{lang}_{VER}.srt")
     print(final)
 
 

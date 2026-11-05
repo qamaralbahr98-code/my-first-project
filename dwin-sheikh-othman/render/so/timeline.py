@@ -16,6 +16,8 @@ import numpy as np
 PROJ = Path(__file__).resolve().parents[2]
 
 PRE, POST = 0.25, 0.40
+# v3 (Arabic): the re-read Talabani sentences run 1.4 s longer; 60 ms less breath after each scene keeps it under 14:00
+POST_LANG = {"ar": 0.34, "ckb": 0.40}
 LEAD = 0.06
 
 
@@ -141,7 +143,7 @@ def build(lang, r10=None):
     scenes, t = [], 0.0
     for s in sj["scenes"]:
         sid = s["id"]
-        pre, post = PRE, POST
+        pre, post = PRE, POST_LANG.get(lang, POST)
         if sid in CHAPTERS:
             pre = CHAPTER_PRE + 0.15
         if sid == "S33":
