@@ -12,6 +12,7 @@ from .base import CREAM, GOLD, INK, PROJ, T, kit, paste
 
 TITLE = {"ar": "عالِمُ الحُجرة", "ckb": "زانای حوجرە"}
 ALT = {"ar": "لم أرَ دولارًا في بيتي", "ckb": "دۆلارم لە ماڵەکەمدا نەبینی"}
+FRONT = {"ar": ["عالم الحجرة", "ورجل الجبهة"]}           # v03 thumbnail, the author's own wording
 NAME = {"ar": "الملا عثمان عبد العزيز", "ckb": "مامۆستا مەلا عوسمان عەبدولعەزیز"}
 PORTRAIT = "P01a_sheikh_portrait.jpg"
 
@@ -41,7 +42,11 @@ def shadow(im, r=14, a=170):
     return B.shadowed(im, r, (0, 6), a)
 
 
-def make(lang, fmt, alt=False):
+def lines_img(lang, lines, size):
+    return B.stack([T(lang, x, size, CREAM) for x in lines], -0.08, "center")
+
+
+def make(lang, fmt, alt=False, front=False):
     W, H = (1920, 1080) if fmt == "16x9" else (1080, 1920)
     f = background(W, H)
     p = person()
@@ -50,8 +55,12 @@ def make(lang, fmt, alt=False):
         ph = int(H * 1.02)
         p = p.resize((int(p.width * ph / p.height), ph), Image.LANCZOS)
         px, py = int(W * 0.30 - p.width / 2), H - ph + 20
-        ti = shadow(text(lang, title, 200 if not alt else (132 if lang == "ar" else 112), CREAM, int(W * 0.56)))
-        tx, ty = W * (0.675 if not alt else 0.70) - ti.width / 2, H * 0.47 - ti.height / 2
+        if front:
+            ti = shadow(lines_img(lang, FRONT[lang], 172))
+            tx, ty = W * 0.675 - ti.width / 2, H * 0.40 - ti.height / 2
+        else:
+            ti = shadow(text(lang, title, 200 if not alt else (132 if lang == "ar" else 112), CREAM, int(W * 0.56)))
+            tx, ty = W * (0.675 if not alt else 0.70) - ti.width / 2, H * 0.47 - ti.height / 2
         paste(f, ti, tx, ty)
         f.alpha_composite(p, (px, py))                         # person over the letters (text behind him)
         tag = B.pill(lang, NAME[lang], 56, GOLD, INK)
@@ -62,19 +71,19 @@ def make(lang, fmt, alt=False):
         lg = kit.logo(lang, True, 120, 1.0)
         paste(f, lg, 40, 36)
     else:
-        ph = int(H * 0.44)
+        ph = int(H * (0.40 if front else 0.44))
         p = p.resize((int(p.width * ph / p.height), ph), Image.LANCZOS)
         if p.width > W:
             p = p.crop(((p.width - W) // 2, 0, (p.width - W) // 2 + W, p.height))
-        px, py = int(W / 2 - p.width / 2) - 30, int(H * 0.11)
+        px, py = int(W / 2 - p.width / 2) - 30, int(H * (0.10 if front else 0.11))
         fade = np.ones(p.height, np.float32)
         n = int(p.height * 0.16)
         fade[-n:] = np.linspace(1, 0, n)
         a = (np.asarray(p.split()[3]).astype(np.float32) * fade[:, None]).astype(np.uint8)
         p.putalpha(Image.fromarray(a))
         cx = 70 + 430
-        ti = shadow(text(lang, title, 170 if not alt else 118, CREAM, 860))
-        ty = py + ph - ti.height * 0.30
+        ti = shadow(lines_img(lang, FRONT[lang], 132) if front else text(lang, title, 170 if not alt else 118, CREAM, 860))
+        ty = py + ph - ti.height * (0.16 if front else 0.30)
         paste(f, ti, cx - ti.width / 2, ty)
         # the shoulders overlap the top of the title
         f.alpha_composite(p, (px, py))
@@ -91,7 +100,7 @@ def make(lang, fmt, alt=False):
     img = f.convert("RGB")
     if fmt == "16x9":
         img = img.resize((1280, 720), Image.LANCZOS)
-    path = out / f"thumb_{lang}_{fmt}{'_alt' if alt else ''}_v02.png"
+    path = out / (f"thumb_{lang}_{fmt}_v03.png" if front else f"thumb_{lang}_{fmt}{'_alt' if alt else ''}_v02.png")
     img.save(path, optimize=True)
     if path.stat().st_size > 2_000_000:
         img.save(path.with_suffix(".jpg"), quality=90)
@@ -99,12 +108,16 @@ def make(lang, fmt, alt=False):
         path = path.with_suffix(".jpg")
     prev = img.copy()
     prev.thumbnail((160, 160 * img.height // img.width))
-    prev.save(PROJ / "build" / f"preview_{lang}_{fmt}{'_alt' if alt else ''}.png")
+    prev.save(PROJ / "build" / f"preview_{lang}_{fmt}{'_alt' if alt else ''}{'_front' if front else ''}.png")
     print(path, path.stat().st_size // 1024, "KB")
 
 
 if __name__ == "__main__":
     import sys
+    if "--front" in sys.argv:
+        for fmt in ("16x9", "9x16"):
+            make("ar", fmt, front=True)
+        sys.exit()
     langs = sys.argv[1:] or ["ar", "ckb"]
     for lang in langs:
         for fmt in ("16x9", "9x16"):
