@@ -19,7 +19,7 @@ sys.path.insert(0, str(PROJ.parent / "dwin-sheikh-othman" / "render"))
 sys.path.insert(0, str(Path(__file__).parent))
 from so import base as B  # noqa: E402
 from so.base import CREAM, GOLD, kit  # noqa: E402
-from cues import CUES, POET, TITLE  # noqa: E402
+from cues import CUES, POET, TAGLINE, TITLE  # noqa: E402
 
 W, H, FPS = 1080, 1920, 25
 SRC = PROJ / "source" / "pashew_dubai.mp4"
@@ -113,6 +113,8 @@ class Overlay:
         self.subs = [B.shadowed(card(lines(lang, c["texts"][LANGS[lang] - 1], 54 if lang != "kmr" else 48, 780, CREAM,
                                            0.02)), 10, (0, 5), 120) for c in self.cues]
         self.end_logo = kit.logo(lang, True, 330, 1.0)
+        self.tagline = B.shadowed(lines(lang, TAGLINE[lang], 52 if lang != "kmr" else 42, 860, CREAM, 0.0), 10,
+                                  (0, 4), 150)
         self.shade = shade()
 
     def frame(self, f, t):
@@ -131,6 +133,9 @@ class Overlay:
             f.alpha_composite(dark)
             B.paste(f, self.end_logo, W / 2 - self.end_logo.width / 2, 860 - self.end_logo.height / 2,
                     B.ease_out(B.clamp01((te - 0.2) / 0.7)))
+            ty = 860 + self.end_logo.height / 2 + 70
+            B.paste(f, self.tagline, W / 2 - self.tagline.width / 2, ty + (1 - B.ease_out(B.clamp01((te - 0.7) / 0.6))) * 20,
+                    B.clamp01((te - 0.7) / 0.6))
         else:
             B.paste(f, self.logo, 40, 160, 1.0)
         return f

@@ -6,6 +6,11 @@ TITLE = {
     "ar": "سأجعلُ لكم كردستانَ مدينةَ دبي",
     "kmr": "Ez ê Kurdistanê ji we re bikim bajarê Dubayê",
 }
+TAGLINE = {                     # the Dween tagline, as fixed by the author
+    "ckb": "دەنگی کورد، بە ناسنامە و باوەڕمانەوە",
+    "ar": "صوت الكرد، بهويتنا وإيماننا",
+    "kmr": "Dengê Kurdan, bi nasname û baweriya me",
+}
 POET = {
     "ckb": "عەبدوڵڵا پەشێو · لەدایکبووی 1946",
     "ar": "عبد الله بشيو · مواليد 1946",
